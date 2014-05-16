@@ -1,0 +1,17 @@
+id,name,latitude,longitude,varieties__ids
+afr,Afrikaans,-30.8,21.0,
+deu,Deutsch,,,
+gwj,Gǀui,-23.5,23.6,
+her,Otjiherero,-21.7,18.1,
+huc,ǂHoan,-23.8,24.7,
+knw,ǃXun,-18.2,19.1,
+ktz,Juǀ'hoansi,-20.1,20.4,
+kua,Oshiwambo,-17.7,15.7,
+naq,Khoekhoegowab,-26.0,18.0,"naq-a,naq-hm,naq-d,naq-n"
+ngh,Nǀuu,-28.3,21.3,"ngh-e,ngh-w"
+nhr,Naro,-22.3,21.0,
+nmn,Taa,-23.7,21.1,"nmn-c,nmn-e,nmn-s,nmn-w,nmn-n"
+tsn,Setswana,-25.7,25.45,
+xkv,Shekgalagadi,-24.1,23.0,
+xuu,Khwedam,-17.9,22.7,
+zul,IsiZulu,-28.5,30.6,
