@@ -1,109 +1,32 @@
-id,name,description
-accipitriformes,Accipitriformes,
-agaricales,Agaricales,
-amphibians,Amphibians,
-anseriformes,Anseriformes,
-anura,Anura,
-apiales,Apiales,
-arachnida,Arachnida,
-araneae,Araneae,
-artiodactyla,Artiodactyla,
-asparagales,Asparagales,
-asterales,Asterales,
-birds,Birds,
-blattodea,Blattodea,
-boraginaceae,Boraginaceae,
-brassicales,Brassicales,
-bucerotiformes,Bucerotiformes,
-bulbsherbs,Bulbs & herbs,
-buprestidae,Buprestidae,
-carnivora,Carnivora,
-caryophyllales,Caryophyllales,
-celastrales,Celastrales,
-charadriiformes,Charadriiformes,
-chiroptera,Chiroptera,
-ciconiiformes,Ciconiiformes,
-coleoptera,Coleoptera,
-coliiformes,Coliiformes,
-columbiformes,Columbiformes,
-commelinales,Commelinales,
-coraciiformes,Coraciiformes,
-creepersclimbers,Creepers & climbers,
-crocodylia,Crocodylia,
-cuculiformes,Cuculiformes,
-cucurbitales,Cucurbitales,
-curcurbitales,Curcurbitales,
-decapoda,Decapoda,
-diptera,Diptera,
-dwarfshrubs,Dwarf shrubs,
-ebenales,Ebenales,
-ericales,Ericales,
-erinaceomorpha,Erinaceomorpha,
-fabales,Fabales,
-falconiformes,Falconiformes,
-falconiformesoraccipitriformes,Falconiformes or Accipitriformes,
-fungi,Fungi,
-galliformes,Galliformes,
-gentianales,Gentianales,
-geraniales,Geraniales,
-grassessedges,Grasses & sedges,
-gruiformes,Gruiformes,
-hemiptera,Hemiptera,
-hymenoptera,Hymenoptera,
-insects,Insects,
-isoptera,Isoptera,
-lagomorpha,Lagomorpha,
-lamiales,Lamiales,
-lepidoptera,Lepidoptera,
-macroscelidea,Macroscelidea,
-malpighiales,Malpighiales,
-malvales,Malvales,
-mammals,Mammals,
-mantodea,Mantodea,
-musophagiformes,Musophagiformes,
-myrtales,Myrtales,
-neuroptera,Neuroptera,
-onygenales,Onygenales,
-orthoptera,Orthoptera,
-otherinvertebrates,Other invertebrates,
-passeriformes,Passeriformes,
-pelecaniformes,Pelecaniformes,
-perissodactyla,Perissodactyla,
-pholidota,Pholidota,
-piciformes,Piciformes,
-poales,Poales,
-polypodiales,Polypodiales,
-primates,Primates,
-proboscidea,Proboscidea,
-proteales,Proteales,
-psittaciformes,Psittaciformes,
-pteridales,Pteridales,
-ranunculales,Ranunculales,
-reptiles,Reptiles,
-rhamnales,Rhamnales,
-rodentia,Rodentia,
-rosales,Rosales,
-rubiales,Rubiales,
-santalales,Santalales,
-sapindales,Sapindales,
-saxifragales,Saxifragales,
-scorpiones,Scorpiones,
-shrubs,Shrubs,
-siphonaptera,Siphonaptera,
-solanales,Solanales,
-solifugae,Solifugae,
-spidersotherarachnids,Spiders & other arachnids,
-spirobolida,Spirobolida,
-squamata,Squamata,
-strigiformes,Strigiformes,
-struthioniformes,Struthioniformes,
-succulents,Succulents,
-testudines,Testudines,
-trees,Trees,
-tubulidentata,Tubulidentata,
-tulostomatales,Tulostomatales,
-turniciformes,Turniciformes,
-unspecifiedform,Unspecified form,
-urticales,Urticales,
-vitales,Vitales,
-zygophyllales,Zygophyllales,
+id,name,description,language__id
+eng-amphibians,Amphibians,,eng
+eng-arachnida,Arachnida,,eng
+eng-birds,Birds,,eng
+eng-bulbsherbs,Bulbs & herbs,,eng
+eng-coliiformes,Coliiformes,,eng
+eng-creepersclimbers,Creepers & climbers,,eng
+eng-curcurbitales,Curcurbitales,,eng
+eng-dwarfshrubs,Dwarf shrubs,,eng
+eng-ebenales,Ebenales,,eng
+eng-falconiformesoraccipitriformes,Falconiformes or Accipitriformes,,eng
+eng-fungi,Fungi,,eng
+eng-geraniales,Geraniales,,eng
+eng-grassessedges,Grasses & sedges,,eng
+eng-insects,Insects,,eng
+eng-mammals,Mammals,,eng
+eng-neuroptera,Neuroptera,,eng
+eng-otherinvertebrates,Other invertebrates,,eng
+eng-pteridales,Pteridales,,eng
+eng-reptiles,Reptiles,,eng
+eng-rhamnales,Rhamnales,,eng
+eng-rubiales,Rubiales,,eng
+eng-saxifragales,Saxifragales,,eng
+eng-shrubs,Shrubs,,eng
+eng-spidersotherarachnids,Spiders & other arachnids,,eng
+eng-spirobolida,Spirobolida,,eng
+eng-succulents,Succulents,,eng
+eng-trees,Trees,,eng
+eng-tulostomatales,Tulostomatales,,eng
+eng-turniciformes,Turniciformes,,eng
+eng-unspecifiedform,Unspecified form,,eng
+eng-urticales,Urticales,,eng
