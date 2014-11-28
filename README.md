@@ -30,6 +30,16 @@ At some point we will need tools to check referential integrity on push - maybe 
 job.
 
 
+Changing the scientific name of a species
+-----------------------------------------
+
+Since the ``id`` of a species is created from its scientifc name, changing this name involves the following steps:
+
+1. Add a new species with the updated name and ``id`` to ``species.csv``.
+2. Update all references to the ``id`` in ``images.csv`` and ``words.csv``.
+3. **TODO** redirect the old species to the new one by ...
+
+
 Supplemental Data
 -----------------
 
