@@ -4,19 +4,15 @@ Tsammalex Data
 This repository holds the data served by http://tsammalex.clld.org/
 The data is licensed under a Creative Commons Attribution 4.0 International License.
 
-
-Workflow
---------
-
 The data is stored as collection of csv files, suitable for editing with LibreOffice.
 
 
 Adding images
-~~~~~~~~~~~~~
+-------------
 
 Adding an image is done in two steps:
 
-1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image (this may be a temporary GitHub repository, or other publicly available webspace).
+1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
 2. Providing the image at the specified URL for download.
 
 
