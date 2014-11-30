@@ -1,5 +1,6 @@
 id,name,description,order,family,genus,characteristics,notes,wikipedia_url,eol_id,refs__ids,countries__ids,ecoregions__ids
 acaciaataxacantha,Acacia ataxacantha,Flamethorn,Fabales,Fabaceae,Acacia,,,http://en.wikipedia.org/wiki/Acacia_ataxacantha,648867,,"BW,ZA",AT1309
+acaciaataxacantha,Acacia ataxacantha,Flamethorn,Fabales,Fabaceae,Acacia,,,http://en.wikipedia.org/wiki/Acacia_ataxacantha,648867,,"BW,ZA",AT1309
 acaciacaffra,Acacia caffra,Cat-thorn,Fabales,Fabaceae,Acacia,,,http://en.wikipedia.org/wiki/Acacia_caffra,660853,,"BW,NA,ZA",AT0709
 acaciaerioloba,Acacia erioloba,Camel thorn,Fabales,Fabaceae,Acacia,"4 - 12 m tall, yellow flowers, woody pods 130 mm long, grey-green leaves 100 mm, leaflets 13 mm, straight thorns 60 mm, rough fissured bark",,http://en.wikipedia.org/wiki/Acacia_erioloba,678840,carruthers2000[250];vanrooyen2001[26],"BW,NA,ZA",AT1309
 acaciafleckiischinz,Acacia fleckii Schinz,Blade thorn,Fabales,Fabaceae,Acacia,,,http://en.wikipedia.org/wiki/Acacia_Fleckii_Schinz,682694,,"BW,ZA",AT1309
