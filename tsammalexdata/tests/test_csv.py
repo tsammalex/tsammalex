@@ -38,4 +38,6 @@ def test():
     for line, img in read_csv('images'):
         if img['species_id'] not in species:
             error('invalid species id referenced: %s' % img['species_id'], 'images', line)
+    for line, lang in read_csv('languages'):
+        pass
 
