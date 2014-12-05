@@ -1,6 +1,8 @@
 Tsammalex Data
 ==============
 
+[![Build Status](https://travis-ci.org/clld/tsammalex-data.svg?branch=master)](https://travis-ci.org/clld/tsammalex-data)
+
 This repository holds the data served by http://tsammalex.clld.org/
 The data is licensed under a Creative Commons Attribution 4.0 International License.
 
