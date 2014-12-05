@@ -1,1 +1,1 @@
-recursive-include tsammalexdata *.csv *.bib
+recursive-include tsammalexdata *.csv *.bib *.json
