@@ -2,13 +2,10 @@ import os
 import csv
 import re
 import io
-import sys
-import json
 
-import tsammalexdata
+from tsammalexdata.util import jsonload, data_file, csv_items
 
 
-PY3 = sys.version_info[0] == 3
 SUCCESS = True
 ID_SEP_PATTERN = re.compile('\.|,|;')
 BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
@@ -22,24 +19,16 @@ def error(msg, name, line=''):
     print('ERROR:%s%s: %s' % (name, line, msg))
 
 
-def data_file(name=None):
-    comps = ['data']
-    if name:
-        comps.append(name)
-    return os.path.join(os.path.dirname(tsammalexdata.__file__), *comps)
-
-
 def read_csv(name, unique='id'):
     uniquevalues = set()
     rows = []
-    with open(data_file(name)) as csvfile:
-        for line, row in enumerate(csv.DictReader(csvfile)):
-            line += 2
-            if unique:
-                if row[unique] in uniquevalues:
-                    error('non-unique id: %s' % row[unique], name, line)
-                uniquevalues.add(row[unique])
-            rows.append((line, row))
+    for line, row in enumerate(csv_items(name)):
+        line += 2
+        if unique:
+            if row[unique] in uniquevalues:
+                error('non-unique id: %s' % row[unique], name, line)
+            uniquevalues.add(row[unique])
+        rows.append((line, row))
     return rows
 
 
@@ -48,12 +37,8 @@ def test():
     ids = {n: {r[1]['id'] for r in rows} for n, rows in data.items()}
 
     ids['ecoregions'] = set()
-    kw = {}
-    if PY3:
-        kw['encoding'] = 'utf8'
-    with open(data_file('ecoregions.json'), **kw) as fp:
-        for ecoregion in json.load(fp)['features']:
-            ids['ecoregions'].add(ecoregion['properties']['eco_code'])
+    for ecoregion in jsonload(data_file('ecoregions.json'))['features']:
+        ids['ecoregions'].add(ecoregion['properties']['eco_code'])
 
     ids['sources'] = set()
     with io.open(data_file('sources.bib'), encoding='utf8') as fp:
