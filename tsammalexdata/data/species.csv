@@ -1,5 +1,5 @@
 id,scientific_name,species_description,english_name,kingdom,order,family,genus,characteristics,biotope,ecoregions__ids,countries__ids,general_uses,notes,refs__ids,wikipedia_url,eol_id,links
-acaciaataxacantha,Acacia ataxacantha,,Flamethorn,Plantae,Fabales,Fabaceae,Acacia,tree?,,AT1309,"BW,ZA",,,,http://en.wikipedia.org/wiki/Senegalia_ataxacantha,648867,
+acaciaataxacantha,Acacia ataxacantha,,Flamethorn,Plantae,Fabales,Fabaceae,Acacia,,,AT1309,"BW,ZA",,,,http://en.wikipedia.org/wiki/Senegalia_ataxacantha,648867,
 acaciacaffra,Acacia caffra,,Cat-thorn,Plantae,Fabales,Fabaceae,Acacia,,,AT0709,"BW,NA,ZA",,,,http://en.wikipedia.org/wiki/Senegalia_caffra,660853,
 acaciaerioloba,Acacia erioloba,,Camel thorn,Plantae,Fabales,Fabaceae,Acacia,"4 - 12 m tall, yellow flowers, woody pods 130 mm long, grey-green leaves 100 mm, leaflets 13 mm, straight thorns 60 mm, rough fissured bark",,AT1309,"BW,NA,ZA",,"old name: Acacia giraffae (vanderwalt1999), synonym: Vachellia erioloba (Wikipedia)",carruthers2000[250];vanderwalt1999[39];vanrooyen2001[26],http://en.wikipedia.org/wiki/Vachellia_erioloba,678840,
 acaciafleckiischinz,Acacia fleckii Schinz,,Blade thorn,Plantae,Fabales,Fabaceae,Acacia,,,AT1309,"BW,ZA",,,,http://en.wikipedia.org/wiki/Acacia_Fleckii_Schinz,682694,
