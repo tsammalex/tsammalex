@@ -1,6 +1,8 @@
 import os
 import re
 import io
+import logging
+logging.getLogger('pycountry.db').setLevel(logging.INFO)
 
 from pycountry import countries
 
