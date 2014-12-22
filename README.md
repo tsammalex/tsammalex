@@ -50,6 +50,7 @@ In addition to the data managed in this repository, we fetch data from other sou
 - Given a proper scientific name for a species we can fetch a corresponding identifier from [EOL](http://eol.org).
 - Given an EOL identifier, we can information about the biological classification of a species and a common english name.
 - We also use information on terrestrial ecoregions from WWF, which can be referenced using ecoregion identifiers in the format ``AT0101``.
+- WWF ecoregions and countries in which a species occurs can be computed by matching [occurrence information](http://www.gbif.org/occurrence) from [GBIF](http://www.gbif.org) against region borders.
 
 
 Notes
