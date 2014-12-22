@@ -17,6 +17,6 @@ setup(name='tsammalexdata',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['requests', 'purl'],
+      install_requires=['requests', 'purl', 'pycountry'],
       tests_require=[],
       test_suite="tsammalexdata")

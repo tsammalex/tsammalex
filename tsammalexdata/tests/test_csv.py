@@ -1,7 +1,8 @@
 import os
-import csv
 import re
 import io
+
+from pycountry import countries
 
 from tsammalexdata.util import jsonload, data_file, csv_items
 
@@ -46,6 +47,8 @@ def test():
             match = BIB_ID_PATTERN.match(line.strip())
             if match:
                 ids['sources'].add(match.group('id'))
+
+    ids['countries'] = set([country.alpha2 for country in countries])
 
     def check_ref(name, line, item):
         for ref in item['refs__ids'].split(';'):
