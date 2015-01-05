@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import csv
+import shutil
 
 import tsammalexdata
 
@@ -19,6 +20,26 @@ def csv_items(name, lineno=False):
         for item in csv.DictReader(csvfile):
             items.append(item)
     return items
+
+
+def visit(name, visitor=None):
+    """Utility function to rewrite rows in csv files.
+
+    :param name: Name of the csv file to operate on.
+    :param visitor: A callable that takes a row as input and returns a (modified) row or\
+    None to filter out the row.
+    """
+    if visitor is None:
+        visitor = lambda r: r
+    tmp = data_file('.' + name)
+    with open(data_file(name), 'rb') as source:
+        with open(tmp, 'wb') as target:
+            writer = csv.writer(target)
+            for i, row in enumerate(csv.reader(source)):
+                row = visitor(i, row)
+                if row:
+                    writer.writerow(row)
+    shutil.move(tmp, data_file(name))
 
 
 def jsondump(obj, path):
