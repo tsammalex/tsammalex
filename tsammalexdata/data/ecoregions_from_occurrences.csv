@@ -113,6 +113,7 @@ barleriapretoriensis,
 combretummolle,AT0722;AT1015
 hyparrheniafilipendulapilosa,AA0402
 chlorotalpasclateri,
+orcinusorca,AA0402;AA0801;NA0506;NA0520;NA0601;NA1101;NA1117;NT0160;NT0805;PA0421;PA0520
 ledebouriamarginata,
 leptailurusserval,AT0108;AT0709;AT0714;AT0715;AT0716;AT1008
 eptesicushottentotus,
@@ -316,6 +317,7 @@ mimusopszeyheri,
 capparistomentosa,AT0713;AT0719;AT0722;AT0907
 ficusingens,AT0130;AT0704;AT0707;AT0722;Lake
 sitophilusgranarius,PA0405;PA0436;PA0608
+cephalorhynchusheavisidii,
 helioboluslugubris,AT1309;AT1316
 funisciuruscongicus,AT0110;AT1316
 aloezebrina,
@@ -404,6 +406,7 @@ uraeginthusgranatinus,AT0702;AT0709;AT0717;AT0726;AT0902;AT1309;AT1316
 viduamacroura,AT0101;AT0107;AT0108;AT0109;AT0111;AT0116;AT0119;AT0125;AT0707;AT0711;AT0714;AT0716;AT0717;AT0719;AT0721;AT0722;AT0725;AT1003;AT1004;AT1007;AT1009;AT1013;AT1202;AT1402;AT1403;NA1201;NT0155;NT0226
 crociduraflavescens,
 aethomysgranti,
+pseudorcacrassidens,AT0120
 sporopipessquamifrons,AT0702;AT0709;AT0717;AT0725;AT0726;AT0902;AT0907;AT0908;AT1004;AT1309;AT1310;AT1314;AT1315;AT1316
 numidameleagris,AA0402;AT0108;AT0109;AT0111;AT0115;AT0116;AT0705;AT0711;AT0714;AT0715;AT0716;AT0717;AT0721;AT0722;AT0725;AT1004;AT1203;AT1309;AT1314;NA0414;NT0127;NT0155;NT0226;NT1402;PA0445;PA1205
 camponotusmaculatus,
@@ -415,6 +418,7 @@ kerivoulaargentata,AT0711;AT0722
 asparagusbechuanicus,
 vangueriainfausta,AT0717;AT0907
 psydraxlivida,
+globicephalamacrorhynchus,NA0413;NA0517;NA0529;NT0904;NT1401;PA1203
 psammophylaxtritaeniatus,AT0709;AT0725
 leonotismicrophylla,
 cryptomysdamarensis,
@@ -425,6 +429,7 @@ felisnigripes,
 colophospermummopane,AT0702;AT0717;AT0725;AT0726;AT0902;AT0907;AT1316
 bubalornisalbirostris,AT0707;AT0711;AT0712;AT0713;AT0715;AT0716;AT0721;AT0722;AT1403
 gerbilurusvallinus,
+globicephalamelas,PA0436
 terathopiusecaudatus,AT0101;AT0125;AT0705;AT0706;AT0711;AT0714;AT0715;AT0716;AT0721;AT0722;AT0725;AT1007;AT1013
 pellaeacalomelanos,PA1215
 terminaliasericea,AT0709;AT0726
@@ -432,6 +437,7 @@ ximeniacaffra,AT0907
 aptosimumlineare,
 laephotiswintoni,AT0711
 pycnonotusbrunneus,AT1309;AT1314;AT1316;IM0102;IM0103;IM0144;IM0146;IM0152;IM0163;IM0167;IM1001;IM1404
+grampusgriseus,AA0402;NA0410;NA1201;NA1203;NT0155;NT1301
 dendromusmesomelas,
 mystromysalbicaudatus,
 cercopithecusalbogularis,AT0125;AT0907
@@ -449,6 +455,7 @@ corallocarpustriangularis,
 rhinolophushildebrandtii,AT0711
 madoquakirkii,AT0108;AT0702;AT0711;AT0714;AT0716;AT0902;AT1309
 raphiceruscampestris,AT0702;AT0709;AT0714;AT0716;AT0717;AT0725;AT0726;AT0902;AT0907;AT0908;AT1202;AT1309;AT1314;AT1316
+lagenodolphishosei,AA0402;AA0409
 sidachysantha,
 kinixysbelliana,AT0110;AT0725
 laniuscollaris,AT0108;AT0109;AT0115;AT0116;AT0119;AT0702;AT0704;AT0714;AT0715;AT0716;AT0717;AT0725;AT1003;AT1004;AT1005;AT1007;AT1009;AT1012;AT1202;AT1203;AT1310;AT1314;AT1316
@@ -519,6 +526,7 @@ pupalialappacea,AT0713;AT0722;PA1208;PA1209;PA1216;PA1221
 galagomoholi,AT0709;AT0717;AT0725;AT1004;AT1309
 crotalariaorientalis,
 dicomacapensis,
+feresaattenuata,AA0402;NA0513;NA0529;NT0155;NT0176;NT0178;NT1315
 graphiurusplatyops,
 mustriton,AT0718
 dicerocaryumzanguebarium,
@@ -676,6 +684,7 @@ acaciaataxacantha,AT0114;AT0130;AT0713;AT0722
 zeamays,AA0406;AA0801;NA0303;NT0211;NT0303;PA0402;PA0405;PA0406;PA0436;PA0445;PA0814
 acomyssubspinosus,
 ochnapulchra,
+lissodelphisperonii,NT0404
 tockusnasutus,AT0109;AT0111;AT0125;AT0705;AT0707;AT0711;AT0714;AT0715;AT0716;AT0717;AT0721;AT0722;AT0725;AT1005;AT1007;AT1013;AT1320;AT1403;Lake
 pancratiumtenuifolium,AT1309
 vignatriloba,AA0115;AT0707;AT0722;PA1210
@@ -715,6 +724,7 @@ lobodoncarcinophagus,AN1101;AN1103
 musindutus,
 helogaleparvula,AT0711;AT0714;AT0716;AT0725;AT0902;AT1004;AT1309;AT1316
 pythonsebae,AT0110;AT0114;AT0130;AT0716;AT0726;AT0907
+peponocephalaelectra,AA0402;AT1403;NT0103;NT0119;PA0440
 pachydactylusturneri,AT0701;AT1309
 hyaenabrunnea,AT0108;AT0709;AT0716;AT0725;AT0908;AT1004;AT1309
 heterohyraxbrucei,AT0711;AT0714;AT0716;AT0725

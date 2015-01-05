@@ -12,12 +12,15 @@ except ImportError:
 from tsammalexdata.util import data_file, jsonload
 
 
+INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
+
+
 def main():
     res = OrderedDict()
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
         for er in jsonload(data_file('ecoregions.json'))['features']
-        if er['geometry']]
+        if er['geometry'] and er['properties']['eco_code'] not in INVALID_ECO_CODES]
     for fname in os.listdir(data_file('external', 'gbif')):
         res[fname.split('.')[0]] = ';'.join(sorted(set(match(
             jsonload(data_file('external', 'gbif', fname))['results'], ecoregions))))
