@@ -14,8 +14,10 @@ Adding images
 
 Adding an image is done in two steps:
 
-1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
+1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image in the ``source_url`` column (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
 2. Providing the image at the specified URL for download.
+
+When a data release is created, new images will be fetched from the sources and uploaded to [Edmond](http://edmond.mpdl.mpg.de/imeji/collection/d2JGQRxO19XTOEXG) - the MPS' media repository.
 
 
 Referential Integrity
@@ -28,8 +30,7 @@ to make sure
 - ``<name>__id`` columns hold values which exist as ``id`` in the referenced table,
 - ``<name>__ids`` columns hold comma-separated lists of values which exist as ``id`` in the referenced table.
 
-At some point we will need tools to check referential integrity on push - maybe implemented as travis-ci
-job.
+Upon push, referential integrity will be checked by travis-ci.
 
 
 Changing the scientific name of a species
