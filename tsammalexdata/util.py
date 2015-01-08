@@ -15,10 +15,21 @@ def data_file(*comps):
 
 
 def csv_items(name, lineno=False):
+    data = data_file(name)
+    if os.path.isdir(data):
+        fnames = [os.path.join(data, fname) for fname in os.listdir(data) if fname.endswith('.csv')]
+    elif os.path.isfile(data):
+        fnames = [data]
+    elif os.path.isfile(data + '.csv'):
+        fnames = [data + '.csv']
+    else:
+        raise ValueError(name)
+
     items = []
-    with open(data_file(name)) as csvfile:
-        for item in csv.DictReader(csvfile):
-            items.append(item)
+    for fname in fnames:
+        with open(data_file(fname)) as csvfile:
+            for item in csv.DictReader(csvfile):
+                items.append(item)
     return items
 
 
@@ -31,15 +42,16 @@ def visit(name, visitor=None):
     """
     if visitor is None:
         visitor = lambda r: r
-    tmp = data_file('.' + name)
-    with open(data_file(name), 'rb') as source:
+    fname = data_file(name)
+    tmp = os.path.join(os.path.dirname(fname), '.' + os.path.basename(fname))
+    with open(fname, 'rb') as source:
         with open(tmp, 'wb') as target:
             writer = csv.writer(target)
             for i, row in enumerate(csv.reader(source)):
                 row = visitor(i, row)
                 if row:
                     writer.writerow(row)
-    shutil.move(tmp, data_file(name))
+    shutil.move(tmp, fname)
 
 
 def jsondump(obj, path):

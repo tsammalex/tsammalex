@@ -17,7 +17,13 @@ Adding an image is done in two steps:
 1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image in the ``source_url`` column (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
 2. Providing the image at the specified URL for download.
 
-When a data release is created, new images will be fetched from the sources and uploaded to [Edmond](http://edmond.mpdl.mpg.de/imeji/collection/d2JGQRxO19XTOEXG) - the MPS' media repository.
+Notes:
+
+- Use the [md5 hash](http://en.wikipedia.org/wiki/MD5) of the image file as `id` for the row in `images.csv`.
+  Computing this hash can be done using [FCIV on Windows](http://support.microsoft.com/kb/889768), with the 
+  [md5sum command](http://en.wikipedia.org/wiki/Md5sum) on Linux or 
+  with the [md5 command](http://osxdaily.com/2009/10/13/check-md5-hash-on-your-mac/) on mac.
+- When a data release is created, new images will be fetched from the sources and uploaded to [Edmond](http://edmond.mpdl.mpg.de/imeji/collection/d2JGQRxO19XTOEXG) - the MPS' media repository.
 
 
 Referential Integrity

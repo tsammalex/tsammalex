@@ -9,7 +9,7 @@ try:
 except ImportError:
     raise
 
-from tsammalexdata.util import data_file, jsonload
+from tsammalexdata.util import data_file, jsonload, csv_items
 
 
 INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
@@ -17,11 +17,17 @@ INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
 
 def main():
     res = OrderedDict()
+    with open(data_file('ecoregions_from_occurrences.csv'), encoding='utf8') as fp:
+        for line in fp.read().split('\n'):
+            k, v = line.split(',')
+            res[k] = v
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
         for er in jsonload(data_file('ecoregions.json'))['features']
         if er['geometry'] and er['properties']['eco_code'] not in INVALID_ECO_CODES]
     for fname in os.listdir(data_file('external', 'gbif')):
+        if fname.split('.')[0] in res:
+            continue
         res[fname.split('.')[0]] = ';'.join(sorted(set(match(
             jsonload(data_file('external', 'gbif', fname))['results'], ecoregions))))
 

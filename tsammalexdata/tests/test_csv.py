@@ -12,7 +12,18 @@ from tsammalexdata.util import jsonload, data_file, csv_items
 SUCCESS = True
 ID_SEP_PATTERN = re.compile('\.|,|;')
 BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
-EXCLUDE = ['ecoregions_from_occurrences.csv']
+CSV = [
+    'audios',
+    'categories',
+    'contributors',
+    'habitats',
+    'images',
+    'languages',
+    'lineages',
+    'names',
+    'species',
+    'uses',
+]
 
 
 def error(msg, name, line=''):
@@ -29,6 +40,9 @@ def read_csv(name, unique='id'):
     for line, row in enumerate(csv_items(name)):
         line += 2
         if unique:
+            if unique not in row:
+                error('unique key missing: %s' % unique, name, line)
+                continue
             if row[unique] in uniquevalues:
                 error('non-unique id: %s' % row[unique], name, line)
             uniquevalues.add(row[unique])
@@ -37,8 +51,7 @@ def read_csv(name, unique='id'):
 
 
 def test():
-    data = {n[:-4]: read_csv(n) for n in os.listdir(data_file())
-            if n.endswith('.csv') and n not in EXCLUDE}
+    data = {n: read_csv(n) for n in CSV}
     ids = {n: {r[1]['id'] for r in rows} for n, rows in data.items()}
 
     ids['ecoregions'] = set()

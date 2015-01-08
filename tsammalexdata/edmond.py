@@ -1,4 +1,5 @@
 from __future__ import unicode_literals, print_function
+import sys
 from xml.etree import ElementTree
 from io import open
 import re
@@ -37,10 +38,16 @@ def file_urls(source):
         # add an alias for the URL to the original file:
         data['url'] = data['full']
         res[get(item, 'filename')] = data
+        res[get(item, 'checksum')] = data
     return res
 
 
 class Visitor(object):
+    """Visitor to update the source_url column in an images.csv file.
+
+    Corresponding items in the Tsammalex collection on Edmond are detected by matching
+    the id of the image against filename or checksum attribute of the Edmond item.
+    """
     def __init__(self):
         self.edmond_urls = file_urls(data_file('Edmond.xml'))
         self.edmond_repls = [
@@ -56,12 +63,12 @@ class Visitor(object):
             self.cols = {col: i for i, col in enumerate(row)}
             return row
 
-        fname = self.type_pattern.sub('.', row[self.cols['id']])
-        if '-thumbnail' in fname:
+        id_ = self.type_pattern.sub('.', row[self.cols['id']])
+        if '-thumbnail' in id_:
             # remove thumbnail images
             return
 
-        edmond_id = fname[:]
+        edmond_id = id_[:]
         for s, p in self.edmond_repls:
             edmond_id = edmond_id.replace(p, s)
         if edmond_id in self.edmond_urls:
@@ -79,4 +86,4 @@ class Visitor(object):
 if __name__ == '__main__':
     with open(data_file('Edmond.xml'), 'w', encoding='utf8') as fp:
         fp.write(requests.get(URL).text)
-    visit('images.csv', Visitor())
+    visit(sys.argv[1] if len(sys.argv) > 1 else 'images.csv', Visitor())
