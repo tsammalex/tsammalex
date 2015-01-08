@@ -1,6 +1,6 @@
-id,name,description,glottocode,color
-bantu,Bantu,,bant1294,ffff00
-khoekwadi,Khoe-Kwadi,,khoe1240,00ffff
-tuu,Tuu,,tuuu1241,66ff33
-kxa,Kx'a,,kxaa1236,990099
-germanic,Germanic,,germ1287,dd0000
+id,name,description,glottocode,family,family_glottocode,color
+bantu,Bantu,,bant1294,Atlantic-Congo,atla1278,ffff00
+khoekwadi,Khoe-Kwadi,,khoe1240,,,00ffff
+tuu,Tuu,,tuuu1241,,,66ff33
+kxa,Kx'a,,kxaa1236,,,990099
+germanic,Germanic,,germ1287,Indo-European,indo1319,dd0000

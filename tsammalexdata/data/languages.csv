@@ -1,40 +1,40 @@
-id,name,lineages__id,description,latitude,longitude
-afr,Afrikaans,germanic,,-33.6,19.4
-deu,Deutsch,germanic,,,
-eng,English,germanic,,,
-gwj,Gǀui,khoekwadi,,-23.3,23.6
-her,Otjiherero,bantu,,-21.7,18.1
-hio-g,Tshwa/Ganadi,khoekwadi,,-18.5,25.7
-huc,ǂ'Amkoe,kxa,,-23.8,24.7
-knw,ǃXun,kxa,,-18.2,19.1
-ktz,Juǀ'hoansi,kxa,,-20.1,20.4
-kua,Oshiwambo,bantu,,-17.7,15.7
-lwn-a,Lower Nossob/ǀ'Auni,tuu,,-25.8,20.3
-lwn-h,Lower Nossob/ǀHaasi,tuu,,-25.3,19.5
-naq,Khoekhoegowab,khoekwadi,,-24.4,17.0
-naq-a,Khoekhoe/ǂAakhoe,khoekwadi,,-17.6,18.3
-naq-d,Khoekhoe/Damara,khoekwadi,,-22.8,17.9
-naq-hm,Khoekhoe/Haiǁom,khoekwadi,,-19.1,16.5
-naq-n,Khoekhoe/Nama,khoekwadi,,-26.0,18.0
-ngh-e,Nǁang/Langeberg,tuu,,-27.9,22.7
-ngh-w,Nǁang/Nǀuu,tuu,,-27.1,20.5
-nhr,Naro,khoekwadi,,-22.3,21.0
-nmn-a,Taa/ǃAma,tuu,,-23.3,20.4
-nmn-e,Taa/East ǃXoon,tuu,,-22.8,21.9
-nmn-h,Taa/ǂHuan,tuu,,-24.6,22.7
-nmn-t,Taa/Tshaasi,tuu,,-23.8,22.7
-nmn-w,Taa/West ǃXoon,tuu,,-23.8,19.4
-nso,Northern Sotho,bantu,,-23.9,29.6
-shg-da,Shua/Danisi,khoekwadi,,-20.2,25.3
-shg-de,Shua/Deti,khoekwadi,,-21.2,24.9
-sna,Shona,bantu,,-18.0,30.8
-sot,Southern Sotho,bantu,,-28.9,28.0
-tsn,Setswana,bantu,,-25.7,25.45
-txk,Ts'ixa,khoekwadi,,-19.2,24.0
-xam,ǀXam,tuu,,-30.8,20.4
-xho,isiXhosa,bantu,,-31.6,28.0
-xkv,Shekgalagadi,bantu,,-24.1,23.8
-xuu-a,Khwe/ǁAni,khoekwadi,,-18.4,21.8
-xuu-b,Khwe/Buga,khoekwadi,,-18.8,22.9
-xuu-k,Khwe/West Caprivi,khoekwadi,,-17.9,22.7
-zul,isiZulu,bantu,,-28.5,30.6
+id,name,lineages__id,description,latitude,longitude,glottocode
+afr,Afrikaans,germanic,,-33.6,19.4,afri1274
+deu,Deutsch,germanic,,,,stan1295
+eng,English,germanic,,,,stan1293
+gwj,Gǀui,khoekwadi,,-23.3,23.6,gwii1239
+her,Otjiherero,bantu,,-21.7,18.1,here1253
+hio-g,Tshwa/Ganadi,khoekwadi,,-18.5,25.7,tsoa1238
+huc,ǂ'Amkoe,kxa,,-23.8,24.7,huaa1248
+knw,ǃXun,kxa,,-18.2,19.1,huaa1248
+ktz,Juǀ'hoansi,kxa,,-20.1,20.4,juho1239
+kua,Oshiwambo,bantu,,-17.7,15.7,kuan1247
+lwn-a,Lower Nossob/ǀ'Auni,tuu,,-25.8,20.3,
+lwn-h,Lower Nossob/ǀHaasi,tuu,,-25.3,19.5,
+naq,Khoekhoegowab,khoekwadi,,-24.4,17.0,nama1264
+naq-a,Khoekhoe/ǂAakhoe,khoekwadi,,-17.6,18.3,nama1264
+naq-d,Khoekhoe/Damara,khoekwadi,,-22.8,17.9,dama1270
+naq-hm,Khoekhoe/Haiǁom,khoekwadi,,-19.1,16.5,haio1238
+naq-n,Khoekhoe/Nama,khoekwadi,,-26.0,18.0,nama1265
+ngh-e,Nǁang/Langeberg,tuu,,-27.9,22.7,nuuu1241
+ngh-w,Nǁang/Nǀuu,tuu,,-27.1,20.5,nuuu1241
+nhr,Naro,khoekwadi,,-22.3,21.0,naro1249
+nmn-a,Taa/ǃAma,tuu,,-23.3,20.4,xooo1239
+nmn-e,Taa/East ǃXoon,tuu,,-22.8,21.9,xooo1239
+nmn-h,Taa/ǂHuan,tuu,,-24.6,22.7,xooo1239
+nmn-t,Taa/Tshaasi,tuu,,-23.8,22.7,xooo1239
+nmn-w,Taa/West ǃXoon,tuu,,-23.8,19.4,xooo1239
+nso,Northern Sotho,bantu,,-23.9,29.6,pedi1238
+shg-da,Shua/Danisi,khoekwadi,,-20.2,25.3,dani1286
+shg-de,Shua/Deti,khoekwadi,,-21.2,24.9,deti1240
+sna,Shona,bantu,,-18.0,30.8,shon1251
+sot,Southern Sotho,bantu,,-28.9,28.0,sout2807
+tsn,Setswana,bantu,,-25.7,25.45,tswa1253
+txk,Ts'ixa,khoekwadi,,-19.2,24.0,
+xam,ǀXam,tuu,,-30.8,20.4,xamm1241
+xho,isiXhosa,bantu,,-31.6,28.0,xhos1239
+xkv,Shekgalagadi,bantu,,-24.1,23.8,kgal1244
+xuu-a,Khwe/ǁAni,khoekwadi,,-18.4,21.8,anii1247
+xuu-b,Khwe/Buga,khoekwadi,,-18.8,22.9,buga1248
+xuu-k,Khwe/West Caprivi,khoekwadi,,-17.9,22.7,kxoe1243
+zul,isiZulu,bantu,,-28.5,30.6,zulu1248
