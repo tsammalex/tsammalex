@@ -19,8 +19,9 @@ def main():
     res = OrderedDict()
     with open(data_file('ecoregions_from_occurrences.csv'), encoding='utf8') as fp:
         for line in fp.read().split('\n'):
-            k, v = line.split(',')
-            res[k] = v
+            if line:
+                k, v = line.split(',')
+                res[k] = v
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
         for er in jsonload(data_file('ecoregions.json'))['features']
