@@ -66,7 +66,7 @@ class Visitor(object):
             # image to Edmond, insert the URL here! Depends on the imeji API being
             # available on Edmond.
             #
-            print(_id)
+            print(_id, row)
         return row
 
 
