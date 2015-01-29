@@ -7,7 +7,7 @@ from __future__ import print_function, unicode_literals, absolute_import, divisi
 import sys
 import os
 
-from tsammalexdata.util import data_file, jsonload, jsondump, csv_items, DataProvider
+from tsammalexdata.util import data_file, jsonload, jsondump, csv_items, DataProvider, unique
 
 
 def text(e, ee):
@@ -15,11 +15,14 @@ def text(e, ee):
     return (ee.text if ee is not None else '') or ''
 
 
-class COL(DataProvider):
+class CatalogueOfLife(DataProvider):
     host = 'www.catalogueoflife.org'
 
     def _get(self, **kw):
-        return self.get('col/webservice', type='xml', **kw).find('result')
+        try:
+            return self.get('col/webservice', type='xml', **kw).find('result')
+        except:
+            return None
 
     def get_id(self, name):
         result = self._get(name=name)
@@ -35,9 +38,9 @@ class COL(DataProvider):
             # classification: taxon.id name rank url
             # synonyms: synonym.name
             res = {k: text(result, k) for k in 'genus species author url'.split()}
-            res['distribution'] = [
+            res['distribution'] = unique(
                 region.split()[0] for region in
-                text(result, 'distribution').split('; ') if region]
+                text(result, 'distribution').split('; ') if region)
             if result.find('classification'):
                 res['classification'] = {
                     t.rank.lower(): t.as_dict() for t in
@@ -47,6 +50,10 @@ class COL(DataProvider):
                     None,
                     [text(e, 'name') for e in result.find('synonyms').findall('synonym')])
             return {k: v for k, v in res.items() if v}
+
+    def update(self, species, data):
+        if 'distribution' in data:
+            species['tdwgregions'] = unique(data['distribution'])
 
 
 class Taxon(object):

@@ -16,9 +16,12 @@ PY3 = sys.version_info[0] == 3
 ID_SEP_PATTERN = re.compile('\.|,|;')
 
 
+def unique(iterable):
+    return list(sorted(set(iterable)))
+
+
 def split_ids(s):
-    return list(
-        sorted(set(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())))
+    return unique(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())
 
 
 def data_file(*comps):
@@ -96,6 +99,22 @@ class DataProvider(object):
     host = 'example.org'
     scheme = 'http'
 
+    def __enter__(self):
+        if not os.path.isdir(data_file('external', self.name)):
+            self._fname = data_file('external', self.name + '.json')
+            self._data = jsonload(self._fname, default={})
+        else:
+            self._fname, self._data = None, None
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        if self._data and self._fname:
+            jsondump(self._data, self._fname)
+
+    @property
+    def name(self):
+        return self.__class__.__name__.lower()
+
     def url(self, path):
         base = URL(scheme=self.scheme, host=self.host)
         return base.path(path)
@@ -120,3 +139,39 @@ class DataProvider(object):
             return self.get_info(arg)
         except ValueError:
             return self.get_id(arg)
+
+    def get_cached(self, sid, id):
+        if os.path.isdir(data_file('external', self.name)):
+            fname = data_file('external', self.name, sid + '.json')
+            if not os.path.exists(fname):
+                try:
+                    data = self.get_info(id)
+                except:
+                    data = None
+                if not data:
+                    return
+                jsondump(data, fname)
+                return data
+            return jsonload(fname)
+
+        if sid not in self._data:
+            try:
+                self._data[sid] = self.get_info(id)
+            except:
+                return
+        return self._data[sid]
+
+    def update(self, species, data):
+        raise NotImplementedError()
+
+    def update_species(self, species):
+        if not species[self.name + '_id']:
+            species[self.name + '_id'] = self.get_id(species['name'])
+        if not species[self.name + '_id']:
+            return False
+
+        data = self.get_cached(species['id'], species[self.name + '_id'])
+        if data:
+            self.update(species, data)
+            return True
+        return False

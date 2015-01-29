@@ -88,6 +88,15 @@ class EOL(DataProvider):
             data.update(ancestors=taxonomy['ancestors'])
         return data
 
+    def update(self, species, data):
+        for ancestor in data.get('ancestors', []):
+            if 'taxonRank' not in ancestor:
+                continue
+            for k in 'kingdom order family genus'.split():
+                if ancestor['taxonRank'] == k:
+                    species[k] = ancestor['scientificName']
+                    break
+
 
 if __name__ == '__main__':
     args = sys.argv[1:]

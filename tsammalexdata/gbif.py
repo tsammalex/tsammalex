@@ -22,6 +22,12 @@ class GBIF(DataProvider):
             limit=100)
         return self.get('v1/occurrence/search', **kw)
 
+    def update_species(self, species):
+        #
+        # TODO: update classification!
+        #
+        pass
+
 
 def save_occurrences(sid, sname):
     api = GBIF()
