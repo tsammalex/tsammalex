@@ -107,9 +107,9 @@ if __name__ == '__main__':
             if item['id'] not in species:
                 try:
                     species[item['id']] = eol(item['eol_id'] or None)
-                    print(item['id'])
                 except:
                     # we'll have to try again next time!
+                    print('missing:', item['id'])
                     pass
 
         jsondump(species, fname)

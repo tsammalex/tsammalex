@@ -14,5 +14,6 @@ Making a release of the data:
 ```bash
     python eol.py
     python gbif.py
+    python catalogueoflife.py
     ~/venvs/gis/bin/python ecoregion_from_occurrence.py
 ```

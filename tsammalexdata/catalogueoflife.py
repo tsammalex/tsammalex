@@ -78,8 +78,11 @@ if __name__ == '__main__':
                     id_ = get_id(item['scientific_name'])
                     if id_:
                         species[item['id']] = get_info(id_)
+                    else:
+                        raise ValueError
                 except:
                     # we'll have to try again next time!
-                    raise
+                    print('missing:', item['id'])
+                    continue
 
         jsondump(species, fname)
