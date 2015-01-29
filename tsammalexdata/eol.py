@@ -2,11 +2,10 @@ from __future__ import print_function, unicode_literals, absolute_import, divisi
 import sys
 
 import requests
-from purl import URL
 from bs4 import BeautifulSoup
 from Levenshtein import distance
 
-from tsammalexdata.util import data_file, jsonload, jsondump, csv_items
+from tsammalexdata.util import data_file, jsonload, jsondump, csv_items, DataProvider
 
 
 def search_fuzzy(name):
@@ -30,69 +29,64 @@ Did you mean: <a href="/search?q=ammodaucus+leucotrichus">Ammodaucus leucotrichu
     return candidate
 
 
-def eol_api(name, id=None, **kw):
-    """Access the EOL API.
+class EOL(DataProvider):
+    host = 'eol.org'
 
-    .. seealso:: http://eol.org/api
+    def _path(self, name, id=None):
+        path = '1.0'
+        if id:
+            path += '/%s' % id
+        return 'api/%s/%s.json' % (name, path)
 
-    :param name: Name of the API call.
-    :param id: EOL object identifier or None.
-    :param kw: URL query params.
-    :return: decoded JSON response.
-    """
-    path = '1.0'
-    if name != 'search':
-        path += '/%s' % id
-    url = URL('http://eol.org/api/%s/%s.json' % (name, path)).query_params(kw)
-    try:
-        return requests.get(url).json()
-    except ValueError:
-        print(name, id)
-        return {}
+    def _api(self, name, id=None, **kw):
+        try:
+            return self.get(self._path(name, id), **kw)
+        except ValueError:
+            return {}
 
+    def get_id(self, name):
+        res = self._api('search', q=name, page=1, exact='false')
+        if res.get('results'):
+            for result in res['results']:
+                if result['title'] == name:
+                    return result['id']
+            return res['results'][0]['id']
 
-def get_eol_id(name):
-    res = eol_api('search', q=name, page=1, exact='false')
-    if res.get('results'):
-        return res['results'][0]['id']
+    def get_info(self, id):
+        """Extract classification and synonym/common name data from EOL for a given species.
 
-
-def eol(id):
-    """Extract classification and synonym/common name data from EOL for a given species.
-
-    :param id: EOL id of a species.
-    :return: dict with information.
-    """
-    kw = dict(
-        images=0,
-        videos=0,
-        sounds=0,
-        maps=0,
-        text=0,
-        iucn='true',
-        subjects='overview',
-        licenses='all',
-        details='true',
-        common_names='true',
-        synonyms='true',
-        references='false',
-        vetted=0)
-    data = eol_api('pages', id, **kw)
-    if isinstance(data, list):
-        print(data)
-        return {}
-    if data.get('taxonConcepts'):
-        # augment the data with complete classification info for one taxonomy:
-        for tc in data['taxonConcepts']:
-            if tc['nameAccordingTo'].startswith('Species 2000'):
-                # this is our preferred taxonomy ...
-                break
-        else:
-            tc = data['taxonConcepts'][0]
-            # ... but any will do :)
-        taxonomy = eol_api('hierarchy_entries', tc['identifier'])
-        data.update(ancestors=taxonomy['ancestors'])
-    return data
+        :param id: EOL id of a species.
+        :return: dict with information.
+        """
+        kw = dict(
+            images=0,
+            videos=0,
+            sounds=0,
+            maps=0,
+            text=0,
+            iucn='true',
+            subjects='overview',
+            licenses='all',
+            details='true',
+            common_names='true',
+            synonyms='true',
+            references='false',
+            vetted=0)
+        data = self._api('pages', id, **kw)
+        if isinstance(data, list):
+            return {}
+        if data.get('taxonConcepts'):
+            # augment the data with complete classification info for one taxonomy:
+            for tc in data['taxonConcepts']:
+                if tc['nameAccordingTo'].startswith('Species 2000'):
+                    # this is our preferred taxonomy ...
+                    break
+            else:
+                tc = data['taxonConcepts'][0]
+                # ... but any will do :)
+            taxonomy = self._api('hierarchy_entries', tc['identifier'])
+            data.update(ancestors=taxonomy['ancestors'])
+        return data
 
 
 if __name__ == '__main__':
@@ -103,10 +97,11 @@ if __name__ == '__main__':
         fname = data_file('external', 'eol.json')
         species = jsonload(fname)
 
+        eol = EOL()
         for item in csv_items('species.csv'):
             if item['id'] not in species:
                 try:
-                    species[item['id']] = eol(item['eol_id'] or None)
+                    species[item['id']] = eol.get_info(item['eol_id'] or None)
                 except:
                     # we'll have to try again next time!
                     print('missing:', item['id'])

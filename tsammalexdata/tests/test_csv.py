@@ -6,11 +6,10 @@ logging.getLogger('pycountry.db').setLevel(logging.INFO)
 
 from pycountry import countries
 
-from tsammalexdata.util import jsonload, data_file, csv_items
+from tsammalexdata.util import jsonload, data_file, csv_items, split_ids
 
 
 SUCCESS = True
-ID_SEP_PATTERN = re.compile('\.|,|;')
 BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
 CSV = [
     'audios',
@@ -90,9 +89,8 @@ def test():
                     ref, card = col.split('__', 1)
                     if ref not in ids:
                         continue
-                    for v in ID_SEP_PATTERN.split(item[col]):
-                        v = v.strip()
-                        if v and v not in ids[ref]:
+                    for v in split_ids(item[col]):
+                        if v not in ids[ref]:
                             error('invalid %s id referenced: %s' % (ref, v), name, line)
 
     if not SUCCESS:

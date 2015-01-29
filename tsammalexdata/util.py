@@ -3,11 +3,22 @@ import sys
 import json
 import csv
 import shutil
+import re
+from xml.etree import cElementTree as et
+
+import requests
+from purl import URL
 
 import tsammalexdata
 
 
 PY3 = sys.version_info[0] == 3
+ID_SEP_PATTERN = re.compile('\.|,|;')
+
+
+def split_ids(s):
+    return list(
+        sorted(set(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())))
 
 
 def data_file(*comps):
@@ -54,26 +65,58 @@ def visit(name, visitor=None):
     shutil.move(tmp, fname)
 
 
-def jsondump(obj, path):
+def jsondump(obj, path, **kw):
     """python 2 + 3 compatible version of json.dump.
 
     :param obj: The object to be dumped.
     :param path: The path of the JSON file to be written.
     """
-    kw = dict(mode='w')
+    _kw = dict(mode='w')
     if PY3:  # pragma: no cover
-        kw['encoding'] = 'utf8'
-    with open(path, **kw) as fp:
-        return json.dump(obj, fp)
+        _kw['encoding'] = 'utf8'
+    with open(path, **_kw) as fp:
+        return json.dump(obj, fp, **kw)
 
 
-def jsonload(path):
+def jsonload(path, default=None, **kw):
     """python 2 + 3 compatible version of json.load.
 
     :return: The python object read from path.
     """
-    kw = {}
+    if not os.path.exists(path) and default is not None:
+        return default
+    _kw = {}
     if PY3:  # pragma: no cover
-        kw['encoding'] = 'utf8'
-    with open(path, **kw) as fp:
-        return json.load(fp)
+        _kw['encoding'] = 'utf8'
+    with open(path, **_kw) as fp:
+        return json.load(fp, **kw)
+
+
+class DataProvider(object):
+    host = 'example.org'
+    scheme = 'http'
+
+    def url(self, path):
+        base = URL(scheme=self.scheme, host=self.host)
+        return base.path(path)
+
+    def get(self, path, type='json', **params):
+        res = requests.get(self.url(path), params=params)
+        if type == 'json':
+            return res.json()
+        if type == 'xml':
+            return et.fromstring(res.content)
+        return res
+
+    def get_id(self, name):
+        raise NotImplementedError()
+
+    def get_info(self, id):
+        raise NotImplementedError()
+
+    def cli(self, arg):
+        try:
+            int(arg)
+            return self.get_info(arg)
+        except ValueError:
+            return self.get_id(arg)
