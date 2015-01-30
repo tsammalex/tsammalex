@@ -1,6 +1,5 @@
 from __future__ import print_function, unicode_literals
 import os
-from collections import OrderedDict
 from io import open
 
 try:
@@ -9,33 +8,47 @@ try:
 except ImportError:
     raise
 
-from tsammalexdata.util import data_file, jsonload, csv_items
+from tsammalexdata.util import data_file, jsonload, unique
 
 
 INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
+DATA_FILE = data_file('distribution.csv')
+
+
+def format_ids(iterable):
+    return ';'.join(unique(iterable))
 
 
 def main():
-    res = OrderedDict()
-    with open(data_file('ecoregions_from_occurrences.csv'), encoding='utf8') as fp:
+    res = {}
+    with open(DATA_FILE, encoding='utf8') as fp:
         for line in fp.read().split('\n'):
             if line:
-                k, v = line.split(',')
-                res[k] = v
+                cols = line.split(',')
+                res[cols[0]] = cols[1:]
+
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
         for er in jsonload(data_file('ecoregions.json'))['features']
         if er['geometry'] and er['properties']['eco_code'] not in INVALID_ECO_CODES]
-    for fname in os.listdir(data_file('external', 'gbif')):
-        if fname.split('.')[0] in res:
-            continue
-        res[fname.split('.')[0]] = ';'.join(sorted(set(match(
-            jsonload(data_file('external', 'gbif', fname))['results'], ecoregions))))
 
-    with open(data_file('ecoregions_from_occurrences.csv'), 'w', encoding='utf8') as fp:
-        for item in res.items():
-            print('%s: %s' % item)
-            fp.write('%s,%s\n' % item)
+    for fname in os.listdir(data_file('external', 'gbif')):
+        sid = fname.split('.')[0]
+        v = res.get(sid, ['', ''])
+        if len(v) == 1:
+            v.append('')
+        if not v[0] or not v[1]:
+            occurrences = jsonload(
+                data_file('external', 'gbif', fname)).get('results', [])
+        if not v[0]:
+            v[0] = format_ids(match(occurrences, ecoregions))
+        if not v[1]:
+            v[1] = format_ids(r.get('countryCode') for r in occurrences)
+        res[sid] = v
+
+    with open(DATA_FILE, 'w', encoding='utf8') as fp:
+        for key in sorted(res.keys()):
+            fp.write('%s,%s\n' % (key, ','.join(res[key])))
 
 
 def match(occurrences, ecoregions):

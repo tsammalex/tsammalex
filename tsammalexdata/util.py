@@ -17,7 +17,7 @@ ID_SEP_PATTERN = re.compile('\.|,|;')
 
 
 def unique(iterable):
-    return list(sorted(set(iterable)))
+    return list(sorted(set(i for i in iterable if i)))
 
 
 def split_ids(s):
@@ -165,11 +165,13 @@ class DataProvider(object):
         raise NotImplementedError()
 
     def update_species(self, species):
+        # Try to find a provider-specific ID:
         if not species[self.name + '_id']:
             species[self.name + '_id'] = self.get_id(species['name'])
         if not species[self.name + '_id']:
             return False
 
+        # Use this ID to fetch new data in case nothing is cached for sid:
         data = self.get_cached(species['id'], species[self.name + '_id'])
         if data:
             self.update(species, data)
