@@ -9,11 +9,17 @@ The ``tsammalexdata`` package provides the following functionality:
 
 Making a release of the data:
 
-1. Run the tests
-2. Harvest additional data:
-```bash
-    python eol.py
-    python gbif.py
-    python catalogueoflife.py
-    ~/venvs/gis/bin/python ecoregion_from_occurrence.py
+1. Make sure the tests pass:
 ```
+    $ nosetests
+    ----------------------------------------
+    Ran ...
+
+    OK
+```
+2. Harvest additional data and compute distribution data:
+```bash
+    python species.py
+    ~/venvs/gis/bin/python distribution.py
+```
+3. Upload images.
