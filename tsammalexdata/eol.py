@@ -52,6 +52,16 @@ class EOL(DataProvider):
                     return result['id']
             return res['results'][0]['id']
 
+    def get_taxon_concept(self, data):
+        if data.get('taxonConcepts'):
+            # augment the data with complete classification info for one taxonomy:
+            for tc in data['taxonConcepts']:
+                if tc['nameAccordingTo'].startswith('Species 2000'):
+                    # this is our preferred taxonomy ...
+                    return tc
+            # ... but any will do :)
+            return data['taxonConcepts'][0]
+
     def get_info(self, id):
         """Extract classification and synonym/common name data from EOL for a given species.
 
@@ -75,15 +85,8 @@ class EOL(DataProvider):
         data = self._api('pages', id, **kw)
         if isinstance(data, list):
             return {}
-        if data.get('taxonConcepts'):
-            # augment the data with complete classification info for one taxonomy:
-            for tc in data['taxonConcepts']:
-                if tc['nameAccordingTo'].startswith('Species 2000'):
-                    # this is our preferred taxonomy ...
-                    break
-            else:
-                tc = data['taxonConcepts'][0]
-                # ... but any will do :)
+        tc = self.get_taxon_concept(data)
+        if tc:
             taxonomy = self._api('hierarchy_entries', tc['identifier'])
             data.update(ancestors=taxonomy['ancestors'])
         return data
@@ -96,6 +99,13 @@ class EOL(DataProvider):
                 if ancestor['taxonRank'] == k:
                     species[k] = ancestor['scientificName'].split()[0]
                     break
+        tc = self.get_taxon_concept(data)
+        if tc and 'taxonRank' in tc:
+            species['taxonRank'] = tc['taxonRank'].lower()
+        for vn in data.get('vernacularNames', []):
+            if vn.get('language') == 'en' and vn.get('eol_preferred'):
+                species['english_name'] = vn['vernacularName']
+                break
 
 
 if __name__ == '__main__':

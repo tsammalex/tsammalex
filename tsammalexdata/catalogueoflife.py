@@ -58,6 +58,7 @@ class CatalogueOfLife(DataProvider):
         for key in 'kingdom order genus family'.split():
             if classification.get(key):
                 species[key] = classification[key]['name']
+        species[self.name + '_url'] = data['url']
 
 
 class Taxon(object):

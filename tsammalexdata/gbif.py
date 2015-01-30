@@ -33,6 +33,8 @@ class GBIF(DataProvider):
             for key in 'kingdom order genus family'.split():
                 if result.get(key):
                     species[key] = result[key]
+            if 'taxonRank' in result:
+                species['taxonRank'] = result['taxonRank'].lower()
 
 
 def save_occurrences(sid, sname):
