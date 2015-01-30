@@ -63,9 +63,9 @@ class EOL(DataProvider):
             return data['taxonConcepts'][0]
 
     def get_info(self, id):
-        """Extract classification and synonym/common name data from EOL for a given species.
+        """Extract classification and synonym/common name data from EOL for a given taxon.
 
-        :param id: EOL id of a species.
+        :param id: EOL id of a taxon.
         :return: dict with information.
         """
         kw = dict(
@@ -91,20 +91,20 @@ class EOL(DataProvider):
             data.update(ancestors=taxonomy['ancestors'])
         return data
 
-    def update(self, species, data):
+    def update(self, taxon, data):
         for ancestor in data.get('ancestors', []):
             if 'taxonRank' not in ancestor:
                 continue
             for k in 'kingdom order family genus'.split():
                 if ancestor['taxonRank'] == k:
-                    species[k] = ancestor['scientificName'].split()[0]
+                    taxon[k] = ancestor['scientificName'].split()[0]
                     break
         tc = self.get_taxon_concept(data)
         if tc and 'taxonRank' in tc:
-            species['taxonRank'] = tc['taxonRank'].lower()
+            taxon['taxonRank'] = tc['taxonRank'].lower()
         for vn in data.get('vernacularNames', []):
             if vn.get('language') == 'en' and vn.get('eol_preferred'):
-                species['english_name'] = vn['vernacularName']
+                taxon['english_name'] = vn['vernacularName']
                 break
 
 
@@ -112,18 +112,3 @@ if __name__ == '__main__':
     args = sys.argv[1:]
     if args:
         search_fuzzy(args[0])
-    else:
-        fname = data_file('external', 'eol.json')
-        species = jsonload(fname)
-
-        eol = EOL()
-        for item in csv_items('species.csv'):
-            if item['id'] not in species:
-                try:
-                    species[item['id']] = eol.get_info(item['eol_id'] or None)
-                except:
-                    # we'll have to try again next time!
-                    print('missing:', item['id'])
-                    pass
-
-        jsondump(species, fname)

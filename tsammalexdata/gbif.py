@@ -27,14 +27,14 @@ class GBIF(DataProvider):
             limit=100)
         return self.get('v1/occurrence/search', **kw)
 
-    def update(self, species, data):
+    def update(self, taxon, data):
         if data.get('results'):
             result = data['results'][0]
             for key in 'kingdom order genus family'.split():
                 if result.get(key):
-                    species[key] = result[key]
+                    taxon[key] = result[key]
             if 'taxonRank' in result:
-                species['taxonRank'] = result['taxonRank'].lower()
+                taxon['taxonRank'] = result['taxonRank'].lower()
 
 
 def save_occurrences(sid, sname):
@@ -58,5 +58,5 @@ def save_occurrences(sid, sname):
 
 
 if __name__ == '__main__':
-    for item in csv_items('species.csv'):
+    for item in csv_items('taxa.csv'):
         save_occurrences(item['id'], item['scientific_name'])

@@ -20,7 +20,7 @@ CSV = [
     'languages',
     'lineages',
     'names',
-    'species',
+    'taxa',
     'uses',
 ]
 
@@ -78,7 +78,7 @@ def test():
                 if source_id not in ids['sources']:
                     error('invalid sources id referenced: %s' % (source_id,), name, line)
 
-    for name in ['names', 'species']:    
+    for name in ['names', 'taxa']:
         for line, item in data[name]:
             check_ref(name, line, item)
 

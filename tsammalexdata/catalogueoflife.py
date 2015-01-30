@@ -51,14 +51,14 @@ class CatalogueOfLife(DataProvider):
                     [text(e, 'name') for e in result.find('synonyms').findall('synonym')])
             return {k: v for k, v in res.items() if v}
 
-    def update(self, species, data):
+    def update(self, taxon, data):
         if 'distribution' in data:
-            species['tdwgregions'] = unique(data['distribution'])
+            taxon['tdwgregions'] = unique(data['distribution'])
         classification = data.get('classification', {})
         for key in 'kingdom order genus family'.split():
             if classification.get(key):
-                species[key] = classification[key]['name']
-        species[self.name + '_url'] = data['url']
+                taxon[key] = classification[key]['name']
+        taxon[self.name + '_url'] = data['url']
 
 
 class Taxon(object):
@@ -71,27 +71,6 @@ class Taxon(object):
 
 
 if __name__ == '__main__':
-    api = COL()
+    api = CatalogueOfLife()
     if sys.argv[1:]:
         print(api.cli(sys.argv[1]))
-    else:
-        fname = data_file('external', 'catalogueoflife.json')
-        if os.path.exists(fname):
-            species = jsonload(fname)
-        else:
-            species = {}
-
-        for item in csv_items('species.csv'):
-            if item['id'] not in species:
-                try:
-                    id_ = api.get_id(item['scientific_name'])
-                    if id_:
-                        species[item['id']] = api.get_info(id_)
-                    else:
-                        raise ValueError
-                except:
-                    # we'll have to try again next time!
-                    print('missing:', item['id'])
-                    continue
-
-        jsondump(species, fname)

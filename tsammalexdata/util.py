@@ -161,19 +161,19 @@ class DataProvider(object):
                 return
         return self._data[sid]
 
-    def update(self, species, data):
+    def update(self, taxon, data):
         raise NotImplementedError()
 
-    def update_species(self, species):
+    def update_taxon(self, taxon):
         # Try to find a provider-specific ID:
-        if not species[self.name + '_id']:
-            species[self.name + '_id'] = self.get_id(species['name'])
-        if not species[self.name + '_id']:
+        if not taxon[self.name + '_id']:
+            taxon[self.name + '_id'] = self.get_id(taxon['name'])
+        if not taxon[self.name + '_id']:
             return False
 
         # Use this ID to fetch new data in case nothing is cached for sid:
-        data = self.get_cached(species['id'], species[self.name + '_id'])
+        data = self.get_cached(taxon['id'], taxon[self.name + '_id'])
         if data:
-            self.update(species, data)
+            self.update(taxon, data)
             return True
         return False

@@ -19,7 +19,7 @@ Making a release of the data:
 ```
 2. Harvest additional data and compute distribution data:
 ```bash
-    python species.py
+    python taxa.py
     ~/venvs/gis/bin/python distribution.py
 ```
 3. Upload images.
