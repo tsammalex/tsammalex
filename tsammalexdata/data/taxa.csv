@@ -1,4 +1,4 @@
-id,scientific_name,species_description,english_name,kingdom,order,family,genus,characteristics,biotope,countries__ids,general_uses,notes,refs__ids,links
+id,scientific_name,description,english_name,kingdom,order,family,genus,characteristics,biotope,countries__ids,general_uses,notes,refs__ids,links
 abelmoschusesculentus,Abelmoschus esculentus,,okra,Plantae,Malvales,Malvaceae,Abelmoschus,,,GN;FR;TR;LK,,,,
 abildgaardiawallichianalye,Abildgaardia wallichiana Lye,,,,,,,,,BF;AU;SN;NG,,,,
 abrusprecatorius,Abrus precatorius,,rosary pea,Plantae,Fabales,Fabaceae,Abrus,,,CI;NL;NA;US;AU;SN;BJ;ES,,,,
