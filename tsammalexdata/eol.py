@@ -94,7 +94,7 @@ class EOL(DataProvider):
                 continue
             for k in 'kingdom order family genus'.split():
                 if ancestor['taxonRank'] == k:
-                    species[k] = ancestor['scientificName']
+                    species[k] = ancestor['scientificName'].split()[0]
                     break
 
 

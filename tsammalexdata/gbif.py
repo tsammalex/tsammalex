@@ -4,15 +4,20 @@ import os
 from tsammalexdata.util import data_file, csv_items, jsondump, jsonload, DataProvider
 
 
-BASE_URL = 'http://api.gbif.org/v1'
-
-
 class GBIF(DataProvider):
     host = 'api.gbif.org'
 
     def get_id(self, name):
         res = self.get('v1/species/match', name=name)
-        return res[res['rank'].lower() + 'Key']
+        if 'rank' not in res:
+            return
+        rank = res['rank'].lower()
+        if rank in ['subspecies', 'variety'] and rank + 'Key' not in res:
+            rank = 'species'
+        try:
+            return res[rank + 'Key']
+        except KeyError:
+            return
 
     def get_info(self, id):
         kw = dict(
@@ -22,11 +27,12 @@ class GBIF(DataProvider):
             limit=100)
         return self.get('v1/occurrence/search', **kw)
 
-    def update_species(self, species):
-        #
-        # TODO: update classification!
-        #
-        pass
+    def update(self, species, data):
+        if data.get('results'):
+            result = data['results'][0]
+            for key in 'kingdom order genus family'.split():
+                if result.get(key):
+                    species[key] = result[key]
 
 
 def save_occurrences(sid, sname):

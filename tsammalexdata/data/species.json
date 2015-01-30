@@ -29,10 +29,10 @@
     {
         "id": "abildgaardiawallichianalye", 
         "name": "Abildgaardia wallichiana Lye", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Poales", 
+        "family": "Cyperaceae", 
+        "genus": "Bulbostylis", 
         "ecoregions": [
             "AA0402", 
             "AA0409", 
@@ -363,7 +363,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1230788, 
-        "gbif_id": null, 
+        "gbif_id": 2978752, 
         "catalogueoflife_id": null
     }, 
     {
@@ -629,7 +629,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Acacia_nilotica_subsp._kraussiana", 
         "eol_id": 1230733, 
-        "gbif_id": null, 
+        "gbif_id": 2978421, 
         "catalogueoflife_id": "11488276", 
         "tdwgregions": [
             "ANG-OO", 
@@ -815,10 +815,10 @@
     {
         "id": "acaciatortilis", 
         "name": "Acacia tortilis", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Acacia", 
         "ecoregions": [
             "AT0702", 
             "AT0711", 
@@ -901,7 +901,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Acacia_tortilis_subsp_heteracantha", 
         "eol_id": 1230610, 
-        "gbif_id": null, 
+        "gbif_id": 2979907, 
         "catalogueoflife_id": "11488361", 
         "tdwgregions": [
             "ANG-OO", 
@@ -935,7 +935,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1253512, 
-        "gbif_id": null, 
+        "gbif_id": 1705891, 
         "catalogueoflife_id": "12729120", 
         "tdwgregions": [
             "BEN", 
@@ -1173,7 +1173,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5170933, 
-        "gbif_id": null, 
+        "gbif_id": 3085168, 
         "catalogueoflife_id": null
     }, 
     {
@@ -1356,10 +1356,10 @@
     {
         "id": "acridocarpusmonodii", 
         "name": "Acridocarpus monodii", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malpighiales", 
+        "family": "Malpighiaceae", 
+        "genus": "Acridocarpus", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -1656,8 +1656,8 @@
         "id": "aegypiinae", 
         "name": "Aegypiinae", 
         "kingdom": "Animalia", 
-        "order": "Falconiformes Sharpe, 1874", 
-        "family": "Accipitridae Viellot, 1816", 
+        "order": "Falconiformes", 
+        "family": "Accipitridae", 
         "genus": null, 
         "ecoregions": [
             "AT0709"
@@ -1698,9 +1698,9 @@
         "id": "aepycerosmelampusmelampus", 
         "name": "Aepyceros melampus melampus", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Aepyceros Sundevall, 1847", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Aepyceros", 
         "ecoregions": [
             "AT0128", 
             "AT0717", 
@@ -1715,16 +1715,16 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Aepyceros_melampus_melampus", 
         "eol_id": 4447118, 
-        "gbif_id": null, 
+        "gbif_id": 2441144, 
         "catalogueoflife_id": "19743158"
     }, 
     {
         "id": "aepycerosmelampuspetersi", 
         "name": "Aepyceros melampus petersi", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Aepyceros Sundevall, 1847", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Aepyceros", 
         "ecoregions": [
             "AT0702", 
             "AT1316"
@@ -1735,7 +1735,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Aepyceros_melampus_petersi", 
         "eol_id": 10465041, 
-        "gbif_id": null, 
+        "gbif_id": 2441144, 
         "catalogueoflife_id": "19743161"
     }, 
     {
@@ -2232,7 +2232,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1279292, 
-        "gbif_id": null, 
+        "gbif_id": 1713354, 
         "catalogueoflife_id": "12734603", 
         "tdwgregions": [
             "BEN", 
@@ -2837,9 +2837,9 @@
         "id": "alopochenaegyptiaca", 
         "name": "Alopochen aegyptiaca", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Anseriformes", 
+        "family": "Anatidae", 
+        "genus": "Alopochen", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Egyptian_goose", 
@@ -3155,7 +3155,7 @@
         "kingdom": "Plantae", 
         "order": "Caryophyllales", 
         "family": "Amaranthaceae", 
-        "genus": "Amaranthus L.", 
+        "genus": "Amaranthus", 
         "ecoregions": [
             "AT0713", 
             "AT0722", 
@@ -3433,7 +3433,7 @@
         "kingdom": "Animalia", 
         "order": "Isoptera", 
         "family": "Termitidae", 
-        "genus": null, 
+        "genus": "Amitermes", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -3757,10 +3757,10 @@
     {
         "id": "anasquerquedula", 
         "name": "Anas querquedula", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Animalia", 
+        "order": "Anseriformes", 
+        "family": "Anatidae", 
+        "genus": "Anas", 
         "ecoregions": [
             "PA0402", 
             "PA0405", 
@@ -3791,7 +3791,7 @@
         "kingdom": "Animalia", 
         "order": "Anseriformes", 
         "family": "Anatidae", 
-        "genus": null, 
+        "genus": "Anser", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -4066,7 +4066,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5796550, 
-        "gbif_id": null, 
+        "gbif_id": 2706112, 
         "catalogueoflife_id": null
     }, 
     {
@@ -4091,16 +4091,16 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5796338, 
-        "gbif_id": null, 
+        "gbif_id": 2706112, 
         "catalogueoflife_id": null
     }, 
     {
         "id": "animalia", 
         "name": "Animalia", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Passeriformes", 
+        "family": "Corvidae", 
+        "genus": "Corvus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Animal", 
@@ -4112,7 +4112,7 @@
         "id": "anisoptera", 
         "name": "Anisoptera", 
         "kingdom": "Animalia", 
-        "order": "Odonata Fabricius, 1793", 
+        "order": "Odonata", 
         "family": null, 
         "genus": null, 
         "ecoregions": [], 
@@ -4218,7 +4218,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Anobiidae", 
-        "genus": null, 
+        "genus": "Xestobium", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -4346,7 +4346,7 @@
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
         "family": "Motacillidae", 
-        "genus": null, 
+        "genus": "Anthus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Pipit", 
@@ -4563,8 +4563,8 @@
         "name": "Apidae", 
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
-        "family": null, 
-        "genus": null, 
+        "family": "Apidae", 
+        "genus": "Apis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Apidae", 
@@ -4861,9 +4861,9 @@
         "id": "araneae", 
         "name": "Araneae", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Araneae", 
+        "family": "Theridiidae", 
+        "genus": "Theridion", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Spider", 
@@ -5032,8 +5032,8 @@
         "name": "Argasidae", 
         "kingdom": "Animalia", 
         "order": "Ixodida", 
-        "family": null, 
-        "genus": null, 
+        "family": "Argasidae", 
+        "genus": "Carios", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Argasidae", 
@@ -5431,7 +5431,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 23046398, 
-        "gbif_id": null, 
+        "gbif_id": 4125301, 
         "catalogueoflife_id": null
     }, 
     {
@@ -5599,7 +5599,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 6180173, 
-        "gbif_id": null, 
+        "gbif_id": 3120789, 
         "catalogueoflife_id": null
     }, 
     {
@@ -6196,7 +6196,7 @@
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Dermestidae", 
-        "genus": null, 
+        "genus": "Attagenus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -6242,9 +6242,9 @@
         "id": "aves", 
         "name": "Aves", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Passeriformes", 
+        "family": "Corvidae", 
+        "genus": "Corvus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Bird", 
@@ -6847,7 +6847,7 @@
         "kingdom": "Metazoa", 
         "order": "Hemiptera", 
         "family": "Belostomatidae", 
-        "genus": null, 
+        "genus": "Lethocerus", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -7064,8 +7064,8 @@
         "name": "Blaberidae", 
         "kingdom": "Animalia", 
         "order": "Blattodea", 
-        "family": "Blaberidae sp", 
-        "genus": null, 
+        "family": "Blaberidae", 
+        "genus": "Panchlora", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -7104,8 +7104,8 @@
         "name": "Blattodea", 
         "kingdom": "Metazoa", 
         "order": "Blattodea", 
-        "family": "Blattodea sp", 
-        "genus": null, 
+        "family": "Ectobiidae", 
+        "genus": "Ectobius", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -7121,10 +7121,10 @@
     {
         "id": "blepharislinariifolia", 
         "name": "Blepharis linariifolia", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Acanthaceae", 
+        "genus": "Blepharis", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -7636,10 +7636,10 @@
     {
         "id": "bombaxcostatum", 
         "name": "Bombax costatum", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Malvaceae", 
+        "genus": "Bombax", 
         "ecoregions": [
             "AT0111", 
             "AT0707", 
@@ -7884,9 +7884,9 @@
         "id": "bostaurusprimigenius", 
         "name": "Bos taurus primigenius", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Bos Linnaeus, 1758", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Bos", 
         "ecoregions": [
             "AA0402", 
             "AA0405", 
@@ -7929,7 +7929,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 10408207, 
-        "gbif_id": null, 
+        "gbif_id": 2441022, 
         "catalogueoflife_id": "19743278"
     }, 
     {
@@ -8443,7 +8443,7 @@
         "kingdom": "Animalia", 
         "order": "Characiformes", 
         "family": "Alestidae", 
-        "genus": null, 
+        "genus": "Brycinus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -8527,7 +8527,7 @@
         "kingdom": "Animalia", 
         "order": "Strigiformes", 
         "family": "Strigidae", 
-        "genus": null, 
+        "genus": "Bubo", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Horned_owl", 
@@ -8907,7 +8907,7 @@
         "kingdom": "Animalia", 
         "order": "Charadriiformes", 
         "family": "Burhinidae", 
-        "genus": null, 
+        "genus": "Burhinus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Stone-curlew", 
@@ -9214,10 +9214,10 @@
     {
         "id": "cadabaglandulosa", 
         "name": "Cadaba glandulosa", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Brassicales", 
+        "family": "Capparaceae", 
+        "genus": "Cadaba", 
         "ecoregions": [
             "AT0713"
         ], 
@@ -9656,7 +9656,7 @@
         "kingdom": "Animalia", 
         "order": "Carnivora", 
         "family": "Canidae", 
-        "genus": null, 
+        "genus": "Canis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Canis", 
@@ -9716,7 +9716,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1265966, 
-        "gbif_id": null, 
+        "gbif_id": 5219146, 
         "catalogueoflife_id": "19741305"
     }, 
     {
@@ -9778,7 +9778,7 @@
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Dog", 
         "eol_id": 1228387, 
-        "gbif_id": null, 
+        "gbif_id": 5219173, 
         "catalogueoflife_id": "19741356"
     }, 
     {
@@ -9954,7 +9954,7 @@
         "kingdom": "Animalia", 
         "order": "Strigiformes", 
         "family": "Caprimulgidae", 
-        "genus": null, 
+        "genus": "Nyctidromus", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -9973,7 +9973,7 @@
         "kingdom": "Animalia", 
         "order": "Strigiformes", 
         "family": "Caprimulgidae", 
-        "genus": null, 
+        "genus": "Caprimulgus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Caprimulgus", 
@@ -10060,7 +10060,7 @@
         "kingdom": "Plantae", 
         "order": "Solanales", 
         "family": "Solanaceae", 
-        "genus": null, 
+        "genus": "Capsicum", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -10172,7 +10172,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Carabidae", 
-        "genus": null, 
+        "genus": "Philorhizus", 
         "ecoregions": [
             "AT0709", 
             "AT1309"
@@ -10807,10 +10807,10 @@
     {
         "id": "celtistoka", 
         "name": "Celtis toka", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Rosales", 
+        "family": "Cannabaceae", 
+        "genus": "Celtis", 
         "ecoregions": [
             "AT0707", 
             "AT0722"
@@ -11408,9 +11408,9 @@
         "id": "cercopithecusalbogularis", 
         "name": "Cercopithecus albogularis", 
         "kingdom": "Animalia", 
-        "order": "Primates Linnaeus, 1758", 
-        "family": "Cercopithecidae Gray, 1821", 
-        "genus": "Cercopithecus Linnaeus, 1758", 
+        "order": "Primates", 
+        "family": "Cercopithecidae", 
+        "genus": "Cercopithecus", 
         "ecoregions": [
             "AT0116", 
             "AT0128", 
@@ -11553,7 +11553,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Ceropegia_multiflora_tentaculata", 
         "eol_id": 35626927, 
-        "gbif_id": null, 
+        "gbif_id": 3574157, 
         "catalogueoflife_id": "20304045", 
         "tdwgregions": [
             "South"
@@ -11782,10 +11782,10 @@
     {
         "id": "chalcidesocellatus", 
         "name": "Chalcides ocellatus", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Animalia", 
+        "order": "Squamata", 
+        "family": "Scincidae", 
+        "genus": "Chalcides", 
         "ecoregions": [
             "AT1302", 
             "AT1320", 
@@ -11845,7 +11845,7 @@
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Megachilidae", 
-        "genus": null, 
+        "genus": "Megachile", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -12153,9 +12153,9 @@
         "id": "chilopoda", 
         "name": "Chilopoda", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Geophilomorpha", 
+        "family": "Geophilidae", 
+        "genus": "Geophilus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Centipede", 
@@ -12834,7 +12834,7 @@
         "kingdom": "Metazoa", 
         "order": "Hemiptera", 
         "family": "Cicadellidae", 
-        "genus": null, 
+        "genus": "Idiocerus", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -12874,7 +12874,7 @@
         "kingdom": "Animalia", 
         "order": "Ciconiiformes", 
         "family": "Ciconiidae", 
-        "genus": null, 
+        "genus": "Ciconia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Ciconia", 
@@ -12928,10 +12928,10 @@
     {
         "id": "cienfuegosiadigitata", 
         "name": "Cienfuegosia digitata", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Malvaceae", 
+        "genus": "Cienfuegosia", 
         "ecoregions": [
             "AT0713", 
             "AT0722"
@@ -13055,10 +13055,10 @@
     {
         "id": "cissuspopulnea", 
         "name": "Cissus populnea", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Vitales", 
+        "family": "Vitaceae", 
+        "genus": "Cissus", 
         "ecoregions": [
             "AT0114", 
             "AT0130", 
@@ -13780,10 +13780,10 @@
     {
         "id": "cochlospermumplanchonii", 
         "name": "Cochlospermum planchonii", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Bixaceae", 
+        "genus": "Cochlospermum", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -13907,9 +13907,9 @@
         "id": "coleoptera", 
         "name": "Coleoptera", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Coleoptera", 
+        "family": "Chrysomelidae", 
+        "genus": "Crepidodera", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Beetle", 
@@ -13922,8 +13922,8 @@
         "name": "Coliidae", 
         "kingdom": "Animalia", 
         "order": "Coliiformes", 
-        "family": "Swainson", 
-        "genus": null, 
+        "family": "Coliidae", 
+        "genus": "Colius", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -14149,7 +14149,7 @@
         "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Colubridae", 
-        "genus": null, 
+        "genus": "Pantherophis", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -14231,7 +14231,7 @@
         "kingdom": "Plantae", 
         "order": "Myrtales", 
         "family": "Combretaceae", 
-        "genus": null, 
+        "genus": "Combretum", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Combretum", 
@@ -14242,10 +14242,10 @@
     {
         "id": "combretumaculeatum", 
         "name": "Combretum aculeatum", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Combretum", 
         "ecoregions": [
             "AT0707", 
             "AT0713", 
@@ -14459,10 +14459,10 @@
     {
         "id": "combretumlecardiiengldiels", 
         "name": "Combretum lecardii Engl. & Diels", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Combretum", 
         "ecoregions": [
             "AT0707", 
             "AT0722"
@@ -14529,10 +14529,10 @@
     {
         "id": "combretumnioroense", 
         "name": "Combretum nioroense", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Combretum", 
         "ecoregions": [
             "AT1403"
         ], 
@@ -14629,7 +14629,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5765257, 
-        "gbif_id": null, 
+        "gbif_id": 2763941, 
         "catalogueoflife_id": null
     }, 
     {
@@ -14827,10 +14827,10 @@
     {
         "id": "commelinaforskalaei", 
         "name": "Commelina forskalaei", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Commelinales", 
+        "family": "Commelinaceae", 
+        "genus": "Commelina", 
         "ecoregions": [
             "AT0707", 
             "AT0713", 
@@ -15381,8 +15381,8 @@
         "name": "Coraciidae", 
         "kingdom": "Animalia", 
         "order": "Coraciiformes", 
-        "family": null, 
-        "genus": null, 
+        "family": "Coraciidae", 
+        "genus": "Coracias", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Roller", 
@@ -15617,7 +15617,7 @@
         "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Coreidae", 
-        "genus": null, 
+        "genus": "Thasus", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -15655,7 +15655,7 @@
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
         "family": "Corvidae", 
-        "genus": null, 
+        "genus": "Corvus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Corvus_%28genus%29", 
@@ -15824,10 +15824,10 @@
     {
         "id": "crataevaadansoniisubspodora", 
         "name": "Crataeva adansonii subsp. odora", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Brassicales", 
+        "family": "Capparaceae", 
+        "genus": "Crateva", 
         "ecoregions": [
             "AT0707", 
             "AT0722", 
@@ -17008,9 +17008,9 @@
         "id": "cryptomysdarlingi", 
         "name": "Cryptomys darlingi", 
         "kingdom": "Animalia", 
-        "order": "Rodentia Bowdich, 1821", 
-        "family": "Bathyergidae Waterhouse, 1841", 
-        "genus": "Cryptomys Gray, 1864", 
+        "order": "Rodentia", 
+        "family": "Bathyergidae", 
+        "genus": "Cryptomys", 
         "ecoregions": [
             "AT0719", 
             "AT0725", 
@@ -17095,10 +17095,10 @@
     {
         "id": "cteniumnewtoniivarnewtonii", 
         "name": "Ctenium newtonii var. newtonii", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Poales", 
+        "family": "Poaceae", 
+        "genus": "Ctenium", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -17251,10 +17251,10 @@
     {
         "id": "cucumismelosubspagrestisvaragrestisnaudin", 
         "name": "Cucumis melo subsp. agrestis var. agrestis Naudin", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Cucurbitales", 
+        "family": "Cucurbitaceae", 
+        "genus": "Cucumis", 
         "ecoregions": [
             "NA0701", 
             "PA0405", 
@@ -17298,7 +17298,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5734907, 
-        "gbif_id": null, 
+        "gbif_id": 2874576, 
         "catalogueoflife_id": null
     }, 
     {
@@ -17328,7 +17328,7 @@
         "kingdom": "Plantae", 
         "order": "Cucurbitales", 
         "family": "Cucurbitaceae", 
-        "genus": null, 
+        "genus": "Cucurbita", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -17341,8 +17341,8 @@
         "name": "Cucurbitaceae", 
         "kingdom": "Plantae", 
         "order": "Cucurbitales", 
-        "family": null, 
-        "genus": null, 
+        "family": "Cucurbitaceae", 
+        "genus": "Marah", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Cucurbitaceae", 
@@ -17355,8 +17355,8 @@
         "name": "Culicidae", 
         "kingdom": "Animalia", 
         "order": "Diptera", 
-        "family": null, 
-        "genus": null, 
+        "family": "Culicidae", 
+        "genus": "Aedes", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Mosquito", 
@@ -17497,8 +17497,8 @@
         "name": "Cyaneolytta chopardi", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Meloidae Gyllenhal, 1810", 
-        "genus": "Cyaneolytta P\u00e9ringuey 1909", 
+        "family": "Meloidae", 
+        "genus": "Cyaneolytta", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -17598,7 +17598,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5831736, 
-        "gbif_id": null, 
+        "gbif_id": 4151099, 
         "catalogueoflife_id": null
     }, 
     {
@@ -18124,8 +18124,8 @@
         "name": "Cyperaceae", 
         "kingdom": "Plantae", 
         "order": "Poales", 
-        "family": null, 
-        "genus": null, 
+        "family": "Cyperaceae", 
+        "genus": "Schoenoplectus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Cyperaceae", 
@@ -19935,9 +19935,9 @@
         "id": "damaliscuskorrigum", 
         "name": "Damaliscus korrigum", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Damaliscus P. L. Sclater and Thomas, 1894", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Damaliscus", 
         "ecoregions": [
             "AT0714"
         ], 
@@ -20001,9 +20001,9 @@
         "id": "damaliscuspygargusphillipsi", 
         "name": "Damaliscus pygargus phillipsi", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Damaliscus P. L. Sclater and Thomas, 1894", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Damaliscus", 
         "ecoregions": [
             "AT1009"
         ], 
@@ -20012,7 +20012,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 4447105, 
-        "gbif_id": null, 
+        "gbif_id": 2441042, 
         "catalogueoflife_id": "19743179"
     }, 
     {
@@ -20364,7 +20364,7 @@
         "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Elapidae", 
-        "genus": null, 
+        "genus": "Dendroaspis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Mamba", 
@@ -20378,7 +20378,7 @@
         "kingdom": "Animalia", 
         "order": "Anseriformes", 
         "family": "Anatidae", 
-        "genus": null, 
+        "genus": "Dendrocygna", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Whistling_duck", 
@@ -21096,10 +21096,10 @@
     {
         "id": "diclipteraverticillataforsskchristens", 
         "name": "Dicliptera verticillata (Forssk.) Christens.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Acanthaceae", 
+        "genus": "Dicliptera", 
         "ecoregions": [
             "AT0713", 
             "AT0722"
@@ -21225,10 +21225,10 @@
     {
         "id": "digitariaciliarisvarciliaris", 
         "name": "Digitaria ciliaris var. ciliaris", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Poales", 
+        "family": "Poaceae", 
+        "genus": "Digitaria", 
         "ecoregions": [
             "AA0402", 
             "AA0409", 
@@ -21509,7 +21509,7 @@
         "kingdom": "Plantae", 
         "order": "Poales", 
         "family": "Poaceae", 
-        "genus": "Dinebra Jacq.", 
+        "genus": "Dinebra", 
         "ecoregions": [
             "PA0402"
         ], 
@@ -21519,16 +21519,16 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5836537, 
-        "gbif_id": null, 
+        "gbif_id": 2703240, 
         "catalogueoflife_id": null
     }, 
     {
         "id": "dinothrombium", 
         "name": "Dinothrombium", 
         "kingdom": "Metazoa", 
-        "order": "Trombidiformes", 
+        "order": "Prostigmata", 
         "family": "Trombidiidae", 
-        "genus": null, 
+        "genus": "Dinothrombium", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -21545,10 +21545,10 @@
     {
         "id": "dinothrombiumtinctorium", 
         "name": "Dinothrombium tinctorium", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Animalia", 
+        "order": "Prostigmata", 
+        "family": "Leeuwenhoekiidae", 
+        "genus": "Dinothrombium", 
         "ecoregions": [
             "AT1403"
         ], 
@@ -21933,9 +21933,9 @@
         "id": "diplopoda", 
         "name": "Diplopoda", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Julida", 
+        "family": "Julidae", 
+        "genus": "Julus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Millipede", 
@@ -21954,7 +21954,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1226842, 
-        "gbif_id": null, 
+        "gbif_id": 2456727, 
         "catalogueoflife_id": "13210736"
     }, 
     {
@@ -22279,7 +22279,7 @@
         "kingdom": "Plantae", 
         "order": "Poales", 
         "family": "Poaceae", 
-        "genus": null, 
+        "genus": "Echinochloa", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -23764,7 +23764,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1252956, 
-        "gbif_id": null, 
+        "gbif_id": 2491585, 
         "catalogueoflife_id": "16989432"
     }, 
     {
@@ -23839,10 +23839,10 @@
     {
         "id": "endostemontereticaulispoirmrashby", 
         "name": "Endostemon tereticaulis (Poir.) M.R. Ashby", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Lamiaceae", 
+        "genus": "Endostemon", 
         "ecoregions": [
             "AT0713"
         ], 
@@ -24245,7 +24245,7 @@
         "kingdom": "Animalia", 
         "order": "Perissodactyla", 
         "family": "Equidae", 
-        "genus": null, 
+        "genus": "Equus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -24340,7 +24340,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1263498, 
-        "gbif_id": null, 
+        "gbif_id": 2440888, 
         "catalogueoflife_id": null
     }, 
     {
@@ -24359,7 +24359,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1240156, 
-        "gbif_id": null, 
+        "gbif_id": 2440888, 
         "catalogueoflife_id": "19736109", 
         "tdwgregions": [
             "Africa"
@@ -24368,10 +24368,10 @@
     {
         "id": "eragrostis", 
         "name": "Eragrostis", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Poales", 
+        "family": "Poaceae", 
+        "genus": "Eragrostis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -25320,7 +25320,7 @@
         "kingdom": "Plantae", 
         "order": "Poales", 
         "family": "Poaceae", 
-        "genus": "Eragrostis Wolf", 
+        "genus": "Eragrostis", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -25433,7 +25433,7 @@
         "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Lacertidae", 
-        "genus": null, 
+        "genus": "Eremias", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -25565,7 +25565,7 @@
         "kingdom": "Animalia", 
         "order": "Araneae", 
         "family": "Eresidae", 
-        "genus": null, 
+        "genus": "Eresus", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -25601,9 +25601,9 @@
         "id": "erinaceinae", 
         "name": "Erinaceinae", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Erinaceomorpha", 
+        "family": "Erinaceidae", 
+        "genus": "Erinaceus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Hedgehog", 
@@ -25905,8 +25905,8 @@
         "name": "Eumenidae", 
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
-        "family": "Vespidae", 
-        "genus": null, 
+        "family": "Eumenidae", 
+        "genus": "Polistes", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -26551,7 +26551,7 @@
         "kingdom": "Animalia", 
         "order": "Falconiformes", 
         "family": "Falconidae", 
-        "genus": null, 
+        "genus": "Falco", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Falcon", 
@@ -26954,10 +26954,10 @@
     {
         "id": "felissylvestrisschreber1775", 
         "name": "Felis sylvestris Schreber, 1775", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Animalia", 
+        "order": "Carnivora", 
+        "family": "Felidae", 
+        "genus": "Felis", 
         "ecoregions": [
             "AT0108", 
             "AT1302", 
@@ -27108,10 +27108,10 @@
     {
         "id": "ficuscordatasubsplecardiiccberg", 
         "name": "Ficus cordata subsp. lecardii C.C. Berg", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Rosales", 
+        "family": "Moraceae", 
+        "genus": "Ficus", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -27121,7 +27121,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 41778255, 
-        "gbif_id": null, 
+        "gbif_id": 7262420, 
         "catalogueoflife_id": null
     }, 
     {
@@ -27197,10 +27197,10 @@
     {
         "id": "ficusingensvaringens", 
         "name": "Ficus ingens var. ingens", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Rosales", 
+        "family": "Moraceae", 
+        "genus": "Ficus", 
         "ecoregions": [
             "AT0130", 
             "AT0704", 
@@ -27264,7 +27264,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 11901359, 
-        "gbif_id": null, 
+        "gbif_id": 5569755, 
         "catalogueoflife_id": null
     }, 
     {
@@ -27302,7 +27302,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 6958317, 
-        "gbif_id": null, 
+        "gbif_id": 7262595, 
         "catalogueoflife_id": null
     }, 
     {
@@ -27516,7 +27516,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1291299, 
-        "gbif_id": null, 
+        "gbif_id": 5382823, 
         "catalogueoflife_id": null
     }, 
     {
@@ -27539,7 +27539,7 @@
         "kingdom": "Metazoa", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
-        "genus": null, 
+        "genus": "Camponotus", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -27753,9 +27753,9 @@
         "id": "fungi", 
         "name": "Fungi", 
         "kingdom": "Fungi", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Hymenochaetales", 
+        "family": "Hymenochaetaceae", 
+        "genus": "Phellinus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Mushroom", 
@@ -27787,9 +27787,9 @@
         "id": "galagoidesgranti", 
         "name": "Galagoides granti", 
         "kingdom": "Animalia", 
-        "order": "Primates Linnaeus, 1758", 
-        "family": "Galagidae Gray 1825", 
-        "genus": "Galagoides A. Smith, 1833", 
+        "order": "Primates", 
+        "family": "Galagidae", 
+        "genus": "Galagoides", 
         "ecoregions": [
             "AT0128", 
             "AT0719", 
@@ -28197,9 +28197,9 @@
         "id": "gastropoda", 
         "name": "Gastropoda", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Stylommatophora", 
+        "family": "Helicidae", 
+        "genus": "Cepaea", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Gastropoda", 
@@ -28225,7 +28225,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Gazania_krebsiana_serrulata", 
         "eol_id": 6252520, 
-        "gbif_id": null, 
+        "gbif_id": 3112466, 
         "catalogueoflife_id": null
     }, 
     {
@@ -28314,8 +28314,8 @@
         "name": "Gekkonidae", 
         "kingdom": "Animalia", 
         "order": "Squamata", 
-        "family": null, 
-        "genus": null, 
+        "family": "Gekkonidae", 
+        "genus": "Hemidactylus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Gekkonidae", 
@@ -28363,7 +28363,7 @@
         "kingdom": "Animalia", 
         "order": "Carnivora", 
         "family": "Viverridae", 
-        "genus": "Genetta Cuvier 1816", 
+        "genus": "Genetta", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -29389,7 +29389,7 @@
         "kingdom": "Animalia", 
         "order": "Lepidoptera", 
         "family": "Saturniidae", 
-        "genus": null, 
+        "genus": "Gonimbrasia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -29402,7 +29402,7 @@
         "name": "Gonopus", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Tenebrionidae Latreille, 1802", 
+        "family": "Tenebrionidae", 
         "genus": null, 
         "ecoregions": [
             "AT1309"
@@ -29774,10 +29774,10 @@
     {
         "id": "grewiaflavescensvarflavescens", 
         "name": "Grewia flavescens var flavescens", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Garryales", 
+        "family": "Garryaceae", 
+        "genus": "Garrya", 
         "ecoregions": [
             "NA1202", 
             "NA1308"
@@ -29787,16 +29787,16 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 5424501, 
-        "gbif_id": null, 
+        "gbif_id": 3033052, 
         "catalogueoflife_id": null
     }, 
     {
         "id": "grewialasiodiscus", 
         "name": "Grewia lasiodiscus", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Malvaceae", 
+        "genus": "Grewia", 
         "ecoregions": [
             "AT0111", 
             "AT0707", 
@@ -29864,10 +29864,10 @@
     {
         "id": "grewiatenaxforskfiori", 
         "name": "Grewia tenax (Forsk.) Fiori", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Malvaceae", 
+        "genus": "Grewia", 
         "ecoregions": [
             "AT0713"
         ], 
@@ -30197,7 +30197,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Gyrinidae", 
-        "genus": null, 
+        "genus": "Gyrinus", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -30213,10 +30213,10 @@
     {
         "id": "gyrocarpusamericanussubsppinnatilobuskubitzki", 
         "name": "Gyrocarpus americanus subsp. pinnatilobus Kubitzki", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Laurales", 
+        "family": "Hernandiaceae", 
+        "genus": "Gyrocarpus", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -31298,7 +31298,7 @@
         "kingdom": "Animalia", 
         "order": "Diptera", 
         "family": "Hippoboscidae", 
-        "genus": null, 
+        "genus": "Lipoptena", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -31440,9 +31440,9 @@
         "id": "hippotragusequinuskoba", 
         "name": "Hippotragus equinus koba", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Hippotragus Sundevall 1845", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Hippotragus", 
         "ecoregions": [
             "AT0705", 
             "AT0709", 
@@ -31467,7 +31467,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 4447363, 
-        "gbif_id": null, 
+        "gbif_id": 2441030, 
         "catalogueoflife_id": "19743430"
     }, 
     {
@@ -31560,8 +31560,8 @@
         "id": "hodotermes", 
         "name": "Hodotermes", 
         "kingdom": "Animalia", 
-        "order": "Blattodea Brunner von Wattenwyl 1882", 
-        "family": "Hodotermitidae Desneux, 1904", 
+        "order": "Blattodea", 
+        "family": "Hodotermitidae", 
         "genus": "Hodotermes", 
         "ecoregions": [
             "AT1309"
@@ -31897,8 +31897,8 @@
         "name": "Hycleus affinis", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Meloidae Gyllenhal, 1810", 
-        "genus": "Hycleus Latreille in Cuvier, 1817", 
+        "family": "Meloidae", 
+        "genus": "Hycleus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -32018,10 +32018,10 @@
     {
         "id": "hygrophilasenegalensisneestanderson", 
         "name": "Hygrophila senegalensis (Nees) T. Anderson", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Acanthaceae", 
+        "genus": "Hygrophila", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -32071,7 +32071,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Hyparrhenia_filipendula_pilosa", 
         "eol_id": 5796905, 
-        "gbif_id": null, 
+        "gbif_id": 2703245, 
         "catalogueoflife_id": null
     }, 
     {
@@ -32851,16 +32851,16 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1232072, 
-        "gbif_id": null, 
+        "gbif_id": 2971772, 
         "catalogueoflife_id": null
     }, 
     {
         "id": "indigoferacoluteavarcolutea", 
         "name": "Indigofera colutea var. colutea", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Indigofera", 
         "ecoregions": [
             "AA0409", 
             "AA1308", 
@@ -32875,7 +32875,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 41752577, 
-        "gbif_id": null, 
+        "gbif_id": 2971746, 
         "catalogueoflife_id": null
     }, 
     {
@@ -32934,10 +32934,10 @@
     {
         "id": "indigoferahirsutavarhirsuta", 
         "name": "Indigofera hirsuta var hirsuta", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Indigofera", 
         "ecoregions": [
             "AA0402", 
             "AT0111", 
@@ -33071,10 +33071,10 @@
     {
         "id": "indigoferapilosavarpilosa", 
         "name": "Indigofera pilosa var. pilosa", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Indigofera", 
         "ecoregions": [
             "AT0130", 
             "AT0707", 
@@ -33214,10 +33214,10 @@
     {
         "id": "indigoferastenophyllavarstenophylla", 
         "name": "Indigofera stenophylla var. stenophylla", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Indigofera", 
         "ecoregions": [
             "AT0130", 
             "AT0713", 
@@ -33261,7 +33261,7 @@
         "kingdom": "Plantae", 
         "order": "Solanales", 
         "family": "Convolvulaceae", 
-        "genus": null, 
+        "genus": "Ipomoea", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -33369,10 +33369,10 @@
     {
         "id": "ipomoeablepharophyllahallierf", 
         "name": "Ipomoea blepharophylla Hallier f.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Solanales", 
+        "family": "Convolvulaceae", 
+        "genus": "Ipomoea", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -33427,10 +33427,10 @@
     {
         "id": "ipomoeacoscinosperma", 
         "name": "Ipomoea coscinosperma", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Solanales", 
+        "family": "Convolvulaceae", 
+        "genus": "Ipomoea", 
         "ecoregions": [
             "AT0713", 
             "AT0722"
@@ -33559,10 +33559,10 @@
     {
         "id": "ipomoeavagansbaker", 
         "name": "Ipomoea vagans Baker", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Solanales", 
+        "family": "Convolvulaceae", 
+        "genus": "Ipomoea", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -33574,9 +33574,9 @@
         "id": "ixodida", 
         "name": "Ixodida", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Ixodida", 
+        "family": "Ixodidae", 
+        "genus": "Ixodes", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Tick", 
@@ -34419,7 +34419,7 @@
         "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Lacertidae", 
-        "genus": null, 
+        "genus": "Podarcis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Lacertidae", 
@@ -34634,7 +34634,7 @@
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
         "family": "Sturnidae", 
-        "genus": null, 
+        "genus": "Lamprotornis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Lamprotornis", 
@@ -34770,7 +34770,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Lampyridae", 
-        "genus": null, 
+        "genus": "Lampyris", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -34788,8 +34788,8 @@
         "name": "Lanelater notodonta", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Elateridae Leach, 1815", 
-        "genus": "Lanelater Arnett 1952", 
+        "family": "Elateridae", 
+        "genus": "Lanelater", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -34841,8 +34841,8 @@
         "name": "Lanius meridionalis", 
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
-        "family": "Laniidae Rafinesque, 1815", 
-        "genus": "Lanius Linnaeus 1758", 
+        "family": "Laniidae", 
+        "genus": "Lanius", 
         "ecoregions": [
             "AT1306", 
             "AT1318", 
@@ -34946,10 +34946,10 @@
     {
         "id": "lanneamicrocarpa", 
         "name": "Lannea microcarpa", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Sapindales", 
+        "family": "Anacardiaceae", 
+        "genus": "Lannea", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -35132,7 +35132,7 @@
         "kingdom": "Animalia", 
         "order": "Lepidoptera", 
         "family": "Lasiocampidae", 
-        "genus": null, 
+        "genus": "Trabala", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -35431,10 +35431,10 @@
     {
         "id": "lepidagathisanobrya", 
         "name": "Lepidagathis anobrya", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Acanthaceae", 
+        "genus": "Lepidagathis", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -35455,9 +35455,9 @@
         "id": "lepidoptera", 
         "name": "Lepidoptera", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Lepidoptera", 
+        "family": "Pterophoridae", 
+        "genus": "Emmelina", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Lepidoptera", 
@@ -35926,10 +35926,10 @@
     {
         "id": "limeumpterocarpumvarpterocarpum", 
         "name": "Limeum pterocarpum var. pterocarpum", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Caryophyllales", 
+        "family": "Molluginaceae", 
+        "genus": "Limeum", 
         "ecoregions": [
             "AT0713"
         ], 
@@ -36103,7 +36103,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Locusta_migratoria_migratorioides", 
         "eol_id": 1238398, 
-        "gbif_id": null, 
+        "gbif_id": 1713418, 
         "catalogueoflife_id": "12734714", 
         "tdwgregions": [
             "BEN", 
@@ -36464,7 +36464,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1277552, 
-        "gbif_id": null, 
+        "gbif_id": 5420991, 
         "catalogueoflife_id": null
     }, 
     {
@@ -36594,7 +36594,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Lycidae", 
-        "genus": null, 
+        "genus": "Lucaina", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -36692,8 +36692,8 @@
         "name": "Lydomorphus dusaulti", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Meloidae Gyllenhal, 1810", 
-        "genus": "Lydomorphus Fairmaire in R\u00e9voil, 1882", 
+        "family": "Meloidae", 
+        "genus": "Lydomorphus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -37558,7 +37558,7 @@
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Megachilidae", 
-        "genus": null, 
+        "genus": "Megachile", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -37929,7 +37929,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Meloidae", 
-        "genus": null, 
+        "genus": "Hycleus", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -37949,7 +37949,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Scarabaeidae", 
-        "genus": null, 
+        "genus": "Stethaspis", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -38097,10 +38097,10 @@
     {
         "id": "merremiapinnatahochstexchoisyhallierf", 
         "name": "Merremia pinnata (Hochst. ex Choisy) Hallier f.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Solanales", 
+        "family": "Convolvulaceae", 
+        "genus": "Merremia", 
         "ecoregions": [
             "AT0707", 
             "AT0713", 
@@ -38122,7 +38122,7 @@
         "kingdom": "Animalia", 
         "order": "Cetacea", 
         "family": "Hyperoodontidae", 
-        "genus": null, 
+        "genus": "Mesoplodon", 
         "ecoregions": [], 
         "countries": [
             "MZ", 
@@ -38140,7 +38140,7 @@
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
-        "genus": null, 
+        "genus": "Messor", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -38485,7 +38485,7 @@
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
         "family": "Alaudidae", 
-        "genus": null, 
+        "genus": "Mirafra", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Mirafra", 
@@ -38829,10 +38829,10 @@
     {
         "id": "momordica", 
         "name": "Momordica", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Cucurbitales", 
+        "family": "Cucurbitaceae", 
+        "genus": "Momordica", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -38902,10 +38902,10 @@
     {
         "id": "monechmaciliatum", 
         "name": "Monechma ciliatum", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Acanthaceae", 
+        "genus": "Monechma", 
         "ecoregions": [
             "AT0707", 
             "AT0713", 
@@ -40197,7 +40197,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1250383, 
-        "gbif_id": null, 
+        "gbif_id": 2470411, 
         "catalogueoflife_id": "13211253"
     }, 
     {
@@ -40537,7 +40537,7 @@
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
         "family": "Nectariniidae", 
-        "genus": null, 
+        "genus": "Cinnyris", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -40654,9 +40654,9 @@
         "id": "neoromiciazuluensis", 
         "name": "Neoromicia zuluensis", 
         "kingdom": "Animalia", 
-        "order": "Chiroptera Blumenbach, 1779", 
-        "family": "Vespertilionidae Gray, 1821", 
-        "genus": "Neoromicia Roberts 1926", 
+        "order": "Chiroptera", 
+        "family": "Vespertilionidae", 
+        "genus": "Neoromicia", 
         "ecoregions": [
             "AT0702", 
             "AT0709", 
@@ -40753,7 +40753,7 @@
         "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Nepidae", 
-        "genus": null, 
+        "genus": "Nepa", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -40909,7 +40909,7 @@
         "kingdom": "Plantae", 
         "order": "Solanales", 
         "family": "Solanaceae", 
-        "genus": null, 
+        "genus": "Nicotiana", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -41217,9 +41217,9 @@
         "id": "nycterisvinsoni", 
         "name": "Nycteris vinsoni", 
         "kingdom": "Animalia", 
-        "order": "Chiroptera Blumenbach, 1779", 
-        "family": "Nycteridae Van der Hoeven, 1855", 
-        "genus": "Nycteris E. Geoffroy and G. Cuvier, 1795", 
+        "order": "Chiroptera", 
+        "family": "Nycteridae", 
+        "genus": "Nycteris", 
         "ecoregions": [
             "AT0719", 
             "AT0725", 
@@ -41303,7 +41303,7 @@
         "kingdom": "Plantae", 
         "order": "Nymphaeales", 
         "family": "Nymphaeaceae", 
-        "genus": null, 
+        "genus": "Nymphaea", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -41412,7 +41412,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1287916, 
-        "gbif_id": null, 
+        "gbif_id": 1709478, 
         "catalogueoflife_id": "12732550", 
         "tdwgregions": [
             "ALG", 
@@ -41753,7 +41753,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1295061, 
-        "gbif_id": null, 
+        "gbif_id": 2916000, 
         "catalogueoflife_id": null
     }, 
     {
@@ -41920,7 +41920,7 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Olea_europaea_africana", 
         "eol_id": 1278130, 
-        "gbif_id": null, 
+        "gbif_id": 5415040, 
         "catalogueoflife_id": null
     }, 
     {
@@ -42001,8 +42001,8 @@
         "name": "Onychognathus neumanni", 
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
-        "family": "Sturnidae Rafinesque, 1815", 
-        "genus": "Onychognathus Hartlaub 1849", 
+        "family": "Sturnidae", 
+        "genus": "Onychognathus", 
         "ecoregions": [
             "AT0103", 
             "AT0114", 
@@ -42024,10 +42024,10 @@
     {
         "id": "opiliaceltidifolia", 
         "name": "Opilia celtidifolia", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Santalales", 
+        "family": "Opiliaceae", 
+        "genus": "Opilia", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -42181,7 +42181,7 @@
         "kingdom": "Animalia", 
         "order": "Perciformes", 
         "family": "Cichlidae", 
-        "genus": "Oreochromis G\u00fcnther, 1889", 
+        "genus": "Oreochromis", 
         "ecoregions": [
             "AT1320", 
             "NA0402", 
@@ -42210,7 +42210,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 2473306, 
-        "gbif_id": null, 
+        "gbif_id": 4285694, 
         "catalogueoflife_id": "17989147", 
         "tdwgregions": [
             "Africa:"
@@ -43195,9 +43195,9 @@
         "id": "ourebiaourebiquadriscopa", 
         "name": "Ourebia ourebi quadriscopa", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Ourebia Laurillard, 1842", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Ourebia", 
         "ecoregions": [
             "AT0714", 
             "AT0716", 
@@ -43218,7 +43218,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 4447575, 
-        "gbif_id": null, 
+        "gbif_id": 2441135, 
         "catalogueoflife_id": "19743257"
     }, 
     {
@@ -43292,8 +43292,8 @@
         "name": "Oxybelus", 
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
-        "family": "Crabronidae Latreille, 1802", 
-        "genus": null, 
+        "family": "Crabronidae", 
+        "genus": "Oxybelus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -44322,16 +44322,16 @@
         ], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Panthera_pardus_pardus", 
         "eol_id": 1270484, 
-        "gbif_id": null, 
+        "gbif_id": 5219436, 
         "catalogueoflife_id": "19740999"
     }, 
     {
         "id": "papioanubis", 
         "name": "Papio anubis", 
         "kingdom": "Animalia", 
-        "order": "Primates Linnaeus, 1758", 
-        "family": "Cercopithecidae Gray, 1821", 
-        "genus": "Papio Erxleben, 1777", 
+        "order": "Primates", 
+        "family": "Cercopithecidae", 
+        "genus": "Papio", 
         "ecoregions": [
             "AT0101", 
             "AT0108", 
@@ -44374,9 +44374,9 @@
         "id": "papioursinus", 
         "name": "Papio ursinus", 
         "kingdom": "Animalia", 
-        "order": "Primates Linnaeus, 1758", 
-        "family": "Cercopithecidae Gray, 1821", 
-        "genus": "Papio Erxleben, 1777", 
+        "order": "Primates", 
+        "family": "Cercopithecidae", 
+        "genus": "Papio", 
         "ecoregions": [
             "AT0702", 
             "AT0709", 
@@ -45288,7 +45288,7 @@
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Head_louse", 
         "eol_id": 3574591, 
-        "gbif_id": null, 
+        "gbif_id": 4987991, 
         "catalogueoflife_id": "6850820", 
         "tdwgregions": [
             "Africa", 
@@ -45904,7 +45904,7 @@
         "kingdom": "Metazoa", 
         "order": "Hemiptera", 
         "family": "Pentatomidae", 
-        "genus": null, 
+        "genus": "Eurydema", 
         "ecoregions": [
             "AT0709", 
             "AT1309"
@@ -47232,7 +47232,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1152627, 
-        "gbif_id": null, 
+        "gbif_id": 5382478, 
         "catalogueoflife_id": null
     }, 
     {
@@ -47371,7 +47371,7 @@
         "kingdom": "Plantae", 
         "order": "Solanales", 
         "family": "Solanaceae", 
-        "genus": null, 
+        "genus": "Physalis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -47452,8 +47452,8 @@
         "name": "Picidae", 
         "kingdom": "Animalia", 
         "order": "Piciformes", 
-        "family": null, 
-        "genus": null, 
+        "family": "Picidae", 
+        "genus": "Dryocopus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Woodpecker", 
@@ -47593,9 +47593,9 @@
         "id": "pipistrellunhesperidus", 
         "name": "Pipistrellus hesperidus", 
         "kingdom": "Animalia", 
-        "order": "Chiroptera Blumenbach, 1779", 
-        "family": "Vespertilionidae Gray, 1821", 
-        "genus": "Pipistrellus Kaup, 1829", 
+        "order": "Chiroptera", 
+        "family": "Vespertilionidae", 
+        "genus": "Pipistrellus", 
         "ecoregions": [
             "AT0116", 
             "AT0119", 
@@ -48231,8 +48231,8 @@
         "name": "Poales", 
         "kingdom": "Plantae", 
         "order": "Poales", 
-        "family": null, 
-        "genus": null, 
+        "family": "Typhaceae", 
+        "genus": "Typha", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Grass", 
@@ -48384,7 +48384,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1269156, 
-        "gbif_id": null, 
+        "gbif_id": 1727754, 
         "catalogueoflife_id": "12723985", 
         "tdwgregions": [
             "4", 
@@ -48485,7 +48485,7 @@
         "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Eumenidae", 
-        "genus": null, 
+        "genus": "Polistes", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -48568,10 +48568,10 @@
     {
         "id": "polycarpaealinearifoliadcdc", 
         "name": "Polycarpaea linearifolia (DC.) DC.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Caryophyllales", 
+        "family": "Caryophyllaceae", 
+        "genus": "Polycarpaea", 
         "ecoregions": [
             "AT0713", 
             "AT0722"
@@ -48628,10 +48628,10 @@
     {
         "id": "polygalaarenariawilld", 
         "name": "Polygala arenaria Willd.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Polygalaceae", 
+        "genus": "Polygala", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -48656,7 +48656,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1281807, 
-        "gbif_id": null, 
+        "gbif_id": 4287129, 
         "catalogueoflife_id": "17960986", 
         "tdwgregions": [
             "Africa:"
@@ -48668,7 +48668,7 @@
         "kingdom": "Metazoa", 
         "order": "Hymenoptera", 
         "family": "Pompilidae", 
-        "genus": null, 
+        "genus": "Priocnemis", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -49022,7 +49022,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1241212, 
-        "gbif_id": null, 
+        "gbif_id": 5219598, 
         "catalogueoflife_id": "19742108"
     }, 
     {
@@ -49332,7 +49332,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1298995, 
-        "gbif_id": null, 
+        "gbif_id": 2441257, 
         "catalogueoflife_id": "17960979", 
         "tdwgregions": [
             "Africa:", 
@@ -49578,8 +49578,8 @@
         "name": "Pseudoprotaetia stolata", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Scarabaeidae Latreille, 1802", 
-        "genus": "Pseudoprotaetia Kraatz 1882", 
+        "family": "Scarabaeidae", 
+        "genus": "Pseudoprotaetia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -49665,8 +49665,8 @@
         "name": "Psittacidae", 
         "kingdom": "Animalia", 
         "order": "Psittaciformes", 
-        "family": "Illiger", 
-        "genus": null, 
+        "family": "Psittacidae", 
+        "genus": "Aratinga", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -49742,7 +49742,7 @@
         "kingdom": "Metazoa", 
         "order": "Lepidoptera", 
         "family": "Psychidae", 
-        "genus": null, 
+        "genus": "Psyche", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -50015,8 +50015,8 @@
         "name": "Pteroclididae", 
         "kingdom": "Animalia", 
         "order": "Pteroclidiformes", 
-        "family": null, 
-        "genus": null, 
+        "family": "Pteroclididae", 
+        "genus": "Pterocles", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Sandgrouse", 
@@ -50236,8 +50236,8 @@
         "name": "Ptyonoprogne fuligula pusilla", 
         "kingdom": "Animalia", 
         "order": "Passeriformes", 
-        "family": "Hirundinidae Rafinesque, 1815", 
-        "genus": "Ptyonoprogne Reichenbach 1850", 
+        "family": "Hirundinidae", 
+        "genus": "Ptyonoprogne", 
         "ecoregions": [
             "AT0101", 
             "AT0108", 
@@ -50265,7 +50265,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 36659448, 
-        "gbif_id": null, 
+        "gbif_id": 7340285, 
         "catalogueoflife_id": "16999720"
     }, 
     {
@@ -50488,7 +50488,7 @@
         "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Boidae", 
-        "genus": null, 
+        "genus": "Python", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Python_(genus)", 
@@ -50778,7 +50778,7 @@
         "kingdom": "Animalia", 
         "order": "Rodentia", 
         "family": "Muridae", 
-        "genus": null, 
+        "genus": "Rattus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Rat", 
@@ -51636,7 +51636,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 6328922, 
-        "gbif_id": null, 
+        "gbif_id": 5350585, 
         "catalogueoflife_id": null
     }, 
     {
@@ -51654,7 +51654,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 6328927, 
-        "gbif_id": null, 
+        "gbif_id": 5350585, 
         "catalogueoflife_id": null
     }, 
     {
@@ -52431,7 +52431,7 @@
         "kingdom": "Plantae", 
         "order": "Asparagales", 
         "family": "Asparagaceae", 
-        "genus": null, 
+        "genus": "Sansevieria", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -52642,12 +52642,12 @@
         "kingdom": "Animalia", 
         "order": "Perciformes", 
         "family": "Cichlidae", 
-        "genus": "Sarotherodon R\u00fcppell, 1852", 
+        "genus": "Sarotherodon", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1282042, 
-        "gbif_id": null, 
+        "gbif_id": 4285715, 
         "catalogueoflife_id": "17997715", 
         "tdwgregions": [
             "Africa", 
@@ -53177,8 +53177,8 @@
         "name": "Scincidae", 
         "kingdom": "Animalia", 
         "order": "Squamata", 
-        "family": null, 
-        "genus": null, 
+        "family": "Scincidae", 
+        "genus": "Plestiodon", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Skink", 
@@ -53329,8 +53329,8 @@
         "name": "Scorpiones", 
         "kingdom": "Metazoa", 
         "order": "Scorpiones", 
-        "family": null, 
-        "genus": null, 
+        "family": "Buthidae", 
+        "genus": "Centruroides", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -53760,7 +53760,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1230151, 
-        "gbif_id": null, 
+        "gbif_id": 2957095, 
         "catalogueoflife_id": null
     }, 
     {
@@ -53995,9 +53995,9 @@
         "id": "serpentes", 
         "name": "Serpentes", 
         "kingdom": "Animalia", 
-        "order": "Squamata Oppel, 1811", 
-        "family": null, 
-        "genus": null, 
+        "order": "Squamata", 
+        "family": "Ethusidae", 
+        "genus": "Serpenthusa", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Snake", 
@@ -54877,10 +54877,10 @@
     {
         "id": "sidaurens", 
         "name": "Sida urens", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Malvales", 
+        "family": "Malvaceae", 
+        "genus": "Sida", 
         "ecoregions": [
             "AT0114", 
             "AT0130", 
@@ -54928,7 +54928,7 @@
         "id": "simiiformes", 
         "name": "Simiiformes", 
         "kingdom": "Animalia", 
-        "order": "Primates Linnaeus, 1758", 
+        "order": "Primates", 
         "family": null, 
         "genus": null, 
         "ecoregions": [], 
@@ -54992,7 +54992,7 @@
         "name": "Sitophilus", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Curculionidae", 
+        "family": "Dryophthoridae", 
         "genus": "Sitophilus", 
         "ecoregions": [
             "AT0709"
@@ -55605,7 +55605,7 @@
         "kingdom": "Plantae", 
         "order": "Gentianales", 
         "family": "Rubiaceae", 
-        "genus": null, 
+        "genus": "Spermacoce", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -55808,10 +55808,10 @@
     {
         "id": "spermacocestachydeavarstachydea", 
         "name": "Spermacoce stachydea var stachydea", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Gentianales", 
+        "family": "Rubiaceae", 
+        "genus": "Spermacoce", 
         "ecoregions": [
             "AT0111", 
             "AT0707", 
@@ -55824,7 +55824,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 41846449, 
-        "gbif_id": null, 
+        "gbif_id": 2918146, 
         "catalogueoflife_id": null
     }, 
     {
@@ -56007,7 +56007,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1282348, 
-        "gbif_id": null, 
+        "gbif_id": 1699580, 
         "catalogueoflife_id": "12734252", 
         "tdwgregions": [
             "YEM"
@@ -56647,7 +56647,7 @@
         "name": "Steraspis", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Buprestidae Leach, 1815", 
+        "family": "Buprestidae", 
         "genus": null, 
         "ecoregions": [], 
         "countries": [], 
@@ -56936,7 +56936,7 @@
         "kingdom": "Animalia", 
         "order": "Columbiformes", 
         "family": "Columbidae", 
-        "genus": null, 
+        "genus": "Streptopelia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Streptopelia", 
@@ -57394,7 +57394,7 @@
         "id": "susscrofadomesticus", 
         "name": "Sus scrofa domesticus", 
         "kingdom": "Metazoa", 
-        "order": null, 
+        "order": "Artiodactyla", 
         "family": "Suidae", 
         "genus": "Sus", 
         "ecoregions": [], 
@@ -58414,10 +58414,10 @@
     {
         "id": "tapinanthusbangwensisengldanser", 
         "name": "Tapinanthus bangwensis (Engl.) Danser", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Santalales", 
+        "family": "Loranthaceae", 
+        "genus": "Tapinanthus", 
         "ecoregions": [
             "AT0111", 
             "AT0130", 
@@ -58792,7 +58792,7 @@
         "kingdom": "Metazoa", 
         "order": "Coleoptera", 
         "family": "Tenebrionidae", 
-        "genus": null, 
+        "genus": "Lagria", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -58847,7 +58847,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 6322698, 
-        "gbif_id": null, 
+        "gbif_id": 5341974, 
         "catalogueoflife_id": null
     }, 
     {
@@ -59004,7 +59004,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 2421018, 
-        "gbif_id": null, 
+        "gbif_id": 5342239, 
         "catalogueoflife_id": null
     }, 
     {
@@ -59120,10 +59120,10 @@
     {
         "id": "terminaliaavicennioides", 
         "name": "Terminalia avicennioides", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Terminalia", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -59144,10 +59144,10 @@
     {
         "id": "terminalialaxifloraengldiels", 
         "name": "Terminalia laxiflora Engl. & Diels", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Terminalia", 
         "ecoregions": [
             "AT0111", 
             "AT0722"
@@ -59165,10 +59165,10 @@
     {
         "id": "terminaliamacroptera", 
         "name": "Terminalia macroptera", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Myrtales", 
+        "family": "Combretaceae", 
+        "genus": "Terminalia", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -59233,8 +59233,8 @@
         "name": "Termitidae", 
         "kingdom": "Animalia", 
         "order": "Isoptera", 
-        "family": null, 
-        "genus": null, 
+        "family": "Termitidae", 
+        "genus": "Gnathamitermes", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Termite", 
@@ -59260,9 +59260,9 @@
         "id": "testudines", 
         "name": "Testudines", 
         "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "order": "Testudines", 
+        "family": "Cheloniidae", 
+        "genus": "Chelonia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Turtle", 
@@ -59715,7 +59715,7 @@
         "kingdom": "Animalia", 
         "order": "Bucerotiformes", 
         "family": "Bucerotidae", 
-        "genus": null, 
+        "genus": "Tockus", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Tockus", 
@@ -60146,9 +60146,9 @@
         "id": "tragelaphusscriptusscriptus", 
         "name": "Tragelaphus scriptus scriptus", 
         "kingdom": "Animalia", 
-        "order": "Artiodactyla Owen, 1848", 
-        "family": "Bovidae Gray, 1821", 
-        "genus": "Tragelaphus Blainville, 1816", 
+        "order": "Artiodactyla", 
+        "family": "Bovidae", 
+        "genus": "Tragelaphus", 
         "ecoregions": [
             "AT0101", 
             "AT0108", 
@@ -60189,7 +60189,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 4447402, 
-        "gbif_id": null, 
+        "gbif_id": 5220182, 
         "catalogueoflife_id": "19743298"
     }, 
     {
@@ -61669,7 +61669,7 @@
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 1239412, 
-        "gbif_id": null, 
+        "gbif_id": 2466101, 
         "catalogueoflife_id": "13205695", 
         "tdwgregions": [
             "MLI-OO"
@@ -61719,10 +61719,10 @@
     {
         "id": "vachelliaamythethophylla", 
         "name": "Vachellia amythethophylla", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Fabales", 
+        "family": "Fabaceae", 
+        "genus": "Vachellia", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -62139,7 +62139,7 @@
         "kingdom": "Plantae", 
         "order": "Asterales", 
         "family": "Asteraceae", 
-        "genus": "Vernonia Schreb.", 
+        "genus": "Vernonia", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -62161,7 +62161,7 @@
         "kingdom": "Metazoa", 
         "order": "Hymenoptera", 
         "family": "Vespidae", 
-        "genus": null, 
+        "genus": "Dolichovespula", 
         "ecoregions": [
             "AT0709", 
             "AT1309"
@@ -62334,7 +62334,7 @@
         "kingdom": "Plantae", 
         "order": "Fabales", 
         "family": "Fabaceae", 
-        "genus": null, 
+        "genus": "Vigna", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
@@ -62533,16 +62533,16 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 1251648, 
-        "gbif_id": null, 
+        "gbif_id": 2886750, 
         "catalogueoflife_id": null
     }, 
     {
         "id": "vitexchrysocarpaplanchexbenth", 
         "name": "Vitex chrysocarpa Planch. ex Benth.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Lamiaceae", 
+        "genus": "Vitex", 
         "ecoregions": [
             "AT0722"
         ], 
@@ -62626,10 +62626,10 @@
     {
         "id": "vitexmadiensissubspmadiensisoliv", 
         "name": "Vitex madiensis subsp. madiensis Oliv.", 
-        "kingdom": null, 
-        "order": null, 
-        "family": null, 
-        "genus": null, 
+        "kingdom": "Plantae", 
+        "order": "Lamiales", 
+        "family": "Lamiaceae", 
+        "genus": "Vitex", 
         "ecoregions": [
             "AT0130", 
             "AT0707", 
@@ -62640,7 +62640,7 @@
         ], 
         "wikipedia_url": null, 
         "eol_id": 41861755, 
-        "gbif_id": null, 
+        "gbif_id": 7309412, 
         "catalogueoflife_id": null
     }, 
     {
@@ -62674,7 +62674,7 @@
         "kingdom": "Plantae", 
         "order": "Vitales", 
         "family": "Vitaceae", 
-        "genus": null, 
+        "genus": "Vitis", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Vitis", 
@@ -63522,8 +63522,8 @@
         "name": "Zonitoschema gigantea", 
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Meloidae Gyllenhal, 1810", 
-        "genus": "Zonitoschema P\u00e9ringuey 1909", 
+        "family": "Meloidae", 
+        "genus": "Zonitoschema", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 

@@ -54,6 +54,10 @@ class CatalogueOfLife(DataProvider):
     def update(self, species, data):
         if 'distribution' in data:
             species['tdwgregions'] = unique(data['distribution'])
+        classification = data.get('classification', {})
+        for key in 'kingdom order genus family'.split():
+            if classification.get(key):
+                species[key] = classification[key]['name']
 
 
 class Taxon(object):
