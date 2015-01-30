@@ -48,7 +48,7 @@ def main():
 
     with open(DATA_FILE, 'w', encoding='utf8') as fp:
         for key in sorted(res.keys()):
-            fp.write('%s,%s\n' % (key, ','.join(res[key])))
+            fp.write('%s,%s\r\n' % (key, ','.join(res[key])))
 
 
 def match(occurrences, ecoregions):
