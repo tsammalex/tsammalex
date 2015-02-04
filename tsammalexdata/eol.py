@@ -1,11 +1,13 @@
 from __future__ import print_function, unicode_literals, absolute_import, division
 import sys
+import re
+import json
 
 import requests
 from bs4 import BeautifulSoup
 from Levenshtein import distance
 
-from tsammalexdata.util import data_file, jsonload, jsondump, csv_items, DataProvider
+from tsammalexdata.util import DataProvider
 
 
 def search_fuzzy(name):
@@ -109,6 +111,9 @@ class EOL(DataProvider):
 
 
 if __name__ == '__main__':
-    args = sys.argv[1:]
-    if args:
-        search_fuzzy(args[0])
+    api = EOL()
+    #args = sys.argv[1:]
+    #if args:
+    #    search_fuzzy(args[0])
+    if sys.argv[1:]:
+        print(json.dumps(api.cli(sys.argv[1]), indent=4))
