@@ -55,7 +55,7 @@ class CatalogueOfLife(DataProvider):
         if 'distribution' in data:
             taxon['tdwgregions'] = unique(data['distribution'])
         classification = data.get('classification', {})
-        for key in 'kingdom order genus family'.split():
+        for key in 'kingdom phylum class order genus family'.split():
             if classification.get(key):
                 taxon[key] = classification[key]['name']
         taxon[self.name + '_url'] = data['url']

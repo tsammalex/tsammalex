@@ -97,7 +97,7 @@ class EOL(DataProvider):
         for ancestor in data.get('ancestors', []):
             if 'taxonRank' not in ancestor:
                 continue
-            for k in 'kingdom order family genus'.split():
+            for k in 'kingdom phylum class order family genus'.split():
                 if ancestor['taxonRank'] == k:
                     taxon[k] = ancestor['scientificName'].split()[0]
                     break
