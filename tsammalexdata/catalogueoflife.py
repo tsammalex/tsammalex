@@ -59,6 +59,8 @@ class CatalogueOfLife(DataProvider):
             if classification.get(key):
                 taxon[key] = classification[key]['name']
         taxon[self.name + '_url'] = data['url']
+        if 'author' in data:
+            taxon['description'] = data['author']
 
 
 class Taxon(object):
