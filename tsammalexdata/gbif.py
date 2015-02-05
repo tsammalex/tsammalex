@@ -30,7 +30,7 @@ class GBIF(DataProvider):
     def update(self, taxon, data):
         if data.get('results'):
             result = data['results'][0]
-            for key in 'kingdom order genus family'.split():
+            for key in 'kingdom phylum class order genus family'.split():
                 if result.get(key):
                     taxon[key] = result[key]
             if 'taxonRank' in result:
