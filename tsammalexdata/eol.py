@@ -116,4 +116,7 @@ if __name__ == '__main__':
     #if args:
     #    search_fuzzy(args[0])
     if sys.argv[1:]:
-        print(json.dumps(api.cli(sys.argv[1]), indent=4))
+        if len(sys.argv[1:]) > 1:
+            api.refresh(*sys.argv[1:])
+        else:
+            print(json.dumps(api.cli(sys.argv[1]), indent=4))

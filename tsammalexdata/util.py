@@ -140,10 +140,10 @@ class DataProvider(object):
         except ValueError:
             return self.get_id(arg)
 
-    def get_cached(self, sid, id):
+    def get_cached(self, sid, id, refresh=False):
         if os.path.isdir(data_file('external', self.name)):
             fname = data_file('external', self.name, sid + '.json')
-            if not os.path.exists(fname):
+            if not os.path.exists(fname) or refresh:
                 try:
                     data = self.get_info(id)
                 except:
@@ -154,7 +154,7 @@ class DataProvider(object):
                 return data
             return jsonload(fname)
 
-        if sid not in self._data:
+        if sid not in self._data or refresh:
             try:
                 self._data[sid] = self.get_info(id)
             except:
@@ -177,3 +177,8 @@ class DataProvider(object):
             self.update(taxon, data)
             return True
         return False
+
+    def refresh(self, sid, id):
+        with self as api:
+            api.get_cached(sid, id, refresh=True)
+

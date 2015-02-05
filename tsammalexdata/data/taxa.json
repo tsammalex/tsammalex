@@ -144,7 +144,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20268103", 
         "taxonRank": "species", 
-        "english_name": "Texas Indian-mallow"
+        "english_name": "Texas Indian mallow"
     }, 
     {
         "id": "abutilonglaucum", 
@@ -482,7 +482,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11468273", 
         "taxonRank": "species", 
-        "english_name": "karroothorn"
+        "english_name": "Sweet Thorn"
     }, 
     {
         "id": "acacialuederitzii", 
@@ -1118,7 +1118,7 @@
         "kingdom": "Viridiplantae", 
         "order": "Cucurbitales", 
         "family": "Cucurbitaceae", 
-        "genus": "Acanthosicyos", 
+        "genus": "Citrullus", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -1619,7 +1619,7 @@
     {
         "id": "actia", 
         "name": "Actia", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Diptera", 
         "family": "Tachinidae", 
         "genus": "Actia", 
@@ -1630,7 +1630,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20828853", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20828853", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "actiniopterisradiata", 
@@ -2162,7 +2162,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19072035", 
         "taxonRank": "species", 
-        "english_name": "Guinea pepper"
+        "english_name": "melegueta pepper"
     }, 
     {
         "id": "afrixalusvittiger", 
@@ -2562,7 +2562,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737871", 
         "taxonRank": "species", 
-        "english_name": "Hartebeest"
+        "english_name": "Swayne's hartebeest"
     }, 
     {
         "id": "alectraorobanchoides", 
@@ -2592,7 +2592,7 @@
     {
         "id": "alestes", 
         "name": "Alestes", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Characiformes", 
         "family": "Alestidae", 
         "genus": "Alestes", 
@@ -2603,7 +2603,7 @@
         "gbif_id": 2356075, 
         "catalogueoflife_id": "20744483", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20744483", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "alestesbaremoze", 
@@ -2735,7 +2735,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19151309", 
         "taxonRank": "species", 
-        "english_name": "garden onion"
+        "english_name": "onion"
     }, 
     {
         "id": "alliumsativum", 
@@ -3015,7 +3015,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19154338", 
         "taxonRank": "species", 
-        "english_name": "Barbados aloe"
+        "english_name": "Babosa"
     }, 
     {
         "id": "aloezebrina", 
@@ -3067,7 +3067,8 @@
             "Europe"
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909443", 
-        "taxonRank": "species"
+        "taxonRank": "species", 
+        "english_name": "Egyptian Goose"
     }, 
     {
         "id": "alternantheraachyranthes", 
@@ -3184,7 +3185,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11479553", 
         "taxonRank": "species", 
-        "english_name": "Alyce-clover"
+        "english_name": "alyce clover"
     }, 
     {
         "id": "alysicarpusrugosus", 
@@ -3243,7 +3244,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11469203", 
         "taxonRank": "species", 
-        "english_name": "False Moneywort"
+        "english_name": "red moneywort"
     }, 
     {
         "id": "amadinaerythrocephala", 
@@ -3740,7 +3741,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20252422", 
         "taxonRank": "species", 
-        "english_name": "Wright's Ammannia"
+        "english_name": "eared redstem"
     }, 
     {
         "id": "ammanniabaccifera", 
@@ -4434,7 +4435,7 @@
         "eol_id": 2762968, 
         "gbif_id": null, 
         "catalogueoflife_id": "20943930", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20943930", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20941307/synonym/20943930", 
         "taxonRank": "suborder", 
         "english_name": "dragonflies"
     }, 
@@ -4540,7 +4541,7 @@
     {
         "id": "anobiidae", 
         "name": "Anobiidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Anobiidae", 
         "genus": "Xestobium", 
@@ -4556,7 +4557,8 @@
         "gbif_id": 7770, 
         "catalogueoflife_id": "20730728", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730728", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "death watch beetles"
     }, 
     {
         "id": "anogeissusleiocarpa", 
@@ -4844,7 +4846,7 @@
     {
         "id": "anura", 
         "name": "Anura", 
-        "kingdom": "Animalia", 
+        "kingdom": "Plantae", 
         "order": "Asterales", 
         "family": "Asteraceae", 
         "genus": null, 
@@ -4854,8 +4856,8 @@
         "eol_id": 17010104, 
         "gbif_id": null, 
         "catalogueoflife_id": "20897933", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20897933", 
-        "taxonRank": "order", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20888762/synonym/20897933", 
+        "taxonRank": "genus", 
         "english_name": "Frogs and Toads"
     }, 
     {
@@ -5016,14 +5018,14 @@
         "kingdom": "Viridiplantae", 
         "order": "Lamiales", 
         "family": "Scrophulariaceae", 
-        "genus": null, 
+        "genus": "Psycheotrephes", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": "http://en.wikipedia.org/wiki/Scrophulariaceae", 
         "eol_id": 5675659, 
         "gbif_id": 3727322, 
         "catalogueoflife_id": "20936454", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20936454", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20936454", 
         "taxonRank": "genus"
     }, 
     {
@@ -5215,7 +5217,7 @@
         "catalogueoflife_id": "11909583", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909583", 
         "taxonRank": "species", 
-        "english_name": "African Tawny-Eagle"
+        "english_name": "Tawny Eagle"
     }, 
     {
         "id": "arachishypogaea", 
@@ -5299,7 +5301,7 @@
     {
         "id": "archispirostreptus", 
         "name": "Archispirostreptus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Spirostreptida", 
         "family": "Spirostreptidae", 
         "genus": "Archispirostreptus", 
@@ -5310,7 +5312,7 @@
         "gbif_id": 1025390, 
         "catalogueoflife_id": "20758553", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20758553", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "arctocephaluspusillus", 
@@ -5515,10 +5517,10 @@
     {
         "id": "argiope", 
         "name": "Argiope", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Araneae", 
         "family": "Araneidae", 
-        "genus": "Argiope", 
+        "genus": "Brania", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -5531,8 +5533,9 @@
         "eol_id": 89196, 
         "gbif_id": null, 
         "catalogueoflife_id": "20901352", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20901352", 
-        "taxonRank": "species"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20901352", 
+        "taxonRank": "genus", 
+        "english_name": "garden orbweavers"
     }, 
     {
         "id": "aristidaadscensionis", 
@@ -6133,7 +6136,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20304632", 
         "taxonRank": "species", 
-        "english_name": "Narrow-Leaf Cotton Bush"
+        "english_name": "wild cotton"
     }, 
     {
         "id": "aselliatridens", 
@@ -6225,7 +6228,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19130582", 
         "taxonRank": "species", 
-        "english_name": "African asparagus"
+        "english_name": "Bush asparagus"
     }, 
     {
         "id": "asparagusbechuanicus", 
@@ -6539,7 +6542,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19739751", 
         "taxonRank": "species", 
-        "english_name": "Four-toed hedgehog"
+        "english_name": "middle-African hedgehog"
     }, 
     {
         "id": "atelerixfrontalis", 
@@ -7320,7 +7323,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11468486", 
         "taxonRank": "species", 
-        "english_name": "Small white bauhinia"
+        "english_name": "Large white bauhinia"
     }, 
     {
         "id": "bauhiniareticulata", 
@@ -7451,7 +7454,7 @@
     {
         "id": "belostomatidae", 
         "name": "Belostomatidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Belostomatidae", 
         "genus": "Lethocerus", 
@@ -7467,7 +7470,8 @@
         "gbif_id": 4305, 
         "catalogueoflife_id": "20730282", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730282", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "giant water bugs"
     }, 
     {
         "id": "berchemiazeyheri", 
@@ -7542,7 +7546,7 @@
     {
         "id": "bidens", 
         "name": "Bidens", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Asterales", 
         "family": "Asteraceae", 
         "genus": "Bidens", 
@@ -7553,7 +7557,8 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20738600", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20738600", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "devil's sticktight"
     }, 
     {
         "id": "bidensbiternata", 
@@ -7733,7 +7738,7 @@
     {
         "id": "blattodea", 
         "name": "Blattodea", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Blattodea", 
         "family": "Ectobiidae", 
         "genus": "Ectobius", 
@@ -7749,7 +7754,8 @@
         "gbif_id": 800, 
         "catalogueoflife_id": "20727070", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20727070", 
-        "taxonRank": "species"
+        "taxonRank": "order", 
+        "english_name": "cockroaches"
     }, 
     {
         "id": "blepharislinariifolia", 
@@ -7918,7 +7924,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/15302526", 
         "taxonRank": "species", 
-        "english_name": "scarlet spiderling"
+        "english_name": "red spiderling"
     }, 
     {
         "id": "boerhaviadiffusa", 
@@ -8659,7 +8665,7 @@
     {
         "id": "brachiaria", 
         "name": "Brachiaria", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Poales", 
         "family": "Poaceae", 
         "genus": "Brachiaria", 
@@ -8670,7 +8676,8 @@
         "gbif_id": 2704067, 
         "catalogueoflife_id": "20751654", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20751654", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "ringed signalgrass"
     }, 
     {
         "id": "brachiariaglomerata", 
@@ -8894,7 +8901,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19236893", 
         "taxonRank": "species", 
-        "english_name": "Paragrass"
+        "english_name": "buffalo grass"
     }, 
     {
         "id": "brachiariavillosa", 
@@ -9276,7 +9283,7 @@
         "catalogueoflife_id": "20786419", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20786419", 
         "taxonRank": "genus", 
-        "english_name": "horned owls"
+        "english_name": "eagle owls"
     }, 
     {
         "id": "buboafricanus", 
@@ -9466,7 +9473,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11912953", 
         "taxonRank": "species", 
-        "english_name": "Northern ground hornbill"
+        "english_name": "Abyssinian Ground-Hornbill"
     }, 
     {
         "id": "buddlejasaligna", 
@@ -9491,7 +9498,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20312513", 
         "taxonRank": "species", 
-        "english_name": "squarestem butterflybush"
+        "english_name": "Olive buddleja"
     }, 
     {
         "id": "bufogutturalis", 
@@ -9690,8 +9697,8 @@
         "gbif_id": 9697, 
         "catalogueoflife_id": "20727527", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20727527", 
-        "taxonRank": "genus", 
-        "english_name": "Stone-curlews"
+        "taxonRank": "family", 
+        "english_name": "thick-knees, stone curlews & dikkops"
     }, 
     {
         "id": "burhinuscapensis", 
@@ -10425,7 +10432,7 @@
     {
         "id": "canavalia", 
         "name": "Canavalia", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Fabales", 
         "family": "Fabaceae", 
         "genus": "Canavalia", 
@@ -10436,7 +10443,8 @@
         "gbif_id": 2962020, 
         "catalogueoflife_id": "20769441", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20769441", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "jackbean"
     }, 
     {
         "id": "canavaliaafricana", 
@@ -10524,7 +10532,7 @@
         "catalogueoflife_id": "20769509", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20769509", 
         "taxonRank": "genus", 
-        "english_name": "canine"
+        "english_name": "jackals"
     }, 
     {
         "id": "canisadustus", 
@@ -10652,7 +10660,7 @@
         "catalogueoflife_id": "19741356", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/19741356", 
         "taxonRank": "infraspecies", 
-        "english_name": "Dog"
+        "english_name": "dogs"
     }, 
     {
         "id": "canismesomelas", 
@@ -10815,7 +10823,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20270081", 
         "taxonRank": "species", 
-        "english_name": "African caper"
+        "english_name": "Woolly caper-bush"
     }, 
     {
         "id": "caprahircus", 
@@ -10973,7 +10981,7 @@
         "eol_id": 38876, 
         "gbif_id": 2932937, 
         "catalogueoflife_id": "20934773", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20934773", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20932565/synonym/20934773", 
         "taxonRank": "genus", 
         "english_name": "peppers"
     }, 
@@ -11084,7 +11092,7 @@
     {
         "id": "carabidae", 
         "name": "Carabidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Carabidae", 
         "genus": "Philorhizus", 
@@ -11102,7 +11110,8 @@
         "gbif_id": 3792, 
         "catalogueoflife_id": "20730713", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730713", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "ground beetles"
     }, 
     {
         "id": "caracalcaracal", 
@@ -11165,7 +11174,7 @@
         "eol_id": 2877789, 
         "gbif_id": 3572533, 
         "catalogueoflife_id": "20937110", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20937110", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20935990/synonym/20937110", 
         "taxonRank": "genus", 
         "english_name": "Caralluma"
     }, 
@@ -11454,12 +11463,12 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20199384", 
         "taxonRank": "species", 
-        "english_name": "Fine-stem Lovevine"
+        "english_name": "Love Vine"
     }, 
     {
         "id": "cataglyphis", 
         "name": "Cataglyphis", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
         "genus": "Cataglyphis", 
@@ -11470,7 +11479,7 @@
         "gbif_id": 1319559, 
         "catalogueoflife_id": "20802220", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20802220", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "cataloipuscymbiferus", 
@@ -11735,7 +11744,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/16327434", 
         "taxonRank": "species", 
-        "english_name": "Silver spiked cockcomb"
+        "english_name": "silver cockscomb"
     }, 
     {
         "id": "celosiatrigyna", 
@@ -12264,12 +12273,12 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19735889", 
         "taxonRank": "species", 
-        "english_name": "Haviside's dolphin"
+        "english_name": "Heaviside's dolphin"
     }, 
     {
         "id": "cerambycidae", 
         "name": "Cerambycidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Cerambycidae", 
         "genus": null, 
@@ -12285,7 +12294,8 @@
         "gbif_id": 5602, 
         "catalogueoflife_id": "20726882", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20726882", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "long-horned beetles"
     }, 
     {
         "id": "cerastescerastes", 
@@ -12927,7 +12937,7 @@
         "catalogueoflife_id": "11468582", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11468582", 
         "taxonRank": "species", 
-        "english_name": "tropical sensitive-pea"
+        "english_name": "tropical sensitive pea"
     }, 
     {
         "id": "chamaecristamimosoides", 
@@ -13053,7 +13063,7 @@
     {
         "id": "chamaeleo", 
         "name": "Chamaeleo", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Chamaeleonidae", 
         "genus": "Chamaeleo", 
@@ -13066,7 +13076,8 @@
         "gbif_id": 2449442, 
         "catalogueoflife_id": "20779618", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20779618", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Parson's Chameleon"
     }, 
     {
         "id": "chamaeleoafricanus", 
@@ -14140,7 +14151,7 @@
     {
         "id": "cicadellidae", 
         "name": "Cicadellidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Cicadellidae", 
         "genus": "Idiocerus", 
@@ -14157,12 +14168,13 @@
         "gbif_id": 9647, 
         "catalogueoflife_id": "20730278", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730278", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "leafhoppers"
     }, 
     {
         "id": "cicadidae", 
         "name": "Cicadidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Cicadidae", 
         "genus": null, 
@@ -14179,7 +14191,8 @@
         "gbif_id": 6049, 
         "catalogueoflife_id": "20733689", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20733689", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "cicadas"
     }, 
     {
         "id": "ciconia", 
@@ -14325,7 +14338,7 @@
         "catalogueoflife_id": "16981371", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/16981371", 
         "taxonRank": "species", 
-        "english_name": "Amethyst Starling"
+        "english_name": "Violet-backed Starling"
     }, 
     {
         "id": "circus", 
@@ -14953,7 +14966,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20207362", 
         "taxonRank": "species", 
-        "english_name": "Traveler's-joy"
+        "english_name": "Traveller's Joy"
     }, 
     {
         "id": "cleomeangustifolia", 
@@ -14978,7 +14991,8 @@
             "Ethiopia,"
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20270408", 
-        "taxonRank": "species"
+        "taxonRank": "species", 
+        "english_name": "Yellow mouse-whiskers"
     }, 
     {
         "id": "cleomemonophylla", 
@@ -15060,7 +15074,7 @@
     {
         "id": "clonia", 
         "name": "Clonia", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Orthoptera", 
         "family": "Tettigoniidae", 
         "genus": "Clonia", 
@@ -15077,7 +15091,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20806972", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20806972", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "clutiapulchella", 
@@ -15136,7 +15150,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20249837", 
         "taxonRank": "species", 
-        "english_name": "Tindora"
+        "english_name": "ivy gourd"
     }, 
     {
         "id": "cocciniarehmannii", 
@@ -15624,7 +15638,7 @@
         "catalogueoflife_id": "11913937", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11913937", 
         "taxonRank": "species", 
-        "english_name": "African Olive Pigeon"
+        "english_name": "Olive Pigeon"
     }, 
     {
         "id": "columbaguinea", 
@@ -15688,7 +15702,7 @@
         "eol_id": 60927, 
         "gbif_id": 2986357, 
         "catalogueoflife_id": "20946749", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20946749", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20946188/synonym/20946749", 
         "taxonRank": "genus"
     }, 
     {
@@ -15855,7 +15869,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20251209", 
         "taxonRank": "species", 
-        "english_name": "bush-willow"
+        "english_name": "River bushwillow"
     }, 
     {
         "id": "combretumglutinosum", 
@@ -16702,7 +16716,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737873", 
         "taxonRank": "species", 
-        "english_name": "Brindled Gnu"
+        "english_name": "Blue Wildebeest"
     }, 
     {
         "id": "conocephalusconocephalus", 
@@ -16997,7 +17011,7 @@
     {
         "id": "corchorus", 
         "name": "Corchorus", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Malvales", 
         "family": "Malvaceae", 
         "genus": "Corchorus", 
@@ -17007,8 +17021,8 @@
         "eol_id": 61159, 
         "gbif_id": 3032212, 
         "catalogueoflife_id": "20943645", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20943645", 
-        "taxonRank": "species"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20940371/synonym/20943645", 
+        "taxonRank": "genus"
     }, 
     {
         "id": "corchorusaestuans", 
@@ -17034,7 +17048,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20264001", 
         "taxonRank": "species", 
-        "english_name": "Jutes"
+        "english_name": "jute"
     }, 
     {
         "id": "corchorusfascicularis", 
@@ -17219,7 +17233,7 @@
         "catalogueoflife_id": "20730220", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730220", 
         "taxonRank": "family", 
-        "english_name": "Leaf-footed bug"
+        "english_name": "Tip wilters"
     }, 
     {
         "id": "corvinellamelanoleuca", 
@@ -17280,7 +17294,7 @@
         "catalogueoflife_id": "16981558", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/16981558", 
         "taxonRank": "species", 
-        "english_name": "White-necked Raven"
+        "english_name": "African White-necked Raven"
     }, 
     {
         "id": "corvusalbus", 
@@ -17328,7 +17342,7 @@
         "catalogueoflife_id": "16981562", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/16981562", 
         "taxonRank": "species", 
-        "english_name": "Cape Crow"
+        "english_name": "Black Crow"
     }, 
     {
         "id": "corvusruficollis", 
@@ -17488,7 +17502,7 @@
     {
         "id": "crematogaster", 
         "name": "Crematogaster", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
         "genus": "Crematogaster", 
@@ -17505,7 +17519,8 @@
         "gbif_id": 1324306, 
         "catalogueoflife_id": "20798387", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20798387", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Acrobat Ants"
     }, 
     {
         "id": "creoleonafricanus", 
@@ -17553,7 +17568,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19739067", 
         "taxonRank": "species", 
-        "english_name": "Gambian Rat"
+        "english_name": "Gambian giant pouched rat"
     }, 
     {
         "id": "criniferpiscator", 
@@ -18515,7 +18530,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11470687", 
         "taxonRank": "species", 
-        "english_name": "Yellow Lupin"
+        "english_name": "rattleweed"
     }, 
     {
         "id": "crotalariaspartioides", 
@@ -19074,7 +19089,7 @@
         "eol_id": 38266, 
         "gbif_id": 2874506, 
         "catalogueoflife_id": "20946908", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20946908", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20946092/synonym/20946908", 
         "taxonRank": "genus", 
         "english_name": "Squash"
     }, 
@@ -19172,7 +19187,7 @@
         "catalogueoflife_id": "11910391", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11910391", 
         "taxonRank": "species", 
-        "english_name": "Cream-coloured Courser"
+        "english_name": "Cream-colored Courser"
     }, 
     {
         "id": "cursoriustemminckii", 
@@ -19332,7 +19347,7 @@
     {
         "id": "cybister", 
         "name": "Cybister", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Dytiscidae", 
         "genus": "Cybister", 
@@ -19343,7 +19358,7 @@
         "gbif_id": 1038678, 
         "catalogueoflife_id": "20752322", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20752322", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "cymbopogoncaesiusgiganteus", 
@@ -19917,7 +19932,7 @@
         "catalogueoflife_id": "20730819", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730819", 
         "taxonRank": "family", 
-        "english_name": "sedge"
+        "english_name": "sedge family"
     }, 
     {
         "id": "cyperusamabilis", 
@@ -20207,7 +20222,7 @@
             "YEM"
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19090309", 
-        "taxonRank": "specie"
+        "taxonRank": "species"
     }, 
     {
         "id": "cyperusdenudatus", 
@@ -20627,7 +20642,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19091306", 
         "taxonRank": "species", 
-        "english_name": "Iria Flatsedge"
+        "english_name": "ricefield flatsedge"
     }, 
     {
         "id": "cyperuslongus", 
@@ -21784,7 +21799,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19742816", 
         "taxonRank": "species", 
-        "english_name": "Topi"
+        "english_name": "korrigum topi"
     }, 
     {
         "id": "damaliscuslunatus", 
@@ -21878,7 +21893,7 @@
         "catalogueoflife_id": "10687724", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/10687724", 
         "taxonRank": "species", 
-        "english_name": "Plain Tiger"
+        "english_name": "African monarch"
     }, 
     {
         "id": "danielliaoliveri", 
@@ -22326,7 +22341,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909324", 
         "taxonRank": "species", 
-        "english_name": "Fulvous Whisting Duck"
+        "english_name": "Fulvous Whistling Duck"
     }, 
     {
         "id": "dendrocygnaviduata", 
@@ -22645,7 +22660,7 @@
     {
         "id": "dermestes", 
         "name": "Dermestes", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Dermestidae", 
         "genus": "Dermestes", 
@@ -22661,7 +22676,8 @@
         "gbif_id": 1043928, 
         "catalogueoflife_id": "20753569", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20753569", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "larder beetle"
     }, 
     {
         "id": "desmodillusauricularis", 
@@ -22836,7 +22852,8 @@
         "eol_id": 5048636, 
         "gbif_id": 6027155, 
         "catalogueoflife_id": "9475043", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/9475043"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/9475043", 
+        "taxonRank": "species"
     }, 
     {
         "id": "diabolocatantopsaxillaris", 
@@ -23281,9 +23298,9 @@
     {
         "id": "digitaria", 
         "name": "Digitaria", 
-        "kingdom": "Plantae", 
-        "order": "Poales", 
-        "family": "Poaceae", 
+        "kingdom": "Animalia", 
+        "order": "Carditoida", 
+        "family": "Astartidae", 
         "genus": null, 
         "ecoregions": [], 
         "countries": [], 
@@ -23759,7 +23776,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19094109", 
         "taxonRank": "species", 
-        "english_name": "white yam"
+        "english_name": "yam"
     }, 
     {
         "id": "diospyroslycioides", 
@@ -23799,7 +23816,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19734058", 
         "taxonRank": "species", 
-        "english_name": "red star apple"
+        "english_name": "Red star-apple"
     }, 
     {
         "id": "diospyrosmespiliformis", 
@@ -24392,7 +24409,7 @@
     {
         "id": "dytiscus", 
         "name": "Dytiscus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Dytiscidae", 
         "genus": "Dytiscus", 
@@ -24409,7 +24426,7 @@
         "gbif_id": 1038058, 
         "catalogueoflife_id": "20781587", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20781587", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "echinochloa", 
@@ -24841,7 +24858,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19248105", 
         "taxonRank": "species", 
-        "english_name": "Fringed Cock's-spur Grass"
+        "english_name": "hippo grass"
     }, 
     {
         "id": "echinopspappii", 
@@ -24993,7 +25010,7 @@
         "name": "Ehretia rigida", 
         "kingdom": "Viridiplantae", 
         "order": "Boraginales", 
-        "family": "Boraginaceae", 
+        "family": "Ehretiaceae", 
         "genus": "Ehretia", 
         "ecoregions": [
             "AT1309"
@@ -25260,7 +25277,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19096787", 
         "taxonRank": "species", 
-        "english_name": "Hollow-stem Spikerush"
+        "english_name": "acute spikerush"
     }, 
     {
         "id": "elephantorrhizaburkei", 
@@ -25379,7 +25396,7 @@
         "catalogueoflife_id": "19736875", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19736875", 
         "taxonRank": "species", 
-        "english_name": "short-snouted elephant-shrew"
+        "english_name": "Short-snouted Elephant Shrew"
     }, 
     {
         "id": "elephantulusedwardii", 
@@ -25478,7 +25495,7 @@
         "catalogueoflife_id": "19736880", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19736880", 
         "taxonRank": "species", 
-        "english_name": "eastern rock elephant-shrew"
+        "english_name": "Eastern Rock Elephant Shrew"
     }, 
     {
         "id": "elephantulusrupestris", 
@@ -26443,7 +26460,7 @@
         "catalogueoflife_id": "11909248", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909248", 
         "taxonRank": "species", 
-        "english_name": "Saddle-billed Stork"
+        "english_name": "Saddle-bill Stork"
     }, 
     {
         "id": "epomophorusgambianus", 
@@ -26506,7 +26523,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19738227", 
         "taxonRank": "species", 
-        "english_name": "Wahlberg''s epauletted fruit bat"
+        "english_name": "Wahlberg's Epauletted Fruit Bat"
     }, 
     {
         "id": "eptesicuscapensis", 
@@ -26628,7 +26645,7 @@
         "catalogueoflife_id": "20783267", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20783267", 
         "taxonRank": "genus", 
-        "english_name": "horse"
+        "english_name": "horses"
     }, 
     {
         "id": "equusasinus", 
@@ -26770,7 +26787,8 @@
         "gbif_id": 2705322, 
         "catalogueoflife_id": "20748175", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20748175", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Love Grass"
     }, 
     {
         "id": "eragrostisannulata", 
@@ -27265,7 +27283,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19250209", 
         "taxonRank": "species", 
-        "english_name": "gophertail lovegrass"
+        "english_name": "woolly lovegrass"
     }, 
     {
         "id": "eragrostisechinochloidea", 
@@ -28475,7 +28493,7 @@
         "catalogueoflife_id": "20769504", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20769504", 
         "taxonRank": "genus", 
-        "english_name": "gum"
+        "english_name": "Gums"
     }, 
     {
         "id": "eucalyptusastringens", 
@@ -28712,7 +28730,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19336560", 
         "taxonRank": "species", 
-        "english_name": "spurge"
+        "english_name": "Chapman's spurge"
     }, 
     {
         "id": "euphorbiahirta", 
@@ -29228,7 +29246,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20323593", 
         "taxonRank": "species", 
-        "english_name": "Little Glory"
+        "english_name": "slender dwarf morning-glory"
     }, 
     {
         "id": "faidherbiaalbida", 
@@ -30386,7 +30404,7 @@
     {
         "id": "formicidae", 
         "name": "Formicidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
         "genus": "Camponotus", 
@@ -30403,12 +30421,13 @@
         "gbif_id": 4342, 
         "catalogueoflife_id": "20730179", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730179", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "ants"
     }, 
     {
         "id": "francolinus", 
         "name": "Francolinus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Galliformes", 
         "family": "Phasianidae", 
         "genus": "Francolinus", 
@@ -30419,7 +30438,8 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20782867", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20782867", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "francolins"
     }, 
     {
         "id": "francolinusadspersus", 
@@ -31206,7 +31226,7 @@
         "eol_id": 6270013, 
         "gbif_id": 3119883, 
         "catalogueoflife_id": null, 
-        "taxonRank": "infraspecies"
+        "taxonRank": "species"
     }, 
     {
         "id": "geigeriaornativa", 
@@ -31600,18 +31620,22 @@
     {
         "id": "gerbillus", 
         "name": "Gerbillus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Rodentia", 
         "family": "Muridae", 
-        "genus": "Gerbillus", 
+        "genus": "Paraturbanella", 
         "ecoregions": [], 
         "countries": [], 
         "wikipedia_url": null, 
         "eol_id": 111264, 
         "gbif_id": 2437782, 
         "catalogueoflife_id": "20846546", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20846546", 
-        "taxonRank": "species"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20846546", 
+        "taxonRank": "genus", 
+        "tdwgregions": [
+            "West"
+        ], 
+        "english_name": "northern pygmy gerbils"
     }, 
     {
         "id": "gerbilurusvallinus", 
@@ -31806,7 +31830,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/15304273", 
         "taxonRank": "species", 
-        "english_name": "Sand Herbage"
+        "english_name": "oldmaid"
     }, 
     {
         "id": "glareolapratincola", 
@@ -32309,7 +32333,7 @@
         "gbif_id": 5392216, 
         "catalogueoflife_id": "17796060", 
         "tdwgregions": [
-            "117854", 
+            "113682", 
             "4", 
             "7"
         ], 
@@ -32385,7 +32409,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20304631", 
         "taxonRank": "species", 
-        "english_name": "Narrow-Leaf Cotton Bush"
+        "english_name": "wild cotton"
     }, 
     {
         "id": "gongylophismuelleri", 
@@ -32906,7 +32930,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20262830", 
         "taxonRank": "species", 
-        "english_name": "crossberry"
+        "english_name": "Cross-berry"
     }, 
     {
         "id": "grewiaretinervis", 
@@ -32983,7 +33007,7 @@
     {
         "id": "gryllidae", 
         "name": "Gryllidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Orthoptera", 
         "family": "Gryllidae", 
         "genus": null, 
@@ -32999,7 +33023,8 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20727219", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20727219", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "crickets"
     }, 
     {
         "id": "gryllusbimaculatus", 
@@ -33136,7 +33161,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20220869", 
         "taxonRank": "species", 
-        "english_name": "Caribbean mayten"
+        "english_name": "Common spike-thorn"
     }, 
     {
         "id": "gymnosporiasenegalensis", 
@@ -33302,7 +33327,7 @@
     {
         "id": "gyrinidae", 
         "name": "Gyrinidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Gyrinidae", 
         "genus": "Gyrinus", 
@@ -33318,7 +33343,8 @@
         "gbif_id": 9646, 
         "catalogueoflife_id": "20730405", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730405", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "whirligig beetles"
     }, 
     {
         "id": "gyrocarpusamericanussubsppinnatilobuskubitzki", 
@@ -33429,7 +33455,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20315849", 
         "taxonRank": "species", 
-        "english_name": "Kalahari devil's claw"
+        "english_name": "Grapple plant"
     }, 
     {
         "id": "harpezocatantopsstylifer", 
@@ -33620,14 +33646,14 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19738827", 
         "taxonRank": "species", 
-        "english_name": "Gambian Sun Squirrel"
+        "english_name": "Gambian sun squireel"
     }, 
     {
         "id": "heliotropiumciliatum", 
         "name": "Heliotropium ciliatum", 
         "kingdom": "Viridiplantae", 
         "order": "Boraginales", 
-        "family": "Boraginaceae", 
+        "family": "Heliotropiaceae", 
         "genus": "Heliotropium", 
         "ecoregions": [
             "AT1309"
@@ -33699,7 +33725,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20330718", 
         "taxonRank": "species", 
-        "english_name": "Indian Turnsole"
+        "english_name": "turnsole"
     }, 
     {
         "id": "heliotropiumovalifolium", 
@@ -33864,8 +33890,8 @@
     {
         "id": "hemichromis", 
         "name": "Hemichromis", 
-        "kingdom": "Metazoa", 
-        "order": "Cichliformes", 
+        "kingdom": "Animalia", 
+        "order": "Perciformes", 
         "family": "Cichlidae", 
         "genus": "Hemichromis", 
         "ecoregions": [], 
@@ -33875,7 +33901,8 @@
         "gbif_id": 2371361, 
         "catalogueoflife_id": "20747374", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20747374", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "jewelfishes"
     }, 
     {
         "id": "hepsetusodoe", 
@@ -34387,7 +34414,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20267299", 
         "taxonRank": "species", 
-        "english_name": "Red tea"
+        "english_name": "Sereni"
     }, 
     {
         "id": "hibiscusschinzii", 
@@ -34531,7 +34558,7 @@
         "catalogueoflife_id": "20726980", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20726980", 
         "taxonRank": "family", 
-        "english_name": "louse fly"
+        "english_name": "louseflies"
     }, 
     {
         "id": "hippopotamusamphibius", 
@@ -35567,9 +35594,9 @@
     {
         "id": "hypoderma", 
         "name": "Hypoderma", 
-        "kingdom": "Fungi", 
-        "order": "Rhytismatales", 
-        "family": "Rhytismataceae", 
+        "kingdom": "Animalia", 
+        "order": "Diptera", 
+        "family": "Oestridae", 
         "genus": "Hypoderma", 
         "ecoregions": [], 
         "countries": [], 
@@ -35578,7 +35605,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20757553", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20757553", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "hypoestesforskaolii", 
@@ -35765,7 +35792,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19306026", 
         "taxonRank": "species", 
-        "english_name": "marrubio"
+        "english_name": "marubio"
     }, 
     {
         "id": "hyptissuaveolens", 
@@ -36650,7 +36677,7 @@
         "eol_id": 38452, 
         "gbif_id": 2928509, 
         "catalogueoflife_id": "20935015", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20935015", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20932397/synonym/20935015", 
         "taxonRank": "genus", 
         "english_name": "morning-glory"
     }, 
@@ -37678,7 +37705,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19735909", 
         "taxonRank": "species", 
-        "english_name": "pygmy sperm whale"
+        "english_name": "Short-headed sperm whale"
     }, 
     {
         "id": "kogiasima", 
@@ -38198,7 +38225,7 @@
         "eol_id": 104775, 
         "gbif_id": 2489069, 
         "catalogueoflife_id": "20849828", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20849828", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20848291/synonym/20849828", 
         "taxonRank": "genus"
     }, 
     {
@@ -38338,7 +38365,7 @@
     {
         "id": "lampyridae", 
         "name": "Lampyridae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Lampyridae", 
         "genus": "Lampyris", 
@@ -38354,7 +38381,8 @@
         "gbif_id": 4737, 
         "catalogueoflife_id": "20730393", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730393", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "Lightning bug"
     }, 
     {
         "id": "lanelaternotodonta", 
@@ -38727,7 +38755,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20246521", 
         "taxonRank": "species", 
-        "english_name": "West Indies Wood-nettle"
+        "english_name": "West Indian woodnettle"
     }, 
     {
         "id": "lasiocampidae", 
@@ -38873,7 +38901,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20252393", 
         "taxonRank": "species", 
-        "english_name": "Egyptian Privet"
+        "english_name": "henna"
     }, 
     {
         "id": "lebeckialinearifolia", 
@@ -38912,9 +38940,9 @@
     {
         "id": "ledebouria", 
         "name": "Ledebouria", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Asparagales", 
-        "family": "Hyacinthaceae", 
+        "family": "Asparagaceae", 
         "genus": "Ledebouria", 
         "ecoregions": [
             "AT0709"
@@ -38928,7 +38956,7 @@
         "gbif_id": 2773635, 
         "catalogueoflife_id": "20751043", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20751043", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "ledebouriamarginata", 
@@ -39449,7 +39477,7 @@
     {
         "id": "leptotyphlops", 
         "name": "Leptotyphlops", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Leptotyphlopidae", 
         "genus": "Leptotyphlops", 
@@ -39466,7 +39494,8 @@
         "gbif_id": 2448261, 
         "catalogueoflife_id": "20783538", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20783538", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Threadsnakes"
     }, 
     {
         "id": "lepuscapensis", 
@@ -39602,7 +39631,7 @@
     {
         "id": "lethocerus", 
         "name": "Lethocerus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Belostomatidae", 
         "genus": "Lethocerus", 
@@ -39613,12 +39642,13 @@
         "gbif_id": 2007579, 
         "catalogueoflife_id": "20753281", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20753281", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "giant water bug"
     }, 
     {
         "id": "leucas", 
         "name": "Leucas", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Lamiales", 
         "family": "Lamiaceae", 
         "genus": "Leucas", 
@@ -39629,7 +39659,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20750070", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20750070", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "leucasdeflexa", 
@@ -40313,7 +40343,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20251450", 
         "taxonRank": "species", 
-        "english_name": "Yerba-de-Jicotea"
+        "english_name": "yerba de jicotea"
     }, 
     {
         "id": "ludwigiahyssopifolia", 
@@ -40367,7 +40397,7 @@
         "eol_id": 1277552, 
         "gbif_id": 5420991, 
         "catalogueoflife_id": null, 
-        "taxonRank": "infraspecies", 
+        "taxonRank": "species", 
         "english_name": "floating primrose-willow"
     }, 
     {
@@ -40501,12 +40531,12 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19736046", 
         "taxonRank": "species", 
-        "english_name": "Painted hunting dog"
+        "english_name": "African wild dog"
     }, 
     {
         "id": "lycidae", 
         "name": "Lycidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Lycidae", 
         "genus": "Lucaina", 
@@ -40522,7 +40552,8 @@
         "gbif_id": 7836, 
         "catalogueoflife_id": "20730387", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730387", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "net-winged beetles"
     }, 
     {
         "id": "lyciumbosciifolium", 
@@ -40593,7 +40624,7 @@
     {
         "id": "lycosa", 
         "name": "Lycosa", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Araneae", 
         "family": "Lycosidae", 
         "genus": "Lycosa", 
@@ -40609,8 +40640,8 @@
         "eol_id": 89111, 
         "gbif_id": 2145330, 
         "catalogueoflife_id": "20899945", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20899945", 
-        "taxonRank": "species"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20883458/synonym/20899945", 
+        "taxonRank": "genus"
     }, 
     {
         "id": "lydomorphusdusaulti", 
@@ -40777,8 +40808,8 @@
     {
         "id": "macrotermes", 
         "name": "Macrotermes", 
-        "kingdom": "Metazoa", 
-        "order": "Isoptera", 
+        "kingdom": "Animalia", 
+        "order": "Blattodea", 
         "family": "Termitidae", 
         "genus": "Macrotermes", 
         "ecoregions": [
@@ -40792,7 +40823,7 @@
         "eol_id": 3837093, 
         "gbif_id": 4803134, 
         "catalogueoflife_id": null, 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "macrotermessubhyalinus", 
@@ -41197,7 +41228,7 @@
     {
         "id": "mantodea", 
         "name": "Mantodea", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Mantodea", 
         "family": null, 
         "genus": null, 
@@ -41210,7 +41241,7 @@
         "gbif_id": 788, 
         "catalogueoflife_id": "20727221", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20727221", 
-        "taxonRank": "species"
+        "taxonRank": "suborder"
     }, 
     {
         "id": "marcuseniussenegalensis", 
@@ -41970,12 +42001,12 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20265698", 
         "taxonRank": "species", 
-        "english_name": "Chocolate-weed"
+        "english_name": "chocolateweed"
     }, 
     {
         "id": "meloidae", 
         "name": "Meloidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Meloidae", 
         "genus": "Hycleus", 
@@ -41992,14 +42023,15 @@
         "gbif_id": 4742, 
         "catalogueoflife_id": "20730382", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730382", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "blister beetles"
     }, 
     {
         "id": "melolonthinae", 
         "name": "Melolonthinae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
-        "family": "Scarabaeidae", 
+        "family": "Melolonthidae", 
         "genus": "Stethaspis", 
         "ecoregions": [
             "AT1309"
@@ -42013,7 +42045,8 @@
         "eol_id": 2655267, 
         "gbif_id": 5593, 
         "catalogueoflife_id": null, 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "Chafers"
     }, 
     {
         "id": "meropsalbicollis", 
@@ -42156,7 +42189,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20324700", 
         "taxonRank": "species", 
-        "english_name": "Hairy Morning-glory"
+        "english_name": "hairy woodrose"
     }, 
     {
         "id": "merremiapinnatahochstexchoisyhallierf", 
@@ -42592,7 +42625,7 @@
         "eol_id": 92528, 
         "gbif_id": 2490574, 
         "catalogueoflife_id": "20903102", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20903102", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20903102", 
         "taxonRank": "genus", 
         "english_name": "Eastern Clapper Lark"
     }, 
@@ -42947,7 +42980,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/15302340", 
         "taxonRank": "species", 
-        "english_name": "Naked-stem Carpetweed"
+        "english_name": "nakedstem carpetweed"
     }, 
     {
         "id": "momordica", 
@@ -42962,7 +42995,7 @@
         "eol_id": 61243, 
         "gbif_id": 2874578, 
         "catalogueoflife_id": "20946897", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20946897", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20946124/synonym/20946897", 
         "taxonRank": "genus"
     }, 
     {
@@ -43284,7 +43317,7 @@
         "eol_id": 6726595, 
         "gbif_id": 2535281, 
         "catalogueoflife_id": "20916232", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20916232", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20903054/synonym/20916232", 
         "taxonRank": "genus"
     }, 
     {
@@ -43427,7 +43460,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19738752", 
         "taxonRank": "species", 
-        "english_name": "Natal Free-tailed Bat"
+        "english_name": "Mauritian little mastiff bat"
     }, 
     {
         "id": "mormopteruspetrophilus", 
@@ -43819,14 +43852,14 @@
         "catalogueoflife_id": "20799985", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20799985", 
         "taxonRank": "genus", 
-        "english_name": "house mouse"
+        "english_name": "mouse"
     }, 
     {
         "id": "musca", 
         "name": "Musca", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Diptera", 
-        "family": "Muscidae", 
+        "family": "Tachinidae", 
         "genus": "Musca", 
         "ecoregions": [], 
         "countries": [], 
@@ -43835,7 +43868,7 @@
         "gbif_id": 1444063, 
         "catalogueoflife_id": "20827645", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20827645", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "musindutus", 
@@ -44024,10 +44057,10 @@
     {
         "id": "mylabris", 
         "name": "Mylabris", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Meloidae", 
-        "genus": "Mylabris", 
+        "genus": "Bruchus", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -44039,7 +44072,7 @@
         "eol_id": 1407030, 
         "gbif_id": 3262781, 
         "catalogueoflife_id": null, 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "myomysdaltoni", 
@@ -44406,7 +44439,7 @@
     {
         "id": "naja", 
         "name": "Naja", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Elapidae", 
         "genus": "Naja", 
@@ -44417,7 +44450,8 @@
         "gbif_id": 2450142, 
         "catalogueoflife_id": "20780409", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20780409", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Cobras"
     }, 
     {
         "id": "najahaje", 
@@ -44984,7 +45018,7 @@
     {
         "id": "neoromiciazuluensis", 
         "name": "Neoromicia zuluensis", 
-        "kingdom": "Animalia", 
+        "kingdom": "Metazoa", 
         "order": "Chiroptera", 
         "family": "Vespertilionidae", 
         "genus": "Neoromicia", 
@@ -45267,7 +45301,7 @@
         "eol_id": 38459, 
         "gbif_id": 2928756, 
         "catalogueoflife_id": "20934815", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20934815", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20932321/synonym/20934815", 
         "taxonRank": "genus", 
         "english_name": "Tobaccos"
     }, 
@@ -45421,7 +45455,8 @@
         "eol_id": 36179, 
         "gbif_id": null, 
         "catalogueoflife_id": "20754516", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20754516"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20754516", 
+        "taxonRank": "genus"
     }, 
     {
         "id": "nothosaervabrachiata", 
@@ -45944,7 +45979,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/18995327", 
         "taxonRank": "species", 
-        "english_name": "sweet basil"
+        "english_name": "basil"
     }, 
     {
         "id": "ocimumbasilicum", 
@@ -46326,7 +46361,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/18996826", 
         "taxonRank": "species", 
-        "english_name": "Flat-top Mille-graines"
+        "english_name": "flat-top mille graines"
     }, 
     {
         "id": "oleaeuropaeaafricana", 
@@ -46374,7 +46409,7 @@
     {
         "id": "omorgus", 
         "name": "Omorgus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Trogidae", 
         "genus": "Omorgus", 
@@ -46391,7 +46426,8 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20757235", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20757235", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Hide or Skin Beetles"
     }, 
     {
         "id": "onychognathusmorio", 
@@ -46926,7 +46962,7 @@
     {
         "id": "oryza", 
         "name": "Oryza", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Poales", 
         "family": "Poaceae", 
         "genus": "Oryza", 
@@ -46937,7 +46973,8 @@
         "gbif_id": 2703455, 
         "catalogueoflife_id": "20750003", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20750003", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "rice"
     }, 
     {
         "id": "oryzabarthii", 
@@ -47637,7 +47674,7 @@
         "catalogueoflife_id": "11921829", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11921829", 
         "taxonRank": "species", 
-        "english_name": "White-faced Scops Owl"
+        "english_name": "Northern white-faced owl"
     }, 
     {
         "id": "otussenegalensis", 
@@ -47839,7 +47876,7 @@
         "eol_id": 2760644, 
         "gbif_id": 4298268, 
         "catalogueoflife_id": "20944932", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20944932", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20944932", 
         "taxonRank": "genus"
     }, 
     {
@@ -48055,7 +48092,7 @@
     {
         "id": "pachycondyla", 
         "name": "Pachycondyla", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Formicidae", 
         "genus": "Pachycondyla", 
@@ -48066,7 +48103,7 @@
         "gbif_id": 1319685, 
         "catalogueoflife_id": "20803227", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20803227", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "pachydactyluscapensis", 
@@ -48355,7 +48392,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19266177", 
         "taxonRank": "species", 
-        "english_name": "kleingrass"
+        "english_name": "klinegrass"
     }, 
     {
         "id": "panicumfluviicola", 
@@ -48818,7 +48855,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19736031", 
         "taxonRank": "species", 
-        "english_name": "Asian lion"
+        "english_name": "Lion"
     }, 
     {
         "id": "pantherapardus", 
@@ -48977,7 +49014,7 @@
     {
         "id": "papioursinus", 
         "name": "Papio ursinus", 
-        "kingdom": "Animalia", 
+        "kingdom": "Metazoa", 
         "order": "Primates", 
         "family": "Cercopithecidae", 
         "genus": "Papio", 
@@ -50071,7 +50108,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/13208898", 
         "taxonRank": "species", 
-        "english_name": "helmeted turtle"
+        "english_name": "African Helmeted Terrapin"
     }, 
     {
         "id": "pelomysfallax", 
@@ -50596,12 +50633,13 @@
             "South"
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20305193", 
-        "taxonRank": "species"
+        "taxonRank": "species", 
+        "english_name": "African heart-vine"
     }, 
     {
         "id": "pentatomidae", 
         "name": "Pentatomidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Pentatomidae", 
         "genus": "Eurydema", 
@@ -50619,7 +50657,8 @@
         "gbif_id": 9650, 
         "catalogueoflife_id": "20730231", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730231", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "stink bugs and terrestrial turtle bugs"
     }, 
     {
         "id": "pentatropisnivalis", 
@@ -50842,7 +50881,7 @@
     {
         "id": "petrocephalus", 
         "name": "Petrocephalus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Osteoglossiformes", 
         "family": "Mormyridae", 
         "genus": "Petrocephalus", 
@@ -50853,7 +50892,7 @@
         "gbif_id": 2402369, 
         "catalogueoflife_id": "20744488", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20744488", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "petrodromustetradactylus", 
@@ -51098,7 +51137,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737817", 
         "taxonRank": "species", 
-        "english_name": "Common Warthog"
+        "english_name": "Warthog"
     }, 
     {
         "id": "phaeoptilumspinosum", 
@@ -52036,7 +52075,8 @@
         "eol_id": 1152627, 
         "gbif_id": 5382478, 
         "catalogueoflife_id": null, 
-        "taxonRank": "infraspecies"
+        "taxonRank": "species", 
+        "english_name": "Potato bush"
     }, 
     {
         "id": "phyllognathusburmeisteri", 
@@ -52191,7 +52231,7 @@
         "eol_id": 38332, 
         "gbif_id": 2928907, 
         "catalogueoflife_id": "20934763", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20934763", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20932459/synonym/20934763", 
         "taxonRank": "genus", 
         "english_name": "groundcherry"
     }, 
@@ -52286,7 +52326,7 @@
         "catalogueoflife_id": "20735594", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20735594", 
         "taxonRank": "family", 
-        "english_name": "woodpecker"
+        "english_name": "woodpeckers"
     }, 
     {
         "id": "pimeliagrandis", 
@@ -53231,7 +53271,7 @@
         "catalogueoflife_id": "11910160", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11910160", 
         "taxonRank": "species", 
-        "english_name": "African Finfoot"
+        "english_name": "Peter's finfoot"
     }, 
     {
         "id": "poecilogalealbinucha", 
@@ -53446,7 +53486,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20275927", 
         "taxonRank": "species", 
-        "english_name": "Old-man's-cap"
+        "english_name": "oldman's cap"
     }, 
     {
         "id": "polycarpaeaeriantha", 
@@ -53580,7 +53620,7 @@
     {
         "id": "pompilidae", 
         "name": "Pompilidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Pompilidae", 
         "genus": "Priocnemis", 
@@ -53596,7 +53636,8 @@
         "gbif_id": 7913, 
         "catalogueoflife_id": "20730165", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730165", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "Spider Wasps"
     }, 
     {
         "id": "portulacafoliosa", 
@@ -53700,7 +53741,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20282589", 
         "taxonRank": "species", 
-        "english_name": "Chicken Weed"
+        "english_name": "chickenweed"
     }, 
     {
         "id": "potamochoeruslarvatus", 
@@ -53740,7 +53781,7 @@
     {
         "id": "potamonautes", 
         "name": "Potamonautes", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Decapoda", 
         "family": "Potamonautidae", 
         "genus": "Potamonautes", 
@@ -53756,7 +53797,7 @@
         "gbif_id": 4646461, 
         "catalogueoflife_id": "20815742", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20815742", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "pouteriaalnifolia", 
@@ -54248,7 +54289,7 @@
     {
         "id": "prosymna", 
         "name": "Prosymna", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Squamata", 
         "family": "Colubridae", 
         "genus": "Prosymna", 
@@ -54259,7 +54300,8 @@
         "gbif_id": 2454382, 
         "catalogueoflife_id": "20801570", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20801570", 
-        "taxonRank": "species"
+        "taxonRank": "genus", 
+        "english_name": "Shovelsnout Snake"
     }, 
     {
         "id": "protelescristata", 
@@ -54751,7 +54793,7 @@
     {
         "id": "psychidae", 
         "name": "Psychidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Lepidoptera", 
         "family": "Psychidae", 
         "genus": "Psyche", 
@@ -54767,7 +54809,8 @@
         "gbif_id": 8861, 
         "catalogueoflife_id": "20735091", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20735091", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "Bagworm Moths"
     }, 
     {
         "id": "psydraxlivida", 
@@ -55062,7 +55105,7 @@
         "catalogueoflife_id": "20735606", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20735606", 
         "taxonRank": "family", 
-        "english_name": "sand-grouse"
+        "english_name": "Sandgrouse"
     }, 
     {
         "id": "pterococcusafricanus", 
@@ -55184,7 +55227,7 @@
         "catalogueoflife_id": "11921829", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11921829", 
         "taxonRank": "species", 
-        "english_name": "White-faced Scops Owl"
+        "english_name": "Northern white-faced owl"
     }, 
     {
         "id": "ptilostomusafer", 
@@ -55518,7 +55561,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19115385", 
         "taxonRank": "species", 
-        "english_name": "white-edge flatsedge"
+        "english_name": "whiteedge flatsedge"
     }, 
     {
         "id": "pyrgomorphavignaudi", 
@@ -55622,7 +55665,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/13209283", 
         "taxonRank": "species", 
-        "english_name": "Ball Python, Royal Python"
+        "english_name": "royal python"
     }, 
     {
         "id": "pythonsebae", 
@@ -55712,7 +55755,7 @@
         "catalogueoflife_id": "7157833", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/7157833", 
         "taxonRank": "species", 
-        "english_name": "South African Burrowing Frog"
+        "english_name": "African Bullfrog"
     }, 
     {
         "id": "queleaquelea", 
@@ -55853,7 +55896,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737903", 
         "taxonRank": "species", 
-        "english_name": "Sharpe''s grysbok"
+        "english_name": "Sharpe's Grysbok"
     }, 
     {
         "id": "raphionacmeburkei", 
@@ -55895,7 +55938,7 @@
         "catalogueoflife_id": "20787964", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20787964", 
         "taxonRank": "genus", 
-        "english_name": "rat"
+        "english_name": "rats"
     }, 
     {
         "id": "rattusnorvegicus", 
@@ -56065,7 +56108,7 @@
     {
         "id": "reduviidae", 
         "name": "Reduviidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hemiptera", 
         "family": "Reduviidae", 
         "genus": null, 
@@ -56082,7 +56125,8 @@
         "gbif_id": 4324, 
         "catalogueoflife_id": "20730222", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730222", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "assassin bugs"
     }, 
     {
         "id": "requieniaobcordata", 
@@ -56759,7 +56803,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737632", 
         "taxonRank": "species", 
-        "english_name": "Meller''s mongoose"
+        "english_name": "Meller's Mongoose"
     }, 
     {
         "id": "rhynchosiaminima", 
@@ -57632,7 +57676,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20269571", 
         "taxonRank": "species", 
-        "english_name": "Toothbrush tree"
+        "english_name": "Mustard-tree"
     }, 
     {
         "id": "salviaruncinata", 
@@ -57839,9 +57883,9 @@
     {
         "id": "sarcophaga", 
         "name": "Sarcophaga", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Diptera", 
-        "family": "Sarcophagidae", 
+        "family": "Tachinidae", 
         "genus": "Sarcophaga", 
         "ecoregions": [], 
         "countries": [], 
@@ -57850,7 +57894,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20825901", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20825901", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "sarcostemmaviminale", 
@@ -57959,7 +58003,7 @@
     {
         "id": "scarabaeidae", 
         "name": "Scarabaeidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Scarabaeidae", 
         "genus": null, 
@@ -57976,7 +58020,8 @@
         "gbif_id": 5840, 
         "catalogueoflife_id": "20728944", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20728944", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "dung beetles"
     }, 
     {
         "id": "schilbeintermedius", 
@@ -58480,7 +58525,7 @@
         "catalogueoflife_id": "20728489", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20728489", 
         "taxonRank": "family", 
-        "english_name": "Skink"
+        "english_name": "skinks"
     }, 
     {
         "id": "scintharistanotabilis", 
@@ -58612,7 +58657,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20307314", 
         "taxonRank": "species", 
-        "english_name": "Liquorice weed"
+        "english_name": "vassourinha"
     }, 
     {
         "id": "scopusumbretta", 
@@ -58634,12 +58679,12 @@
         "catalogueoflife_id": "11909240", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909240", 
         "taxonRank": "species", 
-        "english_name": "Hamerkop"
+        "english_name": "Hammerkop"
     }, 
     {
         "id": "scorpiones", 
         "name": "Scorpiones", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Scorpiones", 
         "family": "Buthidae", 
         "genus": "Centruroides", 
@@ -58652,7 +58697,8 @@
         "gbif_id": 872, 
         "catalogueoflife_id": "20734019", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20734019", 
-        "taxonRank": "species"
+        "taxonRank": "order", 
+        "english_name": "scorpions"
     }, 
     {
         "id": "scotoecusalbofuscus", 
@@ -58685,7 +58731,7 @@
     {
         "id": "scotophilus", 
         "name": "Scotophilus", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Chiroptera", 
         "family": "Vespertilionidae", 
         "genus": "Scotophilus", 
@@ -58696,7 +58742,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20836938", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20836938", 
-        "taxonRank": "species"
+        "taxonRank": "genus"
     }, 
     {
         "id": "scotophilusdinganii", 
@@ -58830,7 +58876,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20253978", 
         "taxonRank": "species", 
-        "english_name": "Karee"
+        "english_name": "Willow rhus"
     }, 
     {
         "id": "searsialeptodictya", 
@@ -58998,7 +59044,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19342394", 
         "taxonRank": "species", 
-        "english_name": "common bushweed"
+        "english_name": "Snowberry tree"
     }, 
     {
         "id": "seneciolongiflorus", 
@@ -59430,7 +59476,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20316111", 
         "taxonRank": "species", 
-        "english_name": "Simsim"
+        "english_name": "sesame"
     }, 
     {
         "id": "sesamumtriphyllum", 
@@ -60249,7 +60295,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20268611", 
         "taxonRank": "species", 
-        "english_name": "Broomjute sida"
+        "english_name": "cuban jute"
     }, 
     {
         "id": "sidaspinosa", 
@@ -60310,8 +60356,8 @@
             "Nicaragua,"
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20268672", 
-        "taxonRank": "specie", 
-        "english_name": "Caesarweed"
+        "taxonRank": "species", 
+        "english_name": "tropical fanpetals"
     }, 
     {
         "id": "sigmoceroslichtensteinii", 
@@ -60343,7 +60389,7 @@
     {
         "id": "simiiformes", 
         "name": "Simiiformes", 
-        "kingdom": "Animalia", 
+        "kingdom": "Metazoa", 
         "order": "Primates", 
         "family": null, 
         "genus": null, 
@@ -60397,9 +60443,9 @@
     {
         "id": "siphonaptera", 
         "name": "Siphonaptera", 
-        "kingdom": "Animalia", 
-        "order": null, 
-        "family": null, 
+        "kingdom": "Protozoa", 
+        "order": "Foraminiferida", 
+        "family": "Miliolidae", 
         "genus": null, 
         "ecoregions": [], 
         "countries": [], 
@@ -60408,7 +60454,7 @@
         "gbif_id": null, 
         "catalogueoflife_id": "20728430", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20728430", 
-        "taxonRank": "order", 
+        "taxonRank": "genus", 
         "english_name": "fleas"
     }, 
     {
@@ -60429,8 +60475,9 @@
         "eol_id": 49977, 
         "gbif_id": 1170172, 
         "catalogueoflife_id": "20879574", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20879574", 
-        "taxonRank": "species"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20878965/synonym/20879574", 
+        "taxonRank": "genus", 
+        "english_name": "Granary Weevils"
     }, 
     {
         "id": "sitophilusgranarius", 
@@ -60701,7 +60748,7 @@
     {
         "id": "solifugae", 
         "name": "Solifugae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Solifugae", 
         "family": null, 
         "genus": null, 
@@ -60717,7 +60764,8 @@
         "gbif_id": 756, 
         "catalogueoflife_id": "20734016", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20734016", 
-        "taxonRank": "species"
+        "taxonRank": "order", 
+        "english_name": "sun spiders"
     }, 
     {
         "id": "solpugidae", 
@@ -60837,7 +60885,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19282428", 
         "taxonRank": "species", 
-        "english_name": "broom-corn"
+        "english_name": "common wild sorghum"
     }, 
     {
         "id": "sorghumbicolor", 
@@ -61456,7 +61504,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11769930", 
         "taxonRank": "species", 
-        "english_name": "Chicken-spike"
+        "english_name": "chickenspike"
     }, 
     {
         "id": "sphenopsdelislei", 
@@ -61528,7 +61576,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20299699", 
         "taxonRank": "species", 
-        "english_name": "West Indian pinkroot"
+        "english_name": "pink root of Demerara"
     }, 
     {
         "id": "spiloptilaclamans", 
@@ -62167,7 +62215,7 @@
         "catalogueoflife_id": "20729608", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20729608", 
         "taxonRank": "family", 
-        "english_name": "jerusalem cricket"
+        "english_name": "jerusalem crickets"
     }, 
     {
         "id": "stephanoaetuscoronatus", 
@@ -62267,7 +62315,7 @@
         "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Buprestidae", 
-        "genus": "Sternocera", 
+        "genus": "Calthropella", 
         "ecoregions": [
             "AT1309"
         ], 
@@ -62280,8 +62328,12 @@
         "eol_id": 2866209, 
         "gbif_id": null, 
         "catalogueoflife_id": "20882270", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20882270", 
-        "taxonRank": "genus"
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20882270", 
+        "taxonRank": "genus", 
+        "tdwgregions": [
+            "Azores", 
+            "Cape"
+        ]
     }, 
     {
         "id": "sternocerainterruptaoliver1790", 
@@ -62671,7 +62723,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11908938", 
         "taxonRank": "species", 
-        "english_name": "Ostrich"
+        "english_name": "Common Ostrich"
     }, 
     {
         "id": "strychnosmadagascariensis", 
@@ -63550,9 +63602,9 @@
         "id": "tabanidae", 
         "name": "Tabanidae", 
         "kingdom": "Animalia", 
-        "order": "Rickettsiales", 
-        "family": "Anaplasmataceae", 
-        "genus": "Wolbachia", 
+        "order": "Diptera", 
+        "family": "Tabanidae", 
+        "genus": "Scaptia", 
         "ecoregions": [
             "AT0709"
         ], 
@@ -63565,7 +63617,8 @@
         "gbif_id": 6919, 
         "catalogueoflife_id": "20734352", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20734352", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "horse flies"
     }, 
     {
         "id": "tacazzeaapiculata", 
@@ -63915,7 +63968,7 @@
         "gbif_id": 3088481, 
         "catalogueoflife_id": null, 
         "taxonRank": "species", 
-        "english_name": "muster John Henry"
+        "english_name": "stinking roger"
     }, 
     {
         "id": "talinumarnotii", 
@@ -64112,7 +64165,7 @@
         "eol_id": 39877578, 
         "gbif_id": 7287961, 
         "catalogueoflife_id": "20942929", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20942929", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20940286/synonym/20942929", 
         "taxonRank": "species"
     }, 
     {
@@ -64529,7 +64582,7 @@
     {
         "id": "tenebrionidae", 
         "name": "Tenebrionidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Coleoptera", 
         "family": "Tenebrionidae", 
         "genus": "Lagria", 
@@ -64546,7 +64599,8 @@
         "gbif_id": 7857, 
         "catalogueoflife_id": "20730330", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20730330", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "darkling beetles"
     }, 
     {
         "id": "tephrosiaberhautiana", 
@@ -64877,7 +64931,7 @@
         "eol_id": 60799, 
         "gbif_id": 3189387, 
         "catalogueoflife_id": "20946750", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20946750", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20946210/synonym/20946750", 
         "taxonRank": "genus", 
         "english_name": "tropical almond"
     }, 
@@ -65032,7 +65086,7 @@
         "eol_id": 33770194, 
         "gbif_id": 4783425, 
         "catalogueoflife_id": "20933551", 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20933551", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20931809/synonym/20933551", 
         "taxonRank": "species"
     }, 
     {
@@ -65083,7 +65137,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19057179", 
         "taxonRank": "species", 
-        "english_name": "Ginger bush"
+        "english_name": "Iboza"
     }, 
     {
         "id": "tetraodonlineatus", 
@@ -65201,7 +65255,8 @@
         "gbif_id": 2437943, 
         "catalogueoflife_id": "19737421", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19737421", 
-        "taxonRank": "species"
+        "taxonRank": "species", 
+        "english_name": "Black-tailed Tree Rat"
     }, 
     {
         "id": "thallomyspaedulcus", 
@@ -65390,7 +65445,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19285731", 
         "taxonRank": "species", 
-        "english_name": "kangaroo grass"
+        "english_name": "Red grass"
     }, 
     {
         "id": "threskiornisaethiopicamelanocephalalatham", 
@@ -66386,7 +66441,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20280305", 
         "taxonRank": "species", 
-        "english_name": "desert horse-purslane"
+        "english_name": "desert horsepurslane"
     }, 
     {
         "id": "tribulusterrestris", 
@@ -66412,7 +66467,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20219918", 
         "taxonRank": "species", 
-        "english_name": "goathead"
+        "english_name": "devil's thorn"
     }, 
     {
         "id": "tribuluszeyheri", 
@@ -66474,7 +66529,7 @@
         "catalogueoflife_id": "11912736", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11912736", 
         "taxonRank": "species", 
-        "english_name": "Acacia Pied Barbet"
+        "english_name": "Pied Barbet"
     }, 
     {
         "id": "trichophytonschoenleinii", 
@@ -66876,7 +66931,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20264243", 
         "taxonRank": "species", 
-        "english_name": "Five-stamen Burrbark"
+        "english_name": "fivestamen burbark"
     }, 
     {
         "id": "triumfettarhomboidea", 
@@ -67549,7 +67604,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/16980227", 
         "taxonRank": "species", 
-        "english_name": "Red-cheeked Cordon-bleu"
+        "english_name": "Red-cheeked Cordonbleu"
     }, 
     {
         "id": "uraeginthusgranatinus", 
@@ -67688,7 +67743,7 @@
     {
         "id": "vachelliaamythethophylla", 
         "name": "Vachellia amythethophylla", 
-        "kingdom": "Plantae", 
+        "kingdom": "Viridiplantae", 
         "order": "Fabales", 
         "family": "Fabaceae", 
         "genus": "Vachellia", 
@@ -67703,7 +67758,7 @@
     {
         "id": "vachellianilotica", 
         "name": "Vachellia nilotica", 
-        "kingdom": "Viridiplantae", 
+        "kingdom": "Plantae", 
         "order": "Fabales", 
         "family": "Fabaceae", 
         "genus": "Vachellia", 
@@ -67835,7 +67890,7 @@
         "catalogueoflife_id": "11910215", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11910215", 
         "taxonRank": "species", 
-        "english_name": "Spur-winged Lapwing"
+        "english_name": "Spur-winged Plover"
     }, 
     {
         "id": "vanellustectus", 
@@ -68163,7 +68218,7 @@
     {
         "id": "vespidae", 
         "name": "Vespidae", 
-        "kingdom": "Metazoa", 
+        "kingdom": "Animalia", 
         "order": "Hymenoptera", 
         "family": "Vespidae", 
         "genus": "Dolichovespula", 
@@ -68181,7 +68236,8 @@
         "gbif_id": 4490, 
         "catalogueoflife_id": "20728862", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20728862", 
-        "taxonRank": "species"
+        "taxonRank": "family", 
+        "english_name": "hornets, hornets and yellowjackets, paper wasps, potter wasps, and yellowjackets"
     }, 
     {
         "id": "viduachalybeata", 
@@ -68728,7 +68784,7 @@
         "catalogueoflife_id": "20949303", 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/browse/tree/id/20949303", 
         "taxonRank": "genus", 
-        "english_name": "Grapevine"
+        "english_name": "Grape-vines"
     }, 
     {
         "id": "vossiacuspidata", 
@@ -68945,7 +69001,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/20268282", 
         "taxonRank": "species", 
-        "english_name": "Big Yellow Wissadula"
+        "english_name": "big yellow velvetleaf"
     }, 
     {
         "id": "xanthiumspinosum", 
@@ -68966,7 +69022,7 @@
         "gbif_id": 3089150, 
         "catalogueoflife_id": null, 
         "taxonRank": "species", 
-        "english_name": "spiny cockleburr"
+        "english_name": "spiny cocklebur"
     }, 
     {
         "id": "xenostegiatridentata", 
@@ -69523,7 +69579,7 @@
         ], 
         "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19129035", 
         "taxonRank": "species", 
-        "english_name": "Spice Ginger"
+        "english_name": "ginger"
     }, 
     {
         "id": "ziziphusabyssinica", 
