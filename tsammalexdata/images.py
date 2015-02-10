@@ -3,12 +3,16 @@ import sys
 import json
 from xml.etree import cElementTree as et
 import re
+from hashlib import md5
+import shutil
 
 from bs4 import BeautifulSoup
 import requests
 from purl import URL
 import flickrapi
 from dateutil.parser import parse
+
+from tsammalexdata.util import csv_items, data_file, jsondump, jsonload, visit
 
 
 class DataProvider(object):
@@ -25,11 +29,12 @@ class DataProvider(object):
     def postprocess(self, res):
         new = {}
         for k, v in res.items():
-            if k == 'date':
+            if k == 'date' and v:
                 v = self.date(v)
             if k in ['latitude', 'longitude']:
                 v = float(v)
-            new[k] = v
+            if v:
+                new[k] = v
         return new
 
     def info(self, url):
@@ -113,33 +118,40 @@ class Eol(DataProvider):
     def info_for_id(self, id_):
         info = requests.get(
             'http://eol.org/api/data_objects/1.0/%s.json' % id_).json()['dataObjects'][0]
-        return {
-            'creator': {a['role']: a['full_name'] for a in info['agents']}['photographer'],
-            'date': info['created'],
-            'permission': info['license'],
-            'source': 'http://media.eol.org/data_objects/' + id_,
-            'source_url': info['eolMediaURL'],
-            'mime_type': info['mimeType'],
-            'place': info['location'],
-            'comments': info['description'],
-        }
+        agents = {a['role']: a['full_name'] for a in info['agents']}
+        if 'eolMediaURL' in info:
+            return {
+                'creator': agents.get('photographer', agents.values()[0]),
+                'date': info.get('created'),
+                'permission': info['license'],
+                'source': 'http://media.eol.org/data_objects/' + id_,
+                'source_url': info['eolMediaURL'],
+                'mime_type': info['mimeType'],
+                'place': info.get('location'),
+                'comments': info.get('description'),
+            }
 
     def id_from_url(self, url):
         """
         http://media.eol.org/data_objects/23049910
         """
-        if url.host() != 'media.eol.org':
+        if url.host() != 'eol.org':
             return
         comps = url.path_segments()
-        assert comps[0] == 'data_objects'
+        if comps[0] != 'data_objects':
+            return
         return comps[1]
 
 
 class Wikimedia(DataProvider):
-    filename_pattern = re.compile('[a-zA-Z\-_%0-9]+\.(jpg|png)$')
+    filename_pattern = re.compile("(?P<fname>[a-zA-Z\-_,'\(\)%0-9]+\.(jpg|png|JPG))$")
     license_pattern = re.compile('CC\-(?P<clauses>[A-Z\-]+)\-(?P<version>[0-9\.]+)')
     license_map = {
         'PD-user': 'http://en.wikipedia.org/wiki/Public_domain',
+        'PD 1923': 'http://en.wikipedia.org/wiki/Public_domain',
+        'CC-PD-Mark': 'http://en.wikipedia.org/wiki/Public_domain',
+        'PD other reasons': 'http://en.wikipedia.org/wiki/Public_domain',
+        #'PD-user': 'http://en.wikipedia.org/wiki/Public_domain',
     }
 
     def info_for_id(self, id_):
@@ -177,7 +189,8 @@ class Wikimedia(DataProvider):
     </response>
         """
         def text(e):
-            return BeautifulSoup(e.text).string
+            if e and e.text:
+                return BeautifulSoup(e.text).string
 
         info = et.fromstring(requests.get(
             'http://tools.wmflabs.org/magnus-toolserver/commonsapi.php',
@@ -207,13 +220,95 @@ class Wikimedia(DataProvider):
             return
         comps = url.path_segments()
         if comps[0] == 'wiki':
-            return comps[1].split('File:')[1]
+            if 'File:' in comps[1]:
+                return comps[1].split('File:')[1]
+            else:
+                return
         for comp in comps:
-            if self.filename_pattern.match(comp):
-                return comp
+            m = self.filename_pattern.search(comp)
+            if m:
+                return m.group('fname')
+        print(comps)
+
+
+#
+# TODO:
+#
+def get_info(img, providers):
+    for field in ['source', 'source_url']:
+        for provider in providers:
+            if provider.id_from_url(URL(img[field])):
+                return provider.info(img[field])
+
+
+class Visitor(object):
+    def __init__(self, data):
+        self.data = data
+        print(len(data))
+
+    def __call__(self, index, row):
+        if index == 0:
+            self.cols = {col: i for i, col in enumerate(row)}
+            return row
+        key = '%s-%s' % (row[self.cols['taxa__id']], row[self.cols['tags']])
+        row = [c.strip() for c in row]
+        if key in self.data and self.data[key]['id']:
+            info = self.data[key]
+            for col in 'creator place permission comments'.split():
+                if not row[self.cols[col]].strip() and info.get(col):
+                    row[self.cols[col]] = info.get(col).strip().encode('utf8')
+
+            for col in 'id date source source_url mime_type'.split():
+                if info.get(col):
+                    row[self.cols[col]] = info.get(col).encode('utf8')
+
+            if 'latitude' in info and 'longitude' in info:
+                row[self.cols['gps']] = '%s %s' % (info['latitude'], info['longitude'])
+            return row
+
+
+def update():
+    data = jsonload(data_file('cn', 'images.json'), default={})
+    providers = [Wikimedia(), Flickr(), Eol()]
+    try:
+        for img in csv_items('cn/images.csv'):
+            key = '%s-%s' % (img['taxa__id'], img['tags'])
+            if key in data:
+                continue
+            info = get_info(img, providers)
+            if info:
+                assert 'source_url' in info
+                checksum = md5()
+                res = requests.get(info['source_url'])
+                checksum.update(res.content)
+                checksum = checksum.hexdigest()
+                info['id'] = checksum
+                info.setdefault('mime_type', res.headers['content-type'])
+                with open(data_file('cn', 'images', checksum), mode='wb') as fp:
+                    fp.write(res.content)
+                data[key] = info
+    except:
+        jsondump(data, data_file('cn', 'images.json'), indent=4)
+        raise
+    jsondump(data, data_file('cn', 'images.json'), indent=4)
+
+
+def rewrite():
+    visit('cn/images.csv', Visitor(jsonload(data_file('cn', 'images.json'))))
+
+
+def mv():
+    for info in jsonload(data_file('cn', 'images.json')).values():
+        ext = 'png' if 'png' in info['mime_type'] else 'jpg'
+        shutil.move(
+            data_file('cn', 'images', info['id']),
+            data_file('cn', 'images', '%s.%s' % (info['id'], ext)))
 
 
 if __name__ == '__main__':
-    for provider in [Wikimedia(), Flickr(), Eol()]:
-        if provider.id_from_url(URL(sys.argv[1])):
-            print json.dumps(provider.info(sys.argv[1]), indent=4)
+    #update()
+    #rewrite()
+    mv()
+    #for provider in [Wikimedia(), Flickr(), Eol()]:
+    #    if provider.id_from_url(URL(sys.argv[1])):
+    #        print json.dumps(provider.info(sys.argv[1]), indent=4)
