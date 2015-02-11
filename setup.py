@@ -1,6 +1,10 @@
 from setuptools import setup, find_packages
 
 
+requires = [
+    'requests', 'purl', 'pycountry', 'flickrapi', 'python-dateutil', 'BeautifulSoup4'
+]
+
 setup(name='tsammalexdata',
       version='0.0',
       description='data for the tsammalex site',
@@ -17,6 +21,6 @@ setup(name='tsammalexdata',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['requests', 'purl', 'pycountry'],
+      install_requires=requires,
       tests_require=[],
       test_suite="tsammalexdata")
