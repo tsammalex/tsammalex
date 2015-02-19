@@ -500,9 +500,9 @@ streptopeliasenegalensis-afr-1,lemoenduifie,afr,streptopeliasenegalensis,,,,,,,d
 struthiocamelus-afr-0,volstruis,afr,struthiocamelus,,,,,,,volstruis,,,,,,,,afr-voels;afr-diere,,,,,,,,,eksteen1997[1166],
 strychnosmadagascariensis-afr-0,swartklapper,afr,strychnosmadagascariensis,,,,,,,klapper,,,,,,,,afr-plante,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,
 strychnosmadagascariensis-afr-1,botterklapper,afr,strychnosmadagascariensis,,,,,,,klapper,,,,,,,,afr-plante,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,
-suricatasuricata-afr-0,graatjiemeerkat,afr,suricatasuricata,,,,,,,meerkat,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,,
-suricatasuricata-afr-1,stokstertmeerkat,afr,suricatasuricata,,,,,,,meerkat,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,cillie1997[164],
-suricatasuricata-afr-2,meerkat,afr,suricatasuricata,,,,,,,meerkat,meerkat,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,,
+suricatasuricatta-afr-0,graatjiemeerkat,afr,suricatasuricatta,,,,,,,meerkat,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,,
+suricatasuricatta-afr-1,stokstertmeerkat,afr,suricatasuricatta,,,,,,,meerkat,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,cillie1997[164],
+suricatasuricatta-afr-2,meerkat,afr,suricatasuricatta,,,,,,,meerkat,meerkat,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Graatjiemeerkat,,
 sylvicapragrimmia-afr-0,gewone duiker,afr,sylvicapragrimmia,,,,,,,duiker,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Gewone_duiker,,
 sylvicapragrimmia-afr-1,duiker,afr,sylvicapragrimmia,,,,,,,duiker,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,,cillie1997[64],
 synceruscaffer-afr-0,buffel,afr,synceruscaffer,,,,,,,buffel,,,,,,,,afr-soogdiere;afr-diere,,,,,,,,http://af.wikipedia.org/wiki/Buffel,cillie1997[84],
@@ -2145,7 +2145,7 @@ sorghumarundinaceum-bunoge-50497-0,sì:njá yàbà,bunoge,sorghumarundinaceu
 sorghumbicolor-bunoge-50498-0,sí:njà,bunoge,sorghumbicolor,,,,,,,,sorghum (sweet),,,,,,,,,,,,,,,http://dogonlanguages.org,,50498
 spondiasmombin-bunoge-50050-0,tɛ́nì,bunoge,spondiasmombin,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50050
 steraspis-bunoge-60285-0,kèlè-múnjà,bunoge,steraspis,,,,,,,,buprestid beetle sp. (dark),,,,,,,,,,,,,,,http://dogonlanguages.org,,60285
-sternocerainterruptaoliver1790-bunoge-60286-0,kèlè-múnjà,bunoge,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-bunoge-60286-0,kèlè-múnjà,bunoge,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-bunoge-60092-0,kùnɛ̀-ŋ-kúnɛ̀,bunoge,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 struthiocamelus-bunoge-60181-0,pígì,bunoge,struthiocamelus,,,,,,,,ostrich,,,,,,,,,,,,,,,http://dogonlanguages.org,,60181
 stylochaetonlancifolius-bunoge-50086-0,kòlòmú sùgúlè,bunoge,stylochaetonlancifolius,,,,,,,,herb sp.,donkey's ear,,,,,,,,,,,,,,http://dogonlanguages.org,,50086
@@ -2431,7 +2431,7 @@ solanumtuberosum-deu-0,Kartoffel,deu,solanumtuberosum,,,f,,,,Kartoffel,,,,,,,,de
 solanumtuberosum-deu-1,Erdapfel,deu,solanumtuberosum,,,m,,,,,,,,,,,,deu-pflanzen,,,,,,,,http://de.wikipedia.org/wiki/Kartoffel,,
 solifugae-deu-0,Walzenspinne,deu,solifugae,,,f,,,,Spinne,,,,,,,,deu-spinnentiere;deu-wirbellose;deu-tiere,,,,,,,,http://de.wikipedia.org/wiki/Walzenspinnen,,
 solpugidae-deu-0,Walzenspinne,deu,solpugidae,,,f,,,,Spinne,,,,,,,,deu-spinnentiere;deu-wirbellose;deu-tiere,,,,,,,,http://de.wikipedia.org/wiki/Walzenspinnen,,
-suricatasuricata-deu-0,Erdmännchen,deu,suricatasuricata,,,n,,,,Erdmännchen,,,,,,,,deu-saugetiere;deu-tiere,,,,,,,,,,
+suricatasuricatta-deu-0,Erdmännchen,deu,suricatasuricatta,,,n,,,,Erdmännchen,,,,,,,,deu-saugetiere;deu-tiere,,,,,,,,,,
 sylvicapragrimmia-deu-0,Kronenducker,deu,sylvicapragrimmia,,,m,,,,Ducker,,,,,,,,deu-saugetiere;deu-tiere,,,,,,,,http://de.wikipedia.org/wiki/Kronenducker,,
 synceruscaffer-deu-0,Afrikanischer Büffel,deu,synceruscaffer,,,m,,,,Büffel,,,,,,,,deu-saugetiere;deu-tiere,,,,,,,,http://de.wikipedia.org/wiki/Afrikanischer_B%C3%BCffel,,
 tabanidae-deu-0,Bremse,deu,tabanidae,,,f,,,,Bremse,,,,,,,,deu-insekten;deu-wirbellose;deu-tiere,,,,,,,,http://de.wikipedia.org/wiki/Bremsen,,
@@ -2884,7 +2884,7 @@ sporobolusfestivus-doguldom-50533-0,lègé:gù pɔ̀ŋɔ̀ ~ lègè:gù-p�
 steraspis-doguldom-60285-0,síyɛ́ kɛ́:-kɛ̀:,doguldom,steraspis,,,,,,,,buprestid beetle sp. (dark),,,,,,,,,,,,,,,http://dogonlanguages.org,,60285
 sterculiasetigera-doguldom-50642-0,bàrbò-tíŋínɛ́,doguldom,sterculiasetigera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50642
 stereospermumkunthianum-doguldom-50118-0,póllò,doguldom,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-doguldom-60286-0,kɛ̀: kó:lò,doguldom,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-doguldom-60286-0,kɛ̀: kó:lò,doguldom,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-doguldom-60092-0,pérgíró,doguldom,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-doguldom-60093-0,pèrgìrò mɔ̌:-gɛ́mɛ̀ŋ,doguldom,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),dove nape-black,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-doguldom-50613-0,dú:,doguldom,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -3209,7 +3209,7 @@ spiloptilaclamans-donnoso-60194-0,pòndúŋ-gò:lò,donnoso,spiloptilaclaman
 sterculiasetigera-donnoso-50642-0,bàràmà-dìŋɛ̀lɛ́,donnoso,sterculiasetigera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50642
 stereospermumkunthianum-donnoso-50118-0,dùmbú-n-dèŋélè,donnoso,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
 stereospermumkunthianum-donnoso-50118-1,dùmbú-n-dèŋénè,donnoso,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-donnoso-60286-0,kɛ́:-ⁿ-gò:,donnoso,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-donnoso-60286-0,kɛ́:-ⁿ-gò:,donnoso,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-donnoso-60092-0,pèrè-gérè,donnoso,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 strigahermonthica-donnoso-50613-0,dó:,donnoso,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
 strophanthussarmentosus-donnoso-50064-0,kɛ̂y,donnoso,strophanthussarmentosus,,,,,,,,scrambling shrub sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50064
@@ -4303,8 +4303,8 @@ streptopeliasenegalensis-eng-1,Palm dove,eng,streptopeliasenegalensis,,,,,,,dove
 struthiocamelus-eng-0,Ostrich,eng,struthiocamelus,,,,,,,ostrich,,,,,,,,eng-birds;eng-animals,,,,,,,,,,
 strychnosmadagascariensis-eng-0,Black monkey orange,eng,strychnosmadagascariensis,,,,,,,orange,,,,,,,,eng-trees;eng-plants,,,,,,,,,,
 strychnospungens-eng-0,Strychnos pungens,eng,strychnospungens,,,,,,,,,,,,,,,eng-trees;eng-plants,,,,,,,,,,
-suricatasuricata-eng-0,Suricate,eng,suricatasuricata,,,,,,,suricate,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[164],
-suricatasuricata-eng-1,Meerkat,eng,suricatasuricata,,,,,,,suricate,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[164],
+suricatasuricatta-eng-0,Suricate,eng,suricatasuricatta,,,,,,,suricate,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[164],
+suricatasuricatta-eng-1,Meerkat,eng,suricatasuricatta,,,,,,,suricate,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[164],
 sylvicapragrimmia-eng-0,Common duiker,eng,sylvicapragrimmia,,,,,,,duiker,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[64],
 sylvicapragrimmia-eng-1,Grey duiker,eng,sylvicapragrimmia,,,,,,,duiker,,,,,,,,eng-mammals;eng-animals,,,,,,,,,cillie1997[64],
 sylvicapragrimmia-eng-2,Bush duiker,eng,sylvicapragrimmia,,,,,,,duiker,,,,,,,,eng-mammals;eng-animals,,,,,,,,,,
@@ -4828,7 +4828,7 @@ phacochoerusaethiopicus-huc-0,kōlòò bèè ǁqx’úú,huc,phacochoerusaethiop
 phacochoerusaethiopicus-huc-1,kōlòò bèè kí mā dzììn kì !ʾʾāī,huc,phacochoerusaethiopicus,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
 protelescristata-huc-0,ǀ'èí,huc,protelescristata,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
 raphiceruscampestris-huc-0,ǀqhòōn,huc,raphiceruscampestris,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
-suricatasuricata-huc-0,!hàq'ēn / ǃhàqn,huc,suricatasuricata,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
+suricatasuricatta-huc-0,!hàq'ēn / ǃhàqn,huc,suricatasuricatta,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
 sylvicapragrimmia-huc-0,ʘ'’úú,huc,sylvicapragrimmia,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
 taurotragusoryx-huc-0,tshàā,huc,taurotragusoryx,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
 tragelaphusstrepsiceros-huc-0,dyùà,huc,tragelaphusstrepsiceros,,,,,,,,,,,,,,,,,,,,,,,,bertholdgerlach2011[],
@@ -6108,7 +6108,7 @@ spondiasmombin-mombo-50050-0,sá:njá,mombo,spondiasmombin,,,,,,,,tree sp.,,,,
 sporobolusmicroprotus-mombo-50535-0,ìní pɔ̀:ⁿ,mombo,sporobolusmicroprotus,,,,,,,,grass sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50535
 sterculiasetigera-mombo-50642-0,bàràmà-tìŋérì,mombo,sterculiasetigera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50642
 stereospermumkunthianum-mombo-50118-0,kùmàŋgà-pélé,mombo,stereospermumkunthianum,,,,,,,,tree sp.,rain-...,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-mombo-60286-0,búnjúⁿ cɛ̀bɛ́rɛ̀,mombo,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-mombo-60286-0,búnjúⁿ cɛ̀bɛ́rɛ̀,mombo,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-mombo-60092-0,pèdégèlè,mombo,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-mombo-60093-0,pèdègèlè-bállà,mombo,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-mombo-50613-0,bó:ní,mombo,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -6647,7 +6647,7 @@ sporobolusfestivus-najamba-50533-0,[sànàŋwɛ̀:-mbò]-[dìmbìr-î:],na
 steraspis-najamba-60285-0,gáŋgálé\\gáŋgál-ŋgó,najamba,steraspis,,,,,,,,buprestid beetle sp. (dark),,,,,,,,,,,,,,,http://dogonlanguages.org,,60285
 steraspis-najamba-60285-1,swâ: gàŋgàlè\\swâ: gàŋgàl-ŋgò,najamba,steraspis,,,,,,,,buprestid beetle sp. (dark),,,,,,,,,,,,,,,http://dogonlanguages.org,,60285
 stereospermumkunthianum-najamba-50118-0,pópóllù:\\pópóllè,najamba,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-najamba-60286-0,kònjǔ: gàŋgàlè\\gàŋgàl-mbò,najamba,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-najamba-60286-0,kònjǔ: gàŋgàlè\\gàŋgàl-mbò,najamba,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-najamba-60092-0,béndé\\béndé-mbó,najamba,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-najamba-60093-0,bɔ̀rɔ̀-béndé\\bɔ̀rɔ̀-béndé-mbó,najamba,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-najamba-50613-0,yógé dùgò:\\yóge dùgè:,najamba,strigahermonthica,,,,,,,,herb sp.,millet's sorceror,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -7185,7 +7185,7 @@ spondiasmombin-nanga-50050-0,ɛ̀rⁿì-yɛ̀rⁿî,nanga,spondiasmombin,,,,,,
 sporobolusfestivus-nanga-50533-0,lì:gì-pɔ̌:ⁿ,nanga,sporobolusfestivus,,,,,,,,grass sp.,bird-fonio.grain,,,,,,,,,,,,,,http://dogonlanguages.org,,50533
 stereospermumkunthianum-nanga-50118-0,pó-bògórô,nanga,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
 stereospermumkunthianum-nanga-50118-1,pò-bò-gòrò yǎ:,nanga,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-nanga-60286-0,àmà-górí kɛ́-kɛ̂:,nanga,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),Amagori[name]'s beetle,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-nanga-60286-0,àmà-górí kɛ́-kɛ̂:,nanga,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),Amagori[name]'s beetle,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-nanga-60092-0,péndì-gìré,nanga,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-nanga-60093-0,pèndì-gìrè kɔ̀rɔ́-jɛ́mî,nanga,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),dove neck-black,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-nanga-50613-0,dô:,nanga,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -7291,8 +7291,8 @@ phacochoerusaethiopicus-naq-0,gȁìri̋b,naq,phacochoerusaethiopicus,,,,,,,,,,,,
 phacochoerusaethiopicus-naq-1,dȉìrȉb,naq,phacochoerusaethiopicus,,,,,,,,,,,,,,,,,,,,,,and tonal variants,,haackeeiseb2002[728],
 protelescristata-naq-0,ǀgȉíb,naq,protelescristata,,,,,,,,,,,,,,,,,,,,,,,,"haackeeiseb2002[189, 633]",
 raphiceruscampestris-naq-0,"ǃài̋ri̋s, ǃài̋ri̋b",naq,raphiceruscampestris,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[688],
-suricatasuricata-naq-0,ǃnȁíxàrȁb,naq,suricatasuricata,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[697],
-suricatasuricata-naq-1,xáràb,naq,suricatasuricata,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[697],
+suricatasuricatta-naq-0,ǃnȁíxàrȁb,naq,suricatasuricatta,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[697],
+suricatasuricatta-naq-1,xáràb,naq,suricatasuricatta,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[697],
 sylvicapragrimmia-naq-0,ǀhanus?,naq,sylvicapragrimmia,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[507],
 taurotragusoryx-naq-0,"ǃkháǹni, ǃkháǹs",naq,taurotragusoryx,,,,,,,,,,,,,,,,,,,,,,,,haackeeiseb2002[344],
 tragelaphusstrepsiceros-naq-0,"xàìb, xàìbi",naq,tragelaphusstrepsiceros,,,,,,,,,,,,,,,,,,,,,,,,"haackeeiseb2002[150, 573]",
@@ -7351,8 +7351,8 @@ papioursinus-ngh-e-0,ǁqun ǁqhaa,ngh-e,papioursinus,ǁqun ǁqhɑɑ,,,,,,,,,,,,,
 pedetescapensis-ngh-e-0,ǀau,ngh-e,pedetescapensis,ǀəu,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 protelescristata-ngh-e-0,ǃoo,ngh-e,protelescristata,ǃoo,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 raphiceruscampestris-ngh-e-1,ǂuny,ngh-e,raphiceruscampestris,ǂuɲ,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
-suricatasuricata-ngh-e-0,ǃae ǃhii,ngh-e,suricatasuricata,,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
-suricatasuricata-ngh-e-1,ǃae ǃhai,ngh-e,suricatasuricata,"ǃəe !ʰii, ǃəe ǃhəi",,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
+suricatasuricatta-ngh-e-0,ǃae ǃhii,ngh-e,suricatasuricatta,,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
+suricatasuricatta-ngh-e-1,ǃae ǃhai,ngh-e,suricatasuricatta,"ǃəe !ʰii, ǃəe ǃhəi",,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 sylvicapragrimmia-ngh-e-0,ǂqhee,ngh-e,sylvicapragrimmia,ǂqhee,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 taurotragusoryx-ngh-e-1,tsaa,ngh-e,taurotragusoryx,"sɑɑ, tsɑɑ",,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 acinonyxjubatus-ngh-w-e-0,ǃxʼaru,ngh-w,acinonyxjubatus,ǃχ’əɾu,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
@@ -7385,8 +7385,8 @@ papioursinus-ngh-w-e-0,ǁqun ǁqhaa,ngh-w,papioursinus,ǁqun ǁqhɑɑ,,,,,,,,,,,
 pedetescapensis-ngh-w-e-0,ǀau,ngh-w,pedetescapensis,ǀəu,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 protelescristata-ngh-w-e-0,ǃoo,ngh-w,protelescristata,ǃoo,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 raphiceruscampestris-ngh-w-0,ǂun,ngh-w,raphiceruscampestris,ǂun,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
-suricatasuricata-ngh-w-e-0,ǃae ǃhii,ngh-w,suricatasuricata,,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
-suricatasuricata-ngh-w-e-1,ǃae ǃhai,ngh-w,suricatasuricata,"ǃəe !ʰii, ǃəe ǃhəi",,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
+suricatasuricatta-ngh-w-e-0,ǃae ǃhii,ngh-w,suricatasuricatta,,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
+suricatasuricatta-ngh-w-e-1,ǃae ǃhai,ngh-w,suricatasuricatta,"ǃəe !ʰii, ǃəe ǃhəi",,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 sylvicapragrimmia-ngh-w-e-0,ǂqhee,ngh-w,sylvicapragrimmia,ǂqhee,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 taurotragusoryx-ngh-w-0,saa,ngh-w,taurotragusoryx,,,,,,,,,,,,,,,,,,,,,,,,sandsetal2006[],
 acaciaerioloba-nhr-0,xánà,nhr,acaciaerioloba,ǁánà,,,,,,,,,,,,,"root (inner, white part): dcìbí hìi; end of root: q'áí; fruit: tca̠e-tca̠re",,,,,,,,,,visser2001[237],
@@ -7666,7 +7666,7 @@ stephanoaetuscoronatus-nhr-0,ncõo cgoa dxãà,nhr,stephanoaetuscoronatus,ǀ̃o�
 stipagrostisuniplumis-nhr-0,dcãa,nhr,stipagrostisuniplumis,ǀ̬ãa,,,,,,,,,,,,,,,,,,,,,,,visser2001[234],
 streptopelia-nhr-0,tcíbí,nhr,streptopelia,ǂíbí,,,,,,,,,,,,,,,,,,,,,check if generic term,,visser2001[227],
 struthiocamelus-nhr-0,dcàro,nhr,struthiocamelus,ǀ̬àro,,,,,,,,,,,,,,,,,,,,,,,visser2001[224],
-suricatasuricata-nhr-0,qàì,nhr,suricatasuricata,ǃàì,,,,,,,variant: qaì nco̱e,,,,,,"qaì ba kókò “look for a squirrel” (be beautiful, have black eyes (like a squirrel)); qaì bas ko kókò “she is beautiful”",,,,,,,,,,"visser2001[204, 225]",
+suricatasuricatta-nhr-0,qàì,nhr,suricatasuricatta,ǃàì,,,,,,,variant: qaì nco̱e,,,,,,"qaì ba kókò “look for a squirrel” (be beautiful, have black eyes (like a squirrel)); qaì bas ko kókò “she is beautiful”",,,,,,,,,,"visser2001[204, 225]",
 susscrofadomesticus-nhr-0,xgùu,nhr,susscrofadomesticus,ǁxùu,,,,,,,also: warthog,,,,,,,,,,,,,,,,visser2001[225],
 sylvicapragrimmia-nhr-0,ncãò,nhr,sylvicapragrimmia,ǀ̃ãò,,,,,,,,,,,,,,,,,,,,,,,"visser2001[146, 224]",
 sylvicapragrimmia-nhr-1,qoo ncom,nhr,sylvicapragrimmia,ǃoo ǀ̃om,,,,,,,alternative name of duiker,,,,,,,,,,,,,,,,"visser2001[146, 225]",
@@ -7738,8 +7738,8 @@ phacochoerusaethiopicus-nmn-a-0,nǁàhm̀,nmn-a,phacochoerusaethiopicus,,,1/4,,,
 protelescristata-nmn-a-0,ǀàhí,nmn-a,protelescristata,ǀi̤:,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 psammobatesoculiferus-nmn-a-0,nǁàhìsí,nmn-a,psammobatesoculiferus,,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 raphiceruscampestris-nmn-a-0,ǂàì,nmn-a,raphiceruscampestris,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-a-0,kúǃáná,nmn-a,suricatasuricata,,,2i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-a-1,ǃáná,nmn-a,suricatasuricata,,,2i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
+suricatasuricatta-nmn-a-0,kúǃáná,nmn-a,suricatasuricatta,,,2i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
+suricatasuricatta-nmn-a-1,ǃáná,nmn-a,suricatasuricatta,,,2i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 sylvicapragrimmia-nmn-a-0,ʘhháńn,nmn-a,sylvicapragrimmia,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 taurotragusoryx-nmn-a-0,ǃòm̀,nmn-a,taurotragusoryx,,,"1/2ii, 1/4",,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 tragelaphusstrepsiceros-nmn-a-0,tshòlò,nmn-a,tragelaphusstrepsiceros,tsʰòlò,,1/1,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
@@ -7990,8 +7990,8 @@ sternoceraorissa-nmn-e-0,ǁɢòlo xòm,nmn-e,sternoceraorissa,,,2ii/2ii,,,,,,,,,
 streptopeliacapicola-nmn-e-0,dzá̰ũ,nmn-e,streptopeliacapicola,,,2i/2i,,,,,Cape turtle dove,,,,,,,,,,,,,,,,"traill1994[164, 206]",
 streptopeliacapicola-nmn-e-1,kâ ǁà̰le ǁgá̰u,nmn-e,streptopeliacapicola,,,3ii/3ii,,,,,"Cape turtle dove, lit. the Ehretia rigida -shitter",,,,,,,,,,,,,,,,"traill1994[164, 206]",
 struthiocamelus-nmn-e-1,qûje,nmn-e,struthiocamelus,qójè,,3i/2i,,,,,,,,,,,,,,,,,,,,,traill1994[206],
-suricatasuricata-nmn-e-0,ǃána,nmn-e,suricatasuricata,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,traill1994[75],
-suricatasuricata-nmn-e-1,gǀxáʼm-bà,nmn-e,suricatasuricata,"""gǀxáʼm:à"" (  ̬ǀχáʼm:à)",,3ii/3ii,,,,,,,,,,,,,,,,,,,diminutive,,traill1994[75],
+suricatasuricatta-nmn-e-0,ǃána,nmn-e,suricatasuricatta,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,traill1994[75],
+suricatasuricatta-nmn-e-1,gǀxáʼm-bà,nmn-e,suricatasuricatta,"""gǀxáʼm:à"" (  ̬ǀχáʼm:à)",,3ii/3ii,,,,,,,,,,,,,,,,,,,diminutive,,traill1994[75],
 sylvicapragrimmia-nmn-e-0,ʘhháńn,nmn-e,sylvicapragrimmia,,,3i/2i,,,,,,,,,,,,,,,,,,,,,traill1994[50],
 synceruscaffer-nmn-e-0,ǀqhái,nmn-e,synceruscaffer,,,1,,,,,,,,,,,,,,,,,,,,,traill1994[63],
 talinumarnotii-nmn-e-0,ǁnà̰n (qáe),nmn-e,talinumarnotii,,,1/4,,,,,,,,,,,,,,,,,,,,,"traill1994[127, 210]",
@@ -8057,7 +8057,7 @@ pedetescapensis-nmn-h-0,nǀùqì,nmn-h,pedetescapensis,,,1/4,,,,,,,,,,,,,,,,,,,,
 phacochoerusaethiopicus-nmn-h-0,qólòbè,nmn-h,phacochoerusaethiopicus,,,3ii/3ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 protelescristata-nmn-h-0,ǀàhí,nmn-h,protelescristata,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 raphiceruscampestris-nmn-h-0,ǂàì,nmn-h,raphiceruscampestris,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-h-0,ǃálà,nmn-h,suricatasuricata,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
+suricatasuricatta-nmn-h-0,ǃálà,nmn-h,suricatasuricatta,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 sylvicapragrimmia-nmn-h-0,ʘhhúún,nmn-h,sylvicapragrimmia,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 taurotragusoryx-nmn-h-0,ǃóm̀,nmn-h,taurotragusoryx,,,"1/2ii, 3ii/2ii",,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 tragelaphusstrepsiceros-nmn-h-0,dóǹgkà,nmn-h,tragelaphusstrepsiceros,dóŋ̀kà,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
@@ -8094,7 +8094,7 @@ pedetescapensis-nmn-t-0,nǀùqì,nmn-t,pedetescapensis,,,1/4,,,,,,,,,,,,,,,,,,,,
 phacochoerusaethiopicus-nmn-t-0,qólòbè,nmn-t,phacochoerusaethiopicus,,,3ii/3ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 protelescristata-nmn-t-0,ǀàhí,nmn-t,protelescristata,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 raphiceruscampestris-nmn-t-0,ǂàì,nmn-t,raphiceruscampestris,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-t-0,ǃáná,nmn-t,suricatasuricata,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
+suricatasuricatta-nmn-t-0,ǃáná,nmn-t,suricatasuricatta,,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 sylvicapragrimmia-nmn-t-0,ʘhháńn,nmn-t,sylvicapragrimmia,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 taurotragusoryx-nmn-t-0,ǃòm̀,nmn-t,taurotragusoryx,,,"3ii/2ii, 3ii/4",,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 tragelaphusstrepsiceros-nmn-t-0,dònggà,nmn-t,tragelaphusstrepsiceros,dòŋgà,,2ii/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
@@ -8136,8 +8136,8 @@ protelescristata-nmn-w-0,nǃóqè,nmn-w,protelescristata,nǃóˁè,,3i/2i,,,,,
 psammobatesoculiferus-nmn-w-0,sínǁàhèsí,nmn-w,psammobatesoculiferus,,,1/2ii ?,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 raphiceruscampestris-nmn-w-0,ǂáì,nmn-w,raphiceruscampestris,ǂíì,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 struthiocamelus-nmn-w-0,qóyè,nmn-w,struthiocamelus,qójè,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-w-0,nǁáú,nmn-w,suricatasuricata,nǁáú,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
-suricatasuricata-nmn-w-1,nǁáú-mà'àn,nmn-w,suricatasuricata,nǁáúmàʼã̀,,1.2ii/?,,,,,,,,,,,,,,,,,,,diminutive,,guldemannnaumann2011[],
+suricatasuricatta-nmn-w-0,nǁáú,nmn-w,suricatasuricatta,nǁáú,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
+suricatasuricatta-nmn-w-1,nǁáú-mà'àn,nmn-w,suricatasuricatta,nǁáúmàʼã̀,,1.2ii/?,,,,,,,,,,,,,,,,,,,diminutive,,guldemannnaumann2011[],
 sylvicapragrimmia-nmn-w-0,ʘhhúún,nmn-w,sylvicapragrimmia,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 taurotragusoryx-nmn-w-0,"ǃóm̀, ǃúm̀",nmn-w,taurotragusoryx,,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
 tragelaphusstrepsiceros-nmn-w-0,xáì,nmn-w,tragelaphusstrepsiceros,χáì,,1/2ii,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],
@@ -8431,7 +8431,7 @@ sorghumbicolor-penange-50498-0,sìnjá:-ŋgè,penange,sorghumbicolor,,,,,,,,s
 sorghumbicolor-penange-50499-0,sìnjà-n-dúmbé,penange,sorghumbicolor,,,,,,,,sorghum (sweet),,,,,,,,,,,,,,,http://dogonlanguages.org,,50499
 spermacoce-penange-50596-0,kíyɔ́ⁿ-kìyɔ̀ⁿ,penange,spermacoce,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50596
 stereospermumkunthianum-penange-50118-0,kɔ̀yⁿ pélè,penange,stereospermumkunthianum,,,,,,,,tree sp.,outback's baobab,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-penange-60286-0,ŋ̀gín-kɔ̀búlɛ̀,penange,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-penange-60286-0,ŋ̀gín-kɔ̀búlɛ̀,penange,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-penange-60092-0,kùlù-ŋ-kùndíyè,penange,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-penange-60093-0,kùlù-ŋ-kùnjè pàrò-nà-yɔ̀rdɛ̀,penange,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),dove nape-black,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-penange-50613-0,bó:ní,penange,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -8915,7 +8915,7 @@ sphenopsdelislei-pergetegu-60491-1,sɛ́:nɛ̀ wà làrpìgìrǐm,pergetegu
 spiloptilaclamans-pergetegu-60194-0,[kǎ: lè] érè-m,pergetegu,spiloptilaclamans,,,,,,,,cricket warbler,,,,,,,,,,,,,,,http://dogonlanguages.org,,60194
 spondiasmombin-pergetegu-50050-0,ɛ́ⁿ-ɛ́mnɛ̀,pergetegu,spondiasmombin,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50050
 sporobolusfestivus-pergetegu-50533-0,sà-sày pɔ̌:ⁿ,pergetegu,sporobolusfestivus,,,,,,,,grass sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50533
-sternocerainterruptaoliver1790-pergetegu-60286-0,kɛ̀-kɛ̀: àmàgórù,pergetegu,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-pergetegu-60286-0,kɛ̀-kɛ̀: àmàgórù,pergetegu,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-pergetegu-60092-0,pěllè,pergetegu,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-pergetegu-60093-0,pèllè-dá:gɛ̀,pergetegu,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-pergetegu-50613-0,dô:,pergetegu,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -10466,7 +10466,7 @@ strophanthussarmentosus-tommoso-50064-0,nónóm-dɔ̀gɔ̀pìyà,tommoso,str
 struthiocamelus-tommoso-60181-0,ɔ̀gɔ̀-tàŋálà ~ -táŋálá,tommoso,struthiocamelus,,,,,,,,ostrich,,,,,,,,,,,,,,,http://dogonlanguages.org,,60181
 stylochaetonlancifolius-tommoso-50086-0,jɔ̀mɔ̀-súgúlú,tommoso,stylochaetonlancifolius,,,,,,,,herb sp.,hare-ear,,,,,,,,,,,,,,http://dogonlanguages.org,,50086
 tamarindusindica-tommoso-50282-0,òmmólú,tommoso,tamarindusindica,,,,,,,,tamarind,,,,,,,,,,,,,,,http://dogonlanguages.org,,50282
-tapinanthusbangwensisengldanser-tommoso-50396-0,pììdú,tommoso,tapinanthusbangwensisengldanser,,,,,,,,mistletoe sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50396
+tapinanthusbangwensis-tommoso-50396-0,pììdú,tommoso,tapinanthusbangwensis,,,,,,,,mistletoe sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50396
 terminaliamacroptera-tommoso-50175-0,bɔ̀dɔ̀-kùbɔ́,tommoso,terminaliamacroptera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50175
 terminaliamacroptera-tommoso-50175-1,kɔ̀gɔ́,tommoso,terminaliamacroptera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50175
 thamnolaeacinnamomeiventris-tommoso-60198-0,nɔ̀rɔ̀mɔ́,tommoso,thamnolaeacinnamomeiventris,,,,,,,,"cliff chat, white-crowned cliff-chat",,,,,,,,,,,,,,,http://dogonlanguages.org,,60198
@@ -11217,7 +11217,7 @@ sorghumbicolor-tomokandiangassagou-50499-0,ɛ̀mbɛ̀ sùkɔ̀rɔ̀-cérí,to
 sphenopsdelislei-tomokandiangassagou-60491-0,úⁿ-ʔònènê:,tomokandiangassagou,sphenopsdelislei,,,,,,,,"subterranean skink sp. (short legs, loose sand near bushes)",,,,,,,,,,,,,,,http://dogonlanguages.org,,60491
 sterculiasetigera-tomokandiangassagou-50642-0,bàlà-gò-sá:nà:,tomokandiangassagou,sterculiasetigera,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50642
 stereospermumkunthianum-tomokandiangassagou-50118-0,gàná dàmâ:,tomokandiangassagou,stereospermumkunthianum,,,,,,,,tree sp.,Gan.village totem,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-tomokandiangassagou-60286-0,tá-kògèrè-kwé,tomokandiangassagou,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-tomokandiangassagou-60286-0,tá-kògèrè-kwé,tomokandiangassagou,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-tomokandiangassagou-60092-0,jìnà-pèllê:,tomokandiangassagou,streptopeliasenegalensis,,,,,,,,laughing dove,house-dove,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-tomokandiangassagou-60093-0,bàlà-pèlé,tomokandiangassagou,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),outback pigeon,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 strigahermonthica-tomokandiangassagou-50613-0,dwé:,tomokandiangassagou,strigahermonthica,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50613
@@ -11676,7 +11676,7 @@ spiloptilaclamans-torotegu-60194-2,sày té:-tè:,torotegu,spiloptilaclamans,
 sporopipesfrontalis-torotegu-60159-0,sày dònó,torotegu,sporopipesfrontalis,,,,,,,,scaly-fronted (speckle-fronted) weaver,,,,,,,,,,,,,,,http://dogonlanguages.org,,60159
 steraspis-torotegu-60285-0,bàtâŋ-kóŋgùró,torotegu,steraspis,,,,,,,,buprestid beetle sp. (dark),,,,,,,,,,,,,,,http://dogonlanguages.org,,60285
 stereospermumkunthianum-torotegu-50118-0,súsɛ̌yⁿ,torotegu,stereospermumkunthianum,,,,,,,,tree sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50118
-sternocerainterruptaoliver1790-torotegu-60286-0,wàsâŋ-kôwró,torotegu,sternocerainterruptaoliver1790,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
+sternocerainterrupta-torotegu-60286-0,wàsâŋ-kôwró,torotegu,sternocerainterrupta,,,,,,,,buprestid beetle (black with white spots),,,,,,,,,,,,,,,http://dogonlanguages.org,,60286
 streptopeliasenegalensis-torotegu-60092-0,pétkílěy,torotegu,streptopeliasenegalensis,,,,,,,,laughing dove,,,,,,,,,,,,,,,http://dogonlanguages.org,,60092
 streptopeliavinacea-torotegu-60093-0,ò:dú pètkìlèy,torotegu,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
 streptopeliavinacea-torotegu-60093-1,ò:dú pɛ̀l-kìlèy,torotegu,streptopeliavinacea,,,,,,,,doves with black nape rings (vinaceous dove; mourning dove),,,,,,,,,,,,,,,http://dogonlanguages.org,,60093
@@ -12122,7 +12122,7 @@ struthiocamelus-tsn-0,ntšhwé,tsn,struthiocamelus,,,bó-,,,,,,,,,,,,,,,,,,,,,sn
 struthiocamelus-tsn-1,mmántšhwé,tsn,struthiocamelus,,,bó-,,,,,,,,,,,,,,,,,,,,,snymaned1990[298],
 strychnosmadagascariensis-tsn-0,mogorwagorwana,tsn,strychnosmadagascariensis,,,me-,,,,,,,,,,,,,,,,,,,,,snymaned1990[298],
 strychnospungens-tsn-0,morutlá,tsn,strychnospungens,,,me-,,,,,,,,,,,,,,,,,,,,,snymaned1990[298],
-suricatasuricata-tsn-0,letôtôtô,tsn,suricatasuricata,,,ma-,,,,,,,,,,,,,,,,,,,,,snymaned1990[342],
+suricatasuricatta-tsn-0,letôtôtô,tsn,suricatasuricatta,,,ma-,,,,,,,,,,,,,,,,,,,,,snymaned1990[342],
 sylvicapragrimmia-tsn-0,photi,tsn,sylvicapragrimmia,,,di-,,,,,,,,,,,,,,,,,,,,,snymaned1990[251],
 synceruscaffer-tsn-0,náre,tsn,synceruscaffer,,,di-,,,,,,,,,,,,,,,,,,,,,snymaned1990[228],
 tabanidae-tsn-0,seboba,tsn,tabanidae,,,di-,,,,,,,,,,,,,,,,,,,,,snymaned1990[261],
