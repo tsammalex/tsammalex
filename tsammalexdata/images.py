@@ -235,7 +235,7 @@ class Wikimedia(DataProvider):
 # TODO:
 #
 def get_info(img, providers):
-    for field in ['source', 'source_url']:
+    for field in ['source', 'source_url', 'id']:
         for provider in providers:
             if provider.id_from_url(URL(img[field])):
                 return provider.info(img[field])
@@ -306,9 +306,9 @@ def mv():
 
 
 if __name__ == '__main__':
-    #update()
+    update()
     #rewrite()
-    mv()
+    #mv()
     #for provider in [Wikimedia(), Flickr(), Eol()]:
     #    if provider.id_from_url(URL(sys.argv[1])):
     #        print json.dumps(provider.info(sys.argv[1]), indent=4)
