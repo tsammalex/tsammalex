@@ -62,13 +62,13 @@ class Visitor(object):
         if _id in self.edmond_urls:
             row[self.cols['source_url']] = self.edmond_urls[_id]['full']
             self.count += 1
-        #else:
+        else:
             #
             # FIXME: check whether source_url is an Edmond image URL, if not, upload the
             # image to Edmond, insert the URL here! Depends on the imeji API being
             # available on Edmond.
             #
-        #    print(_id, row)
+            print(_id, row)
         return row
 
 
