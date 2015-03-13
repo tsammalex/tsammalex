@@ -50,6 +50,7 @@ class Visitor(object):
     def __init__(self):
         self.edmond_urls = file_urls(data_file('Edmond.xml'))
         self.cols = {}
+        self.count = 0
 
     def __call__(self, index, row):
         if index == 0:
@@ -60,17 +61,20 @@ class Visitor(object):
 
         if _id in self.edmond_urls:
             row[self.cols['source_url']] = self.edmond_urls[_id]['full']
-        else:
+            self.count += 1
+        #else:
             #
             # FIXME: check whether source_url is an Edmond image URL, if not, upload the
             # image to Edmond, insert the URL here! Depends on the imeji API being
             # available on Edmond.
             #
-            print(_id, row)
+        #    print(_id, row)
         return row
 
 
 if __name__ == '__main__':
     with open(data_file('Edmond.xml'), 'w', encoding='utf8') as fp:
         fp.write(requests.get(URL).text)
-    visit(sys.argv[1] if len(sys.argv) > 1 else 'images.csv', Visitor())
+    v = Visitor()
+    visit(sys.argv[1] if len(sys.argv) > 1 else 'images.csv', v)
+    print(v.count)

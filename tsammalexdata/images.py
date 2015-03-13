@@ -80,7 +80,8 @@ class Flickr(DataProvider):
         if not url.host().endswith('flickr.com'):
             return
         comps = url.path_segments()
-        assert comps[0] == 'photos'
+        if comps[0] != 'photos':
+            return
         return comps[2]
 
 
@@ -116,8 +117,11 @@ class Eol(DataProvider):
     ]}
     """
     def info_for_id(self, id_):
-        info = requests.get(
-            'http://eol.org/api/data_objects/1.0/%s.json' % id_).json()['dataObjects'][0]
+        try:
+            info = requests.get(
+                'http://eol.org/api/data_objects/1.0/%s.json' % id_).json()['dataObjects'][0]
+        except:
+            return {}
         agents = {a['role']: a['full_name'] for a in info['agents']}
         if 'eolMediaURL' in info:
             return {
@@ -195,11 +199,14 @@ class Wikimedia(DataProvider):
         info = et.fromstring(requests.get(
             'http://tools.wmflabs.org/magnus-toolserver/commonsapi.php',
             params=dict(image=id_)).content)
-        res = dict(
-            creator=text(info.find('file/author')),
-            source=info.find('file/urls/description').text,
-            source_url=info.find('file/urls/file').text,
-            permission=info.find('licenses/license/name').text)
+        try:
+            res = dict(
+                creator=text(info.find('file/author')),
+                source=info.find('file/urls/description').text,
+                source_url=info.find('file/urls/file').text,
+                permission=info.find('licenses/license/name').text)
+        except AttributeError:
+            return {}
         if info.find('file/date'):
             res['date'] = text(info.find('file/date'))
         loc = info.find('file/location')
@@ -250,6 +257,11 @@ class Visitor(object):
         if index == 0:
             self.cols = {col: i for i, col in enumerate(row)}
             return row
+        #if index == 1:
+        #    print(self.cols)
+        #if len(row) < len(self.cols):
+        #    print(row)
+        #return row
         key = '%s-%s' % (row[self.cols['taxa__id']], row[self.cols['tags']])
         row = [c.strip() for c in row]
         if key in self.data and self.data[key]['id']:
@@ -271,6 +283,7 @@ def update():
     data = jsonload(data_file('cn', 'images.json'), default={})
     providers = [Wikimedia(), Flickr(), Eol()]
     try:
+        info = None
         for img in csv_items('cn/images.csv'):
             key = '%s-%s' % (img['taxa__id'], img['tags'])
             if key in data:
@@ -287,7 +300,12 @@ def update():
                 with open(data_file('cn', 'images', checksum), mode='wb') as fp:
                     fp.write(res.content)
                 data[key] = info
+                print(info)
     except:
+        print('----->')
+        print(img)
+        if info:
+            print(info)
         jsondump(data, data_file('cn', 'images.json'), indent=4)
         raise
     jsondump(data, data_file('cn', 'images.json'), indent=4)
@@ -300,14 +318,59 @@ def rewrite():
 def mv():
     for info in jsonload(data_file('cn', 'images.json')).values():
         ext = 'png' if 'png' in info['mime_type'] else 'jpg'
-        shutil.move(
-            data_file('cn', 'images', info['id']),
-            data_file('cn', 'images', '%s.%s' % (info['id'], ext)))
+        if os.path.exists(data_file('cn', 'images', info['id'])):
+            shutil.move(
+                data_file('cn', 'images', info['id']),
+                data_file('cn', 'images', '%s.%s' % (info['id'], ext)))
+
+
+class Deduplicator(object):
+    def __init__(self, data):
+        self.data = data
+        self.count = 0
+
+    def __call__(self, index, row):
+        if row[0] not in self.data:
+            return row
+        self.count += 1
+
+
+def check():
+    #existing = [i['id'] for i in csv_items('images.csv') if 'edmond' in i['source_url']]
+    #d = Deduplicator(existing)
+    #visit('cn/images.csv', d)
+    #print d.count
+    files = {n.split('.')[0]: n for n in os.listdir(data_file('cn/images'))}
+    for img in csv_items('cn/images.csv'):
+        if 'edmond.' in img['source_url']:
+            if img['id'] in files:
+                shutil.move(data_file('cn', 'images', files[img['id']]),
+                            data_file('cn', 'uploaded', files[img['id']]))
+
+
+class Selector(object):
+    def __call__(self, index, row):
+        if index == 0:
+            self.cols = {col: i for i, col in enumerate(row)}
+            return row
+        if 'edmond.' in row[self.cols['source_url']]:
+            return row
+
+
+def select():
+    visit('cn/staged_images.csv', Selector())
+
+
+# - run python edmond.py cn/images.csv to add edmond source urls
+# - move images to uploaded
+# - append rows for all uploaded images to images.csv!
 
 
 if __name__ == '__main__':
-    update()
-    #rewrite()
+    #select()
+    #check()
+    #update()
+    rewrite()
     #mv()
     #for provider in [Wikimedia(), Flickr(), Eol()]:
     #    if provider.id_from_url(URL(sys.argv[1])):
