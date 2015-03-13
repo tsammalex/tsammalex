@@ -13,6 +13,7 @@ import flickrapi
 from dateutil.parser import parse
 
 from tsammalexdata.util import csv_items, data_file, jsondump, jsonload, visit
+from tsammalexdata.edmond import file_urls
 
 
 class DataProvider(object):
@@ -330,22 +331,29 @@ class Deduplicator(object):
         self.count = 0
 
     def __call__(self, index, row):
-        if row[0] not in self.data:
+        if index == 0 or row[0] not in self.data:
             return row
         self.count += 1
 
 
+def dedup():
+    existing = [i['id'] for i in csv_items('images.csv') if 'edmond' in i['source_url']]
+    d = Deduplicator(existing)
+    visit('cn/images.csv', d)
+    print d.count
+
+
 def check():
-    #existing = [i['id'] for i in csv_items('images.csv') if 'edmond' in i['source_url']]
-    #d = Deduplicator(existing)
-    #visit('cn/images.csv', d)
-    #print d.count
+    count = 0
     files = {n.split('.')[0]: n for n in os.listdir(data_file('cn/images'))}
-    for img in csv_items('cn/images.csv'):
-        if 'edmond.' in img['source_url']:
-            if img['id'] in files:
-                shutil.move(data_file('cn', 'images', files[img['id']]),
-                            data_file('cn', 'uploaded', files[img['id']]))
+    existing = [i['id'] for i in csv_items('cn/images.csv') if 'edmond' in i['source_url']]
+    #existing = file_urls(data_file('Edmond.xml'))
+    for id, fname in files.items():
+        if id in existing:
+            count += 1
+            shutil.move(
+                data_file('cn', 'images', fname), data_file('cn', 'uploaded', fname))
+    print count
 
 
 class Selector(object):
@@ -358,19 +366,38 @@ class Selector(object):
 
 
 def select():
+    shutil.copy(data_file('cn', 'images.csv'), data_file('cn', 'staged_images.csv'))
     visit('cn/staged_images.csv', Selector())
+    print len(open(data_file('cn', 'staged_images.csv')).read().split('\n')) - 1
 
 
-# - run python edmond.py cn/images.csv to add edmond source urls
-# - move images to uploaded
-# - append rows for all uploaded images to images.csv!
+"""
+- upload images to edmond
+- run
+    python edmond.py cn/images.csv
+  to add edmond source urls
+- move images to uploaded
+- create staging file
+    python images.py stage
+- append rows from staging file to official images.csv (by hand)
+- run nosetests
+- remove rows from cn/images.csv
+    python images.py purge
+"""
 
 
 if __name__ == '__main__':
-    #select()
-    #check()
+    import sys
+    cmd = sys.argv[1]
+    if cmd == 'stage':
+        check()
+        select()
+    elif cmd == 'purge':
+        dedup()
+    else:
+        raise ValueError(cmd)
     #update()
-    rewrite()
+    #rewrite()
     #mv()
     #for provider in [Wikimedia(), Flickr(), Eol()]:
     #    if provider.id_from_url(URL(sys.argv[1])):
