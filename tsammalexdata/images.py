@@ -389,6 +389,15 @@ def select():
 
 
 """
+$ python images.py check cn/images_newLS150310.csv
+1063
+$ wc -l data/cn/images_newLS150310.csv
+1171 data/cn/images_newLS150310.csv
+$ python images.py check cn/images_new_150304_NJ.csv
+881
+$ wc -l data/cn/images_new_150304_NJ.csv
+1044 data/cn/images_new_150304_NJ.csv
+
 - download images and metadata
     python update
 - rewrite cn/images.csv with metadata from cn/images.json:
