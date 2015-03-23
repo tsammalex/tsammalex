@@ -263,6 +263,9 @@ class Visitor(object):
         #if len(row) < len(self.cols):
         #    print(row)
         #return row
+        if len(row) < 3:
+            print(row)
+            return row
         key = '%s-%s' % (row[self.cols['taxa__id']], row[self.cols['tags']])
         row = [c.strip() for c in row]
         if key in self.data and self.data[key]['id']:
@@ -356,6 +359,20 @@ def check():
     print count
 
 
+def do_check(fname):
+    existing = {(i['taxa__id'], i['tags']): i for i in
+                csv_items('images.csv') if 'edmond' in i['source_url']}
+    c = 0
+    for row in csv_items(fname):
+        if (row['taxa__id'], row['tags']) in existing:
+            if 0: #row['id'] != existing[(row['taxa__id'], row['tags'])]['source']:
+                print(row)
+                print(existing[(row['taxa__id'], row['tags'])])
+            else:
+                c += 1
+    print(c)
+
+
 class Selector(object):
     def __call__(self, index, row):
         if index == 0:
@@ -372,7 +389,11 @@ def select():
 
 
 """
-- upload images to edmond
+- download images and metadata
+    python update
+- rewrite cn/images.csv with metadata from cn/images.json:
+    python rewrite
+- upload images from cn/images to edmond
 - run
     python edmond.py cn/images.csv
   to add edmond source urls
@@ -394,6 +415,12 @@ if __name__ == '__main__':
         select()
     elif cmd == 'purge':
         dedup()
+    elif cmd == 'check':
+        do_check(sys.argv[2])
+    elif cmd == 'update':
+        update()
+    elif cmd == 'rewrite':
+        rewrite()
     else:
         raise ValueError(cmd)
     #update()
