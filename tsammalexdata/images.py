@@ -359,18 +359,30 @@ def check():
     print count
 
 
+class RemoveUploaded(object):
+    def __init__(self, data):
+        self.data = data
+
+    def __call__(self, index, row):
+        if len(row) < 3:
+            return row
+        if index > 0 and (row[1], row[2]) not in self.data:
+            return row
+
+
 def do_check(fname):
     existing = {(i['taxa__id'], i['tags']): i for i in
                 csv_items('images.csv') if 'edmond' in i['source_url']}
-    c = 0
-    for row in csv_items(fname):
-        if (row['taxa__id'], row['tags']) in existing:
-            if 0: #row['id'] != existing[(row['taxa__id'], row['tags'])]['source']:
-                print(row)
-                print(existing[(row['taxa__id'], row['tags'])])
-            else:
-                c += 1
-    print(c)
+    visit(fname, RemoveUploaded(existing))
+    #c = 0
+    #for i, row in enumerate(csv_items(fname)):
+    #    if (row['taxa__id'], row['tags']) in existing:
+    #        if 0: #row['id'] != existing[(row['taxa__id'], row['tags'])]['source']:
+    #            print(row)
+    #            print(existing[(row['taxa__id'], row['tags'])])
+    #        else:
+    #            c += 1
+    #print('%s of %s' % (c, i))
 
 
 class Selector(object):
@@ -389,19 +401,17 @@ def select():
 
 
 """
-$ python images.py check cn/images_newLS150310.csv
-1063
-$ wc -l data/cn/images_newLS150310.csv
-1171 data/cn/images_newLS150310.csv
-$ python images.py check cn/images_new_150304_NJ.csv
-881
-$ wc -l data/cn/images_new_150304_NJ.csv
-1044 data/cn/images_new_150304_NJ.csv
+(clld)robert@astroman:~/venvs/clld/data/tsammalex-data/tsammalexdata$ python images.py check cn/images_newLS150310.csv
+1063 of 1169
+(clld)robert@astroman:~/venvs/clld/data/tsammalex-data/tsammalexdata$ python images.py check cn/images_new_150304_NJ.csv
+881 of 1039
+(clld)robert@astroman:~/venvs/clld/data/tsammalex-data/tsammalexdata$ python images.py check cn/images_newCN150309final.csv
+1219 of 1385
 
 - download images and metadata
-    python update
+    python images.py update
 - rewrite cn/images.csv with metadata from cn/images.json:
-    python rewrite
+    python images.py rewrite
 - upload images from cn/images to edmond
 - run
     python edmond.py cn/images.csv
