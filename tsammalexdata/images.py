@@ -19,7 +19,10 @@ from tsammalexdata.edmond import file_urls
 class DataProvider(object):
     @staticmethod
     def date(s):
-        return str(parse(s)).split()[0]
+        try:
+            return str(parse(s)).split()[0]
+        except:
+            return
 
     def id_from_url(self, url):
         raise NotImplementedError()
@@ -40,6 +43,50 @@ class DataProvider(object):
 
     def info(self, url):
         return self.postprocess(self.info_for_id(self.id_from_url(URL(url))))
+
+
+class Senckenberg(DataProvider):
+    """
+    http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26800
+
+       <img src="http://www.westafricanplants.senckenberg.de/images/pictures/thumb_ficus_polita_img_04024_ralfbiechele_722_fc6e25.jpg"
+            border="0"
+            title="PhotoID: 26800;
+Photographer: Ralf Biechele;
+Date: 2008-05-03 18:03:19;
+Location: Nigeria" />
+    """
+    def id_from_url(self, url):
+        comps = url.path_segments()
+        if url.host() in ['www.westafricanplants.senckenberg.de', 'www.africanplants.senckenberg.de'] \
+                and url.fragment() \
+                and len(comps) == 2 \
+                and comps[0] == 'root' \
+                and comps[1] in ['index.php']:
+            return url
+
+    def info_for_id(self, id_):
+        soup = BeautifulSoup(requests.get(id_).text)
+
+        img = None
+        for img_ in soup.find_all('img'):
+            if img_.attrs.get('title', '').startswith('PhotoID: %s' % id_.fragment().split('=')[1]):
+                img = img_
+                info = dict(l.split(': ', 1) for l in img_.attrs['title'].split('; \n') if l)
+                break
+
+        if not img:
+            return {}
+        res = {
+            'source': '%s' % id_,
+            'source_url': img.attrs['src'].replace('/thumb_', '/'),
+            'date': info['Date'].split(' ')[0],
+            'creator': info['Photographer'],
+            'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
+        }
+        if 'Location' in info:
+            res['place'] = info['Location']
+        return res
 
 
 class Zimbabweflora(DataProvider):
@@ -335,7 +382,8 @@ def update():
     data = jsonload(data_file('cn', 'images.json'), default={})
     providers = [
         #Wikimedia(), Flickr(), Eol(),
-        Zimbabweflora(),
+        #Zimbabweflora(),
+        Senckenberg(),
     ]
     try:
         info = None
