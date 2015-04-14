@@ -42,6 +42,54 @@ class DataProvider(object):
         return self.postprocess(self.info_for_id(self.id_from_url(URL(url))))
 
 
+class Zimbabweflora(DataProvider):
+    def id_from_url(self, url):
+        """
+        http://www.zimbabweflora.co.zw/speciesdata/image-display.php?species_id=100760&image_id=2
+        """
+        comps = url.path_segments()
+        if url.host() in ['www.zimbabweflora.co.zw', 'www.mozambiqueflora.com'] \
+                and len(comps) == 2 \
+                and comps[0] == 'speciesdata' \
+                and comps[1] in ['species-record.php', 'image-display.php']:
+            return url
+
+    def info_for_id(self, id_):
+        def text(e):
+            return ' '.join(e.stripped_strings)
+        soup = BeautifulSoup(requests.get(id_).text)
+        img = soup.find('img')
+        if not img:
+            return {}
+        res = {
+            'source': '%s' % id_,
+            'source_url': 'http://www.zimbabweflora.co.zw/speciesdata/' + img.attrs['src'],
+        }
+        table = None
+        for t in soup.find_all('table'):
+            if t.attrs['summary'] in ['Individual record details',
+                                      'Information about the photograph']:
+                table = t
+                break
+
+        info = {}
+        if table:
+            for tr in table.find_all('tr'):
+                k, v = [td.get_text(' ', strip=True) for td in tr.find_all('td')]
+                if v:
+                    info[k.replace(':', '')] = v
+        # Location Country Latitude Date Photographer
+        if 'Location' in info:
+            res['place'] = '%(Location)s, %(Country)s' % info
+        if 'Latitude' in info:
+            res['gps'] = info['Latitude']
+        if 'Date' in info and info['Date'] != 'No date':
+            res['date'] = parse(info['Date']).date().isoformat()
+        res['creator'] = info['Photographer']
+        res['permission'] = 'http://creativecommons.org/licenses/by-nc/4.0/'
+        return res
+
+
 class Flickr(DataProvider):
     def __init__(self):
         self.api = flickrapi.FlickrAPI(
@@ -280,12 +328,15 @@ class Visitor(object):
 
             if 'latitude' in info and 'longitude' in info:
                 row[self.cols['gps']] = '%s %s' % (info['latitude'], info['longitude'])
-            return row
+        return row
 
 
 def update():
     data = jsonload(data_file('cn', 'images.json'), default={})
-    providers = [Wikimedia(), Flickr(), Eol()]
+    providers = [
+        #Wikimedia(), Flickr(), Eol(),
+        Zimbabweflora(),
+    ]
     try:
         info = None
         for img in csv_items('cn/images.csv'):
