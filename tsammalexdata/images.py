@@ -343,7 +343,7 @@ def dedup():
     existing = [i['id'] for i in csv_items('images.csv') if 'edmond' in i['source_url']]
     d = Deduplicator(existing)
     visit('cn/images.csv', d)
-    print d.count
+    print(d.count)
 
 
 def check():
@@ -356,7 +356,7 @@ def check():
             count += 1
             shutil.move(
                 data_file('cn', 'images', fname), data_file('cn', 'uploaded', fname))
-    print count
+    print(count)
 
 
 class RemoveUploaded(object):
@@ -397,7 +397,25 @@ class Selector(object):
 def select():
     shutil.copy(data_file('cn', 'images.csv'), data_file('cn', 'staged_images.csv'))
     visit('cn/staged_images.csv', Selector())
-    print len(open(data_file('cn', 'staged_images.csv')).read().split('\n')) - 1
+    print(len(open(data_file('cn', 'staged_images.csv')).read().split('\n')) - 1)
+
+
+class CN(object):
+    def __call__(self, index, row):
+        if index == 0:
+            return row
+        if not os.path.exists(data_file('cn', 'files', row[0])):
+            return row
+        if not row[9]:
+            return row
+        path = data_file('cn', 'files', row[0])
+        checksum = md5()
+        with open(path, 'rb') as fp:
+            checksum.update(fp.read())
+        row[0] = checksum.hexdigest()
+
+        shutil.move(path, data_file('cn', 'images', row[0] + '.jpg'))
+        return row
 
 
 """
@@ -428,6 +446,9 @@ def select():
 
 if __name__ == '__main__':
     import sys
+    #visit(sys.argv[1], CN())
+    #sys.exit(0)
+
     cmd = sys.argv[1]
     if cmd == 'stage':
         check()

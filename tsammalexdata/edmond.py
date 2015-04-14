@@ -1,6 +1,6 @@
 from __future__ import unicode_literals, print_function
 import sys
-from xml.etree import ElementTree
+from xml.etree import cElementTree as ElementTree
 from io import open
 
 import requests
