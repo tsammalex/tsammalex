@@ -291,6 +291,7 @@ def update():
         for img in csv_items('cn/images.csv'):
             key = '%s-%s' % (img['taxa__id'], img['tags'])
             if key in data:
+                print('+++', img['id'] or img['source'], data[key]['source'])
                 continue
             info = get_info(img, providers)
             if info:
@@ -305,6 +306,8 @@ def update():
                     fp.write(res.content)
                 data[key] = info
                 print(info)
+            #else:
+            #    print('---', img)
     except:
         print('----->')
         print(img)
