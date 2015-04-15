@@ -1,6 +1,4 @@
 import os
-import sys
-import json
 from xml.etree import cElementTree as et
 import re
 from hashlib import md5
@@ -13,10 +11,11 @@ import flickrapi
 from dateutil.parser import parse
 
 from tsammalexdata.util import csv_items, data_file, jsondump, jsonload, visit
-from tsammalexdata.edmond import file_urls
 
 
 class DataProvider(object):
+    """Given a URL of an accepted format, DataProviders can fetch metadata for an image.
+    """
     @staticmethod
     def date(s):
         try:
@@ -24,10 +23,17 @@ class DataProvider(object):
         except:
             return
 
-    def id_from_url(self, url):
+    def id_from_url(self, url, host, comps):
+        """
+        :return: An id to be passed into `info_for_id` or None, \
+        if `url` is not recognized.
+        """
         raise NotImplementedError()
 
     def info_for_id(self, id_):
+        """
+        :return: `dict` of metadata for an image.
+        """
         raise NotImplementedError
 
     def postprocess(self, res):
@@ -42,23 +48,40 @@ class DataProvider(object):
         return new
 
     def info(self, url):
-        return self.postprocess(self.info_for_id(self.id_from_url(URL(url))))
+        """Interface method to be called when processing new images.
+
+        This method ties together the DataProvider workflow.
+        """
+        url = URL(url)
+        return self.postprocess(
+            self.info_for_id(self.id_from_url(url, url.host(), url.path_segments())))
 
 
 class Senckenberg(DataProvider):
-    """
-    http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26800
+    __example__ = (
+        'http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26800',
+        {
+            'creator': 'Ralf Biechele',
+            'date': '2008-05-03',
+            'place': 'Nigeria',
+            'source': 'http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image%3D26800',
+            'source_url': 'http://www.westafricanplants.senckenberg.de/images/pictures/ficus_polita_img_04024_ralfbiechele_722_fc6e25.jpg',
+            'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
+        }
+    )
 
-       <img src="http://www.westafricanplants.senckenberg.de/images/pictures/thumb_ficus_polita_img_04024_ralfbiechele_722_fc6e25.jpg"
-            border="0"
-            title="PhotoID: 26800;
-Photographer: Ralf Biechele;
-Date: 2008-05-03 18:03:19;
-Location: Nigeria" />
-    """
-    def id_from_url(self, url):
-        comps = url.path_segments()
-        if url.host() in ['www.westafricanplants.senckenberg.de', 'www.africanplants.senckenberg.de'] \
+    def id_from_url(self, url, host, comps):
+        """This DataProvider recognizes URLs of the form
+
+        http://www.africanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26
+
+        Note that the URL fragment is necessary to determine the exact image referred to
+        on the page, listing all images for a species.
+
+        :param url: A URL.
+        :return: `url` if recognized, else `None`.
+        """
+        if host.endswith('africanplants.senckenberg.de') \
                 and url.fragment() \
                 and len(comps) == 2 \
                 and comps[0] == 'root' \
@@ -66,78 +89,106 @@ Location: Nigeria" />
             return url
 
     def info_for_id(self, id_):
-        soup = BeautifulSoup(requests.get(id_).text)
+        """
+        We expect and exploit markup of the following form:
 
-        img = None
-        for img_ in soup.find_all('img'):
-            if img_.attrs.get('title', '').startswith('PhotoID: %s' % id_.fragment().split('=')[1]):
-                img = img_
-                info = dict(l.split(': ', 1) for l in img_.attrs['title'].split('; \n') if l)
-                break
+           <img src="http://<host>/images/pictures/thumb_<img-filename>"
+                title="PhotoID: 26800;
+    Photographer: Ralf Biechele;
+    Date: 2008-05-03 18:03:19;
+    Location: Nigeria" />
+        """
+        photo_id = id_.fragment().split('=')[1]
 
-        if not img:
-            return {}
-        res = {
-            'source': '%s' % id_,
-            'source_url': img.attrs['src'].replace('/thumb_', '/'),
-            'date': info['Date'].split(' ')[0],
-            'creator': info['Photographer'],
-            'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
-        }
-        if 'Location' in info:
-            res['place'] = info['Location']
-        return res
+        for img in BeautifulSoup(requests.get(id_).text).find_all('img'):
+            if img.attrs.get('title', '').startswith('PhotoID: %s' % photo_id):
+                res = {
+                    'source': '%s' % id_,
+                    'source_url': img.attrs['src'].replace('/thumb_', '/'),
+                    'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
+                }
+                for k, v in [
+                    l.split(': ', 1) for l in img.attrs['title'].split('; \n') if l
+                ]:
+                    if k == 'Date':
+                        res['date'] = v.split(' ')[0]
+                    elif k == 'Photographer':
+                        res['creator'] = v
+                    elif k == 'Location':
+                        res['place'] = v
+                return res
+        return {}
 
 
 class Zimbabweflora(DataProvider):
-    def id_from_url(self, url):
-        """
-        http://www.zimbabweflora.co.zw/speciesdata/image-display.php?species_id=100760&image_id=2
-        """
-        comps = url.path_segments()
-        if url.host() in ['www.zimbabweflora.co.zw', 'www.mozambiqueflora.com'] \
+    __example__ = (
+        'http://www.zimbabweflora.co.zw/speciesdata/image-display.php?species_id=100760&image_id=2',
+        {
+            'creator': 'P Ballings',
+            'date': '2012-01-08',
+            'gps': '-20.272510',
+            'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
+            'place': 'Zimbabwe, Great zimbabwe, Great enclosure',
+            'source': 'http://www.zimbabweflora.co.zw/speciesdata/image-display.php?species_id=100760&image_id=2',
+            'source_url': 'http://www.zimbabweflora.co.zw/speciesdata/images/10/100760-2.jpg',
+        }
+    )
+
+    def id_from_url(self, url, host, comps):
+        if host in ['www.zimbabweflora.co.zw', 'www.mozambiqueflora.com'] \
                 and len(comps) == 2 \
                 and comps[0] == 'speciesdata' \
                 and comps[1] in ['species-record.php', 'image-display.php']:
             return url
 
     def info_for_id(self, id_):
-        def text(e):
-            return ' '.join(e.stripped_strings)
         soup = BeautifulSoup(requests.get(id_).text)
         img = soup.find('img')
         if not img:
             return {}
+        src = img.attrs['src']
+        if not src.startswith('http:'):
+            src = 'http://www.zimbabweflora.co.zw/speciesdata/' + src
         res = {
             'source': '%s' % id_,
-            'source_url': 'http://www.zimbabweflora.co.zw/speciesdata/' + img.attrs['src'],
+            'source_url': src,
+            'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
         }
-        table = None
-        for t in soup.find_all('table'):
-            if t.attrs['summary'] in ['Individual record details',
-                                      'Information about the photograph']:
-                table = t
-                break
-
-        info = {}
-        if table:
-            for tr in table.find_all('tr'):
-                k, v = [td.get_text(' ', strip=True) for td in tr.find_all('td')]
-                if v:
-                    info[k.replace(':', '')] = v
-        # Location Country Latitude Date Photographer
-        if 'Location' in info:
-            res['place'] = '%(Location)s, %(Country)s' % info
-        if 'Latitude' in info:
-            res['gps'] = info['Latitude']
-        if 'Date' in info and info['Date'] != 'No date':
-            res['date'] = parse(info['Date']).date().isoformat()
-        res['creator'] = info['Photographer']
-        res['permission'] = 'http://creativecommons.org/licenses/by-nc/4.0/'
+        for table in soup.find_all('table'):
+            if table.attrs['summary'] in [
+                'Individual record details', 'Information about the photograph'
+            ]:
+                for tr in table.find_all('tr'):
+                    k, v = [td.get_text(' ', strip=True) for td in tr.find_all('td')]
+                    if v:
+                        # Location Country Latitude Date Photographer
+                        if k == 'Location:':
+                            res['place'] = v
+                        if k == 'Country:':
+                            loc = res.get('place', '')
+                            res['place'] = '%s%s%s' % (v, ', ' if loc else '', loc)
+                        if k == 'Latitude:':
+                            res['gps'] = v
+                        if k == 'Date:' and v != 'No date':
+                            res['date'] = parse(v).date().isoformat()
+                        if k == 'Photographer:':
+                            res['creator'] = v
         return res
 
 
 class Flickr(DataProvider):
+    __example__ = (
+        'https://www.flickr.com/photos/damouns/78968973',
+        {
+            'comments': "title 'Bufo gutturalis'",
+            'creator': 'Damien Boilley',
+            'date': '2005-12-27',
+            'permission': 'https://creativecommons.org/licenses/by/2.0/',
+            'source': 'https://www.flickr.com/photos/damouns/78968973/sizes/o/',
+            'source_url': 'https://farm1.staticflickr.com/39/78968973_f30ad8c62d_o.jpg',
+        }
+    )
+
     def __init__(self):
         self.api = flickrapi.FlickrAPI(
             os.environ['FLICKR_KEY'], os.environ['FLICKR_SECRET'], format='parsed-json')
@@ -172,46 +223,24 @@ class Flickr(DataProvider):
                 biggest = size
         return dict(source_url=biggest['source'], source=biggest['url'])
 
-    def id_from_url(self, url):
-        if not url.host().endswith('flickr.com'):
-            return
-        comps = url.path_segments()
-        if comps[0] != 'photos':
-            return
-        return comps[2]
+    def id_from_url(self, url, host, comps):
+        if host.endswith('flickr.com') and len(comps) > 2 and comps[0] == 'photos':
+            return comps[2]
 
 
 class Eol(DataProvider):
-    """
-    http://eol.org/api/data_objects/1.0/23049910.json
-
-    {"dataObjects": [
+    __example__ = (
+        'http://media.eol.org/data_objects/21916329',
         {
-            "mimeType": "image/jpeg",
-            "created": "2013-01-03T00:00:00Z",
-            "license": "http://creativecommons.org/licenses/by/3.0/",
-            "rightsHolder": "2013 Simon J. Tonge",
-            "source": "http://calphotos.berkeley.edu/cgi/img_query?seq_num=432146&one=T",
-            --> http://media.eol.org/data_objects/23049910
-            "description": "Male",
-            "eolMediaURL": "http://media.eol.org/content/2013/06/17/17/54173_orig.jpg",
-            "location": "Chobe National Park (Botswana)",
-            "agents": [
-                {
-                    "full_name": "Simon J. Tonge",
-                    "homepage": "http://calphotos.berkeley.edu/cgi/photographer_query?where-name_full=Simon+J.+Tonge&one=T",
-                    "role": "photographer"
-                },
-                {
-                    "full_name": "CalPhotos",
-                    "homepage": "http://calphotos.berkeley.edu/",
-                    "role": "provider"
-                }
-            ],
-            "references": [ ]
+            'creator': 'Research Institute Senckenberg',
+            'mime_type': 'image/jpeg',
+            'permission': 'http://creativecommons.org/licenses/by-nc-sa/3.0/',
+            'place': 'Burkina Faso',
+            'source': 'http://media.eol.org/data_objects/21916329',
+            'source_url': 'http://160.111.248.28/content/2012/08/24/08/75619_orig.jpg',
         }
-    ]}
-    """
+    )
+
     def info_for_id(self, id_):
         try:
             info = requests.get(
@@ -221,7 +250,7 @@ class Eol(DataProvider):
         agents = {a['role']: a['full_name'] for a in info['agents']}
         if 'eolMediaURL' in info:
             return {
-                'creator': agents.get('photographer', agents.values()[0]),
+                'creator': agents.get('photographer', list(agents.values())[0]),
                 'date': info.get('created'),
                 'permission': info['license'],
                 'source': 'http://media.eol.org/data_objects/' + id_,
@@ -231,16 +260,12 @@ class Eol(DataProvider):
                 'comments': info.get('description'),
             }
 
-    def id_from_url(self, url):
+    def id_from_url(self, url, host, comps):
         """
         http://media.eol.org/data_objects/23049910
         """
-        if url.host() != 'eol.org':
-            return
-        comps = url.path_segments()
-        if comps[0] != 'data_objects':
-            return
-        return comps[1]
+        if host.endswith('eol.org') and len(comps) == 2 and comps[0] == 'data_objects':
+            return comps[1]
 
 
 class Wikimedia(DataProvider):
@@ -316,12 +341,11 @@ class Wikimedia(DataProvider):
             res['permission'] = self.license_map.get(res['permission'], res['permission'])
         return res
 
-    def id_from_url(self, url):
+    def id_from_url(self, url, host, comps):
         """http://commons.wikimedia.org/wiki/File:Alcelaphus_caama.jpg
         """
-        if not url.host().endswith('wikimedia.org'):
+        if not host.endswith('wikimedia.org'):
             return
-        comps = url.path_segments()
         if comps[0] == 'wiki':
             if 'File:' in comps[1]:
                 return comps[1].split('File:')[1]
@@ -331,17 +355,8 @@ class Wikimedia(DataProvider):
             m = self.filename_pattern.search(comp)
             if m:
                 return m.group('fname')
-        print(comps)
 
-
-#
-# TODO:
-#
-def get_info(img, providers):
-    for field in ['source', 'source_url', 'id']:
-        for provider in providers:
-            if provider.id_from_url(URL(img[field])):
-                return provider.info(img[field])
+PROVIDERS = [Wikimedia(), Flickr(), Eol(), Zimbabweflora(), Senckenberg()]
 
 
 class Visitor(object):
@@ -379,12 +394,14 @@ class Visitor(object):
 
 
 def update():
+    def get_info(img):
+        for field in ['source', 'source_url', 'id']:
+            for provider in PROVIDERS:
+                url = URL(img[field])
+                if provider.id_from_url(url, url.host(), url.path_segments()):
+                    return provider.info(img[field])
+
     data = jsonload(data_file('cn', 'images.json'), default={})
-    providers = [
-        #Wikimedia(), Flickr(), Eol(),
-        #Zimbabweflora(),
-        Senckenberg(),
-    ]
     try:
         info = None
         for img in csv_items('cn/images.csv'):
@@ -392,7 +409,7 @@ def update():
             if key in data:
                 print('+++', img['id'] or img['source'], data[key]['source'])
                 continue
-            info = get_info(img, providers)
+            info = get_info(img)
             if info:
                 assert 'source_url' in info
                 checksum = md5()
@@ -563,6 +580,18 @@ if __name__ == '__main__':
         update()
     elif cmd == 'rewrite':
         rewrite()
+    elif cmd == 'test':
+        for provider in PROVIDERS:
+            if hasattr(provider, '__example__'):
+                url, info = provider.__example__
+                res = provider.info(url)
+                if res != info:
+                    print('ERROR:')
+                    for d in [res, info]:
+                        for k in sorted(d.keys()):
+                            print(k, d[k])
+                else:
+                    print('OK')
     else:
         raise ValueError(cmd)
     #update()
