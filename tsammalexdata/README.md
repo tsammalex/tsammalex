@@ -19,7 +19,7 @@ Making a release of the data:
 ```
 2. Harvest additional data and compute distribution data:
 ```bash
-    python taxa.py
-    ~/venvs/gis/bin/python distribution.py
+    updatetaxa
+    git add tsammalexdata/data/external/gbif/*.json
 ```
 3. Upload images.

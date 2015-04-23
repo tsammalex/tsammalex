@@ -2,11 +2,8 @@ from __future__ import print_function, unicode_literals
 import os
 from io import open
 
-try:
-    from shapely.geometry import shape, Point
-    from shapely.geos import PredicateError
-except ImportError:
-    raise
+from shapely.geometry import shape, Point
+from shapely.geos import PredicateError
 
 from tsammalexdata.util import data_file, jsonload, unique
 
