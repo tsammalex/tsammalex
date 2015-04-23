@@ -1,4 +1,20 @@
 id,name,meaning,languages__id,notes
-afr-pan,pan,pan,afr,geographic pan
 afr-bosveld,bosveld,"bush, savanna",afr,
-gwj-eru,ǀèrù,grassland,gwj,a grassland; a place with a lot of long grasses. (common among Gui)
+afr-pan,pan,pan,afr,geographic pan
+gwj-aa,ǂàà,"wide land without trees, only grasses",gwj,Nakagawa 2013: 71
+gwj-eru,ǀèrù,"grassland, place with long grasses",gwj,(common among Gui); Nakagawa 2013: 6
+gwj-gui,ɡǀúī,vegetation abundant in thornless bushes and grasses,gwj,"Nakagawa 2013: 3; vegetation with grasses, Bauhinia petersiana, Ochna plchra, Terminalia seicea; G|ui"
+gwj-guma,ɡǃṵ̀mà,type of vegetation full of Shepherd's tree (Boscia albitrunca),gwj,Nakagawa 2013: 103
+gwj-haa,ǂʰáá,hard section of a pan where no water gathers,gwj,Nakagawa 2013: 75
+gwj-nabi,ŋǂà̰bı̄,type of vegitation with Grewia flava,gwj,Nakagawa 2013: 82
+gwj-nam,ŋǃá̰m̄,"grassy (small) area without trees, an area with hard sand",gwj,Nakagawa 2013: 120
+gwj-neba,ŋǂébā,type of vegetation with Silver terminalia,gwj,Nakagawa 2013: 81
+gwj-oo,ǃóò,"basin, large puddle in a dried river bed",gwj,Nakagawa 2013: 109; Tanaka/Sugawara 2010
+gwj-qaa,ǀqāā,trace of an ancient river,gwj,Nakagawa 2013: 27
+gwj-qxui,ǃqχʼúı́,"grassland, place with long grasses",gwj,(common among Gǀui); Nakagawa 2013: 130
+gwj-tsiu,tsı̀ù,"water pit, well",gwj,Nakagawa 2013: 169
+gwj-urio,ǃúrı̄-ʔò,small dried pan,gwj,Nakagawa 2013: 110
+gwj-xai,ǀχáī,"large, flat area of pan (with grass growing)",gwj,Nakagawa 2013: 23
+gwj-xari,ǁχārī,"grove, area dense with trees",gwj,"Nakagawa 2013: 59; mainly consisting of thorny trees such as Acacia erubescens Welw. ex Oliv., and Acacia mellifera [Vahl] Benth."
+gwj-xau,ǁχáú,"woodland, forest (mainly consisting of tall thorny trees)",gwj,Nakagawa 2013: 58
+gwj-xum,ǁχúm̀,river,gwj,Nakagawa 2013: 61
