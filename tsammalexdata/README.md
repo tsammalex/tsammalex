@@ -21,5 +21,7 @@ Making a release of the data:
 ```bash
     updatetaxa
     git add tsammalexdata/data/external/gbif/*.json
+    git commit -a -m"updated taxa info from external sources"
+    git push origin
 ```
 3. Upload images.
