@@ -34037,6 +34037,31 @@
         "class": "Insecta"
     }, 
     {
+        "id": "falcoamurensis", 
+        "name": "Falco amurensis", 
+        "kingdom": "Animalia", 
+        "order": "Falconiformes", 
+        "family": "Falconidae", 
+        "genus": "Falco", 
+        "ecoregions": [], 
+        "countries": [], 
+        "wikipedia_url": null, 
+        "eol_id": 1049213, 
+        "gbif_id": 2480998, 
+        "catalogueoflife_id": "11915570", 
+        "tdwgregions": [
+            "Africa", 
+            "Europe", 
+            "Southern"
+        ], 
+        "phylum": "Chordata", 
+        "class": "Aves", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11915570", 
+        "description": "Radde, 1863", 
+        "taxonRank": "species", 
+        "english_name": "Amur Falcon"
+    }, 
+    {
         "id": "evolvulusalsinoides", 
         "name": "Evolvulus alsinoides", 
         "kingdom": "Plantae", 
@@ -34162,6 +34187,30 @@
         "english_name": "falcons", 
         "phylum": "Chordata", 
         "class": "Aves"
+    }, 
+    {
+        "id": "falcoconcolor", 
+        "name": "Falco concolor", 
+        "kingdom": "Animalia", 
+        "order": "Falconiformes", 
+        "family": "Falconidae", 
+        "genus": "Falco", 
+        "ecoregions": [], 
+        "countries": [], 
+        "wikipedia_url": null, 
+        "eol_id": 1049192, 
+        "gbif_id": 2481061, 
+        "catalogueoflife_id": "11909711", 
+        "tdwgregions": [
+            "Africa", 
+            "Southern"
+        ], 
+        "phylum": "Chordata", 
+        "class": "Aves", 
+        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/11909711", 
+        "description": "Temminck, 1825", 
+        "taxonRank": "species", 
+        "english_name": "Sooty Falcon"
     }, 
     {
         "id": "falcocuvierii", 
