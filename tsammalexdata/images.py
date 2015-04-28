@@ -393,6 +393,17 @@ class Visitor(object):
         return row
 
 
+def get_checksum(content=None, fname=None):
+    assert content or fname
+    if fname:
+        assert content is None
+        with open(fname, 'rb') as fp:
+            content = fp.read()
+    checksum = md5()
+    checksum.update(content)
+    return checksum.hexdigest()
+
+
 def update():
     def get_info(img):
         for field in ['source', 'source_url', 'id']:
@@ -412,10 +423,8 @@ def update():
             info = get_info(img)
             if info:
                 assert 'source_url' in info
-                checksum = md5()
                 res = requests.get(info['source_url'])
-                checksum.update(res.content)
-                checksum = checksum.hexdigest()
+                checksum = get_checksum(content=res.content)
                 info['id'] = checksum
                 info.setdefault('mime_type', res.headers['content-type'])
                 with open(data_file('cn', 'images', checksum), mode='wb') as fp:
