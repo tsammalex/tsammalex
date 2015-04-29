@@ -6,4 +6,4 @@
 4. Upload images to the MPG imeji repository.
 5. Git commit and push the updated image data.
 6. [Create a release](https://help.github.com/articles/creating-releases/) of the repository.
-7. Import the release in http://tsammalex.clld.org
+7. [Import the release](https://github.com/clld/tsammalex/blob/master/RELEASE.md) in http://tsammalex.clld.org
