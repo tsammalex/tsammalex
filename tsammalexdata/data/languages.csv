@@ -1,12 +1,17 @@
 id,name,glottocode,description,lineages__id,latitude,longitude,region,2nd_languages
 afr,Afrikaans,afri1274,Afrikaans is a Germanic language spoken by about 7 million native speakers mainly in South Africa and Namibia. It is represented here in the standard orthography.,germanic,-33.6,19.4,Southern Africa,eng;xho;tsn;naq
+amh,Amharic,amha1245,Amharic is a Semitic languages spoken by about 22 million native speakers mainly in Ethiopia.,semitic,11.71,39.54,Eastern Africa,eng;arb;som
 ampari,Ampari,ampa1238,"Ampari is a Western Dogon language, belonging to the Mombo-Ampari subgroup and is spoken in a smaller area south of the Mombo area, including Nando village.",dogon,14.15,-3.55,Western Africa,eng;fra
+arb,Arabic/Standard,stan1318,"Standard Arabic (Modern Standard Arabic, Literary Arabic, similar: Classical Arabic) is the standardized variety of Arabic used in writing and highly formal speech. It is an official language in 27 states in western Asia and northern Africa.",semitic,27.96,43.85,Western Asia,eng;fra;amh
 asa,Pare,asut1235 ,,bantoid,-4.2,37.8,Eastern Africa,eng;swh
 bankantey,Bankan Tey,bank1259,"Bankan Tey ('Walo Language') is an Eastern Dogon language, belonging to the Beni-Walo-Nanga subgroup and is spoken in a village cluster Walo (old French spelling Oualo, native name Bankan) at the eastern end of the very long Gandamiya inselberg, not far from Douentza. Walo is a well-known site for pottery-making (large globular water jars without feet). In the past, Walo and Beni had a single chief, alternating between the two villages.",dogon,,,Western Africa,eng;fra
+bas,Basaa,basa1284,"Basaa (Basa, Mbene) is a Bantu language (A43) spoken by about 300 000 speakers in central-west Cameroon.",bantoid,3.81,10.42,Middle Africa,eng;fra;ewo
 bds,Burunge,buru1320,Burunge is a Southern Cushitic language spoken by about 13 000 speakers in Tanzania. It is represented here in the standardized orthography.,cushitic,-5.6,36.1,Eastern Africa,eng;swh
+bej,Beja,beja1238,"Beja (Bedawi, Bidhaawyeet) is a Northern Cushitic language spoken by probably more than 1 million speakers in eastern Sudan.",cushitic,17,36.6,Northern Africa,eng;arb
 bem,Bemba,bemb1257 ,,bantoid,-10.4,29.7,Eastern Africa,eng;swh
 bentey,Ben Tey,bent1238,"Ben Tey ('Beni Language') is an Eastern Dogon language, belonging to the Beni-Walo-Nanga subgroup and is spoken in the villages of Beni and to a lesser extent Gamni (3 km apart). Both villages are on a relatively narrowl rocky shelf (plateau) south of Douentza. A divergent dialect is said to be spoken in the village of Komboy.",dogon,,,Western Africa,eng;fra
 bunoge,Bunoge,buno1241,"Bunoge (exonyms include Korandabo) is an Eastern Dogon language, belonging to the Beni-Walo-Nanga subgroup and is spoken in the villages of Boudou and Sangou. It is a small-population language and potentially endangered.",dogon,14.43,-3.49,Western Africa,eng;fra
+byn,Bilin,bili1260,Bilin (Bilen) is a Central Cushitic (or Agaw) language spoken by about 90 000 speakers in central Eritrea and eastern Sudan.,cushitic,15.78,38.39,Eastern Africa,eng;tir;arb
 cce,Chopi,chop1243 ,,bantoid,-24.45,34.6,Eastern Africa,eng;swh
 cjk,Chokwe,chok1245 ,,bantoid,-9.5,19.9,Middle Africa,eng;por
 dal,Dahalo,daha1245 ,Dahalo is an endangered Cushitic language spoken by ca. 400 speakers on the northern coast of Kenya. It is represented here in IPA according to Maddieson et al. (1993).,cushitic,-1.9,40.5,Eastern Africa,eng;swh
@@ -14,25 +19,34 @@ deu,German,stan1295,"(Standard) German is a Germanic language used by about 90 m
 diu,Manyo/Gciriku,diri1252 ,,bantoid,-18.1,20.6,Southern Africa,eng;tsn
 doguldom,Dogul Dom,dogu1235,"Dogul Dom (or Dogulu) is a Western Dogon language spoken over a wide but sparsely-populated area on the high, flat plateau that begins a few kilometers north of Bandiagara and south of the Tommo So zone.",dogon,14.59,-3.57,Western Africa,eng;fra
 donnoso,Donno-So,,,dogon,,,Western Africa,
+dsh,Daasanach,daas1238,Daasanach (Dhaasanac and similar) is a Lowland East Cushitic language spoken by about 60 000 speakers in southern Ethiopia and northern Kenya.,cushitic,4.59,35.99,Eastern Africa,eng;swh;orm;som
 eng,English,stan1293,"English is a Germanic language spoken by about 360 million native speakers mainly in the United Kingdom, the United States, Canada, Australia, Ireland and New Zealand.",germanic,,,Northern Europe,
 ewo,Ewondo,ewon1239,Ewondo is a Bantu language (A72).,bantoid,3.9,11.4,Middle Africa,eng;fra;fan;bas;tik
+fan,Fang,fang1246,"Fang is Bantu language (A75) spoken by about 1 million speakers in Gabon, Equatorial Guinea and southern Cameroon.",bantoid,1.7,11.6,Middle Africa,eng;fra;ewo
 fwe,Fwe,fwee1238 ,,bantoid,-17.9,24.5,Southern Africa,eng;tsn
 gku,ǂUngkue†,vaal1235,"ǂUngkue (similar: Vaal-Orange, Seroa) was a Tuu variety or language cluster in South Africa (and Lesotho; depending on its definition) and became extinct during the 20th century. It is represented here in a linguistic transcription (IPA).",tuu,-29.0,25.5,Southern Africa,eng;afr;sot;xam
 gourou,Gourou,jams1239,"Gourou (ethnic and language name) is an Eastern Dogon language, belonging to the Jamsay dialect and is spoken in several villages mostly south of Koro.",dogon,14.18,-2.58,Western Africa,eng;fra;djm
+guz,Gusii,gusi1247,"Gusii (Kisii, EkeGusii) is a Bantu language (JE42) spoken by more than 2 million speakers in western Kenya.",bantoid,-0.8,34.8,Eastern Africa,eng;swh;suk;hay
+gwd-gol,Gawwada/Gollango,goll1242,Gawwada is an Eastern Cushitic dialect cluster (Yaaku-Dullay branch) and spoken by about 70 000 speakers in  southern Ethiopia.,cushitic,5.38,37.27,Eastern Africa,eng;amh;orm;som
 gwj,Gǀui,gwii1239,Gǀui is a Khoe-Kwadi language spoken by about 1500 native speakers mainly in Botswana and belongs to the Gǁana language cluster. It is represented here in the orthography as proposed by Hirosi Nakagawa.,khoekwadi,-23.3,23.6,Southern Africa,eng;tsn;xkv
+hay,Haya,haya1250,Haya (Oluhaya) is a Bantu language (JE22) spoken by more than 1 million speakers in northwestern Tanzania.,bantoid,-1.7,31.5,Eastern Africa,eng;swh;guz;suk;kin
 her,Herero,here1253,Herero (Otjiherero) is a Bantu language spoken by about 250 000 native speakers mainly in Namibia and Botswana. It is represented here in the standard orthography.,bantoid,-21.7,18.1,Southern Africa,eng;afr;kua;naq
 hio-g,Tshwa/Ganadi,tsoa1238,"Tshwa (Kua-Tsua, Hietshwa(re)) is a Khoe-Kwadi  language spoken by about 2000 native speakers mainly in Botswana and Zimbabwe. It is represented here in a preliminary linguistic transcription (Fehn)[fehnnotes].",khoekwadi,-18.5,25.7,Southern Africa,eng;tsn;kck
 hio-h,Tshwa/Hietshware,tsoa1238,"Tshwa (Kua-Tsua, Hietshwa(re)) is a Khoe-Kwadi  language spoken by about 2000 native speakers mainly in Botswana and Zimbabwe. It is represented here in a preliminary linguistic transcription (Fehn)[fehnnotes].",khoekwadi,-20.7,26.7,Southern Africa,eng;tsn;kck
 hts,Hadza,hadz1240 ,,isolated,-3.6,34.8,Eastern Africa,eng;swh
 huc,ǂ'Amkoe,huaa1248,"ǂ'Amkoe (ǂHõã, Eastern ǂHõã, ǂHoang) is a Kx'a language spoken by less than 100 native speakers in Botswana. It is represented here in a linguistic transcription (Berthold & Gerlach 2011, Nǃaqriaxe variety)[bertholdgerlach2011]. ",kxa,-23.8,24.7,Southern Africa,eng;tsn;xkv;gwj
 ibiso,Ibi-So,,,dogon,,,Western Africa,
+ikx,Ik,ikkk1242,Ik is a Kuliak language spoken by about 8000 speakers in northeastern Uganda.,kuliak,3.61,34.25,Eastern Africa,eng;lug;laj
 irk,Iraqw,iraq1241 ,,cushitic,-3.8,35.5,Eastern Africa,eng;swh
 jamsay,Jamsay,jams1239,"Jamsay (from a common greeting) is the largest-population Dogon language. It is the dominant language of villages in the plains between and northeast of the major inselbergs in the northeastern area. Mainstream Jamsay extends from the Douentza area southeast to Bamba and Koro, and northeast to the Mondoro area (from where some villages extend into Burkina Faso). Mainstream Jamsay is quite uniform.",dogon,14.18,-2.58,Western Africa,eng;fra;djm
 jamsaymondoro,Jamsay Mondoro,jams1239,Jamsay Mondoro is a Jamsay dialect spoken in the Mondoro Area,dogon,14.18,-2.58,Western Africa,eng;fra;djm
+kam,Kamba,kamb1297,Kamba (Kikamba) is a Bantu language (E55) spoken by about 4 million speakers in south-central Kenya.,bantoid,-1.61,37.95,Eastern Africa,eng;swh;kik
 kck,Kalanga,kala1384,Kalanga (Ikalanga) is a Bantu language spoken by about 950 000 native speakers mainly in Zimbabwe and Botswana.,bantoid,-21.7,27.8,Southern Africa,eng;tsn;sna
 kde,Makonde,mako1251 ,,bantoid,-10.8,39.6,Eastern Africa,eng;por;swh
+kel,Kela,kela1254,Kela is a Bantu language (C75) spoken by probably more than 200 000 speakers in the central region of DR Congo.,bantoid,-1.39,24.01,Middle Africa,eng;fra;lin;swh
 kik,Kikuyu,kiku1240 ,,bantoid,-0.4,36.7,Eastern Africa,eng;swh
 kin,Rwanda,kiny1244 ,accent and vowel length are represented by ´and -,bantoid,-2.0,30.0,Eastern Africa,eng;swh
+kmb,Kimbundu,kimb1241,Kimbundu is a Bantu language (H21) spoken by about 4 million native speakers mainly in north-western Angola. It is represented here in the standard orthograhpy.,bantoid,-9,14.9,Middle Africa,eng;por;umb;kon
 knw,ǃXun,huaa1248,"ǃXun (Northwestern ǃXun, ǃKhung, ǃKung) is a Kx'a  language belonging to the Ju language cluster spoken by several thousand native speakers mainly in Namibia and Angola. It is written here as presented in König & Heine (2008). Grammatical abbreviations: n1 'noun class 1' (hȁ), n3 'noun class 3' (yīí), n4 'noun class 4' (kā), partially grouped as singular/plural, e.g. n1/3 'singular: noun class 1/plural: noun class 3' (cf. König & Heine 2008: 7)[konigheine2008].",kxa,-18.2,19.1,Southern Africa,eng;kua;afr;ktz
 kon,Kongo,core1256,Kongo (Kikongo) is a Bantu language (H16).,bantoid,-5.3,13.6,Middle Africa,eng;fra;por;lin;lua
 kqz,ǃOra†,kora1292 ,,khoekwadi,-29.0,20.1,Southern Africa,eng;afr;naq
@@ -41,8 +55,10 @@ kua,Wambo,kuan1247,"Wambo (Oshiwambo, Ovambo, including Kwanyama and Ndonga) is 
 kuvale,Kuvale,,Kuvale is a Bantu language (R101) spoken next to the Umbundu-speaking area in Angola. It is represented here in a linguistic transcription (IPA).,bantoid,-13.9,13.4,Middle Africa,eng;por;umb;nyk
 kwn,Kwangali,kwan1273 ,,bantoid,-17.8,19.7,Middle Africa,eng;por;kua;umb
 kwz,Kwadi†,kwad1244,Kwadi was a language of southwest Angola related to Khoe languages and became extinct during the 20th century. It is represented here in a linguistic transcription (IPA).,khoekwadi,-15.9,12.1,Middle Africa,eng;por;umb;kuvale
+laj,Lango,lang1324,"Lango (Lwo, Leb-Lango) is a Western Nilotic language (Southern Luo branch) and spoken by about 1.5 million speakers in northern Uganda.",nilotic,2.14,33.06,Eastern Africa,eng;lug;swh;luo
 lam,Lamba,lamb1271 ,,bantoid,-12.8,27.9,Eastern Africa,eng;toi;swh
 lch,Luchazi,luch1239 ,,bantoid,-13.7,20.4,Middle Africa,eng;por;swh
+lea,Lega-Shabunda,lega1249,"Lega is a Bantu dialect cluster (D25) with two major varieties, Lega-Shabunda and Lega-Mwenga, spoken in the eastern part of DR Congo by about 500 000 speakers.",bantoid,-3.8,27.1,Middle Africa,eng;fra;lin;swh;run
 lin,Lingala,ling1263,Lingala is a Bantu language (C30B).,bantoid,-1.3,17.2,Middle Africa,eng;fra;kon;lua;swh
 loz,Lozi,lozi1239 ,,bantoid,-16.85,24.0,Eastern Africa,eng;toi;sot;swh
 lua,Luba-Kasai,luba1249,,bantoid,-5.9,22.3,Middle Africa,eng;fra
@@ -50,11 +66,18 @@ lub,Luba-Katanga,luba1250 ,,bantoid,-8.0,25.0,Middle Africa,eng;fra;lua
 lue,Lwena,luva1239 ,,bantoid,-12.5,21.7,Middle Africa,eng;por
 lug,Ganda,gand1255 ,,bantoid,0.3,31.9,Eastern Africa,eng;swh
 lun,Lunda,lund1266 ,,bantoid,-10.6,22.7,Middle Africa,eng;fra;por;lua
+luo,Luo,luok1236,Luo (Dholuo) is a Western Nilotic languages spoken by about 6 million speakers in western Kenya.,nilotic,-0.93,34.49,Eastern Africa,eng;swh
 lwn-a,Lower Nossob/ǀ'Auni†,lowe1407,"Lower Nossob, including ǀ'Auni (ǀAuni) and ǀHaasi (Kiǀhazi), was a language cluster belonging to the Tuu family spoken in current South Africa, Namibia and Botswana, i.e., in the area of the Kgalagadi Transfrontier National Park. It became extinct during the 20th century. It is represented in a linguistic transcription based on Story & Traill (1999) [traillstory1999] and Dorothea Bleek.",tuu,-25.8,20.3,Southern Africa,eng;afr;naq;nmn-e
 lwn-h,Lower Nossob/ǀHaasi†,lowe1407,"Lower Nossob, including ǀ'Auni (ǀAuni) and ǀHaasi (Kiǀhazi), was a language cluster belonging to the Tuu family and spoken in current South Africa, Namibia and Botswana, i.e., in the area of the Kgalagadi Transfrontier National Park. It became extinct during the 20th century. It is represented in a linguistic transcription based on Story & Traill (1999) and Dorothea Bleek.",tuu,-25.3,19.5,Southern Africa,eng;afr;naq;nmn-e
+mas,Maasai,masa1300,Maasai (Masai) is an Eastern Nilotic language spoken by about 1.3 million speakers in Kenya and Tanzania.,nilotic,-3.14,36.46,Eastern Africa,eng;swh;luo
+mcp,Makaa,maka1304,Makaa is a Bantu language (A83) spoken by about 100 000 speakers in central Cameroon.,bantoid,4.2,13.1,Middle Africa,eng;fra;ewo
+mdj,Mangbetu,mang1394,Mangbetu is a Mangbetu-Asua spoken by probably more than 700 000 speakers in the northeast of DR Congo.,mangbetuasua,2.55,27.07,Middle Africa,eng;fra;niy;zne
+mer,Meru,meru1245,"Meru (Mero, Kimîîru) is a Bantu language (E53) spoken by about 2 million speakers in central Kenya.",bantoid,0.26,37.74,Eastern Africa,eng;swh;kik
+mfc,Mba,mbaa1245,Mba is a Mbaic language spoken by about 40 000 speakers in the central-northern part of DR Congo.,mbaic,1.07,25.14,Middle Africa,eng;fra;lin;swh
 mgw,Matumbi,matu1259 ,,bantoid,-8.4,38.9,Eastern Africa,eng;swh
 mhw,Mbukushu,mbuk1240 ,,bantoid,-18.5,22.0,Southern Africa,eng;tsn;kua
 mombo,Mombo,momb1254,"Mombo (exonym Kolu So) is a Western Dogon language, belonging to the Mombo-Ampari group and is spoken in several villages including Songho that are on or near the highway from Mopti-Sevare to Bandiagara. The Nyambeenge and Ambaleenge varieties reported on Blench's website as potentially distinct languages may turn out to be dialects of Mombo from a linguist's perspective, though not necessarily from that of the local people. Most of our data are from Songho village; other dialects like that of Ficko are said to be quite different.",dogon,,,Western Africa,eng;fra;dmb
+mye-or,Myene/Orungu,orun1242,Myene is a cluster of closely related Bantu varieties (B11) spoken by about 50 000 speakers in western Gabon. ,bantoid,-1.49,9.50,Middle Africa,eng;fra;fan
 najamba,Najamba,bond1248,"Najamba-Kindige (exonym Bondu So) is a Western Dogon language and is thought to be a single language with much dialectal diversity, but Kindige has not yet been studied in depth. Najamba is the local name for the language in several villages in a large canyon beginning just east of Douentza and ending at the huge central Dogon plateau (e.g. Kubewel, Adia). Kindige is an informal local name for the dialects spoken along the highway running west from Douentza (separated from Najamba by a long inselberg and then by the plateau) and into the high plateau including the Borko area.",dogon,14.91,-3.33,Western Africa,eng;fra;dbu
 nanga,Nanga,nang1261,"Nanga is an Eastern Dogon language, belonging to the Beni-Walo-Nanga subgroup and is spoken in five primary villages (Anda, Namakoro, Kono, Wakara, and Soroni) in a compact zone about halfway between Douentza and Bandiagara.",dogon,14.49,-3.02,Western Africa,eng;fra;nzz
 naq,Khoekhoe,nama1264,"(Namibian Standard) Khoekhoe (Khoekhoegowab, Nama-Damara) is a Khoe-Kwadi language standardized basically on Nama and Damara varieties and spoken by about 200 000 native speakers mainly in Namibia. It is represented here in the standard orthography (Haacke & Eiseb 2002) [haackeeiseb2002]. Grammatical gender is overtly expressed (-b 'masculine', -i 'common', -s 'feminine').",khoekwadi,-24.4,17.0,Southern Africa,eng;afr;her;kua
@@ -71,6 +94,7 @@ ngh-e,Nǁang/Langeberg,nuuu1241,"Nǁang (Nǁng, Nǀuu, Nǀuuki, ǂKhomani) is a 
 ngh-w,Nǁang/Nǀuu,nuuu1241,"Nǁang (Nǁng, Nǀuu, Nǀuuki, ǂKhomani) is a Tuu language spoken by probably less than 10 native speakers in South Africa. It is represented here in a linguistic transcription.",tuu,-27.1,20.5,Southern Africa,eng;afr;xam
 nhr,Naro,naro1249,Naro (Nharo) is a Khoe-Kwadi  language spoken by about 10 000 native speakers in Botswana and Namibia. It is represented here in the orthography as used in Visser (2001) [visser2001].,khoekwadi,-22.3,21.0,Southern Africa,eng;tsn;afr;ktz
 nih,Nyiha,nyih1240 ,,bantoid,-8.9,33.0,Eastern Africa,eng;swh
+niy,Ngiti,ngit1239,Ngiti is a Lendu(ic) language spoken by about 100 000 speakers in the northeastern part of DR Congo.,lendu,1.3,30.22,Middle Africa,eng;fra;swh;lug
 nmn-a,Taa/ǃAma,xooo1239,"Taa (ǃXoon, ǃXóõ) is a Tuu  language spoken by about 3000 native speakers mainly in Botswana and Namibia. It is represented here in the practical orthography proposed by Güldemann & Naumann (2011) [guldemannnaumann2011], except for East !Xoon represented according to Traill 1994 [traill1994]. Grammatical abbreviations: 1 'agreement class 1' (concordial vowel i, tone class ii), 2 'agreement class 2' (concordial vowel ã~a, tone classes i or ii), 3 'agreement class 3' (concordial vowel e, tone classes i or ii), 4 'agreement class 4' (concordial vowel u, tone class ii), 5 'agreement class 5' (concordial sonorant n~ŋ, tone class ii). The classes are paired singular/plural.",tuu,-23.3,20.4,Southern Africa,eng;tsn;afr;naq
 nmn-e,Taa/East ǃXoon,xooo1239,"Taa (ǃXoon, ǃXóõ) is a Tuu  language spoken by about 3000 native speakers mainly in Botswana and Namibia. It is represented here in the practical orthography proposed by Güldemann & Naumann (2011) [guldemannnaumann2011], except for East !Xoon represented according to Traill 1994 [traill1994]. Grammatical abbreviations: 1 'agreement class 1' (concordial vowel i, tone class ii), 2 'agreement class 2' (concordial vowel ã~a, tone classes i or ii), 3 'agreement class 3' (concordial vowel e, tone classes i or ii), 4 'agreement class 4' (concordial vowel u, tone class ii), 5 'agreement class 5' (concordial sonorant n~ŋ, tone class ii). The classes are paired singular/plural.",tuu,-22.8,21.9,Southern Africa,eng;tsn;afr;naq
 nmn-h,Taa/ǂHuan,xooo1239,"Taa (ǃXoon, ǃXóõ) is a Tuu  language spoken by about 3000 native speakers mainly in Botswana and Namibia. It is represented here in the practical orthography proposed by Güldemann & Naumann (2011) [guldemannnaumann2011], except for East !Xoon represented according to Traill 1994 [traill1994]. Grammatical abbreviations: 1 'agreement class 1' (concordial vowel i, tone class ii), 2 'agreement class 2' (concordial vowel ã~a, tone classes i or ii), 3 'agreement class 3' (concordial vowel e, tone classes i or ii), 4 'agreement class 4' (concordial vowel u, tone class ii), 5 'agreement class 5' (concordial sonorant n~ŋ, tone class ii). The classes are paired singular/plural.",tuu,-24.6,22.7,Southern Africa,eng;tsn;afr;naq
@@ -79,17 +103,23 @@ nmn-w,Taa/West ǃXoon,xooo1239,"Taa (ǃXoon, ǃXóõ) is a Tuu  language spoke
 nse,Nsenga,nsen1242 ,,bantoid,-14.9,31.1,Eastern Africa,eng;por;nya;sna;swh
 nso,Northern Sotho,pedi1238,"Northern Sotho (Sesotho sa Leboa, Sepedi) is a Bantu  language spoken by about 4 million native speakers mainly in South Africa. It is represented here in the standard orthography.",bantoid,-23.9,29.6,Southern Africa,eng;tsn;zul;afr
 nya,Chewa-Nyanja,nyan1308 ,,bantoid,-13.8,33.8,Eastern Africa,eng;yao;swh
+nyf,Mijikenda/Giryama,giry1241,Giryama belongs to the (North) Mijikenda dialect cluster (Bantu E72). Mijikenda is spoken by about 2 million speakers in coastal Kenya and northeastern Tanzania.,bantoid,-3.31,39.66,Eastern Africa,eng;swh;kam;kik
 nyk,Nyaneka,nyan1305 ,,bantoid,-15.4,14.5,Middle Africa,eng;por;umb;kua
+nyn,Nyankore,nyan1307,"Nyankore (Nkore, Runyankore, Nyankole) is a Bantu language (JE13) spoken by about 2.3 million speakers in southwestern Uganda.",bantoid,-0.5,30.6,Eastern Africa,eng;lug;swh;kin
+nyy,Nyakyusa-Ngonde,nyak1260,Nyakyusa-Ngonde (Nyakyusa) is a Bantu language (M31) spoken by more than 1 million speakers in southwestern Tanzania and northern Malawi.,bantoid,-9.71,33.78,Eastern Africa,eng;swh;tum;bem
 pbr,Pangwa,pang1287 ,,bantoid,-9.3,34.6,Eastern Africa,eng;swh
 penange,Penange,pena1270,"Penange is a Western Dogon language belonging to the Mombo-Ampari group and is closely related to Ampari. It is spoken in the rather isolated village of Pinia, which is located on a rocky hill with a deep rock pond.",dogon,,,Western Africa,eng;fra
 pergetegu,Perge Tegu,jams1239,"Perge Tegu ('Pergue language') is an Eastern Dogon langauge, belonging to the Jamsay dialect and is spoken in Pergue village, which is on a rocky shelf near Beni. Pergue also has a dye-ers' quarter where mainstream Jamsay is spoken. There are a few other similar montane villages nearby that are said to have distinctive Jamsay dialects.",dogon,14.18,-2.58,Western Africa,eng;fra;djm
+pun,Punu,punu1239,Punu is a Bantu language (B43) spoken by about 160 000 speakers in southern Gabon and the Republic of Congo.,bantoid,-2.67,11.67,Middle Africa,eng;fra;kon;fan
 rng,Rhonga,rong1268 ,,bantoid,-26.1,32.6,Eastern Africa,eng;por;tso;zul;swh
+run,Rundi,rund1242,"Rundi (Kirundi) is a Bantu language (JD62) spoken by about 9 million speakers mainly in Burundi, where it is recognized as official language.",bantoid,-1.4,31.3,Eastern Africa,eng;fra;swh
 sad,Sandawe,sand1273 ,,isolated,-5.2,35.4,Eastern Africa,eng;swh
 sbs,Ikuhane,subi1246 ,,bantoid,-17.5,25.0,Southern Africa,eng;tsn;toi
 seh,Sena,nucl1396 ,,bantoid,-18.0,35.0,Eastern Africa,eng;por;sna;swh
 shg-da,Shua/Danisi,dani1286,Shua is a Khoe-Kwadi  language spoken by about 2000 native speakers mainly in Botswana. It is represented here in a linguistic transcription (Fehn)[fehnnotes].,khoekwadi,-20.2,25.3,Southern Africa,eng;tsn;kck
 shg-de,Shua/Deti,deti1240,Shua is a Khoe-Kwadi  language spoken by about 2000 native speakers mainly in Botswana. It is represented here in a linguistic transcription (Fehn)[fehnnotes].,khoekwadi,-21.2,24.9,Southern Africa,eng;tsn;kck
 sna,Shona,shon1251,Shona (chiShona) is a Bantu  language spoken by about 10 million native speakers mainly in Zimbabwe and Mozambique. It is represented here in the standard orthography.,bantoid,-18.0,30.8,Eastern Africa,eng
+som,Somali,soma1255,"Somali is an Lowland Eastern Cushitic language and spoken by about 15 million speakers mainly in Somalia, Ethiopia and Kenya.",cushitic,4.8,45.2,Eastern Africa,eng;swh;orm
 sot,Southern Sotho,sout2807,"Southern Sotho (Sesotho, Sotho) is a Bantu  language spoken by about 6 million native speakers mainly in South Africa and Lesotho. It is represented here in the standard orthography.",bantoid,-28.9,28.0,Southern Africa,eng;tsn;zul;afr
 ssw,Swati,swat1243 ,,bantoid,-26.5,31.3,Southern Africa,eng;zul;tso
 suk,Sukuma,suku1261 ,,bantoid,-3.4,32.3,Eastern Africa,eng;swh
@@ -122,13 +152,5 @@ yandadom,Yanda Dom,yand1257,Yanda Dom ('Yanda language') is a Western Dogon lang
 yao,Yao,yaoo1241 ,,bantoid,-12.6,36.2,Eastern Africa,eng;por;nya;vmw;swh
 yey,Yeyi,yeyi1239 ,,bantoid,-19.5,22.4,Southern Africa,eng;tsn;her;mhw;ktz
 yornoso,Yorno So,toro1252,"Yorno So (Yendouma village) is an Eastern Dogon language, belonging to the Toro So varieties.",dogon,14.41,-3.1,Western Africa,eng;fra;dts
+zne,Zande,zand1248,Zande is a Zandic language spoken by more than 1 million speakers in eastern Central African Republic and in northeastern parts of DR Congo. ,zandic,4.62,26.72,Middle Africa,eng;fra;sag
 zul,Zulu,zulu1248,Zulu (isiZulu) is a Bantu  language (S42) spoken by about 10 million native speakers mainly in South Africa. It is represented here in the standard orthography.,bantoid,-28.5,30.6,Southern Africa,eng;xho;sot;afr
-kmb,Kimbundu,kimb1241,Kimbundu is a Bantu language (H21) spoken by about 4 million native speakers mainly in north-western Angola. It is represented here in the standard orthograhpy.,bantoid,-9,14.9,Middle Africa,eng;por;umb;kon
-mye-or,Myene/Orungu,orun1242,Myene is a cluster of closely related Bantu varieties (B11) spoken by about 50 000 speakers in western Gabon. ,bantoid,-1.49,9.50,Middle Africa,eng;fra;fan
-fan,Fang,fang1246,"Fang is Bantu language (A75) spoken by about 1 million speakers in Gabon, Equatorial Guinea and southern Cameroon.",bantoid,1.7,11.6,Middle Africa,eng;fra;ewo
-lea,Lega-Shabunda,lega1249,"Lega is a Bantu dialect cluster (D25) with two major varieties, Lega-Shabunda and Lega-Mwenga, spoken in the eastern part of DR Congo by about 500 000 speakers.",bantoid,-3.8,27.1,Middle Africa,eng;fra;lin;swh;run
-bas,Basaa,basa1284,"Basaa (Basa, Mbene) is a Bantu language (A43) spoken by about 300 000 speakers in central-west Cameroon.",bantoid,3.81,10.42,Middle Africa,eng;fra;ewo
-mcp,Makaa,maka1304,Makaa is a Bantu language (A83) spoken by about 100 000 speakers in central Cameroon.,bantoid,4.2,13.1,Middle Africa,eng;fra;ewo
-guz,Gusii,gusi1247,"Gusii (Kisii, EkeGusii) is a Bantu language (JE42) spoken by more than 2 million speakers in western Kenya.",bantoid,-0.8,34.8,Eastern Africa,eng;swh;suk;hay
-hay,Haya,haya1250,Haya (Oluhaya) is a Bantu language (JE22) spoken by more than 1 million speakers in northwestern Tanzania.,bantoid,-1.7,31.5,Eastern Africa,eng;swh;guz;suk
-run,Rundi,rund1242,Rundi ,bantoid,-1.4,31.3,Eastern Africa,eng;fra;swh
