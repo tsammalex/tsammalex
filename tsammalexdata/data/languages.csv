@@ -15,7 +15,7 @@ byn,Bilin,bili1260,Bilin (Bilen) is a Central Cushitic (or Agaw) language spoken
 cce,Chopi,chop1243 ,,bantoid,-24.45,34.6,Eastern Africa,eng;swh
 cjk,Chokwe,chok1245 ,,bantoid,-9.5,19.9,Middle Africa,eng;por
 dal,Dahalo,daha1245 ,Dahalo is an endangered Cushitic language spoken by ca. 400 speakers on the northern coast of Kenya. It is represented here in IPA according to Maddieson et al. (1993).,cushitic,-1.9,40.5,Eastern Africa,eng;swh
-deu,German,stan1295,"(Standard) German is a Germanic language used by about 90 million native speakers mainly in Germany, Austria and Switzerland. It is represented here in the standard orthography. Grammatical abbreviations: f 'feminine', m 'masculine', n 'neuter' (gender).",germanic,,,Western Europe,
+deu,German,stan1295,"(Standard) German is a Germanic language used by about 90 million native speakers mainly in Germany, Austria and Switzerland. It is represented here in the standard orthography. Grammatical abbreviations: f 'feminine', m 'masculine', n 'neuter' (gender).",germanic,,,Western Europe,eng
 diu,Manyo/Gciriku,diri1252 ,,bantoid,-18.1,20.6,Southern Africa,eng;tsn
 doguldom,Dogul Dom,dogu1235,"Dogul Dom (or Dogulu) is a Western Dogon language spoken over a wide but sparsely-populated area on the high, flat plateau that begins a few kilometers north of Bandiagara and south of the Tommo So zone.",dogon,14.59,-3.57,Western Africa,eng;fra
 donnoso,Donno-So,,,dogon,,,Western Africa,
@@ -23,6 +23,7 @@ dsh,Daasanach,daas1238,Daasanach (Dhaasanac and similar) is a Lowland East Cushi
 eng,English,stan1293,"English is a Germanic language spoken by about 360 million native speakers mainly in the United Kingdom, the United States, Canada, Australia, Ireland and New Zealand.",germanic,,,Northern Europe,
 ewo,Ewondo,ewon1239,Ewondo is a Bantu language (A72).,bantoid,3.9,11.4,Middle Africa,eng;fra;fan;bas;tik
 fan,Fang,fang1246,"Fang is Bantu language (A75) spoken by about 1 million speakers in Gabon, Equatorial Guinea and southern Cameroon.",bantoid,1.7,11.6,Middle Africa,eng;fra;ewo
+fra,French,stan1290,"(Standard) French (Français) is a Romance (Italic) language spoken by about 75 million native speakers mainly in France, Belgium, Switzerland and Canada. It is an official language in 29 countries.",romance,,,Western Europe,eng
 fwe,Fwe,fwee1238 ,,bantoid,-17.9,24.5,Southern Africa,eng;tsn
 gku,ǂUngkue†,vaal1235,"ǂUngkue (similar: Vaal-Orange, Seroa) was a Tuu variety or language cluster in South Africa (and Lesotho; depending on its definition) and became extinct during the 20th century. It is represented here in a linguistic transcription (IPA).",tuu,-29.0,25.5,Southern Africa,eng;afr;sot;xam
 gmv,Gamo,gamo1243,"Gamo belongs to the Gamo-Gofa-Dawro dialect cluster, i.e., an Omotic language spoken by about 2 million speakers in southwestern Ethiopia.",omotic,6.58,37.14,Eastern Africa,eng;amh;orm
@@ -112,6 +113,7 @@ nyy,Nyakyusa-Ngonde,nyak1260,Nyakyusa-Ngonde (Nyakyusa) is a Bantu language (M31
 pbr,Pangwa,pang1287 ,,bantoid,-9.3,34.6,Eastern Africa,eng;swh
 penange,Penange,pena1270,"Penange is a Western Dogon language belonging to the Mombo-Ampari group and is closely related to Ampari. It is spoken in the rather isolated village of Pinia, which is located on a rocky hill with a deep rock pond.",dogon,,,Western Africa,eng;fra
 pergetegu,Perge Tegu,jams1239,"Perge Tegu ('Pergue language') is an Eastern Dogon langauge, belonging to the Jamsay dialect and is spoken in Pergue village, which is on a rocky shelf near Beni. Pergue also has a dye-ers' quarter where mainstream Jamsay is spoken. There are a few other similar montane villages nearby that are said to have distinctive Jamsay dialects.",dogon,14.18,-2.58,Western Africa,eng;fra;djm
+por,Portuguese,port1283,Portuguese (Português) is a Romance (Italic) language spoken by about 220 million native speakers mainly in Portugal and Brazil. It is an official language in 9 countries.,,,,,
 protohighlandeastcushitic,Proto-Highland East Cushitic*,high1285,The reconstructed forms of Proto-Highland East Cushitic are taken from Hudson (1989).,cushitic,7.5,38.4,Eastern Africa,eng
 protokhoe,Proto-Khoe*,khoe1241,The reconstructed forms of Proto-Khoe are from Voßen (1997).,khoekwadi,-22.1,24.1,Southern Africa,eng
 protosemitic,Proto-Semitic*,semi1276,The reconstructed forms of Proto-Semitic are taken from Kogan (2011).,semitic,30.8,39.54,Western Asia,eng
@@ -127,6 +129,7 @@ sid,Sidamo,sida1246,Sidamo is a Highland East Cushitic language spoken by about 
 sna,Shona,shon1251,Shona (chiShona) is a Bantu  language spoken by about 10 million native speakers mainly in Zimbabwe and Mozambique. It is represented here in the standard orthography.,bantoid,-18.0,30.8,Eastern Africa,eng
 som,Somali,soma1255,"Somali is an Lowland Eastern Cushitic language and spoken by about 15 million speakers mainly in Somalia, Ethiopia and Kenya.",cushitic,4.8,45.2,Eastern Africa,eng;swh;orm
 sot,Southern Sotho,sout2807,"Southern Sotho (Sesotho, Sotho) is a Bantu  language spoken by about 6 million native speakers mainly in South Africa and Lesotho. It is represented here in the standard orthography.",bantoid,-28.9,28.0,Southern Africa,eng;tsn;zul;afr
+spa,Spanish,stan1288,"(Standard) Spanish (Castilian, Español, Castellano) is a Romance (Italic) language spoken by about 410 million native speakers mainly in Spain and Hispanic America.It is an official language in 20 countries.",romance,,,Southern Europe,eng
 ssw,Swati,swat1243 ,,bantoid,-26.5,31.3,Southern Africa,eng;zul;tso
 suk,Sukuma,suku1261 ,,bantoid,-3.4,32.3,Eastern Africa,eng;swh
 swh,Swahili,swah1253 ,,bantoid,-6.8,38.7,Eastern Africa,eng;por
