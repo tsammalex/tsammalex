@@ -19,7 +19,7 @@ deu,German,stan1295,"(Standard) German is a Germanic language used by about 90 m
 diu,Manyo/Gciriku,diri1252 ,,bantoid,-18.1,20.6,Southern Africa,eng;tsn
 doguldom,Dogul Dom,dogu1235,"Dogul Dom (or Dogulu) is a Western Dogon language spoken over a wide but sparsely-populated area on the high, flat plateau that begins a few kilometers north of Bandiagara and south of the Tommo So zone.",dogon,14.59,-3.57,Western Africa,eng;fra
 donnoso,Donno-So,,,dogon,,,Western Africa,
-dsh,Daasanach,daas1238,Daasanach (Dhaasanac and similar) is a Lowland East Cushitic language spoken by about 60 000 speakers in southern Ethiopia and northern Kenya.,cushitic,4.59,35.99,Eastern Africa,eng;swh;orm;som
+dsh,Daasanach,daas1238,Daasanach (Dhaasanac and similar) is a Lowland East Cushitic language spoken by about 60 000 speakers in southern Ethiopia and northern Kenya.It is represented here in a linguistic transcription (IPA).,cushitic,4.59,35.99,Eastern Africa,eng;swh;orm;som
 eng,English,stan1293,"English is a Germanic language spoken by about 360 million native speakers mainly in the United Kingdom, the United States, Canada, Australia, Ireland and New Zealand.",germanic,,,Northern Europe,
 ewo,Ewondo,ewon1239,Ewondo is a Bantu language (A72).,bantoid,3.9,11.4,Middle Africa,eng;fra;fan;bas;tik
 fan,Fang,fang1246,"Fang is Bantu language (A75) spoken by about 1 million speakers in Gabon, Equatorial Guinea and southern Cameroon.",bantoid,1.7,11.6,Middle Africa,eng;fra;ewo
@@ -113,7 +113,8 @@ nyy,Nyakyusa-Ngonde,nyak1260,Nyakyusa-Ngonde (Nyakyusa) is a Bantu language (M31
 pbr,Pangwa,pang1287 ,,bantoid,-9.3,34.6,Eastern Africa,eng;swh
 penange,Penange,pena1270,"Penange is a Western Dogon language belonging to the Mombo-Ampari group and is closely related to Ampari. It is spoken in the rather isolated village of Pinia, which is located on a rocky hill with a deep rock pond.",dogon,,,Western Africa,eng;fra
 pergetegu,Perge Tegu,jams1239,"Perge Tegu ('Pergue language') is an Eastern Dogon langauge, belonging to the Jamsay dialect and is spoken in Pergue village, which is on a rocky shelf near Beni. Pergue also has a dye-ers' quarter where mainstream Jamsay is spoken. There are a few other similar montane villages nearby that are said to have distinctive Jamsay dialects.",dogon,14.18,-2.58,Western Africa,eng;fra;djm
-por,Portuguese,port1283,Portuguese (Português) is a Romance (Italic) language spoken by about 220 million native speakers mainly in Portugal and Brazil. It is an official language in 9 countries.,,,,,
+por,Portuguese,port1283,Portuguese (Português) is a Romance (Italic) language spoken by about 220 million native speakers mainly in Portugal and Brazil. It is an official language in 9 countries.,romance,,,Southern Europe,eng
+protoagaw,Proto-Agaw*,cent2193,The reconstructed forms of Proto-Agaw (Proto-Central Cushitic) are taken from Appleyard (2006). It is represented in a linguistic transcription (IPA).,cushitic,11.7,37.5,Eastern Africa,eng
 protohighlandeastcushitic,Proto-Highland East Cushitic*,high1285,The reconstructed forms of Proto-Highland East Cushitic are taken from Hudson (1989).,cushitic,7.5,38.4,Eastern Africa,eng
 protokalaharikhoe,Proto-Kalahari Khoe*,nonk1236,"Proto-Khoe and a few daughter proto-languages have been reconstructed by Voßen (1997). Proto-Kalahari Khoe (Proto-Non-Khoekhoe, PNK) is represented here in a linguistic transcription (IPA).",khoekwadi,-22.1,24.1,Southern Africa,eng
 protosemitic,Proto-Semitic*,semi1276,The reconstructed forms of Proto-Semitic are taken from Kogan (2011).,semitic,30.8,39.54,Western Asia,eng
