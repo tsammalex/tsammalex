@@ -1484,6 +1484,8 @@ xysmalobiumheudelotianum-bankantey-50075-0,èndéndérù,bankantey,xysmalobi
 ziziphusmauritiana-bankantey-50580-0,èrèmbú,bankantey,ziziphusmauritiana,,,,,,,,jujube (shrub),,,,,,,,,,,,,,,http://dogonlanguages.org,,50580,
 ziziphusmucronata-bankantey-50581-0,tà-èrèmbú,bankantey,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),hyena-jujube,,,,,,,,,,,,,,http://dogonlanguages.org,,50581,
 zorniaglochidiata-bankantey-50348-0,dɛ́ŋgɛ́:rɛ̀,bankantey,zorniaglochidiata,,,,,,,,herb sp.,,,Ful,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+canislupus-bas-0,ŋgwɔ,bas,canislupusfamiliaris,ŋgwɔ,,,ŋgwɔ,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,99237
+caprahircus-bas-0,kɛmbɛ,bas,caprahircus,kɛmbɛ,,,kɛmbɛ,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,99239
 bostaurus-bds-0,slee,bds,bostaurus,ɬe:,,f,yakway,,,,"cattle, cow (Rind)",,,,,,,,,,,,,,,,kiessling1994[60],,
 bostaurus-bds-1,yaqamba,bds,bostaurus,jaqamba,,m,yaqambee,,,,bull (Bulle),,,,,,,,,,,,,,,,kiessling1994[54],,
 bostaurus-bds-2,'aw,bds,bostaurus,ʔaw,,m,'aweeri,,,,ox,,,,,,,,,,,,,,,,kiessling1994[54],,
@@ -4624,6 +4626,8 @@ canislupus-ewo-0,mvú,ewo,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,redden
 caprahircus-ewo-0,kɑ́bɑd,ewo,caprahircus,,,,,,,,"goat, sheep",,,,,,,,,,,,,,,,redden1979[212],,
 ovisaries-ewo-0,ǹtómbɑ́,ewo,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,redden1979[231],,
 ovisaries-ewo-1,kɑ́bɑd,ewo,ovisaries,,,,,,,,"goat, sheep",,,,,,,,,,,,,,,,redden1979[212],,
+canislupus-fan-0,mvu,fan,canislupusfamiliaris,mvu,,,bəmvu,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,97041
+caprahircus-fan-0,kaban,fan,caprahircus,kaban,,,bəkaban,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,97043
 bostaurus-fwe-0,n'ombe,fwe,bostaurus,ŋɔmbɛ,,class 9/10,,,,,head of cattle,,,,,,,,,,,,,,,,baumbach1997[405],,
 bostaurus-fwe-1,mpoho,fwe,bostaurus,,,class 6,mampoho,,,,bull,,,,,,,,,,,,,,,,"baumbach1997[398, 409]",,
 canislupus-fwe-0,ómbwa,fwe,canislupusfamiliaris,,,class 1a/2a,,,,,dog,,,,,,,,,,,,,,,,"baumbach1997[399, 405]",,
@@ -4887,6 +4891,13 @@ waltheriaindica-gourou-50643-0,núwⁿó-ɔ́wⁿɔ̀,gourou,waltheriaindica,,
 ximeniaamericana-gourou-50468-0,ɔ̀ŋɔ̀rⁿɔ̀-bà:rⁿî:,gourou,ximeniaamericana,,,,,,,,thorny shrub sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50468,
 ziziphusmauritiana-gourou-50580-0,òrùwó,gourou,ziziphusmauritiana,,,,,,,,jujube (shrub),,,,,,,,,,,,,,,http://dogonlanguages.org,,50580,
 zorniaglochidiata-gourou-50348-0,dɛ̀gɛ̀m-bɛ́:rɛ̀,gourou,zorniaglochidiata,,,,,,,,herb sp.,,,Ful,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+bostaurus-guz-0,eaberi,guz,bostaurus,eaberi,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,340681
+bostaurus-guz-1,engʼombe,guz,bostaurus,eŋombe,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,340682
+bostaurus-guz-2,eeri,guz,bostaurus,e:ri,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,341132
+canislupus-guz-0,esese,guz,canislupusfamiliaris,esese,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,340393
+caprahircus-guz-0,embori,guz,caprahircus,embori,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,340396
+caprahircus-guz-1,egoree,guz,caprahircus,egore:,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,341152
+ovisaries-guz-0,chingʼondi,guz,ovisaries,ciŋondi,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,340684
 bostaurus-gwd-gol-0,lóˀo,gwd-gol,bostaurus,lóʔo,,,,,,,"cow (Kuh), cattle?",,,,,,,,,,,,,,,,ambornminkersasse1980[254],,
 canislupus-gwd-gol-0,háro,gwd-gol,canislupusfamiliaris,,,,,,,,dog (Hund),,,,,,,,,,,,,,,,ambornminkersasse1980[250],,
 canislupus-gwd-gol-1,kute,gwd-gol,canislupusfamiliaris,,,,,,,,young dog,,,,,,,,,,,,,,,,ambornminkersasse1980[250],,
@@ -5204,6 +5215,12 @@ walleria-gwj-0,ŋǁūū,gwj,walleria,,,,,,,,walleria sp.,,,,,,,,,,fooddrinks,,
 xerusinauris-gwj-0,ŋǁáū,gwj,xerusinauris,,,,,,,,,,,,,,,gwj-paaxo,,,,,,hunted with snares by boys,,,nakagawa2013[46];tanakasugawara2010[50],,
 zeamays-gwj-0,máı́,gwj,zeamays,,,,,,,,,,,Naro,,,,,,,,,,,,,nakagawa2013[178],,
 ziziphusmucronata-gwj-0,ǂqχʼárò,gwj,ziziphusmucronata,,,,,,,,,,,,,,,,,,,,,,,,nakagawa2013[89],,
+bostaurus-hay-0,ente,hay,bostaurus,ente,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,344923
+bostaurus-hay-1,enumi,hay,bostaurus,enumi,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,345359
+canislupus-hay-0,(e)mbwa,hay,canislupusfamiliaris,e-mbʷa,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,344670
+caprahircus-hay-0,(e)mbuzi,hay,caprahircus,e-mbuzi,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,344673
+caprahircus-hay-1,empaya,hay,caprahircus,empaja,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,345378
+ovisaries-hay-0,entaama,hay,ovisaries,enta:ma,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,344925
 acinonyxjubatus-her-0,shitona,her,acinonyxjubatus,,,,,,,,,,,,,,,,,,,,,,,eol.org/pages/328680/names/common_names,,,
 bostaurus-her-0,ongombe,her,bostaurus,,,,(oz̪o-),,,,head of cattle,,,,,,,,,,,,,,,,"viljoenkamupingene1983[43], mohligkavari2008[331]",,
 bostaurus-her-1,ongombe ond̪end̪u,her,bostaurus,,,,,,,,cow (female),female cattle,,,,,,,,,,,,,,,viljoenkamupingene1983[38],,
@@ -5558,6 +5575,12 @@ xylopiaaethiopica-ibiso-50057-0,pɛ̀-díŋɛ̀,ibiso,xylopiaaethiopica,,,,,,,,
 zingiberofficinale-ibiso-50671-0,yàmà:kǔ:ⁿ,ibiso,zingiberofficinale,,,,,,,,ginger,,,,,,,,,,,,,,,http://dogonlanguages.org,,50671,
 ziziphusmauritiana-ibiso-50580-0,ɔ̀rⁿùŋgú,ibiso,ziziphusmauritiana,,,,,,,,jujube (shrub),,,,,,,,,,,,,,,http://dogonlanguages.org,,50580,
 zorniaglochidiata-ibiso-50348-0,déŋè-mɛ́rⁿɛ̀,ibiso,zorniaglochidiata,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+bostaurus-ikx-0,ɬyɔ ~ heɔ,ikx,bostaurus,,,coll.,,,,,"cattle, cow",,,,,,,,,,,,,,,,"heine_ik_1999[64, 105]",,
+bostaurus-ikx-1,cúrúk,ikx,bostaurus,,,,cúrúka-ikw,,,,bull,,,,,,,,,,,,,,,,"heine_ik_1999[28, 104]",,
+canislupus-ikx-0,ŋók,ikx,canislupusfamiliaris,,,,ŋók-ítín,,,,dog,,,,,,,,,,,,,,,,"heine_ik_1999[79, 110]",,
+caprahircus-ikx-0,ri,ikx,caprahircus,,,coll.,,,,,goat,,,,,,,,,,,,,,,,"heine_ik_1999[82, 117]",,
+ovisaries-ikx-0,ɗóɗo,ikx,ovisaries,,,,ɗóɗo-ik,,,,sheep,,,,,,,,,,,,,,,,"heine_ik_1999[31, 138]",,
+ovisaries-ikx-1,ɗóɗo yakw,ikx,ovisaries,,,,,,,,ram,sheep man,,,,,,,,,,,,,,,"heine_ik_1999[31, 134]",,
 bostaurus-irk-0,/amoo,irk,bostaurus,ʕamoo,,,,,,,cattle,,poetic,,,,,,,,,,,,,,mous_etal2002[176],,
 bostaurus-irk-1,/eemay,irk,bostaurus,ʕeemay,,,,,,,cattle,,,,,,,,,,,,,,,,mous_etal2002[176],,
 bostaurus-irk-2,hikwaa,irk,bostaurus,,,,,,,,cattle,,,,,,,,,,,,,,,,mous_etal2002[176],,
@@ -6137,6 +6160,15 @@ zingiberofficinale-jamsay-50671-1,kàká:-dúrù ~ kàká:-dírì,jamsay
 ziziphusmauritiana-jamsay-50580-0,òròwó,jamsay,ziziphusmauritiana,,,,,,,,jujube (shrub),,,,,,,,,,,,,,,http://dogonlanguages.org,,50580,
 ziziphusmucronata-jamsay-50581-0,tǎ:-órówò,jamsay,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),,,,,,,,,,,,,,"""hyena-jujube"", also Capparis",http://dogonlanguages.org,,50581,
 zorniaglochidiata-jamsay-50348-0,dɛ̀ŋɛ̀m-bɛ́:rɛ̀,jamsay,zorniaglochidiata,,,,,,,,herb sp.,,,Ful,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+bostaurus-kam-0,ngʼombe,kam,bostaurus,ŋombe,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,350631
+bostaurus-kam-1,ngʼombe nga,kam,bostaurus,ŋombe nga,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349540
+bostaurus-kam-2,nzaU ~ nzau,kam,bostaurus,nzao ~ nzau,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349972
+bostaurus-kam-3,ndewa,kam,bostaurus,ndewa,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,350963
+canislupus-kam-0,ngitI,kam,canislupusfamiliaris,ngite,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349298
+caprahircus-kam-0,mbUi,kam,caprahircus,mboi,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349301
+caprahircus-kam-1,nthenge,kam,caprahircus,nðenge,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349994
+ovisaries-kam-0,Ilondu,kam,ovisaries,elondu,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349542
+ovisaries-kam-1,IlUnga,kam,ovisaries,elonga,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,349543
 bostaurus-kck-0,ng'òmbè,kck,bostaurus,,,class 9/10,,,,,cattle,,,,,,,,,,,,,,,,mathangwane1994,,
 bostaurus-kck-1,n-rúbà,kck,bostaurus,,,class 3,,,,,heifer,,,,,,,,,,,,,,,,mathangwane1994,,
 bostaurus-kck-2,n-kónò,kck,bostaurus,,,class 3,,,,,bull,,,,,,,,,,,,,,,,mathangwane1994,,
@@ -6160,6 +6192,8 @@ caprahircus-kde-0,m-budi,kde,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,johnston1919
 caprahircus-kde-1,dim-budi,kde,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,johnston1919[172],,
 caprahircus-kde-2,li-bebehu,kde,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,,johnston1919[172],,
 ovisaries-kde-0,nondωlω,kde,ovisaries,nɔndolo,,,,,,,sheep,,,,,,,,,,,,,,,,johnston1919[175],,
+canislupus-kel-0,mbwá,kel,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,forges1977[54],,
+caprahircus-kel-0,nta:,kel,caprahircus,,,,,,,,goat (la chèvre),,,,,,,,,,,,,,,,forges1977[22],,
 bostaurus-kik-0,ñ-ombe,kik,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,johnston1919[99],,
 bostaurus-kik-1,mori,kik,bostaurus,,,,,,,,"heifer, young cow",,,,,,,,,,,,,,,,johnston1919[99],,
 bostaurus-kik-2,n-jamba,kik,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,,johnston1919[99],,
@@ -6206,6 +6240,12 @@ ovisaries-kin-0,intāma,kin,ovisaries,,,,,,,,sheep (Schaf),,,,,,,,,,,,,,,,dufays
 ovisaries-kin-1,akatāma,kin,ovisaries,,,,,,,,small sheep (Schäfchen),,,,,,,,,,,,,,,,dufays1912[259],,
 ovisaries-kin-2,akalēle,kin,ovisaries,,,,,,,,lamb (Lamm),,,,,,,,,,,,,,,,dufays1912[259],,
 ovisaries-kin-3,imfīzi,kin,ovisaries,,,,,,,,male sheep (Schafbock),,,,,,,,,,,,,,,,dufays1912[88],,
+bostaurus-kmb-0,ngọ̄́mbẹ,kmb,bostaurus,ngɔ́ɔ́mbɛ,,,ṣin·gọ̄́mbẹ [ʃingɔ́ɔ́mbɛ],,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544398
+bostaurus-kmb-1,kapā́lu,kmb,bostaurus,kapáálu,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544399
+canislupus-kmb-0,ímbōa,kmb,canislupusfamiliaris,ímbooa,,,ṣímbōa [ʃímbooa],,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544437
+caprahircus-kmb-0,họ̄́mbo,kmb,caprahircus,hɔ́ɔ́mbo,,,ṣehọ̄́mbo [ʃehɔ́ɔ́mbo],,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544405
+caprahircus-kmb-1,họ̄́mbo yā́diyā́lu,kmb,caprahircus,hɔ́ɔ́mbo yáádiyáálu,,,,,,,he-goat (buck),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544406
+ovisaries-kmb-0,mbū́di yāmhẹ̄́t,kmb,ovisaries,mbúúdi yaamhɛ́ɛ́t,,,,,,,"ewe, sheep",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,544403
 acinonyxjubatus-knw-0,ǃhāò,knw,acinonyxjubatus,,,n1/3,,,,,,,,,,,,,,,,,,,,,konigheine2008[117],,
 acinonyxjubatus-knw-1,ǃ'hm̀,knw,acinonyxjubatus,,,n1/3,,,,,,,,,,,,,,,,,,,,,konigheine2008[117],,
 alcelaphusbuselaphus-knw-0,ŋgà'ȉ,knw,alcelaphusbuselaphus,,,n1,,,,,,,,,,,,,,,,,,,,,konigheine2008[137],,
@@ -6495,6 +6535,12 @@ caprahircus-kwz-0,khɔ́bò,kwz,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,westphal
 ovisaries-kwz-0,bùù.dì,kwz,ovisaries,bù:dì,,,,,,,sheep,,,,,,,,,,,,,,,,westphalnotes[14],,
 ovisaries-kwz-1,gú.dì,kwz,ovisaries,gúdì,,m.,,,,,sheep (male),,,,,,,,,,,,,,,,westphalnotes[14],,
 ovisaries-kwz-2,(d)ʒìì ~ dʒíì,kwz,ovisaries,(d)ʒì: ~ dʒî:,,f.,,,,,sheep (female),,,,,,,,,,,,,,,,westphalnotes[14],,
+bostaurus-laj-0,dòk,laj,bostaurus,,,,,,,,cattle,,,,,,,,,,,,,,,,noonan1992[306],,
+bostaurus-laj-1,dyàŋ,laj,bostaurus,djàŋ,,,dyə́ŋí,,,,cow,,,,,,,,,,,,,,,,noonan1992[307],,
+bostaurus-laj-2,twɔ̀n,laj,bostaurus,,,,twóní,,,,bull,,,,,,,,,,,,,,,,noonan1992[322],,
+canislupus-laj-0,gwôk,laj,canislupusfamiliaris,,,,gwóggî,,,,dog,,,,,,,,,,,,,,,,noonan1992[308],,
+caprahircus-laj-0,dyèl,laj,caprahircus,djèl,,,dyéggî,,,,goat,,,,,,,,,,,,,,,,noonan1992[307],,
+ovisaries-laj-0,rɔ́mɔ̂,laj,ovisaries,,,,rómmì,,,,sheep,,,,,,,,,,,,,,,,noonan1992[319],,
 bostaurus-lam-0,iŋombe,lam,bostaurus,,,,iŋombe,,,,"cattle, cow, bullock",,,,,,,,,,,,,,,Lenja/Lala (doke1933[24]),doke1933[24],,
 bostaurus-lam-1,insune,lam,bostaurus,,,,insune,,,,bullock,,,,,,,,,,,,,,,Lenja/Lala (doke1933[24]),doke1933[24],,
 bostaurus-lam-2,umombe,lam,bostaurus,,,,aŵombe,,,,calf,,,,,,,,,,,,,,,Lenja/Lala (doke1933[24]),doke1933[23],,
@@ -6516,6 +6562,11 @@ caprahircus-lch-0,m-pembe,lch,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,johnston191
 caprahircus-lch-1,zamba,lch,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,,johnston1919[337],,
 ovisaries-lch-0,m-pañga,lch,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,johnston1919[341],,
 ovisaries-lch-1,m-belele,lch,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,johnston1919[341],,
+canislupus-lea-0,m.bwá,lea,canislupusfamiliaris,m-bʷá,,,m-,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,156677
+caprahircus-lea-0,m.pɛ́nɛ́,lea,caprahircus,m-pɛ́nɛ́ ,,,m-,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,157680
+caprahircus-lea-1,ke.lémbá,lea,caprahircus,kè-lémbá,,,be-,,,,"male goat, ram",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,157298
+ovisaries-lea-0,mo.kɔkɔ,lea,ovisaries,mò-kɔ̀kɔ̀,,,me-,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,157164
+ovisaries-lea-1,ke.lémbá,lea,caprahircus,kè-lémbá,,,be-,,,,"male goat, ram",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,157298
 bostaurus-lin-0,ngɔ́mbɛ́ ~ ngɔ́mbɔ́,lin,bostaurus,,,,,,,,"cow, cattle (vache, boeuf)",,,,,,,,,,,,,,,,kaji1992[24],,
 canislupus-lin-0,límbwa ~ mbwá,lin,canislupusfamiliaris,,,,,,,,dog (chien),,,,,,,,,,,,,,,,kaji1992[27],,
 caprahircus-lin-0,taba,lin,caprahircus,,,,,,,,goat (chèvre),,,,,,,,,,,,,,,,kaji1992[28],,
@@ -6569,6 +6620,9 @@ caprahircus-lun1,čihug͂o,lun,caprahircus,,,,,,,,he-goat (bode),,,,,,,,,,,,,,,,
 lycaonpictus-lun-0,mŭieŭ,lun,lycaonpictus,,,,,,,,wild dog (cães do mato),,,,,,,,,,,,,,,,carvalho1889[347],,
 lycaonpictus-lun1,kasad͂a,lun,lycaonpictus,,,,,,,,wild dog (cães do mato),,,,,,,,,,,,,,,,carvalho1889[347],,
 ovisaries-lun-0,mukoko,lun,ovisaries,,,,,,,,sheep (carneiro),,,,,,,,,,,,,,,,carvalho1889[347],,
+canislupus-luo-0,gu̧o̧·k,luo,canislupusfamiliaris,gùò:k,,,gú̧ó̧·gî [gúó:gî],,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,592066
+caprahircus-luo-0,diel,luo,caprahircus,dɩ̀ɛ̀l,,,di̧ȩ·k [dìè:k],,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,591859
+ovisaries-luo-0,ró·mbô,luo,ovisaries,rɔ́:mbɔ̂ ,,, ro̧·mbe [rò:mbè],,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,593508
 orycteropusafer-lwn-a-0,si k'ai,lwn-a,orycteropusafer,,,,,,,,antbear,,,,,,,,,,,,,,,,bleek1929[16],,
 oryxgazella-lwn-a-0,ǀxa,lwn-a,oryxgazella,,,,,,,,,,,,,,,,,,,,,,,,bleek1929[41],,
 pantheraleo-lwn-a-0,_ǀkɑ:i,lwn-a,pantheraleo,,,,,,,,,,,,,,,,,,,,,,,,bleek1929[54],,
@@ -6583,6 +6637,46 @@ orycteropusafer-lwn-h-0,si ʔɑi,lwn-h,orycteropusafer,,,,,,,,,,,,,,,,,,,,,,,,tr
 oryxgazella-lwn-h-0,ǀχɑ:,lwn-h,oryxgazella,,,,,,,,,,,,,,,,,,,,,,,,traillstory1999[21],,
 pantheraleo-lwn-h-0,"́ǂhu: gu, ́ǂnhu: gu",lwn-h,pantheraleo,,,,,,,,,,,,,,,,,,,,,,,,traillstory1999[22],,
 pantheraparduspardus-lwn-h-0,ǁɔ,lwn-h,pantheraparduspardus,,,,,,,,,,,,,,,,,,,,,,,,traillstory1999[22],,
+bostaurus-mas-0,ɛŋ-k'ɪ́tɛ́ŋ,mas,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,vossen1988[68],,
+bostaurus-mas-1,ɔl-ɔɪŋ'ɔ́nɪ̀,mas,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,,vossen1988[68],,
+bostaurus-mas-2,ɔl-k'ɪ́tɛ́ŋ,mas,bostaurus,,,,,,,,ox,,,,,,,,,,,,,,,,vossen1988[68],,
+canislupus-mas-0,ol-d'ɪ́à,mas,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,vossen1988[70],,
+caprahircus-mas-0,eŋ-k'íné,mas,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,vossen1988[69],,
+caprahircus-mas-1,ɔl-ɔ́rɔ̀,mas,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,,vossen1988[69],,
+ovisaries-mas-0,eŋ-k'ér,mas,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,vossen1988[69],,
+ovisaries-mas-1,ol-m'érègèsh,mas,ovisaries,,,,,,,,ram ,,,,,,,,,,,,,,,,vossen1988[69],,
+canislupus-mcp-0,mpyə̂,mcp,canislupusfamiliaris,mpʸə̂,,,ompyə̂ [òmpʸə̂],,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,228129
+caprahircus-mcp-0,kálá,mcp,caprahircus,kálá,,,ikálá [ìkálá],,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,227630
+caprahircus-mcp-1,tow,mcp,caprahircus,tòw,,,itow [ìtòw],,,,"sheep, goat",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,228833
+caprahircus-mcp-2,kə́lá,mcp,caprahircus,kə́lá,,,ikə́lá [ìkə́lá],,,,bouc,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,227678
+ovisaries-mcp-0,tow,mcp,ovisaries,tòw,,,itow [ìtòw],,,,"sheep, goat",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,228833
+canislupus-mdj-0,nési,mdj,canislupusfamiliaris,nésì,,,ésí,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,93667
+caprahircus-mdj-0,namɛ́mɛ́,mdj,caprahircus,nàmɛ́mɛ,,,amɛ́mɛ́,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,93370
+caprahircus-mdj-1,néngbungúlu,mdj,caprahircus,néngbùngúlù,,,egbúngúlú,,,,he-goat (bouc),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,93519
+bostaurus-mer-0,numbe ~ ngʼombe ~ ngʼambe,mer,bostaurus,numbe ~ ŋombe ~ ŋambe,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,390753
+bostaurus-mer-1,shau,mer,bostaurus,ʃau,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,391127
+bostaurus-mer-2,ndegwa ~ ndewa,mer,bostaurus,ndegʷa ~ ndewa,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,392146
+canislupus-mer-0,ikite,mer,canislupusfamiliaris,ikite,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,390543
+canislupus-mer-1,kuru,mer,canislupusfamiliaris,kuru,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,391534
+caprahircus-mer-0,mburi,mer,caprahircus,mburi,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,391537
+caprahircus-mer-1,savana,mer,caprahircus,savana,,,,,,,"goat, he-goat",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,390546
+caprahircus-mer-2,nthenge,mer,caprahircus,nðenge,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,392164
+ovisaries-mer-0,mburu,mer,ovisaries,mburu,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,390754
+ovisaries-mer-1,yaanri,mer,ovisaries,ja:nri,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,390755
+ovisaries-mer-2,ng'ondu,mer,ovisaries,ŋondu,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,391766
+ovisaries-mer-3,ngeere,mer,ovisaries,nge:re,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,392793
+bostaurus-mfc-0,ŋgɔ́mbɛ̀-Ø,mfc,bostaurus,ngɔ́mbɛ̀,,,ŋgɔ́mbɛ̀,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,631249
+canislupus-mfc-0,ɓíá-Ø,mfc,canislupusfamiliaris,ɓíá ,,,ɓíɛ́,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,630875
+caprahircus-mfc-0,mɛ́mɛ́-Ø,mfc,caprahircus,mɛ́mɛ́ ,,,mɛ́mɛ́,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,631246
+lycaonpictus-mfc-0,ŋgàŋgá-gé,mfc,lycaonpictus,ŋgàŋgá-gé ?,,,ŋgàŋgá-zé,,,,wild dog? (wilder Hund?),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,631597
+ovisaries-mfc-0,kàndɔ́lɔ́-Ø,mfc,ovisaries,kàndɔ́lɔ́,,,kàndɔ́lɛ̀,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,631131
+bostaurus-mgd-0,ti ~ iti,mgd,bostaurus,ti ~ iti,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,282543
+canislupus-mgd-0,kʷɔcɛ,mgd,canislupusfamiliaris,kʷɔcɛ,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,282545
+canislupus-mgd-1,ɔcɛ,mgd,canislupusfamiliaris,ɔcɛ,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,283353
+caprahircus-mgd-0,inɖi,mgd,caprahircus,inɖi,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,282544
+ovisaries-mgd-0,tēmbélé,mgd,ovisaries,tēmbélé,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,283104
+ovisaries-mgd-1,tēmélé,mgd,ovisaries,tēmélé,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,282701
+ovisaries-mgd-2,kʌ́bīlíkī,mgd,ovisaries,kʌ́bīlíkī,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,283910
 bostaurus-mgw-0,nʼoómbe,mgw,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,"odden2002[187, 33]",,
 canislupus-mgw-0,m-bwa,mgw,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,"johnston1919[156], odden2002[223]",,
 canislupus-mgw-1,ma-pwa,mgw,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,johnston1919[156],,
@@ -6923,6 +7017,12 @@ zingiberofficinale-mombo-50671-0,ɲàmàŋkû:ⁿ,mombo,zingiberofficinale,,,
 ziziphusmauritiana-mombo-50580-0,éllêwⁿ,mombo,ziziphusmauritiana,,,,,,,,jujube (shrub),,,,,,,,,,,,,,,http://dogonlanguages.org,,50580,
 ziziphusmucronata-mombo-50581-0,tà:-éllêwⁿ,mombo,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),,,,,,,,,,,,,,,http://dogonlanguages.org,,50581,
 zorniaglochidiata-mombo-50348-0,dàŋgù-màn-dáŋgú,mombo,zorniaglochidiata,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+bostaurus-mye-or-0,nyā́re,mye-or,bostaurus,ɲááre,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537298
+bostaurus-mye-or-1,nyā́reyónōmi,mye-or,bostaurus,ɲááreyónoomi,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537299
+canislupus-mye-or-0,mbṓa ~ mbḗa,mye-or,canislupusfamiliaris,mbóóa ~ mbééa,,,bámbēa,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537339
+caprahircus-mye-or-0,mbṓni,mye-or,caprahircus,mbóóni,,,bimbṓni,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537303
+caprahircus-mye-or-1,mbṓni yumpṓna,mye-or,caprahircus,mbóóni yumpóóna,,,,,,,he-goat (buck),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537304
+ovisaries-mye-or-0,edọ̄́mbẹ ~ entọ̄́mbe,mye-or,ovisaries,edɔ́ɔ́mbɛ ~ entɔ́ɔ́mbe,,,,,,,"ewe, sheep",,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,537301
 abrusprecatorius-najamba-50283-0,bɛ̀mbɛ́-ŋgó\\bɛ̀mbɛ́,najamba,abrusprecatorius,,,,,,,,herb with hard red-and-black berries,,,,,,,,,,,,,,,http://dogonlanguages.org,,50283,
 abutilonglaucum-najamba-50404-0,àkwâ:,najamba,abutilonglaucum,,,,,,,,bush sp.,,,,,,,,,,,,,,Mougui,http://dogonlanguages.org,,50404,
 acaciasenegal-najamba-50366-0,sàmà-sàmá,najamba,acaciasenegal,,,,,,,,gum tree (acacia),,,,,,,,,,,,,,,http://dogonlanguages.org,,50366,
@@ -8566,6 +8666,9 @@ caprahircus-nih-0,'imbuzi,nih,caprahircus,'imbuzi,,,,,,,goat,,,,,variant: combin
 ovisaries-nih-0,iṅōnzi,nih,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,busse1960[36],,
 ovisaries-nih-1,induvi,nih,ovisaries,,,,,,,,ram (Schafbock),,,,,,,,,,,,,,,,busse1960[147],,
 ovisaries-nih-2,ińanthanda,nih,ovisaries,,,,,,,,sheep (Schaf),,,,,,,,,,,,,,,,busse1960[148],,
+bostaurus-niy-0,ìkyì,niy,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,kutschlojenga1994[36],,
+canislupus-niy-0,ìtse᷅,niy,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,kutschlojenga1994[432],,
+caprahircus-niy-0,ɨ̀nɖrɨ̀,niy,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,kutschlojenga1994[433],,
 acinonyxjubatus-nmn-a-0,gǃàqhà,nmn-a,acinonyxjubatus,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],,
 alcelaphusbuselaphus-nmn-a-0,nǃàqì,nmn-a,alcelaphusbuselaphus,,,1/4,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],,
 antidorcasmarsupialis-nmn-a-0,ǁóà,nmn-a,antidorcasmarsupialis,,,3i/2i,,,,,,,,,,,,,,,,,,,,,guldemannnaumann2011[],,
@@ -9061,6 +9164,10 @@ caprahircus-nya-0,mbuzi,nya,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,paas2003[169]
 ovisaries-nya-0,nkhosa,nya,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,paas2003[333],,
 ovisaries-nya-1,mberere,nya,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,paas2003[333],,
 ovisaries-nya-2,bila,nya,ovisaries,,,,abila,,,,sheep,,,,,,,,,,,,,,,,paas2003[333],,
+bostaurus-nyf-0,ŋombe,nyf,bostaurus,,,,,,,,"cow, cattle",,,,,,,,,,,,,,,,nursehinnebuschphilippson1993[640],,
+canislupus-nyf-0,kuro,nyf,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,nursehinnebuschphilippson1993[Appendix4],,
+caprahircus-nyf-0,mbuzi,nyf,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,nursehinnebuschphilippson1993[637],,
+ovisaries-nyf-0,ŋondzi ~ gondzi,nyf,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,nursehinnebuschphilippson1993[640],,
 bostaurus-nyk-0,oñ-gombe o-ina,nyk,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,johnston1919[352],,
 bostaurus-nyk-1,ωvi-pakω,nyk,bostaurus,,,,,,,,cattle,,,,,,,,,,,,,,,,johnston1919[352],,
 bostaurus-nyk-2,on-tw'ei,nyk,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,,johnston1919[351],,
@@ -9068,6 +9175,19 @@ canislupus-nyk-0,om-bwa,nyk,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,johns
 caprahircus-nyk-0,oñ-khombω,nyk,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,johnston1919[353],,
 caprahircus-nyk-1,ehe-pepe,nyk,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,,johnston1919[353],,
 ovisaries-nyk-0,oñ-gi,nyk,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,,johnston1919[356],,
+bostaurus-nyn-0,ente,nyn,bostaurus,ente,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427524
+bostaurus-nyn-1,enimi,nyn,bostaurus,enimi,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427965
+canislupus-nyn-0,embwa,nyn,canislupusfamiliaris,embʷa,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427241
+caprahircus-nyn-0,empene,nyn,caprahircus,empene,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427244
+caprahircus-nyn-1,mbuzi,nyn,caprahircus,mbuzi,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427245
+caprahircus-nyn-2,empaya,nyn,caprahircus,empaja,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427993
+ovisaries-nyn-0,entaama,nyn,caprahircus,enta:ma,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,427526
+bostaurus-nyy-0,ingʼombe,nyy,bostaurus,iŋombe,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411551
+bostaurus-nyy-1,ingambaku,nyy,bostaurus,ingambaku,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411931
+canislupus-nyy-0,imbwa,nyy,canislupusfamiliaris,imbʷa,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411332
+caprahircus-nyy-0,imbukuku,nyy,caprahircus,imbukuku,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411335
+caprahircus-nyy-1,imbukuku imbongo,nyy,caprahircus,imbukuku imbongo,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411949
+ovisaries-nyy-0,ingʼosi,nyy,ovisaries,iŋosi,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,411553
 bostaurus-pbr-0,i-señga,pbr,bostaurus,iseŋga,,,,,,,cow,,,,,,,,,,,,,,,,johnston1919[171],,
 bostaurus-pbr-1,in-dama,pbr,bostaurus,,,,ndama,,,,heifer,,,,,,,,,,,,,,,,"johnston1919[171], stirnimann1983[235]",,
 bostaurus-pbr-2,axa-dama,pbr,bostaurus,,,,,,,,calf,,,,,,,,,,,,,,,,johnston1919[171],,
@@ -9894,7 +10014,7 @@ ziziphusmauritiana-pergetegu-50580-0,èrùwé,pergetegu,ziziphusmauritiana,,,
 ziziphusmucronata-pergetegu-50581-0,tà-tà: èrùwé,pergetegu,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),,,,,,,,,,,,,,,http://dogonlanguages.org,,50581,
 zonitoschemagigantea-pergetegu-60304-0,kɛ̀-nɔ̀: búnɛ̀,pergetegu,zonitoschemagigantea,,,,,,,,large tan-colored blister beetle sp. that eats young millet heads,,,,,,,,,,,,,,,http://dogonlanguages.org,,60304,
 zorniaglochidiata-pergetegu-50348-0,dɛ̀ŋɛ̀m-mɛ́:rɛ̀,pergetegu,zorniaglochidiata,,,,,,,,herb sp.,,,Ful,,,,,,,,,,,,http://dogonlanguages.org,,50348,
-bostaurus-protoagaw-0,*kəm-,protoagaw,bostaurus,,,,,,,,,,,,,,,,,,,,,,,cattle,appleyard2006[41],,
+bostaurus-protoagaw-0,*kəm-,protoagaw,bostaurus,,,,,,,,cattle,,,,,,,,,,,,,,,,appleyard2006[41],,
 bostaurus-protoagaw-1,*ləw-,protoagaw,bostaurus,,,,,,,,,,,,,,,,,,,,,,,,appleyard2006[49],,
 bostaurus-protoagaw-2,*bir-a,protoagaw,bostaurus,,,,,,,,,,,,,,,,,,,,,,,,appleyard2006[109],,
 canislupus-protoagaw-0,*gəzəŋ ~ gəzäŋ,protoagaw,canislupusfamiliaris,,,,,,,,,,,,,,,,,,,,,,,,appleyard2006[56],,
@@ -9924,9 +10044,28 @@ ovisaries-protosemitic-1,*ṯaˀ(w)-at-,protosemitic,ovisaries,θaʔ(w)-at-,,,,,
 ovisaries-protosemitic-2,*raḫil-,protosemitic,ovisaries,raχil-,,,,,,,ewe,,,,,,,,,,,,,,,,kogan2011[205],,
 ovisaries-protosemitic-3,*ˀimmar-,protosemitic,ovisaries,ʔim:ar-,,,,,,,ram,,,,,,,,,,,,,,,,kogan2011[205],,
 ovisaries-protosemitic-4,*ḫVrVp-,protosemitic,ovisaries,χVrVp-,,,,,,,lamb,,,,,,,,,,,,,,,,kogan2011[206],,
+bostaurus-protosouthcushitic-0,*yaakʷ- ~ *haakʷ-,protosouthcushitic,bostaurus,,,,,,,,cattle,,,,,,,,,,,,,,,,ehret1980[316],,
+bostaurus-protosouthcushitic-1,*ɬee-,protosouthcushitic,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,,ehret1980[211],,
+bostaurus-protosouthcushitic-2,*yawo- ~ *ʔawo-,protosouthcushitic,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,,ehret1980[317],,
+canislupus-protosouthcushitic-0,*kari ~ *kʷari,protosouthcushitic,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,ehret1980[330],,
+caprahircus-protosouthcushitic-0,*ˀaf-,protosouthcushitic,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,,ehret1980[281],,
+caprahircus-protosouthcushitic-1,*ɬaḩ-,protosouthcushitic,caprahircus,,,,,,,,goat (?),,,,,,,,,,,,,,,,ehret1980[328],,
+caprahircus-protosouthcushitic-2,*ˀogur-,protosouthcushitic,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,,ehret1980[293],,
+lycaonpictus-protosouthcushitic-0,*yeye+,protosouthcushitic,lycaonpictus,,,,,,,,wild dog,,,,,,,,,,,,,,,,ehret1980[318],,
+lycaonpictus-protosouthcushitic-1,*seˀa,protosouthcushitic,lycaonpictus,,,,,,,,wild dog (Proto-Rift South Cushitic),,,,,,,,,,,,,,,,ehret1980[350],,
+ovisaries-protosouthcushitic-0,*ˁaˀa+ ~ *ˀaˀa+,protosouthcushitic,ovisaries,,,,,,,,sheep (possibly 'goat'?),,,,,,,,,,,,,,,,ehret1980[277],,
+bostaurus-puu-0,ngombi,puu,bostaurus,,,,,,,,cow (vache),,,,,,,,,,,,,,,,mabikmakombil2001[183],,
+canislupus-puu-0,mondi,puu,canislupusfamiliaris,,,,,,,,dog,,,,,,,,,,,,,,,,mabikmakombil2001[169],,
+ovisaries-puu-0,tabe,puu,ovisaries,,,,,,,,sheep (mouton),,,,,,,,,,,,,,,,mabikmakombil2001[177],,
 bostaurus-rng-0,homu,rng,bostaurus,,,,ti-homu,,,,"head of cattle (o boi, a vaca, na generalidade)",,,,,,,,,,,,,,,,nogueira1960[136],,
 canislupus-rng-0,mbyana,rng,canislupusfamiliaris,,,,ti-mbyana,,,,"dog (o cão, a cadela)",,,,,,,,,,,,,,,,nogueira1960[252],,
 caprahircus-rng-0,mbuti,rng,caprahircus,,,,ti-mbuti,,,,goat (cabra),,,,,,,,,,,,,,,,nogueira1960[251],,
+bostaurus-run-0,inka,run,bostaurus,,,,,,,,cow,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,423112
+bostaurus-run-1,imana,run,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,423456
+canislupus-run-0,imbwa,run,canislupusfamiliaris,imbʷa,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,422923
+caprahircus-run-0,impere ?,run,caprahircus,,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,422926
+caprahircus-run-1,urubobo,run,caprahircus,,,,,,,,he-goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,423474
+ovisaries-run-0,intama,run,ovisaries,,,,,,,,sheep,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,423113
 bostaurus-sad-0,hûmbu,sad,bostaurus,,,,,,,,"cow, cattle",,,,,,,,,,,,,,,,steeman2011[39],,
 bostaurus-sad-1,kʼamba,sad,bostaurus,,,,,,,,bull,,,,,,,,,,,,,,,,kagaya1993[25],,
 bostaurus-sad-2,mukʼumee,sad,bostaurus,,,,,,,,cow (female),,,,,,,,,,,,,,,,kagaya1993[25],,
@@ -10039,6 +10178,19 @@ pedetescapensis-sna-0,"gwete, gwizhu, nhire",sna,pedetescapensis,,,,,,,,,,,,,,,,
 raphiceruscampestris-sna-0,mhene,sna,raphiceruscampestris,,,,,,,,,,,,,,,,,,,,,,,,hannan1987[905],,
 taurotragusoryx-sna-0,mhofu,sna,taurotragusoryx,,,,,,,,,,,,,,,,,,,,,,,,hannan1987[806],,
 tragelaphusstrepsiceros-sna-0,"nhoro, nzirawa",sna,tragelaphusstrepsiceros,,,,,,,,,,,,,,,,,,,,,,,,hannan1987[841],,
+bostaurus-som-0,lo',som,bostaurus,loʔ,,,,,,,cattle,,,,,,,,,,,,,,,,"zorcosman1993[419, 755]",,
+bostaurus-som-1,sac,som,bostaurus,saʕ,,,,,,,cow,,,,,,,,,,,,,,,,"zorcosman1993[564, 773]",,
+bostaurus-som-2,dibi,som,bostaurus,dibi,,,,,,,"bull, ox",,,,,,,,,,,,,,,,"zorcosman1993[147, 749]",,
+bostaurus-som-3,jaamuus,som,bostaurus,d͡ʒa:mu:s,,,,,,,foreign breed of cattle,,,,,,,,,,,,,,,,"zorcosman1993[343, 755]",,
+canislupus-som-0,ey,som,canislupusfamiliaris,ej,,,,,,,dog; female dog,,,,,,,,,,,,,,,,"zorcosman1993[206, 791]",,
+canislupus-som-1,eey,som,canislupusfamiliaris,e:j ,,,,,,,female dog,,,,,,,,,,,,,,,,"zorcosman1993[204, 791]",,
+caprahircus-som-0,ari,som,caprahircus,ari,,,,,,,goats and sheep,,,,,,,,,,,,,,,,"zorcosman1993[10, 823]",,
+caprahircus-som-1,adhi,som,caprahircus,aɖi,,,,,,,"sheep and goats, herd of sheep and goats",,,,,,,,,,,,,,,,"zorcosman1993[27, 823]",,
+caprahircus-som-2,ri',som,caprahircus,riʔ,,,,,,,"she goat, nanny-goat",,,,,,,,,,,,,,,,"zorcosman1993[551, 823]",,
+lycaonpictus-som-0,bahalhiglo,som,lycaonpictus,,,,,,,,wild dog or other carnivorous animal,"cf. bahal 'wild animal, beast'",,,,,,,,,,,,,,,"zorcosman1993[44, 993]",,
+ovisaries-som-0,ido,som,ovisaries,,,,,,,,"sheep, flock of sheep",,,,,,,,,,,,,,,,"zorcosman1993[318, 936]",,
+ovisaries-som-1,lax,som,ovisaries,laħ,,,,,,,"ewe, female sheep",,,,,,,,,,,,,,,,"zorcosman1993[411, 936]",,
+ovisaries-som-2,adhi,som,caprahircus,aɖi,,,,,,,"sheep and goats, herd of sheep and goats",,,,,,,,,,,,,,,,"zorcosman1993[27, 823]",,
 acaciaerioloba-sot-0,mogohlo,sot,acaciaerioloba,,,,,,,,,,,,,,,,,,,,,,,http://en.wikipedia.org/wiki/Vachellia_erioloba,,,
 acaciahaematoxylon-sot-0,mokholo,sot,acaciahaematoxylon,,,,,,,,,,,,,,,,,,,,,,,http://en.wikipedia.org/wiki/Vachellia_haematoxylon,,,
 acaciahebecladahebeclada-sot-0,mohae,sot,acaciahebecladahebeclada,,,,,,,,,,,,,,,,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,,
@@ -14189,6 +14341,10 @@ ziziphusmauritiana-yornoso-50580-0,ɔ̀rⁿɔ̀ŋú ~ ɔ̀rɔ̌ŋ ~ ɔ̀rɔ̀gu
 ziziphusmucronata-yornoso-50581-0,tì-tǎ: ɔ́rⁿɔ̀ŋù,yornoso,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),,,,,,,,,,,,,,,http://dogonlanguages.org,,50581,
 ziziphusmucronata-yornoso-50581-1,tà:-ɔ̀rⁿɔ̀gú,yornoso,ziziphusmucronata,,,,,,,,shrub sp. (false jujube),,,,,,,,,,,,,,,http://dogonlanguages.org,,50581,
 zorniaglochidiata-yornoso-50348-0,kɛ́bɛ̀,yornoso,zorniaglochidiata,,,,,,,,herb sp.,,,,,,,,,,,,,,,http://dogonlanguages.org,,50348,
+bostaurus-zne-0,bágàrà,zne,bostaurus,bágàrà,,,,,,,cow (vache),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,706405
+canislupus-zne-0,ángó,zne,canislupusfamiliaris,ángó,,,,,,,dog,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,515369
+caprahircus-zne-0,ngāsà,zne,caprahircus,ngāsà,,,,,,,goat,,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,515368
+ovisaries-zne-0,kàndórò,zne,ovisaries,kàndórò,,,,,,,sheep (mouton),,,,,,,,,,,,,,,http://reflex.cnrs.fr/database/,,,707722
 acaciaataxacantha-zul-0,umThathawe,zul,acaciaataxacantha,,,,,,,,,,,,,,,,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,,
 acaciacaffra-zul-0,umTholo,zul,acaciacaffra,,,,,,,,,,,,,,,,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm; http://www.plantbook.co.za/plantindex/280-Acacia-caffra,,,
 acaciakarroo-zul-0,umuNga,zul,acaciakarroo,,,,,,,,,,,,,,,,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,,
