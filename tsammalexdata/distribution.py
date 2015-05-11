@@ -3,7 +3,7 @@ import os
 from io import open
 
 from shapely.geometry import shape, Point
-from shapely.geos import PredicateError
+from shapely.geos import PredicateError, TopologicalError
 
 from tsammalexdata.util import data_file, jsonload, unique
 
@@ -55,7 +55,7 @@ def match(occurrences, ecoregions):
             try:
                 if er.contains(point):
                     yield eco_code
-            except PredicateError:
+            except (PredicateError, TopologicalError):
                 print('--error--: ', eco_code)
                 pass
 
