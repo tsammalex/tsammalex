@@ -85,6 +85,8 @@ def test():
     for name, items in data.items():
         for line, item in items:
             for col in item.keys():
+                if not col:
+                    print item
                 if '__' in col:
                     ref, card = col.split('__', 1)
                     if ref not in ids:
