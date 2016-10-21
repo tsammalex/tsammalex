@@ -4,11 +4,9 @@ python:
 install:
   - pip install nose
 script:
-  - python setup.py install
+  - python setup.py develop
   - nosetests
 notifications:
   email:
-    - naumann@eva.mpg.de
-    - lena_sell@eva.mpg.de
-    - noemie_jaulgey@eva.mpg.de
-    - robert_forkel@eva.mpg.de
+    - forkel@shh.mpg.de
+
