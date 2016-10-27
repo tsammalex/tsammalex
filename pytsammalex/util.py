@@ -9,7 +9,7 @@ import requests
 from purl import URL
 from clldutils import jsonlib
 from clldutils import dsv
-from clldutils.path import Path
+from clldutils.path import Path, move
 
 import pytsammalex
 
@@ -24,8 +24,8 @@ def unique(iterable):
     return list(sorted(set(i for i in iterable if i)))
 
 
-def split_ids(s):
-    return unique(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())
+def split_ids(s, sep=ID_SEP_PATTERN):
+    return unique(id_.strip() for id_ in sep.split(s) if id_.strip())
 
 
 def data_file(*comps, **kw):
@@ -46,8 +46,41 @@ def csv_items(name, repos=REPOS):
     return list(chain(*[dsv.reader(fname, dicts=True) for fname in fnames]))
 
 
-def visit(name, visitor=lambda r: r):
-    return dsv.rewrite(data_file(name), visitor, lineterminator='\r\n')
+def add_rows(fname, *rows):
+    tmp = fname.parent.joinpath('.tmp.' + fname.name)
+
+    with dsv.UnicodeWriter(tmp) as writer:
+        if fname.exists():
+            with dsv.UnicodeReader(fname) as reader_:
+                for row in reader_:
+                    writer.writerow(row)
+        writer.writerows(rows)
+    move(tmp, fname)
+
+
+class Filter(object):
+    def __init__(self, filter_):
+        self.header = None
+        self.filter = filter_
+
+    def __call__(self, i, row):
+        if i == 0:
+            self.header = row
+            return row
+        if row:
+            item = dict(zip(self.header, row))
+            try:
+                if self.filter(item):
+                    return row
+            except:
+                print(self.header)
+                print(row)
+                print(item)
+                raise
+
+
+def filter_rows(fname, filter_):
+    dsv.rewrite(fname, Filter(filter_), lineterminator='\r\n')
 
 
 class JsonData(object):
@@ -58,16 +91,16 @@ class JsonData(object):
         self.path = data_file(path, repos=repos)
         self.repos = repos
         if self.path.exists():
-            self._items = jsonlib.load(self.path, object_pairs_hook=OrderedDict)
+            self.items = jsonlib.load(self.path, object_pairs_hook=OrderedDict)
         else:
-            self._items = container_cls()
+            self.items = container_cls()
         self._json_opts = json_opts or {}
 
     def __enter__(self):
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        jsonlib.dump(self._items, self.path, **self._json_opts)
+        jsonlib.dump(self.items, self.path, **self._json_opts)
 
 
 class DataProvider(JsonData):
@@ -116,12 +149,12 @@ class DataProvider(JsonData):
                 return data
             return jsonlib.load(fname)
 
-        if sid not in self._items or refresh:
+        if sid not in self.items or refresh:
             try:
-                self._items[sid] = self.get_info(id)
+                self.items[sid] = self.get_info(id)
             except:
                 return
-        return self._items[sid]
+        return self.items[sid]
 
     def update(self, taxon, data):
         raise NotImplementedError()
@@ -143,3 +176,23 @@ class DataProvider(JsonData):
     def refresh(self, sid, id):
         with self as api:
             api.get_cached(sid, id, refresh=True)
+
+
+class MediaCatalog(JsonData):
+    def add(self, obj):
+        """
+
+        :param obj: A `cdstarcat.catalog.Object` instance
+        :return:
+        """
+        bitstreams = {bs.id.split('.')[0]: bs for bs in obj.bitstreams}
+        res = OrderedDict([('objid', obj.id)])
+        thumbnail = bitstreams.pop('thumbnail')
+        web = bitstreams.pop('web')
+        assert len(bitstreams) == 1
+        original = bitstreams.values()[0]
+        res['original'] = original.id
+        res['size'] = original.size
+        res['thumbnail'] = thumbnail.id
+        res['web'] = web.id
+        self.items[original.md5] = res

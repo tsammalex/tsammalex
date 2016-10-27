@@ -9,8 +9,10 @@ requires = [
     'python-dateutil',
     'BeautifulSoup4',
     'shapely',
-    'clldutils>=1.4',
+    'clldutils>=1.4.3',
     'python-levenshtein',
+    'attrs',
+    'cdstarcat',
 ]
 
 setup(
