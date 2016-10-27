@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 requires = [
     'requests',
     'purl',
-    'pycountry',
+    'pycountry==1.20',
     'flickrapi',
     'python-dateutil',
     'BeautifulSoup4',
