@@ -1,12 +1,12 @@
-import os
+from __future__ import unicode_literals, print_function, division
 import re
-import io
 import logging
 logging.getLogger('pycountry.db').setLevel(logging.INFO)
 
 from pycountry import countries
+from clldutils import jsonlib
 
-from tsammalexdata.util import jsonload, data_file, csv_items, split_ids
+from pytsammalex.util import data_file, csv_items, split_ids
 
 
 SUCCESS = True
@@ -25,7 +25,7 @@ CSV = [
 ]
 
 
-def error(msg, name, line=''):
+def error(msg, name, line=''):  # pragma: no cover
     global SUCCESS
     SUCCESS = False
     if line:
@@ -39,10 +39,10 @@ def read_csv(name, unique='id'):
     for line, row in enumerate(csv_items(name)):
         line += 2
         if unique:
-            if unique not in row:
+            if unique not in row:  # pragma: no cover
                 error('unique key missing: %s' % unique, name, line)
                 continue
-            if row[unique] in uniquevalues:
+            if row[unique] in uniquevalues:  # pragma: no cover
                 error('non-unique id: %s' % row[unique], name, line)
             uniquevalues.add(row[unique])
         rows.append((line, row))
@@ -54,11 +54,11 @@ def test():
     ids = {n: {r[1]['id'] for r in rows} for n, rows in data.items()}
 
     ids['ecoregions'] = set()
-    for ecoregion in jsonload(data_file('ecoregions.json'))['features']:
+    for ecoregion in jsonlib.load(data_file('ecoregions.json'))['features']:
         ids['ecoregions'].add(ecoregion['properties']['eco_code'])
 
     ids['sources'] = set()
-    with io.open(data_file('sources.bib'), encoding='utf8') as fp:
+    with data_file('sources.bib').open(encoding='utf8') as fp:
         for line in fp:
             match = BIB_ID_PATTERN.match(line.strip())
             if match:
@@ -71,11 +71,11 @@ def test():
             if ref:
                 if '[' in ref:
                     source_id, pages = ref.split('[', 1)
-                    if not pages.endswith(']'):
+                    if not pages.endswith(']'):  # pragma: no cover
                         error('invalid reference %s' % (ref,), name, line)
                 else:
                     source_id = ref
-                if source_id not in ids['sources']:
+                if source_id not in ids['sources']:  # pragma: no cover
                     error('invalid sources id referenced: %s' % (source_id,), name, line)
 
     for name in ['names', 'taxa']:
@@ -90,8 +90,8 @@ def test():
                     if ref not in ids:
                         continue
                     for v in split_ids(item[col]):
-                        if v not in ids[ref]:
+                        if v not in ids[ref]:  # pragma: no cover
                             error('invalid %s id referenced: %s' % (ref, v), name, line)
 
-    if not SUCCESS:
+    if not SUCCESS:  # pragma: no cover
         raise ValueError('integrity checks failed!')

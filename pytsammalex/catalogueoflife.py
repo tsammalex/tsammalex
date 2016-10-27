@@ -5,9 +5,8 @@ Functionality to retrieve information from the Catalogue of Life Web Service
 """
 from __future__ import print_function, unicode_literals, absolute_import, division
 import sys
-import os
 
-from tsammalexdata.util import data_file, jsonload, jsondump, csv_items, DataProvider, unique
+from pytsammalex.util import DataProvider, unique
 
 
 def text(e, ee):

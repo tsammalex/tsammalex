@@ -1,34 +1,11 @@
 from __future__ import print_function, unicode_literals, absolute_import, division
 import sys
-import re
 import json
 
 import requests
-from bs4 import BeautifulSoup
 from Levenshtein import distance
 
-from tsammalexdata.util import DataProvider
-
-
-def search_fuzzy(name):
-    """
-    http://eol.org/search?q=Ammodaucus+leucothricus&search=Go
-<div id='main'>
-Did you mean: <a href="/search?q=ammodaucus+leucotrichus">Ammodaucus leucotrichus</a>, <a href="/search?q=ammodaucus+leucotrichus+coss.">Ammodaucus leucotrichus coss.</a>, <a href="/search?q=oreocereus+leucotrichus">Oreocereus leucotrichus</a>, <a href="/search?q=acrolophus+leucotricha">Acrolophus leucotricha</a>, <a href="/search?q=ammodiscus+catinus">Ammodiscus catinus</a>, <a href="/search?q=ammodiscus+excertus">Ammodiscus excertus</a> ?
-<div class='filtered_search'>
-    """
-    res = requests.get('http://eol.org/search', params=dict(q=name, search='Go'))
-    maindiv = BeautifulSoup(res.text).find('div', id='main')
-    candidate = None
-    if maindiv:
-        for a in maindiv.find_all('a'):
-            if a['href'].startswith('/search?q='):
-                if distance(name.decode('utf8'), a.text.strip()) < 3:
-                    candidate = a.text
-                #print(a.text)
-    if candidate:
-        print(name.decode('utf8'), '->', candidate)
-    return candidate
+from pytsammalex.util import DataProvider
 
 
 class EOL(DataProvider):
@@ -108,6 +85,28 @@ class EOL(DataProvider):
             if vn.get('language') == 'en' and vn.get('eol_preferred'):
                 taxon['english_name'] = vn['vernacularName']
                 break
+
+
+def search_fuzzy(name):
+    """
+    http://eol.org/search?q=Ammodaucus+leucothricus&search=Go
+<div id='main'>
+Did you mean: <a href="/search?q=ammodaucus+leucotrichus">Ammodaucus leucotrichus</a>, <a href="/search?q=ammodaucus+leucotrichus+coss.">Ammodaucus leucotrichus coss.</a>, <a href="/search?q=oreocereus+leucotrichus">Oreocereus leucotrichus</a>, <a href="/search?q=acrolophus+leucotricha">Acrolophus leucotricha</a>, <a href="/search?q=ammodiscus+catinus">Ammodiscus catinus</a>, <a href="/search?q=ammodiscus+excertus">Ammodiscus excertus</a> ?
+<div class='filtered_search'>
+    """
+    from bs4 import BeautifulSoup
+    res = requests.get('http://eol.org/search', params=dict(q=name, search='Go'))
+    maindiv = BeautifulSoup(res.text).find('div', id='main')
+    candidate = None
+    if maindiv:
+        for a in maindiv.find_all('a'):
+            if a['href'].startswith('/search?q='):
+                if distance(name.decode('utf8'), a.text.strip()) < 3:
+                    candidate = a.text
+                    #print(a.text)
+    if candidate:
+        print(name.decode('utf8'), '->', candidate)
+    return candidate
 
 
 if __name__ == '__main__':

@@ -1,7 +1,9 @@
 from __future__ import print_function, unicode_literals
-import os
 
-from tsammalexdata.util import data_file, csv_items, jsondump, jsonload, DataProvider
+from clldutils import jsonlib
+from clldutils.path import remove
+
+from pytsammalex.util import data_file, DataProvider
 
 
 class GBIF(DataProvider):
@@ -37,26 +39,20 @@ class GBIF(DataProvider):
                 taxon['taxonRank'] = result['taxonRank'].lower()
 
 
-def save_occurrences(sid, sname):
-    api = GBIF()
-    out = data_file('external', 'gbif', '%s.json' % sid)
-    if not os.path.exists(out):
+def save_occurrences(api, sid, sname):
+    out = data_file('external', 'gbif', '%s.json' % sid, repos=api.repos)
+    if not out.exists():
         try:
             res = api.get_info(api.get_id(sname))
-            jsondump(res, out)
+            jsonlib.dump(res, out)
             print('%s: %s occurrences' % (sname, min([res['count'], res['limit']])))
         except:
             # we'll have to try again next time!
             res = None
     else:
         try:
-            res = jsonload(out)
+            res = jsonlib.load(out)
         except:
-            os.remove(out)
+            remove(out)
             res = None
     return res
-
-
-if __name__ == '__main__':
-    for item in csv_items('taxa.csv'):
-        save_occurrences(item['id'], item['scientific_name'])

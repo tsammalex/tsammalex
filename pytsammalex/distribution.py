@@ -4,8 +4,9 @@ from io import open
 
 from shapely.geometry import shape, Point
 from shapely.geos import PredicateError, TopologicalError
+from clldutils import jsonlib
 
-from tsammalexdata.util import data_file, jsonload, unique
+from pytsammalex.util import data_file, unique
 
 
 INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
@@ -26,7 +27,7 @@ def main():
 
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
-        for er in jsonload(data_file('ecoregions.json'))['features']
+        for er in jsonlib.load(data_file('ecoregions.json'))['features']
         if er['geometry'] and er['properties']['eco_code'] not in INVALID_ECO_CODES]
 
     for fname in os.listdir(data_file('external', 'gbif')):
@@ -35,7 +36,7 @@ def main():
         if len(v) == 1:
             v.append('')
         if not v[0] or not v[1]:
-            occurrences = jsonload(
+            occurrences = jsonlib.load(
                 data_file('external', 'gbif', fname)).get('results', [])
         if not v[0]:
             v[0] = format_ids(match(occurrences, ecoregions))
