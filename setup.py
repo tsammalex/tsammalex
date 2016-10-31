@@ -13,6 +13,7 @@ requires = [
     'python-levenshtein',
     'attrs',
     'cdstarcat',
+    'tqdm',
 ]
 
 setup(

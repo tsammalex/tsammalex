@@ -2,6 +2,7 @@ from __future__ import print_function, unicode_literals, absolute_import, divisi
 import os
 
 from cdstarcat.catalog import Catalog
+from tqdm import tqdm
 
 from pytsammalex.util import MediaCatalog, add_rows, filter_rows, data_file
 from pytsammalex.data_providers.gbif import GBIF
@@ -20,16 +21,15 @@ def update_taxa(args):
     We go through the taxa listed in taxa.csv and look for additional information at
     GBIF, EOL and Catalogue Of Life.
     """
-    with TaxaData('taxa.json', repos=args.tsammalex_data) as taxa:
+    with TaxaData(repos=args.tsammalex_data) as taxa:
         # add stubs for new entries in taxa.csv:
         for i, item in enumerate(models.CsvData('taxa', repos=args.tsammalex_data)):
             taxa.add(i, item)
 
         for cls in [CatalogueOfLife, GBIF, EOL]:
+            print(cls.__name__)
             with cls(args.tsammalex_data) as provider:
-                for i, spec in enumerate(taxa):
-                    if i % 500 == 0:
-                        print(i)
+                for spec in tqdm(taxa, leave=False):
                     provider.update_taxon(spec)
 
 

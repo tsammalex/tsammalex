@@ -1,5 +1,6 @@
 from __future__ import print_function, unicode_literals
 
+from tqdm import tqdm
 from shapely.geometry import shape, Point
 from shapely.geos import PredicateError, TopologicalError
 from clldutils import jsonlib
@@ -19,15 +20,16 @@ def update(repos, verbose=True):
     with CsvData('distribution', repos=repos) as data:
         res = {i.id: i for i in data.items}
 
-        for fname in data_file('external', 'gbif', repos=repos).glob('*.json'):
+        occurrence_data = list(data_file('external', 'gbif', repos=repos).glob('*.json'))
+        if verbose:  # pragma: no cover
+            occurrence_data = tqdm(occurrence_data)
+        for fname in occurrence_data:
             sid = fname.stem
             d = res.get(sid, Distribution(sid, '', ''))
             if not d.countries__ids or not d.ecoregions__ids:
                 occurrences = jsonlib.load(fname).get('results', [])
                 if not d.ecoregions__ids:
                     d.ecoregions__ids = list(match(occurrences, ecoregions))
-                    if verbose:  # pragma: no cover
-                        print('added ecoregions for {0}'.format(sid))
                 if not d.countries__ids:
                     d.countries__ids = list(r.get('countryCode') for r in occurrences)
             res[sid] = d
