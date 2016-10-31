@@ -9061,37 +9061,6 @@
         "english_name": "minke whale"
     }, 
     {
-        "id": "balaenoptera musculus", 
-        "name": "Balaenoptera musculus", 
-        "kingdom": "Animalia", 
-        "order": "Cetacea", 
-        "family": "Balaenopteridae", 
-        "genus": "Balaenoptera", 
-        "ecoregions": [], 
-        "countries": [
-            "MZ", 
-            "NA", 
-            "ZA"
-        ], 
-        "wikipedia_url": "http://en.wikipedia.org/wiki/Balaenoptera_musculus", 
-        "eol_id": 328574, 
-        "gbif_id": 2440735, 
-        "catalogueoflife_id": "19735934", 
-        "tdwgregions": [
-            "Antarctica/Southern", 
-            "East", 
-            "Eastern", 
-            "Indo-West", 
-            "Western"
-        ], 
-        "catalogueoflife_url": "http://www.catalogueoflife.org/col/details/species/id/19735934", 
-        "taxonRank": "species", 
-        "english_name": "blue whale", 
-        "phylum": "Chordata", 
-        "class": "Mammalia", 
-        "description": "(Linnaeus, 1758)"
-    }, 
-    {
         "id": "balaenopteraacutostrata", 
         "name": "Balaenoptera acutorostrata", 
         "kingdom": "Animalia", 
@@ -12552,7 +12521,7 @@
         "class": "Aves"
     }, 
     {
-        "id": "buteoaugur ", 
+        "id": "buteoaugur", 
         "name": "Buteo augur", 
         "kingdom": "Animalia", 
         "order": "Accipitriformes", 
@@ -59660,7 +59629,7 @@
         "description": "(Brants, 1827)"
     }, 
     {
-        "id": "Oxygonumdelagoense", 
+        "id": "oxygonumdelagoense", 
         "name": "Oxygonum delagoense", 
         "kingdom": "Plantae", 
         "order": "Polygonales", 
