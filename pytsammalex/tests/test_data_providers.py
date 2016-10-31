@@ -75,8 +75,6 @@ class Tests(WithTempDir):
                     'order': 'Carnivora',
                     'phylum': 'Chordata',
                     'taxonRank': 'species'})
-            res = prov.get_occurrences(Taxa(*'pantheraleo,,,,,,,,,,,,,,,,,'.split(',')))
-            self.assertEqual(res['count'], 576)
 
     def test_Eol(self):
         from pytsammalex.data_providers.eol import EOL

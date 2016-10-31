@@ -56,8 +56,6 @@ class DataProvider(JsonData, ExternalProviderMixin):
         data = self.cached_metadata(taxon['id'], id_)
         if data:
             self.update(taxon, data)
-            return True
-        return False  # pragma: no cover
 
     def refresh(self, sid, id):  # pragma: no cover
         with self as api:

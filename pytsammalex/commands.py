@@ -65,12 +65,3 @@ def upload_images(args):
 
 def update_distribution(args):
     distribution.update(args.tsammalex_data)
-
-
-def get_occurrences(args):
-    """
-    Retrieve occurrence information for each taxa from GBIF.
-    """
-    api = GBIF(args.tsammalex_data)
-    for item in models.CsvData('taxa', repos=args.tsammalex_data):
-        api.get_occurrences(item)

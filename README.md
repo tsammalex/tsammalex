@@ -24,6 +24,23 @@ Periodically (or upon request), a process is run, which
 - moving the metadata from ``staged_images.csv`` to ``images.csv``, replacing the ``id``.
 
 
+### Image providers
+
+For several providers of flora and fauna imagery we provide support for downloading images
+and associated metadata (by specifying matching URLs as `id` in `staged_images.csv`):
+
+- [EOL](http://eol.org) images specified by a URL of the form `http://media.eol.org/data_objects/21916329`.
+  (You typically get to a page with such a URL by clicking on any image you encounter
+  while browsing EOL)
+- [Flickr](https://flickr.com) images specified by a URL of the form `https://www.flickr.com/photos/damouns/78968973`,
+  i.e. a photo's details page.
+- [African Plants](http://www.africanplants.senckenberg.de/root/index.php) photos from Senckenberg,
+  specified by an URL of the form `http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26800`,
+  i.e. the URL you see in your browser's location bar after clicking to enlarge an image.
+- [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
+- [Flora of Zimbabwe](http://www.zimbabweflora.co.zw/) or [Flora of Mozambique](http://www.mozambiqueflora.com/)
+
+
 Referential Integrity
 ---------------------
 

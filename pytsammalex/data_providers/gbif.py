@@ -35,6 +35,3 @@ class GBIF(DataProvider):
                     taxon[key] = result[key]
             if 'taxonRank' in result:
                 taxon['taxonRank'] = result['taxonRank'].lower()
-
-    def get_occurrences(self, item):
-        return self.cached_metadata(item.id, name=item.scientific_name)
