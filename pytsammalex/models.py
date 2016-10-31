@@ -7,8 +7,10 @@ from datetime import date
 import attr
 from dateutil.parser import parse
 from six import string_types
+from clldutils import dsv
+from clldutils.misc import nfilter
 
-from pytsammalex.util import split_ids
+from pytsammalex.util import split_ids, DataManager, REPOS
 
 
 DATE_QUALIFIERS = re.compile('unknown|before|circa|ca\.|\(?\?\)?|[\xa0]+')
@@ -52,9 +54,13 @@ class Model(object):
     @classmethod
     def fromdict(cls, d):
         clean = {}
-        for field in attr.fields(cls):
-            clean[field.name] = d.get(cls.__field_map__.get(field.name, field.name)) or ''
+        for field in cls.fields():
+            clean[field] = d.get(cls.__field_map__.get(field, field)) or ''
         return cls(**clean)
+
+    @classmethod
+    def fields(cls):
+        return [f.name for f in attr.fields(cls)]
 
     def csv_row(self):
         def serialize(obj):
@@ -63,15 +69,31 @@ class Model(object):
             if isinstance(obj, string_types):
                 return obj
             if isinstance(obj, list):
-                return ';'.join(obj)
+                return ';'.join(list(sorted(nfilter(obj))))
             if isinstance(obj, tuple):
                 if obj[0] is None:
                     return ''
                 return '{0:.6f} {1:.6f}'.format(*obj)
             if isinstance(obj, date):
                 return obj.isoformat()
-            raise ValueError(obj)
-        return [serialize(getattr(self, f.name)) for f in attr.fields(self.__class__)]
+            raise ValueError(obj)  # pragma: no cover
+        return [serialize(getattr(self, field)) for field in self.__class__.fields()]
+
+
+@attr.s
+class Staged_images(Model):
+    id = attr.ib()
+    taxa__id = attr.ib(validator=partial(regex_validator, '[a-z0-9]+$'))
+    tags = attr.ib(convert=split_ids)
+    mime_type = attr.ib(validator=partial(regex_validator, 'image/', allow_empty=True))
+    src = attr.ib()
+    creator = attr.ib()
+    date = attr.ib(convert=convert_date)
+    place = attr.ib()
+    gps = attr.ib(convert=convert_gps, validator=valid_coordinates)
+    permission = attr.ib()
+    source = attr.ib()
+    comments = attr.ib()
 
 
 @attr.s
@@ -111,6 +133,13 @@ class Taxa(Model):
     notes = attr.ib()
     refs__ids = attr.ib(convert=partial(split_ids, sep=re.compile(';')))
     links = attr.ib()
+
+
+@attr.s
+class Distribution(Model):
+    id = attr.ib(validator=partial(regex_validator, '[a-z0-9]+$'))
+    ecoregions__ids = attr.ib(convert=split_ids)
+    countries__ids = attr.ib(convert=split_ids)
 
 
 @attr.s
@@ -225,3 +254,36 @@ class Uses(Model):
     id = attr.ib()
     name = attr.ib()
     description = attr.ib()
+
+
+class CsvData(DataManager):
+    def __init__(self, name, repos=REPOS, on_error=None):
+        DataManager.__init__(self, name + '.csv', repos)
+        self.model = globals()[name.capitalize()]
+        self.items, self.header, ids = [], None, set()
+        with dsv.UnicodeReader(self.path) as reader:
+            for i, row in enumerate(reader):
+                if i == 0:
+                    self.header = row
+                else:
+                    try:
+                        item = self.model(*row)
+                        if item.id in ids:
+                            msg = 'non-unique ID: %s' % item.id
+                            if on_error:
+                                on_error(msg, self.path.stem, i + 2)
+                            else:
+                                raise ValueError(msg)
+                        self.items.append(item)
+                        ids.add(item.id)
+                    except ValueError as e:
+                        if on_error:
+                            on_error(e.message, self.path.stem, i + 2)
+                        else:
+                            raise ValueError('{0}:{1} {2}'.format(self.path.name, i + 2, e))
+
+    def write(self):
+        with dsv.UnicodeWriter(self.path) as writer:
+            writer.writerow(self.header)
+            for item in self.items:
+                writer.writerow(item.csv_row())

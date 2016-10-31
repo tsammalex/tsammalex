@@ -1,7 +1,7 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from pytsammalex.images import ImageProvider
+from pytsammalex.image_providers.base import ImageProvider
 
 
 class Zimbabweflora(ImageProvider):
@@ -19,7 +19,7 @@ class Zimbabweflora(ImageProvider):
     )
 
     def identify(self, item):
-        url, host, comps = ImageProvider.url_parts(item)
+        url, host, comps = self.url_parts(item.id)
         if host in ['www.zimbabweflora.co.zw', 'www.mozambiqueflora.com'] \
                 and len(comps) == 2 \
                 and comps[0] == 'speciesdata' \

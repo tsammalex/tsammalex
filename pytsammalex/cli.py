@@ -6,7 +6,7 @@ from clldutils.clilib import ArgumentParser, ParserError
 from clldutils.path import Path
 
 import pytsammalex
-from pytsammalex.commands import update_taxa, get_occurrences, upload_images
+from pytsammalex.commands import update_taxa, get_occurrences, upload_images, update_distribution
 
 HOME = Path(os.path.expanduser('~'))
 
@@ -18,7 +18,7 @@ class ValidationError(ValueError):
 
 
 def main():
-    parser = ArgumentParser('pytsammalex', update_taxa, get_occurrences, upload_images)
+    parser = ArgumentParser('pytsammalex', update_taxa, get_occurrences, upload_images, update_distribution)
     parser.add_argument(
         '--tsammalex-data',
         help="path to tsammalex-data repository",

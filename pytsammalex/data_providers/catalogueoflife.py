@@ -4,9 +4,11 @@ Functionality to retrieve information from the Catalogue of Life Web Service
 .. seealso:: http://webservice.catalogueoflife.org/col/webservice
 """
 from __future__ import print_function, unicode_literals, absolute_import, division
-import sys
 
-from pytsammalex.util import DataProvider, unique
+from six import text_type
+
+from pytsammalex.util import unique
+from pytsammalex.data_providers.base import DataProvider
 
 
 def text(e, ee):
@@ -15,15 +17,16 @@ def text(e, ee):
 
 
 class CatalogueOfLife(DataProvider):
-    host = 'www.catalogueoflife.org'
-
     def _get(self, **kw):
         try:
-            return self.get('col/webservice', type='xml', **kw).find('result')
-        except:
+            return self.get(
+                'http://www.catalogueoflife.org/col/webservice',
+                type_='xml',
+                **kw).find('result')
+        except:  # pragma: no cover
             return None
 
-    def get_id(self, name):
+    def identify(self, name):
         result = self._get(name=name)
         if result:
             if text(result, 'name_status') == 'accepted name':
@@ -31,7 +34,7 @@ class CatalogueOfLife(DataProvider):
             if result.find('accepted_name'):
                 return text(result.find('accepted_name'), 'id')
 
-    def get_info(self, id_):
+    def metadata(self, id_):
         result = self._get(id=id_, response='full')
         if result:
             # classification: taxon.id name rank url
@@ -69,9 +72,3 @@ class Taxon(object):
 
     def as_dict(self):
         return dict(id=self.id, name=self.name, url=self.url)
-
-
-if __name__ == '__main__':
-    api = CatalogueOfLife()
-    if sys.argv[1:]:
-        print(api.cli(sys.argv[1]))

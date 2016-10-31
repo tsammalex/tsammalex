@@ -1,17 +1,22 @@
 from __future__ import unicode_literals, division, print_function
 import sys
 import re
-from xml.etree import cElementTree as et
-from itertools import chain
 from collections import OrderedDict
+from xml.etree import cElementTree as et
 
-import requests
-from purl import URL
 from clldutils import jsonlib
 from clldutils import dsv
 from clldutils.path import Path, move
+import requests
+from requests.packages.urllib3.exceptions import (
+    InsecurePlatformWarning, SNIMissingWarning,
+)
+from bs4 import BeautifulSoup
 
 import pytsammalex
+
+requests.packages.urllib3.disable_warnings(InsecurePlatformWarning)
+requests.packages.urllib3.disable_warnings(SNIMissingWarning)
 
 
 REPOS = Path(pytsammalex.__file__).parent.parent
@@ -32,20 +37,9 @@ def data_file(*comps, **kw):
     return kw.pop('repos', REPOS).joinpath('tsammalexdata', 'data', *comps)
 
 
-def csv_items(name, repos=REPOS):
-    data = data_file(name, repos=repos)
-    if data.is_dir():
-        fnames = list(data.glob('*.csv'))
-    elif data.is_file():
-        fnames = [data]
-    elif data.parent.joinpath(data.name + '.csv').is_file():
-        fnames = [data.parent.joinpath(data.name + '.csv')]
-    else:
-        raise ValueError(name)
-
-    return list(chain(*[dsv.reader(fname, dicts=True) for fname in fnames]))
-
-
+#
+# TODO: The following functions add_rows and filter_rows should be moved to clldutils.dsv!
+#
 def add_rows(fname, *rows):
     tmp = fname.parent.joinpath('.tmp.' + fname.name)
 
@@ -69,119 +63,85 @@ class Filter(object):
             return row
         if row:
             item = dict(zip(self.header, row))
-            try:
-                if self.filter(item):
-                    return row
-            except:
-                print(self.header)
-                print(row)
-                print(item)
-                raise
+            if self.filter(item):
+                return row
 
 
 def filter_rows(fname, filter_):
     dsv.rewrite(fname, Filter(filter_), lineterminator='\r\n')
 
 
-class JsonData(object):
+class DataManager(object):
+    """
+    Context manager mediating access to data stored in a JSON file.
+    """
+    def __init__(self, path, repos):
+        self.path = data_file(path, repos=repos)
+        self.repos = repos
+        self.items = []
+
+    def __iter__(self):
+        return iter(self.items)
+
+    def __len__(self):
+        return len(self.items)
+
+    def __enter__(self):
+        return self
+
+    def __getitem__(self, item):
+        return self.items[item]
+
+    def __setitem__(self, key, value):
+        self.items[key] = value
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.write()
+
+    def write(self):
+        raise NotImplementedError()  # pragma: no cover
+
+
+class JsonData(DataManager):
     """
     Context manager mediating access to data stored in a JSON file.
     """
     def __init__(self, path, repos=REPOS, container_cls=dict, json_opts=None):
-        self.path = data_file(path, repos=repos)
-        self.repos = repos
+        DataManager.__init__(self, path, repos)
         if self.path.exists():
             self.items = jsonlib.load(self.path, object_pairs_hook=OrderedDict)
         else:
             self.items = container_cls()
         self._json_opts = json_opts or {}
 
-    def __enter__(self):
-        return self
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
+    def write(self):
         jsonlib.dump(self.items, self.path, **self._json_opts)
 
 
-class DataProvider(JsonData):
-    host = 'example.org'
-    scheme = 'http'
-
-    @property
-    def name(self):
-        return self.__class__.__name__.lower()
-
-    def url(self, path):
-        return URL(scheme=self.scheme, host=self.host).path(path)
-
-    def get(self, path, type='json', **params):
-        res = requests.get(self.url(path), params=params)
-        if type == 'json':
+class ExternalProviderMixin(object):
+    @staticmethod
+    def get(url, type_=None, **params):
+        res = requests.get(url, params=params)
+        if type_ == 'json':
             return res.json()
-        if type == 'xml':
+        if type_ == 'xml':
             return et.fromstring(res.content)
         return res
 
-    def get_id(self, name):
+    @staticmethod
+    def bs(markup):
+        return BeautifulSoup(markup, 'html.parser')
+
+    def identify(self, name):
         raise NotImplementedError()
 
-    def get_info(self, id):
+    def metadata(self, id):
         raise NotImplementedError()
-
-    def cli(self, arg):
-        try:
-            int(arg)
-            return self.get_info(arg)
-        except ValueError:
-            return self.get_id(arg)
-
-    def get_cached(self, sid, id, refresh=False):
-        if data_file('external', self.name, repos=self.repos).is_dir():
-            fname = data_file('external', self.name, sid + '.json', repos=self.repos)
-            if not fname.exists() or refresh:
-                try:
-                    data = self.get_info(id)
-                except:
-                    data = None
-                if not data:
-                    return
-                jsonlib.dump(data, fname)
-                return data
-            return jsonlib.load(fname)
-
-        if sid not in self.items or refresh:
-            try:
-                self.items[sid] = self.get_info(id)
-            except:
-                return
-        return self.items[sid]
-
-    def update(self, taxon, data):
-        raise NotImplementedError()
-
-    def update_taxon(self, taxon):
-        # Try to find a provider-specific ID:
-        if not taxon[self.name + '_id']:
-            taxon[self.name + '_id'] = self.get_id(taxon['name'])
-        if not taxon[self.name + '_id']:
-            return False
-
-        # Use this ID to fetch new data in case nothing is cached for sid:
-        data = self.get_cached(taxon['id'], taxon[self.name + '_id'])
-        if data:
-            self.update(taxon, data)
-            return True
-        return False
-
-    def refresh(self, sid, id):
-        with self as api:
-            api.get_cached(sid, id, refresh=True)
 
 
 class MediaCatalog(JsonData):
     def add(self, obj):
         """
-
         :param obj: A `cdstarcat.catalog.Object` instance
         :return:
         """
@@ -190,7 +150,7 @@ class MediaCatalog(JsonData):
         thumbnail = bitstreams.pop('thumbnail')
         web = bitstreams.pop('web')
         assert len(bitstreams) == 1
-        original = bitstreams.values()[0]
+        original = list(bitstreams.values())[0]
         res['original'] = original.id
         res['size'] = original.size
         res['thumbnail'] = thumbnail.id

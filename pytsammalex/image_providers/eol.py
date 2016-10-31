@@ -1,7 +1,7 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from pytsammalex.images import ImageProvider
+from pytsammalex.image_providers.base import ImageProvider
 
 
 class Eol(ImageProvider):
@@ -18,10 +18,7 @@ class Eol(ImageProvider):
     )
 
     def identify(self, item):
-        """
-        http://media.eol.org/data_objects/23049910
-        """
-        url, host, comps = ImageProvider.url_parts(item)
+        url, host, comps = self.url_parts(item.id)
         if host.endswith('eol.org') and len(comps) == 2 and comps[0] == 'data_objects':
             return comps[1]
 
@@ -29,9 +26,9 @@ class Eol(ImageProvider):
         id_ = self.identify(item)
         try:
             info = self.get(
-                'http://eol.org/api/data_objects/1.0/%s.json' % id_
-            ).json()['dataObjects'][0]
-        except:
+                'http://eol.org/api/data_objects/1.0/%s.json' % id_, type_='json'
+            )['dataObjects'][0]
+        except:  # pragma: no cover
             return {}
         agents = {a['role']: a['full_name'] for a in info['agents']}
         if 'eolMediaURL' in info:

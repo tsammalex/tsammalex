@@ -1,7 +1,7 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from pytsammalex.images import ImageProvider
+from pytsammalex.image_providers.base import ImageProvider
 
 
 class Senckenberg(ImageProvider):
@@ -28,7 +28,7 @@ class Senckenberg(ImageProvider):
         :param url: A URL.
         :return: `url` if recognized, else `None`.
         """
-        url, host, comps = self.url_parts(item)
+        url, host, comps = self.url_parts(item.id)
         if host.endswith('africanplants.senckenberg.de') \
                 and url.fragment() \
                 and len(comps) == 2 \
@@ -57,7 +57,7 @@ class Senckenberg(ImageProvider):
                     'permission': 'http://creativecommons.org/licenses/by-nc/4.0/',
                 }
                 for k, v in [
-                    l.split(': ', 1) for l in img.attrs['title'].split('; \n') if l
+                        l.split(': ', 1) for l in img.attrs['title'].split('; \n') if l
                     ]:
                     if k == 'Date':
                         res['date'] = v.split(' ')[0]

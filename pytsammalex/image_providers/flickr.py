@@ -2,9 +2,10 @@
 from __future__ import unicode_literals, print_function, division
 import os
 
-import flickrapi
+from flickrapi import FlickrAPI
+from clldutils.misc import cached_property
 
-from pytsammalex.images import ImageProvider
+from pytsammalex.image_providers.base import ImageProvider
 
 
 class Flickr(ImageProvider):
@@ -22,10 +23,20 @@ class Flickr(ImageProvider):
 
     def __init__(self, *args):
         ImageProvider.__init__(self, *args)
-        self.api = flickrapi.FlickrAPI(
-            os.environ['FLICKR_KEY'], os.environ['FLICKR_SECRET'], format='parsed-json')
-        self.licenses = {l['id']: l['url'] for l in
-                         self.api.photos.licenses.getInfo()['licenses']['license']}
+        self.api = FlickrAPI(
+            os.environ.get('FLICKR_KEY', ''),
+            os.environ.get('FLICKR_SECRET', ''),
+            format='parsed-json')
+
+    def identify(self, item):
+        url, host, comps = self.url_parts(item.id)
+        if host.endswith('flickr.com') and len(comps) > 2 and comps[0] == 'photos':
+            return comps[2]
+
+    @cached_property()
+    def licenses(self):
+        return {l['id']: l['url'] for l in
+                self.api.photos.licenses.getInfo()['licenses']['license']}
 
     def metadata(self, item):
         id_ = self.identify(item)
@@ -52,11 +63,6 @@ class Flickr(ImageProvider):
                 biggest = size
                 break
 
-            if int(size['width']) > biggest['width']:
+            if int(size['width']) > int(biggest['width']):
                 biggest = size
         return dict(source_url=biggest['source'], source=biggest['url'])
-
-    def identify(self, item):
-        url, host, comps = self.url_parts(item)
-        if host.endswith('flickr.com') and len(comps) > 2 and comps[0] == 'photos':
-            return comps[2]

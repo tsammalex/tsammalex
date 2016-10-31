@@ -8,7 +8,7 @@ from pycountry import countries
 from clldutils import jsonlib
 import attr
 
-from pytsammalex.util import data_file, csv_items
+from pytsammalex.util import data_file, REPOS
 from pytsammalex import models
 
 
@@ -18,6 +18,7 @@ CSV = [
     'audios',
     'categories',
     'contributors',
+    'distribution',
     'habitats',
     'images',
     'languages',
@@ -36,26 +37,12 @@ def error(msg, name, line=''):  # pragma: no cover
     print('ERROR:%s%s: %s' % (name, line, msg))
 
 
-def read_csv(name, model):
-    items = OrderedDict()
-    for line, row in enumerate(csv_items(name)):
-        try:
-            item = model.fromdict(row)
-        except ValueError as e:
-            error(e.message, name, line + 2)
-            item = None
-
-        if item:
-            if item.id in items:
-                error('non-unique id: %s' % item.id, name, line + 2)
-            else:
-                items[item.id] = item
-    return items
-
-
 def test():
-    model_classes = {n: getattr(models, n.capitalize()) for n in CSV}
-    data = {n: read_csv(n, model_classes[n]) for n in CSV}
+    if not REPOS.exists():
+        return
+    data = {
+        n: OrderedDict([(item.id, item) for item in models.CsvData(n, on_error=error)])
+        for n in CSV}
     data['ecoregions'] = {}
     for ecoregion in jsonlib.load(data_file('ecoregions.json'))['features']:
         data['ecoregions'][ecoregion['properties']['eco_code']] = ecoregion
@@ -81,7 +68,7 @@ def test():
                 if source_id not in data['refs']:  # pragma: no cover
                     error('invalid id referenced: %s' % (source_id,), name, line + 2)
 
-    for name, model in model_classes.items():
+    for name, model in [(n, getattr(models, n.capitalize())) for n in CSV]:
         for line, item in enumerate(data[name].values()):
             for col in [f.name for f in attr.fields(model)]:
                 if '__' in col:
@@ -94,7 +81,7 @@ def test():
                         ids = [ids]
                     for v in ids:
                         if ref not in data:
-                            raise ValueError(ref)
+                            raise ValueError(ref)  # pragma: no cover
                         if ref == 'refs' and '[' in v:
                             v = v.split('[')[0]
                         if v not in data[ref]:  # pragma: no cover
