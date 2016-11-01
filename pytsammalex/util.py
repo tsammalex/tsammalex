@@ -37,38 +37,8 @@ def data_file(*comps, **kw):
     return kw.pop('repos', REPOS).joinpath('tsammalexdata', 'data', *comps)
 
 
-#
-# TODO: The following functions add_rows and filter_rows should be moved to clldutils.dsv!
-#
-def add_rows(fname, *rows):
-    tmp = fname.parent.joinpath('.tmp.' + fname.name)
-
-    with dsv.UnicodeWriter(tmp) as writer:
-        if fname.exists():
-            with dsv.UnicodeReader(fname) as reader_:
-                for row in reader_:
-                    writer.writerow(row)
-        writer.writerows(rows)
-    move(tmp, fname)
-
-
-class Filter(object):
-    def __init__(self, filter_):
-        self.header = None
-        self.filter = filter_
-
-    def __call__(self, i, row):
-        if i == 0:
-            self.header = row
-            return row
-        if row:
-            item = dict(zip(self.header, row))
-            if self.filter(item):
-                return row
-
-
-def filter_rows(fname, filter_):
-    dsv.rewrite(fname, Filter(filter_), lineterminator='\r\n')
+add_rows = dsv.add_rows
+filter_rows = dsv.filter_rows_as_dict
 
 
 class DataManager(object):
