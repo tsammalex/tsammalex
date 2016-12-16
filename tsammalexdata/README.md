@@ -19,9 +19,13 @@ Making a release of the data:
 ```
 2. Harvest additional data and compute distribution data:
 ```bash
-    updatetaxa
+    tsammalex update_taxa
     git add tsammalexdata/data/external/gbif/*.json
     git commit -a -m"updated taxa info from external sources"
+    tsammalex update_distribution
     git push origin
 ```
 3. Upload images.
+```bash
+    tsammalex upload_images
+```

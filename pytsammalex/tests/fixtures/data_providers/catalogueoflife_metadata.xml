@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results id="9249d9473aac5c8e99fb9d758ced91ec" name="" total_number_of_results="1" number_of_results_returned="1" start="0" error_message="" version="1.9 rev 2126ab0" rank="">
+  <result>
+    <id>9249d9473aac5c8e99fb9d758ced91ec</id>
+    <name>Panthera</name>
+    <rank>Genus</rank>
+    <name_status>accepted name</name_status>
+    <name_html><i>Panthera</i></name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/9249d9473aac5c8e99fb9d758ced91ec</url>
+    <is_extinct>false</is_extinct>
+    <classification>
+      <taxon>
+        <id>5ede24b0534ebd5e1f552d5b9f874a6a</id>
+        <name>Animalia</name>
+        <rank>Kingdom</rank>
+        <name_html>Animalia</name_html>
+        <url>http://www.catalogueoflife.org/col/browse/tree/id/5ede24b0534ebd5e1f552d5b9f874a6a</url>
+      </taxon>
+      <taxon>
+        <id>4313bc7637e1fc1feb316a4dea2b668b</id>
+        <name>Chordata</name>
+        <rank>Phylum</rank>
+        <name_html>Chordata</name_html>
+        <url>http://www.catalogueoflife.org/col/browse/tree/id/4313bc7637e1fc1feb316a4dea2b668b</url>
+      </taxon>
+      <taxon>
+        <id>7a4d4854a73e6a4048d013af6416c253</id>
+        <name>Mammalia</name>
+        <rank>Class</rank>
+        <name_html>Mammalia</name_html>
+        <url>http://www.catalogueoflife.org/col/browse/tree/id/7a4d4854a73e6a4048d013af6416c253</url>
+      </taxon>
+      <taxon>
+        <id>29ff0553e8930d7e79b3ff4d1a753f62</id>
+        <name>Carnivora</name>
+        <rank>Order</rank>
+        <name_html>Carnivora</name_html>
+        <url>http://www.catalogueoflife.org/col/browse/tree/id/29ff0553e8930d7e79b3ff4d1a753f62</url>
+      </taxon>
+      <taxon>
+        <id>0d57b790faceb41f2be7029302c5584e</id>
+        <name>Felidae</name>
+        <rank>Family</rank>
+        <name_html>Felidae</name_html>
+        <url>http://www.catalogueoflife.org/col/browse/tree/id/0d57b790faceb41f2be7029302c5584e</url>
+      </taxon>
+    </classification>
+    <child_taxa>
+      <taxon>
+        <id>c67c449dc0cc8bf14732d7fabf8f2b10</id>
+        <name>Panthera leo</name>
+        <rank>Species</rank>
+        <name_html><i>Panthera leo</i> (Linnaeus, 1758)</name_html>
+        <url>http://www.catalogueoflife.org/col/details/species/id/c67c449dc0cc8bf14732d7fabf8f2b10</url>
+        <is_extinct>false</is_extinct>
+      </taxon>
+      <taxon>
+        <id>4ffa941b074645715ff39f515fb9fcea</id>
+        <name>Panthera onca</name>
+        <rank>Species</rank>
+        <name_html><i>Panthera onca</i> (Linnaeus, 1758)</name_html>
+        <url>http://www.catalogueoflife.org/col/details/species/id/4ffa941b074645715ff39f515fb9fcea</url>
+        <is_extinct>false</is_extinct>
+      </taxon>
+      <taxon>
+        <id>fd90e5f300d0c6eb358333ea2ad7f92e</id>
+        <name>Panthera pardus</name>
+        <rank>Species</rank>
+        <name_html><i>Panthera pardus</i> (Linnaeus, 1758)</name_html>
+        <url>http://www.catalogueoflife.org/col/details/species/id/fd90e5f300d0c6eb358333ea2ad7f92e</url>
+        <is_extinct>false</is_extinct>
+      </taxon>
+      <taxon>
+        <id>9c35aba4cb7f388bf29a05fba221135c</id>
+        <name>Panthera tigris</name>
+        <rank>Species</rank>
+        <name_html><i>Panthera tigris</i> (Linnaeus, 1758)</name_html>
+        <url>http://www.catalogueoflife.org/col/details/species/id/9c35aba4cb7f388bf29a05fba221135c</url>
+        <is_extinct>false</is_extinct>
+      </taxon>
+    </child_taxa>
+  </result>
+</results>

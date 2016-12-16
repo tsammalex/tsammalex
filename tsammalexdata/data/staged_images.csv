@@ -1,1 +1,5 @@
-id,taxa__id,tags,mime_type,src,creator,date,place,gps,permission,source,source_url,comments
+id,taxa__id,tags,mime_type,src,creator,date,place,gps,permission,source,comments
+equusquagga-1.jpg,equusquagga,,image/jpeg,,Anne-Maria Fehn,2013-05-11,Chobe National Park,,http://en.wikipedia.org/wiki/Public_domain,,
+paraxeruscepapi-1.jpg,paraxeruscepapi,,image/jpeg,,Anne-Maria Fehn,2013-05-25,Chobe National Park,,http://en.wikipedia.org/wiki/Public_domain,,
+phacochoerusafricanus-1.jpg,phacochoerusafricanus,,image/jpeg,,Anne-Maria Fehn,2013-05-25,Chobe National Park,,http://en.wikipedia.org/wiki/Public_domain,,
+tockusflavirostris-1.jpg,tockusflavirostris,,image/jpeg,,Anne-Maria Fehn,2013-05-17,Chobe National Park,,http://en.wikipedia.org/wiki/Public_domain,,
