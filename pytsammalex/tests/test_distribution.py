@@ -17,7 +17,7 @@ class Tests(WithTempDir):
                 'pytsammalex.distribution',
                 shape=Mock(return_value=Mock(return_value=True)),
                 Point=Mock()):
-            update(repos, verbose=False)
+            update(repos, log=Mock())
 
         data = CsvData('distribution', repos=repos)
         self.assertEqual(len(data), 1)
