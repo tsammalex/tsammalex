@@ -2,6 +2,7 @@ language: python
 python:
   - "3.4"
 install:
+  - pip install -U setuptools
   - pip install nose coverage mock
 script:
   - python setup.py install
