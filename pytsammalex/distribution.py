@@ -11,7 +11,7 @@ from pytsammalex.util import data_file
 INVALID_ECO_CODES = {'AA0803', 'Lake', 'AT1202', 'IM1303', 'AA0803'}
 
 
-def update(repos, verbose=True):
+def update(repos, log):
     ecoregions = [
         (er['properties']['eco_code'], shape(er['geometry']))
         for er in jsonlib.load(data_file('ecoregions.json', repos=repos))['features']
@@ -21,22 +21,20 @@ def update(repos, verbose=True):
         res = {i.id: i for i in data.items}
 
         occurrence_data = list(data_file('external', 'gbif', repos=repos).glob('*.json'))
-        if verbose:  # pragma: no cover
-            occurrence_data = tqdm(occurrence_data)
-        for fname in occurrence_data:
+        for fname in tqdm(occurrence_data):
             sid = fname.stem
             d = res.get(sid, Distribution(sid, '', ''))
             if not d.countries__ids or not d.ecoregions__ids:
                 occurrences = jsonlib.load(fname).get('results', [])
                 if not d.ecoregions__ids:
-                    d.ecoregions__ids = list(match(occurrences, ecoregions))
+                    d.ecoregions__ids = list(match(occurrences, ecoregions, log))
                 if not d.countries__ids:
                     d.countries__ids = list(r.get('countryCode') for r in occurrences)
             res[sid] = d
             data.items = [res[key] for key in sorted(res.keys())]
 
 
-def match(occurrences, ecoregions):
+def match(occurrences, ecoregions, log):
     for oc in occurrences:
         point = Point(oc['decimalLongitude'], oc['decimalLatitude'])
         for eco_code, er in ecoregions:
@@ -44,5 +42,5 @@ def match(occurrences, ecoregions):
                 if er.contains(point):
                     yield eco_code
             except (PredicateError, TopologicalError):  # pragma: no cover
-                print('--error--: ', eco_code)
+                log.error('invalid ecoregion: {0}'.format(eco_code))
                 pass

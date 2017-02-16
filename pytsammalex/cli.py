@@ -2,11 +2,11 @@ from __future__ import unicode_literals, division, print_function
 import os
 import sys
 
-from clldutils.clilib import ArgumentParser, ParserError
+from clldutils.clilib import ArgumentParserWithLogging
 from clldutils.path import Path
 
 import pytsammalex
-from pytsammalex.commands import update_taxa, upload_images, update_distribution
+import pytsammalex.commands
 
 HOME = Path(os.path.expanduser('~'))
 
@@ -18,8 +18,7 @@ class ValidationError(ValueError):
 
 
 def main():
-    parser = ArgumentParser(
-        'pytsammalex', update_taxa, upload_images, update_distribution)
+    parser = ArgumentParserWithLogging('pytsammalex')
     parser.add_argument(
         '--tsammalex-data',
         help="path to tsammalex-data repository",

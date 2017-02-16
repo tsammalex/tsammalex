@@ -6,7 +6,7 @@ from xml.etree import cElementTree as et
 
 from clldutils import jsonlib
 from clldutils import dsv
-from clldutils.path import Path, move
+from clldutils.path import Path
 import requests
 from requests.packages.urllib3.exceptions import (
     InsecurePlatformWarning, SNIMissingWarning,

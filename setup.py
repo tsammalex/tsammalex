@@ -9,7 +9,7 @@ requires = [
     'python-dateutil',
     'BeautifulSoup4',
     'shapely',
-    'clldutils>=1.5.0',
+    'clldutils>=1.9.0',
     'python-levenshtein',
     'attrs',
     'cdstarcat',

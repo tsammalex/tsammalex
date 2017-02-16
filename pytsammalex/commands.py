@@ -3,6 +3,7 @@ import os
 
 from cdstarcat.catalog import Catalog
 from tqdm import tqdm
+from clldutils.clilib import command
 
 from pytsammalex.util import MediaCatalog, add_rows, filter_rows, data_file
 from pytsammalex.data_providers.gbif import GBIF
@@ -14,6 +15,7 @@ from pytsammalex.image_providers import PROVIDERS
 from pytsammalex import models
 
 
+@command()
 def update_taxa(args):
     """
     Update the supplemental data for taxa from external sources.
@@ -33,11 +35,11 @@ def update_taxa(args):
                     provider.update_taxon(spec)
 
 
+@command()
 def upload_images(args):
     """
     tsammalex upload_images path/to/cdstar/catalog
     """
-
     images_path = data_file('images.csv', repos=args.tsammalex_data)
     staged_images_path = data_file('staged_images.csv', repos=args.tsammalex_data)
     checksums = set(d.id for d in models.CsvData('images', repos=args.tsammalex_data))
@@ -63,5 +65,6 @@ def upload_images(args):
                         break
 
 
+@command()
 def update_distribution(args):
-    distribution.update(args.tsammalex_data)
+    distribution.update(args.tsammalex_data, args.log)
