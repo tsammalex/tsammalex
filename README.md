@@ -14,16 +14,31 @@ Adding images
 
 Adding an image is done in two steps:
 
-1. Adding a row to ``images.csv``, specifying a publicly available URL to access the image in the ``source_url`` column (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
+1. Adding a row to ``staged_images.csv``, specifying a publicly available URL to access the image in the ``id`` column (this may be a temporary GitHub repository, wikimedia commons or other publicly available webspace).
 2. Providing the image at the specified URL for download.
 
-Notes:
+Periodically (or upon request), a process is run, which
+- loops through ``staged_images.csv``,
+- retrieving the files and uploading them to our file server (computing the [md5 hash](http://en.wikipedia.org/wiki/MD5)) on the way,
+- enriching the metadata, in case the image is from a known provider (Wikimedia, Flickr, EOL, ...),
+- moving the metadata from ``staged_images.csv`` to ``images.csv``, replacing the ``id``.
 
-- Use the [md5 hash](http://en.wikipedia.org/wiki/MD5) of the image file as `id` for the row in `images.csv`.
-  Computing this hash can be done using [FCIV on Windows](http://support.microsoft.com/kb/889768), with the 
-  [md5sum command](http://en.wikipedia.org/wiki/Md5sum) on Linux or 
-  with the [md5 command](http://osxdaily.com/2009/10/13/check-md5-hash-on-your-mac/) on mac.
-- When a data release is created, new images will be fetched from the sources and uploaded to [Edmond](http://edmond.mpdl.mpg.de/imeji/collection/d2JGQRxO19XTOEXG) - the MPS' media repository.
+
+### Image providers
+
+For several providers of flora and fauna imagery we provide support for downloading images
+and associated metadata (by specifying matching URLs as `id` in `staged_images.csv`):
+
+- [EOL](http://eol.org) images specified by a URL of the form `http://media.eol.org/data_objects/21916329`.
+  (You typically get to a page with such a URL by clicking on any image you encounter
+  while browsing EOL)
+- [Flickr](https://flickr.com) images specified by a URL of the form `https://www.flickr.com/photos/damouns/78968973`,
+  i.e. a photo's details page.
+- [African Plants](http://www.africanplants.senckenberg.de/root/index.php) photos from Senckenberg,
+  specified by an URL of the form `http://www.westafricanplants.senckenberg.de/root/index.php?page_id=14&id=722#image=26800`,
+  i.e. the URL you see in your browser's location bar after clicking to enlarge an image.
+- [Wikimedia](https://commons.wikimedia.org/wiki/Main_Page)
+- [Flora of Zimbabwe](http://www.zimbabweflora.co.zw/) or [Flora of Mozambique](http://www.mozambiqueflora.com/)
 
 
 Referential Integrity

@@ -4,16 +4,21 @@ from setuptools import setup, find_packages
 requires = [
     'requests',
     'purl',
-    'pycountry',
+    'pycountry==1.20',
     'flickrapi',
     'python-dateutil',
     'BeautifulSoup4',
     'shapely',
+    'clldutils>=1.9.0',
+    'python-levenshtein',
+    'attrs',
+    'cdstarcat',
+    'tqdm',
 ]
 
 setup(
-    name='tsammalexdata',
-    version='0.0',
+    name='pytsammalex',
+    version='0.1.0',
     description='data for the tsammalex site',
     long_description='',
     classifiers=[
@@ -30,8 +35,7 @@ setup(
     zip_safe=False,
     install_requires=requires,
     entry_points={
-        'console_scripts': [
-            'updatetaxa = tsammalexdata.commands:update_taxa']
+        'console_scripts': ['tsammalex=pytsammalex.cli:main'],
     },
     tests_require=[],
-    test_suite="tsammalexdata")
+    test_suite="pytsammalex")

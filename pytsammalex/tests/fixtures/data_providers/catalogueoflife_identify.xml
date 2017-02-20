@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results id="" name="Panthera" total_number_of_results="83" number_of_results_returned="83" start="0" error_message="" version="1.9 rev 2126ab0" rank="">
+  <result>
+    <id>9249d9473aac5c8e99fb9d758ced91ec</id>
+    <name>Panthera</name>
+    <rank>Genus</rank>
+    <name_status>accepted name</name_status>
+    <name_html><i>Panthera</i></name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/9249d9473aac5c8e99fb9d758ced91ec</url>
+    <is_extinct>false</is_extinct>
+  </result>
+  <result>
+    <id>468296f44b1b81a931fcfa0b2859377d</id>
+    <name>Agyneta panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://wsc.nmbe.ch/species/14228</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>WSC: World Spider Catalog</source_database>
+    <source_database_url>http://wsc.nmbe.ch/</source_database_url>
+    <bibliographic_citation><![CDATA[Kropf C., Nentwig W., Gloor D. (Organizing Board) (2016). WSC: World Spider Catalog (version 17.0, Jul 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Agyneta panthera</i> Dupérré, 2013</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/468296f44b1b81a931fcfa0b2859377d</url>
+  </result>
+  <result>
+    <id>fd6923a415931246f975faaf0a0bb901</id>
+    <name>Arhopala camdeo panthera</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>GloBIS (GART): Global Butterfly Information System</source_database>
+    <source_database_url>http://www.globis.insects-online.de/</source_database_url>
+    <bibliographic_citation><![CDATA[Häuser C., Holstein J., Kroupa A.S., Steiner A. & Turiault M. (eds) (2016). GloBIS (GART): Global Butterfly Information System (version Sep 2013). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Arhopala camdeo panthera</i> Corbet, 1946</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/fd6923a415931246f975faaf0a0bb901</url>
+  </result>
+  <result>
+    <id>74564cac4bdd4e4b03f71091def269e4</id>
+    <name>Bathyraja panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=66500</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><![CDATA[<i>Bathyraja panthera</i> Orr, Stevenson, Hoff, Spies & McEachran, 2011]]></name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/74564cac4bdd4e4b03f71091def269e4</url>
+  </result>
+  <result>
+    <id>8e129f48cdacdc4af8551c9f822776c2</id>
+    <name>Chimaera panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=50893</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Chimaera panthera</i> Didier, 1998</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8e129f48cdacdc4af8551c9f822776c2</url>
+  </result>
+  <result>
+    <id>2a6240b8797fc2f6a4bbd1a4e7011424</id>
+    <name>Clemensia panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.nhm.ac.uk/research-curation/research/projects/lepindex/search/detail.dsml?TaxonNo=36984</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Clemensia panthera</i> Schaus, 1896</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/2a6240b8797fc2f6a4bbd1a4e7011424</url>
+  </result>
+  <result>
+    <id>013e1dea9549177278871e5d53ad24b5</id>
+    <name>Cyclocephala panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>Scarabs: World Scarabaeidae Database</source_database>
+    <source_database_url>http://www.datascaraebaeoidea.net/Index.html</source_database_url>
+    <bibliographic_citation><![CDATA[Schoolmeesters P. (2016). Scarabs: World Scarabaeidae Database (version Jul 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Cyclocephala panthera</i> Dechambre, 1979</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/013e1dea9549177278871e5d53ad24b5</url>
+  </result>
+  <result>
+    <id>f109845a748d00ae13ee0f0ccd75893a</id>
+    <name>Dicranomyia panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://nlbif.eti.uva.nl/ccw/</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>CCW: Catalogue of Craneflies of the World</source_database>
+    <source_database_url>http://nlbif.eti.uva.nl/ccw/</source_database_url>
+    <bibliographic_citation><![CDATA[Oosterbroek P. (2016). CCW: Catalogue of Craneflies of the World (version Jul 2013). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Dicranomyia (Dicranomyia) panthera</i> (Theischinger, 1994)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/f109845a748d00ae13ee0f0ccd75893a</url>
+  </result>
+  <result>
+    <id>79921bf375f1a858c32d56dd1479fac9</id>
+    <name>Elymnias panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.nhm.ac.uk/research-curation/research/projects/lepindex/search/detail.dsml?TaxonNo=139245</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Elymnias panthera</i> Fabricius, 1787</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/79921bf375f1a858c32d56dd1479fac9</url>
+  </result>
+  <result>
+    <id>75818e7d69527b689f47267e7841fa29</id>
+    <name>Elymnias panthera mira</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Elymnias panthera mira</i> Corbet, 1942</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/75818e7d69527b689f47267e7841fa29</url>
+  </result>
+  <result>
+    <id>d15f618ded776d18c71abd15feddf379</id>
+    <name>Elymnias panthera tiomanica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Elymnias panthera tiomanica</i> Eliot, 1978</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/d15f618ded776d18c71abd15feddf379</url>
+  </result>
+  <result>
+    <id>980f581a5ea34bb2c56eb894ae6f4238</id>
+    <name>Elymnias panthera winkleri</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Elymnias panthera winkleri</i> Kalis, 1933</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/980f581a5ea34bb2c56eb894ae6f4238</url>
+  </result>
+  <result>
+    <id>6b76f7ebfca4e569763c832905d786d1</id>
+    <name>Holoplatys panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://wsc.nmbe.ch/species/30034</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>WSC: World Spider Catalog</source_database>
+    <source_database_url>http://wsc.nmbe.ch/</source_database_url>
+    <bibliographic_citation><![CDATA[Kropf C., Nentwig W., Gloor D. (Organizing Board) (2016). WSC: World Spider Catalog (version 17.0, Jul 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Holoplatys panthera</i> Zabka, 1991</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/6b76f7ebfca4e569763c832905d786d1</url>
+  </result>
+  <result>
+    <id>8c3a32f65b289f6f5876601262a5f149</id>
+    <name>Lymantria panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.nhm.ac.uk/research-curation/research/projects/lepindex/search/detail.dsml?TaxonNo=52734</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Lymantria panthera</i> van Eecke, 1928</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8c3a32f65b289f6f5876601262a5f149</url>
+  </result>
+  <result>
+    <id>c704ae2169989e45a37b3747994e4342</id>
+    <name>Malthonea panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>TITAN: Cerambycidae database</source_database>
+    <source_database_url>http://lully.snv.jussieu.fr/titan/accueil_uk.html</source_database_url>
+    <bibliographic_citation><![CDATA[Tavakilian G.  & Chevillotte H. (2016). TITAN: Cerambycidae database (version Apr 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><![CDATA[<i>Malthonea panthera</i> Martins & Galileo, 1995]]></name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/c704ae2169989e45a37b3747994e4342</url>
+  </result>
+  <result>
+    <id>598afa9de0dd45eedef8221e77a02d77</id>
+    <name>Nitiocellus panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>Scarabs: World Scarabaeidae Database</source_database>
+    <source_database_url>http://www.datascaraebaeoidea.net/Index.html</source_database_url>
+    <bibliographic_citation><![CDATA[Schoolmeesters P. (2016). Scarabs: World Scarabaeidae Database (version Jul 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Nitiocellus panthera</i> (Boucomont, 1921)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/598afa9de0dd45eedef8221e77a02d77</url>
+  </result>
+  <result>
+    <id>96a3e1116a5d6fb43b7d9b420a333d6f</id>
+    <name>Nola panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.nhm.ac.uk/research-curation/research/projects/lepindex/search/detail.dsml?TaxonNo=35275</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>LepIndex: The Global Lepidoptera Names Index</source_database>
+    <source_database_url>#http://www.nhm.ac.uk/research-curation/research/projects/lepindex/#</source_database_url>
+    <bibliographic_citation><![CDATA[Beccaloni G., Scoble M., Kitching I., Simonsen T., Robinson G., Pitkin B., Hine A. & Lyal C. (2016). LepIndex: The Global Lepidoptera Names Index (version 12.3, Jan 2012). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Nola panthera</i> Schaus, 1896</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/96a3e1116a5d6fb43b7d9b420a333d6f</url>
+  </result>
+  <result>
+    <id>8989d1867f59f64671fe95c19637d264</id>
+    <name>Oxynoemacheilus panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26499</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Oxynoemacheilus panthera</i> (Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264</url>
+  </result>
+  <result>
+    <id>c67c449dc0cc8bf14732d7fabf8f2b10</id>
+    <name>Panthera leo</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183803]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/c67c449dc0cc8bf14732d7fabf8f2b10</url>
+  </result>
+  <result>
+    <id>a788f25a55cdb7ec04e81c5a43a60c13</id>
+    <name>Panthera leo azandica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726446]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo azandica</i> (J. A. Allen, 1924)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/a788f25a55cdb7ec04e81c5a43a60c13</url>
+  </result>
+  <result>
+    <id>63dc856cde5122e95b6991f691bd986a</id>
+    <name>Panthera leo bleyenberghi</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726447]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo bleyenberghi</i> (Lönnberg, 1914)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/63dc856cde5122e95b6991f691bd986a</url>
+  </result>
+  <result>
+    <id>d5fb2182a4cab94f65ddad3499391912</id>
+    <name>Panthera leo krugeri</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726450]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo krugeri</i> (Roberts, 1929)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/d5fb2182a4cab94f65ddad3499391912</url>
+  </result>
+  <result>
+    <id>5b33fdbf5f0fb3f22c0a5e3982f182ae</id>
+    <name>Panthera leo leo</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=622059]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo leo</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/5b33fdbf5f0fb3f22c0a5e3982f182ae</url>
+  </result>
+  <result>
+    <id>cec3edf8667aaa76f595df4ecce1491f</id>
+    <name>Panthera leo melanochaita</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726452]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo melanochaita</i> (C. E. H. Smith, 1858)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/cec3edf8667aaa76f595df4ecce1491f</url>
+  </result>
+  <result>
+    <id>88ec56800969c34e68e12aeedcfb83aa</id>
+    <name>Panthera leo nubica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933424]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo nubica</i> (de Blainville, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/88ec56800969c34e68e12aeedcfb83aa</url>
+  </result>
+  <result>
+    <id>0b95fbe0066ea6d3cc17690e328f69ce</id>
+    <name>Panthera leo persica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=622026]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo persica</i> (Meyer, 1826)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/0b95fbe0066ea6d3cc17690e328f69ce</url>
+  </result>
+  <result>
+    <id>f627565676258d62587022d4bee0981b</id>
+    <name>Panthera leo senegalensis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726454]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo senegalensis</i> (J. N. von Meyer, 1826)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/f627565676258d62587022d4bee0981b</url>
+  </result>
+  <result>
+    <id>4ffa941b074645715ff39f515fb9fcea</id>
+    <name>Panthera onca</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=180593]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/4ffa941b074645715ff39f515fb9fcea</url>
+  </result>
+  <result>
+    <id>f11b72f82d742241604c60ee6ecdf680</id>
+    <name>Panthera onca arizonensis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726456]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca arizonensis</i> (Goldman, 1932)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/f11b72f82d742241604c60ee6ecdf680</url>
+  </result>
+  <result>
+    <id>bc28e2f1382e4b7d4b05a99f727fbb68</id>
+    <name>Panthera onca centralis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726457]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca centralis</i> (Mearns, 1901)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/bc28e2f1382e4b7d4b05a99f727fbb68</url>
+  </result>
+  <result>
+    <id>01f4b75fc65a36af29956c3bcc7d400f</id>
+    <name>Panthera onca goldmani</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726458]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca goldmani</i> (Mearns, 1901)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/01f4b75fc65a36af29956c3bcc7d400f</url>
+  </result>
+  <result>
+    <id>d08bd34712435be9ecc712bd1b7ea92b</id>
+    <name>Panthera onca hernandesii</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726459]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca hernandesii</i> (J. E. Gray, 1857)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/d08bd34712435be9ecc712bd1b7ea92b</url>
+  </result>
+  <result>
+    <id>53a056bb42381ebf0dbe61df1d34a6ef</id>
+    <name>Panthera onca onca</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726455]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca onca</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/53a056bb42381ebf0dbe61df1d34a6ef</url>
+  </result>
+  <result>
+    <id>6d41c12535636b9a38617c155c1908e1</id>
+    <name>Panthera onca palustris</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726460]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca palustris</i> (Ameghino, 1888)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/6d41c12535636b9a38617c155c1908e1</url>
+  </result>
+  <result>
+    <id>010a99c097dc39d1070631ce3c04f62d</id>
+    <name>Panthera onca paraguensis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726461]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca paraguensis</i> (Hollister, 1914)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/010a99c097dc39d1070631ce3c04f62d</url>
+  </result>
+  <result>
+    <id>69beed18716c5e0bab6621aa90aa352c</id>
+    <name>Panthera onca peruviana</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726462]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca peruviana</i> (de Blainville, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/69beed18716c5e0bab6621aa90aa352c</url>
+  </result>
+  <result>
+    <id>faae754d0ee005593c1944136a69db84</id>
+    <name>Panthera onca veraecrucis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933425]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca veraecrucis</i> (Nelson and Goldman, 1933)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/faae754d0ee005593c1944136a69db84</url>
+  </result>
+  <result>
+    <id>fd90e5f300d0c6eb358333ea2ad7f92e</id>
+    <name>Panthera pardus</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183804]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/fd90e5f300d0c6eb358333ea2ad7f92e</url>
+  </result>
+  <result>
+    <id>ef6cbd57d5a4210831052bccbb2761f6</id>
+    <name>Panthera pardus delacouri</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726465]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus delacouri</i> Pocock, 1930</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/ef6cbd57d5a4210831052bccbb2761f6</url>
+  </result>
+  <result>
+    <id>083562fc83f5752e5796c39513c6fc0a</id>
+    <name>Panthera pardus fusca</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726466]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus fusca</i> (Meyer, 1794)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/083562fc83f5752e5796c39513c6fc0a</url>
+  </result>
+  <result>
+    <id>8be26f053c3bdef8b6f2fa054e9d1643</id>
+    <name>Panthera pardus japonensis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726467]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus japonensis</i> (J. E. Gray, 1862)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/8be26f053c3bdef8b6f2fa054e9d1643</url>
+  </result>
+  <result>
+    <id>cdcc1e3041551349bc7dff28ba3920eb</id>
+    <name>Panthera pardus kotiya</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726468]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus kotiya</i> Deraniyagala, 1956</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/cdcc1e3041551349bc7dff28ba3920eb</url>
+  </result>
+  <result>
+    <id>52d637e362586de443a5032234091367</id>
+    <name>Panthera pardus melas</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726469]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus melas</i> (G. Cuvier, 1809)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/52d637e362586de443a5032234091367</url>
+  </result>
+  <result>
+    <id>5f60d1597f0f1359f08f910d0bfe78ee</id>
+    <name>Panthera pardus nimr</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726470]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus nimr</i> (Hemprich and Ehrenberg, 1833)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/5f60d1597f0f1359f08f910d0bfe78ee</url>
+  </result>
+  <result>
+    <id>07712fe5d85c2e3897a80120688d1dd0</id>
+    <name>Panthera pardus orientalis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726471]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus orientalis</i> (Schlegel, 1857)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/07712fe5d85c2e3897a80120688d1dd0</url>
+  </result>
+  <result>
+    <id>75a13fbed4cc7f9409b7efa7b04c080f</id>
+    <name>Panthera pardus pardus</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726464]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus pardus</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/75a13fbed4cc7f9409b7efa7b04c080f</url>
+  </result>
+  <result>
+    <id>03bb2d894c1427d5497b9fd1f7a2e9a5</id>
+    <name>Panthera pardus saxicolor</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933431]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera pardus saxicolor</i> Pocock, 1927</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/03bb2d894c1427d5497b9fd1f7a2e9a5</url>
+  </result>
+  <result>
+    <id>9c35aba4cb7f388bf29a05fba221135c</id>
+    <name>Panthera tigris</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183805]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/9c35aba4cb7f388bf29a05fba221135c</url>
+  </result>
+  <result>
+    <id>9d97217eee80a43f3f6d48f9368773ab</id>
+    <name>Panthera tigris altaica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726472]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris altaica</i> Temminck, 1844</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/9d97217eee80a43f3f6d48f9368773ab</url>
+  </result>
+  <result>
+    <id>3af920afbff1a47a82a0105f6b43f31b</id>
+    <name>Panthera tigris amoyensis</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726473]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris amoyensis</i> (Hilzheimer, 1905)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/3af920afbff1a47a82a0105f6b43f31b</url>
+  </result>
+  <result>
+    <id>67245c428dbe1df816f44961a8af394c</id>
+    <name>Panthera tigris balica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726474]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris balica</i> Schwarz, 1912</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/67245c428dbe1df816f44961a8af394c</url>
+  </result>
+  <result>
+    <id>e202c49985e29ed24ad840892cc5314a</id>
+    <name>Panthera tigris corbetti</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726475]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris corbetti</i> Mazak, 1968</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/e202c49985e29ed24ad840892cc5314a</url>
+  </result>
+  <result>
+    <id>635f0b9554cd9f159daa4035e137808c</id>
+    <name>Panthera tigris sondaica</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726476]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris sondaica</i> Temminck, 1844</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/635f0b9554cd9f159daa4035e137808c</url>
+  </result>
+  <result>
+    <id>53cfebba068899c3474dd87b4183948d</id>
+    <name>Panthera tigris sumatrae</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726477]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris sumatrae</i> Pocock, 1929</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/53cfebba068899c3474dd87b4183948d</url>
+  </result>
+  <result>
+    <id>2e22c32cf3f2d235ac8befd16e04a27d</id>
+    <name>Panthera tigris tigris</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183806]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris tigris</i> (Linnaeus, 1758)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/2e22c32cf3f2d235ac8befd16e04a27d</url>
+  </result>
+  <result>
+    <id>e5d41d322539a1611fffa2d37505c2f3</id>
+    <name>Panthera tigris virgata</name>
+    <rank>Infraspecies</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726478]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris virgata</i> (Illiger, 1815)</name_html>
+    <url>http://www.catalogueoflife.org/col/browse/tree/id/e5d41d322539a1611fffa2d37505c2f3</url>
+  </result>
+  <result>
+    <id>34c7ce916568145f6e6b498df79fd114</id>
+    <name>Prosthechea panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>WCSP: World Checklist of Selected Plant Families</source_database>
+    <source_database_url>http://apps.kew.org/wcsp/</source_database_url>
+    <bibliographic_citation><![CDATA[Govaerts R. (ed). For a full list of reviewers see: http://apps.kew.org/wcsp/compilersReviewers.do (2016). WCSP: World Checklist of Selected Plant Families (version Sep 2014). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Prosthechea panthera</i> (Rchb.f.) W.E.Higgins</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/34c7ce916568145f6e6b498df79fd114</url>
+  </result>
+  <result>
+    <id>3c9e34210b917e66898df88c6eb3c6b8</id>
+    <name>Rhotana panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource><![CDATA[http://hemiptera-databases.com/flow?lang=en&card=name&id=24398&page=explorer&db=flow]]></online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>FLOW: Fulgoromorpha Lists On the WEB</source_database>
+    <source_database_url>http://www.hemiptera-databases.org/flow</source_database_url>
+    <bibliographic_citation><![CDATA[Bourgoin T. (2016). FLOW: Fulgoromorpha Lists On the WEB (version 8, Jan 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Rhotana panthera</i> Zelazny, 2011</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/3c9e34210b917e66898df88c6eb3c6b8</url>
+  </result>
+  <result>
+    <id>cefeef9a22e1de7c82c38b87c8c59580</id>
+    <name>Tautoneura panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://dmitriev.speciesfile.org/taxahelp.asp?hc=7973&amp;key=Erythroneura&amp;lng=En</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>3i Typhlocybinae: 3i interactive keys and taxonomic databases, subfamily Typhlocybinae</source_database>
+    <source_database_url>http://dmitriev.speciesfile.org/3i.asp</source_database_url>
+    <bibliographic_citation><![CDATA[Dmitriev D. (2016). 3i Typhlocybinae: 3i interactive keys and taxonomic databases, subfamily Typhlocybinae (version Jan 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Tautoneura panthera</i> Dworakowska, 1994</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/cefeef9a22e1de7c82c38b87c8c59580</url>
+  </result>
+  <result>
+    <id>fc228c2da0150e5ed85a55da92280951</id>
+    <name>Torpedo panthera</name>
+    <rank>Species</rank>
+    <name_status>accepted name</name_status>
+    <record_scrutiny_date/>
+    <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27060</online_resource>
+    <is_extinct>false</is_extinct>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Torpedo panthera</i> Olfers, 1831</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/fc228c2da0150e5ed85a55da92280951</url>
+  </result>
+  <result>
+    <id>e83ff0d9feb0d899b735c58aa6c95228</id>
+    <name>Nemachilus panthera</name>
+    <rank>Species</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Nemachilus panthera</i> (non Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8/synonym/e83ff0d9feb0d899b735c58aa6c95228</url>
+    <accepted_name>
+      <id>1e586fd35a0c3f14fa757891b9e6f6a8</id>
+      <name>Oxynoemacheilus leontinae</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27853</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus leontinae</i> (Lortet, 1883)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>ca34b5fa4a5a31bdc3a7ab619b785352</id>
+    <name>Nemachilus panthera leopardus</name>
+    <rank>Infraspecies</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Nemachilus panthera leopardus</i> (non Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8/synonym/ca34b5fa4a5a31bdc3a7ab619b785352</url>
+    <accepted_name>
+      <id>1e586fd35a0c3f14fa757891b9e6f6a8</id>
+      <name>Oxynoemacheilus leontinae</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27853</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus leontinae</i> (Lortet, 1883)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>75da6aed74743a701257b50b05b14c40</id>
+    <name>Noemacheilus panthera</name>
+    <rank>Species</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Noemacheilus panthera</i> (non Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/9b689487a11d68fb92cf390ff0100b71/synonym/75da6aed74743a701257b50b05b14c40</url>
+    <accepted_name>
+      <id>9b689487a11d68fb92cf390ff0100b71</id>
+      <name>Oxynoemacheilus insignis</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26495</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus insignis</i> (Heckel, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/9b689487a11d68fb92cf390ff0100b71</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>75da6aed74743a701257b50b05b14c40</id>
+    <name>Noemacheilus panthera</name>
+    <rank>Species</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Noemacheilus panthera</i> (non Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8/synonym/75da6aed74743a701257b50b05b14c40</url>
+    <accepted_name>
+      <id>1e586fd35a0c3f14fa757891b9e6f6a8</id>
+      <name>Oxynoemacheilus leontinae</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27853</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus leontinae</i> (Lortet, 1883)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>d584c648770645fd2f301088e572ae4d</id>
+    <name>Orthrias panthera</name>
+    <rank>Species</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Orthrias panthera</i> (non Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8/synonym/d584c648770645fd2f301088e572ae4d</url>
+    <accepted_name>
+      <id>1e586fd35a0c3f14fa757891b9e6f6a8</id>
+      <name>Oxynoemacheilus leontinae</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27853</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus leontinae</i> (Lortet, 1883)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/1e586fd35a0c3f14fa757891b9e6f6a8</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>775abac5010324579a87019cc0992aed</id>
+    <name>Torpedo panthera</name>
+    <rank>Species</rank>
+    <name_status>ambiguous synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Torpedo panthera</i> (non Olfers, 1831)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/522a408cbb5e8f63207652bb703c9abb/synonym/775abac5010324579a87019cc0992aed</url>
+    <accepted_name>
+      <id>522a408cbb5e8f63207652bb703c9abb</id>
+      <name>Torpedo fuscomaculata</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=5062</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Torpedo fuscomaculata</i> Peters, 1855</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/522a408cbb5e8f63207652bb703c9abb</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>815ceb9a8733c30b693a7c3f6380665d</id>
+    <name>Barbatula panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Barbatula panthera</i> (Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264/synonym/815ceb9a8733c30b693a7c3f6380665d</url>
+    <accepted_name>
+      <id>8989d1867f59f64671fe95c19637d264</id>
+      <name>Oxynoemacheilus panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26499</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus panthera</i> (Heckel, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>bb934fcb3cf70bfa0a944dd8daef7029</id>
+    <name>Cobitis panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Cobitis panthera</i> Heckel, 1843</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264/synonym/bb934fcb3cf70bfa0a944dd8daef7029</url>
+    <accepted_name>
+      <id>8989d1867f59f64671fe95c19637d264</id>
+      <name>Oxynoemacheilus panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26499</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus panthera</i> (Heckel, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>42e79abab84f1605a178b6396af5ed14</id>
+    <name>Encyclia panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>WCSP: World Checklist of Selected Plant Families</source_database>
+    <source_database_url>http://apps.kew.org/wcsp/</source_database_url>
+    <bibliographic_citation><![CDATA[Govaerts R. (ed). For a full list of reviewers see: http://apps.kew.org/wcsp/compilersReviewers.do (2016). WCSP: World Checklist of Selected Plant Families (version Sep 2014). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Encyclia panthera</i> (Rchb.f.) Schltr.</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/34c7ce916568145f6e6b498df79fd114/synonym/42e79abab84f1605a178b6396af5ed14</url>
+    <accepted_name>
+      <id>34c7ce916568145f6e6b498df79fd114</id>
+      <name>Prosthechea panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>WCSP: World Checklist of Selected Plant Families</source_database>
+      <source_database_url>http://apps.kew.org/wcsp/</source_database_url>
+      <bibliographic_citation><![CDATA[Govaerts R. (ed). For a full list of reviewers see: http://apps.kew.org/wcsp/compilersReviewers.do (2016). WCSP: World Checklist of Selected Plant Families (version Sep 2014). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Prosthechea panthera</i> (Rchb.f.) W.E.Higgins</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/34c7ce916568145f6e6b498df79fd114</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>8aec3e1d125318ae7ed347510c52782b</id>
+    <name>Epidendrum panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>WCSP: World Checklist of Selected Plant Families</source_database>
+    <source_database_url>http://apps.kew.org/wcsp/</source_database_url>
+    <bibliographic_citation><![CDATA[Govaerts R. (ed). For a full list of reviewers see: http://apps.kew.org/wcsp/compilersReviewers.do (2016). WCSP: World Checklist of Selected Plant Families (version Sep 2014). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Epidendrum panthera</i> Rchb.f.</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/34c7ce916568145f6e6b498df79fd114/synonym/8aec3e1d125318ae7ed347510c52782b</url>
+    <accepted_name>
+      <id>34c7ce916568145f6e6b498df79fd114</id>
+      <name>Prosthechea panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>WCSP: World Checklist of Selected Plant Families</source_database>
+      <source_database_url>http://apps.kew.org/wcsp/</source_database_url>
+      <bibliographic_citation><![CDATA[Govaerts R. (ed). For a full list of reviewers see: http://apps.kew.org/wcsp/compilersReviewers.do (2016). WCSP: World Checklist of Selected Plant Families (version Sep 2014). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Prosthechea panthera</i> (Rchb.f.) W.E.Higgins</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/34c7ce916568145f6e6b498df79fd114</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>8b5b5199b5759146d93ee43b027ed52c</id>
+    <name>Lophyrus panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>The Reptile Database</source_database>
+    <source_database_url>http://www.reptile-database.org</source_database_url>
+    <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Lophyrus panthera</i> Spix, 1825</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/9c6c91e196a9814b71d13090e326981d/synonym/8b5b5199b5759146d93ee43b027ed52c</url>
+    <accepted_name>
+      <id>9c6c91e196a9814b71d13090e326981d</id>
+      <name>Plica plica</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>The Reptile Database</source_database>
+      <source_database_url>http://www.reptile-database.org</source_database_url>
+      <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Plica plica</i> (Linnaeus, 1758)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/9c6c91e196a9814b71d13090e326981d</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>8b5b5199b5759146d93ee43b027ed52c</id>
+    <name>Lophyrus panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>The Reptile Database</source_database>
+    <source_database_url>http://www.reptile-database.org</source_database_url>
+    <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Lophyrus panthera</i> Spix, 1825</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/b4aab6fa54a3011f1043a378a2b31c48/synonym/8b5b5199b5759146d93ee43b027ed52c</url>
+    <accepted_name>
+      <id>b4aab6fa54a3011f1043a378a2b31c48</id>
+      <name>Plica umbra ochrocollaris</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>The Reptile Database</source_database>
+      <source_database_url>http://www.reptile-database.org</source_database_url>
+      <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Plica umbra ochrocollaris</i> (Spix, 1825)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/b4aab6fa54a3011f1043a378a2b31c48</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>78458c36b3be0daa8665cb57d9e0e813</id>
+    <name>Lycodes knipowitschi panthera</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Lycodes knipowitschi panthera</i> Schmidt, 1950</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/0fb8b08b033a534216238f2f9e12bb44/synonym/78458c36b3be0daa8665cb57d9e0e813</url>
+    <accepted_name>
+      <id>0fb8b08b033a534216238f2f9e12bb44</id>
+      <name>Lycodes mucosus</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=27463</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Lycodes mucosus</i> Richardson, 1855</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/0fb8b08b033a534216238f2f9e12bb44</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>0c249f82cb332c82dd7b559be0e4da30</id>
+    <name>Noemacheilus panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Noemacheilus panthera</i> (Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264/synonym/0c249f82cb332c82dd7b559be0e4da30</url>
+    <accepted_name>
+      <id>8989d1867f59f64671fe95c19637d264</id>
+      <name>Oxynoemacheilus panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26499</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus panthera</i> (Heckel, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>f40e1e2ecce56728293ce92032f007f1</id>
+    <name>Ophryessa panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>The Reptile Database</source_database>
+    <source_database_url>http://www.reptile-database.org</source_database_url>
+    <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Ophryessa panthera</i> Boie, 1825</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/9c6c91e196a9814b71d13090e326981d/synonym/f40e1e2ecce56728293ce92032f007f1</url>
+    <accepted_name>
+      <id>9c6c91e196a9814b71d13090e326981d</id>
+      <name>Plica plica</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>The Reptile Database</source_database>
+      <source_database_url>http://www.reptile-database.org</source_database_url>
+      <bibliographic_citation><![CDATA[Uetz P. & Hošek J. (2016). The Reptile Database (version Dec 2015). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Plica plica</i> (Linnaeus, 1758)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/9c6c91e196a9814b71d13090e326981d</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>ded418d243fd35b41be38c14fa8c8222</id>
+    <name>Orthrias panthera</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>FishBase</source_database>
+    <source_database_url>http://www.fishbase.org</source_database_url>
+    <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Orthrias panthera</i> (Heckel, 1843)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264/synonym/ded418d243fd35b41be38c14fa8c8222</url>
+    <accepted_name>
+      <id>8989d1867f59f64671fe95c19637d264</id>
+      <name>Oxynoemacheilus panthera</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource>http://www.fishbase.org/Summary/SpeciesSummary.php?ID=26499</online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>FishBase</source_database>
+      <source_database_url>http://www.fishbase.org</source_database_url>
+      <bibliographic_citation><![CDATA[Froese R. & Pauly D. (eds) (2016). FishBase (version Aug 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Oxynoemacheilus panthera</i> (Heckel, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/8989d1867f59f64671fe95c19637d264</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>d86def42a15e6382da0a08c41dc06c34</id>
+    <name>Panthera leo hollisteri</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo hollisteri</i> (J. A. Allen, 1924)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/88ec56800969c34e68e12aeedcfb83aa/synonym/d86def42a15e6382da0a08c41dc06c34</url>
+    <accepted_name>
+      <id>88ec56800969c34e68e12aeedcfb83aa</id>
+      <name>Panthera leo nubica</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933424]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera leo nubica</i> (de Blainville, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/88ec56800969c34e68e12aeedcfb83aa</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>da5c238f761bac0b7b63daed83c61746</id>
+    <name>Panthera leo kamptzi</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo kamptzi</i> (Matschie, 1900)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/f627565676258d62587022d4bee0981b/synonym/da5c238f761bac0b7b63daed83c61746</url>
+    <accepted_name>
+      <id>f627565676258d62587022d4bee0981b</id>
+      <name>Panthera leo senegalensis</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726454]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera leo senegalensis</i> (J. N. von Meyer, 1826)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/f627565676258d62587022d4bee0981b</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>2ac9683cd9e581d39f05a273bc8dd3c2</id>
+    <name>Panthera leo massaica</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo massaica</i> (Neumann, 1900)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/88ec56800969c34e68e12aeedcfb83aa/synonym/2ac9683cd9e581d39f05a273bc8dd3c2</url>
+    <accepted_name>
+      <id>88ec56800969c34e68e12aeedcfb83aa</id>
+      <name>Panthera leo nubica</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933424]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera leo nubica</i> (de Blainville, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/88ec56800969c34e68e12aeedcfb83aa</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>da65fa03595b0a9a48514fe0428feb55</id>
+    <name>Panthera leo nyanzae</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera leo nyanzae</i> (Heller, 1913)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/88ec56800969c34e68e12aeedcfb83aa/synonym/da65fa03595b0a9a48514fe0428feb55</url>
+    <accepted_name>
+      <id>88ec56800969c34e68e12aeedcfb83aa</id>
+      <name>Panthera leo nubica</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933424]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera leo nubica</i> (de Blainville, 1843)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/88ec56800969c34e68e12aeedcfb83aa</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>fe6320ad3ba396ffd51f1bf3a7597a85</id>
+    <name>Panthera onca veraecruscis</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera onca veraecruscis</i> (Nelson and Goldman, 1933)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/faae754d0ee005593c1944136a69db84/synonym/fe6320ad3ba396ffd51f1bf3a7597a85</url>
+    <accepted_name>
+      <id>faae754d0ee005593c1944136a69db84</id>
+      <name>Panthera onca veraecrucis</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=933425]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera onca veraecrucis</i> (Nelson and Goldman, 1933)</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/faae754d0ee005593c1944136a69db84</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>719e5af5fab89ae4d26acab7886b475f</id>
+    <name>Panthera tigris longipilis</name>
+    <rank>Infraspecies</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera tigris longipilis</i> (Fitzinger, 1868)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/9d97217eee80a43f3f6d48f9368773ab/synonym/719e5af5fab89ae4d26acab7886b475f</url>
+    <accepted_name>
+      <id>9d97217eee80a43f3f6d48f9368773ab</id>
+      <name>Panthera tigris altaica</name>
+      <rank>Infraspecies</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=726472]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Panthera tigris altaica</i> Temminck, 1844</name_html>
+      <url>http://www.catalogueoflife.org/col/browse/tree/id/9d97217eee80a43f3f6d48f9368773ab</url>
+    </accepted_name>
+  </result>
+  <result>
+    <id>37797e5cb9a2df749675e4c623b26a53</id>
+    <name>Panthera uncia</name>
+    <rank>Species</rank>
+    <name_status>synonym</name_status>
+    <online_resource></online_resource>
+    <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+    <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+    <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+    <name_html><i>Panthera uncia</i> (Schreber, 1775)</name_html>
+    <url>http://www.catalogueoflife.org/col/details/species/id/0beb05194a457cca0a963057e9d89cb4/synonym/37797e5cb9a2df749675e4c623b26a53</url>
+    <accepted_name>
+      <id>0beb05194a457cca0a963057e9d89cb4</id>
+      <name>Uncia uncia</name>
+      <rank>Species</rank>
+      <name_status>accepted name</name_status>
+      <record_scrutiny_date/>
+      <online_resource><![CDATA[http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=183811]]></online_resource>
+      <is_extinct>false</is_extinct>
+      <source_database>ITIS Global: The Integrated Taxonomic Information System</source_database>
+      <source_database_url>http://www.itis.gov;
+http://www.cbif.gc.ca/acp/eng/itis/search (Canada)</source_database_url>
+      <bibliographic_citation><![CDATA[Orrell T. (custodian) (2016). ITIS Global: The Integrated Taxonomic Information System (version Apr 2016). In: Species 2000 & ITIS Catalogue of Life, 28th September 2016 (Roskov Y., Abucay L., Orrell T., Nicolson D., Kunze T., Flann C., Bailly N., Kirk P., Bourgoin T., DeWalt R.E., Decock W., De Wever A., eds). Digital resource at www.catalogueoflife.org/col. Species 2000: Naturalis, Leiden, the Netherlands. ISSN 2405-8858.]]></bibliographic_citation>
+      <name_html><i>Uncia uncia</i> (Schreber, 1775)</name_html>
+      <url>http://www.catalogueoflife.org/col/details/species/id/0beb05194a457cca0a963057e9d89cb4</url>
+    </accepted_name>
+  </result>
+</results>
