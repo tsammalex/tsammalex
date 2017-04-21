@@ -1,5 +1,5 @@
 id,name,languages__id,taxa__id,ipa,audio,grammatical_info,plural_form,stem,root,basic_term,meaning,literal_translation,usage,source_language,source_form,linguistic_notes,related_lexemes,categories__ids,habitats__ids,introduced,uses__ids,importance,associations,ethnobiological_notes,comment,source,refs__ids,original_source,source_id
-acaciaataxacantha-afr-0,vlamdoring,afr,acaciaataxacantha,,,,,,,doring,,,,,,,,afr-bome;afr-plante,,,,,,,,http://www.plantzafrica.com/plantab/acaciaataxa.htm,,,
+acaciaataxacantha-afr-0,vlamdor,afr,acaciaataxacantha,,,,,,,doring,,,,,,,,afr-bome;afr-plante,,,,,,,,http://www.plantzafrica.com/plantab/acaciaataxa.htm,,,
 acaciaataxacantha-afr-1,rank wag-'n-bietjie,afr,acaciaataxacantha,,,,,,,doring,,,,,,,,afr-bome;afr-plante,,,,,,,,http://www.plantzafrica.com/plantab/acaciaataxa.htm,eksteen1997[962],,
 acaciacaffra-afr-0,gewone haakdoring,afr,acaciacaffra,,,,,,,doring,,,,,,,,afr-bome;afr-plante,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm; http://af.wikipedia.org/wiki/Gewone_haakdoring,,,
 acaciacaffra-afr-1,katdoring,afr,acaciacaffra,,,,,,,doring,,,,,,,,afr-bome;afr-plante,,,,,,,,http://www.plantzafrica.com/frames/plantsfram.htm,,,
