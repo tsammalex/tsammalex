@@ -3,7 +3,7 @@ python:
   - "3.4"
 install:
   - pip install -U setuptools
-  - pip install nose coverage mock pytest pytest-coverage
+  - pip install coverage mock pytest pytest-cov
 script:
   - python setup.py install
   - pytest
