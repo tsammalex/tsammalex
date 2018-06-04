@@ -1,21 +1,5 @@
 from setuptools import setup, find_packages
 
-
-requires = [
-    'requests',
-    'purl',
-    'pycountry==1.20',
-    'flickrapi',
-    'python-dateutil',
-    'BeautifulSoup4',
-    'shapely',
-    'clldutils>=1.9.0',
-    'python-levenshtein',
-    'attrs',
-    'cdstarcat',
-    'tqdm',
-]
-
 setup(
     name='pytsammalex',
     version='0.1.0',
@@ -33,7 +17,30 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=requires,
+    install_requires=[
+        'requests',
+        'purl',
+        'pycountry==1.20',
+        'flickrapi',
+        'python-dateutil',
+        'BeautifulSoup4',
+        'shapely',
+        'clldutils>=1.9.0',
+        'python-levenshtein',
+        'attrs',
+        'cdstarcat',
+        'tqdm',
+    ],
+    extras_require={
+        'dev': [],
+        'test': [
+            'mock',
+            'pytest>=3.1',
+            'pytest-mock',
+            'pytest-cov',
+            'coverage>=4.2',
+        ],
+    },
     entry_points={
         'console_scripts': ['tsammalex=pytsammalex.cli:main'],
     },
