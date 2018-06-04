@@ -1,9 +1,9 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from clldutils.path import Path, copy
-from clldutils import jsonlib
 from cdstarcat.catalog import Object, Bitstream
+from clldutils import jsonlib
+from clldutils.path import Path, copy
 
 MOCK_CDSTAR_OBJECT = Object(
     '12345-1234-1234-1234-1',
@@ -65,26 +65,35 @@ def fixtures(type_, name):
 
 
 def create_repos(dir_):
-    tsammalexdata = dir_.joinpath('tsammalexdata')
+    tsammalexdata = dir_.join('tsammalexdata')
     tsammalexdata.mkdir()
-    data = tsammalexdata.joinpath('data')
+    data = tsammalexdata.join('data')
     data.mkdir()
-    with data.joinpath('test.csv').open('w', encoding='utf8') as fp:
+
+    with data.join('test.csv').open('w', encoding='utf8') as fp:
         fp.write("""\
 a,b,c
 1,2,3
 4,5,6""")
-    with data.joinpath('distribution.csv').open('w', encoding='utf8') as fp:
+
+    with data.join('distribution.csv').open('w', encoding='utf8') as fp:
         fp.write("id,coregions__ids,countries_ids")
-    copy(fixture_path('test_ecoregions.json'), data.joinpath('ecoregions.json'))
-    external = data.joinpath('external')
+
+    test_eco_path = fixture_path('test_ecoregions.json')
+    eco_path = data.join('ecoregions.json')
+
+    copy(Path(test_eco_path), Path(eco_path))
+
+    external = data.join('external')
     external.mkdir()
-    with external.joinpath('test.csv').open('w', encoding='utf8') as fp:
+    with external.join('test.csv').open('w', encoding='utf8') as fp:
         fp.write("""\
 a,b,c
 1,2,3
 4,5,6""")
-    external.joinpath('gbif').mkdir()
+    external.join('gbif').mkdir()
     occurrences = fixture_path('abelmoschusesculentus.json')
-    copy(occurrences, external.joinpath('gbif', occurrences.name))
+
+    copy(Path(occurrences), Path(external.join('gbif', occurrences.name)))
+
     return dir_

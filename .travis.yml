@@ -3,10 +3,10 @@ python:
   - "3.4"
 install:
   - pip install -U setuptools
-  - pip install nose coverage mock
+  - pip install nose coverage mock pytest pytest-coverage
 script:
   - python setup.py install
-  - nosetests
+  - pytest
 notifications:
   email:
     - forkel@shh.mpg.de

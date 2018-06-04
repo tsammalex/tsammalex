@@ -2,7 +2,6 @@ from __future__ import unicode_literals, print_function, division
 import re
 from collections import OrderedDict
 import logging
-logging.getLogger('pycountry.db').setLevel(logging.INFO)
 
 from pycountry import countries
 from clldutils import jsonlib
@@ -11,6 +10,7 @@ import attr
 from pytsammalex.util import data_file, REPOS
 from pytsammalex import models
 
+logging.getLogger('pycountry.db').setLevel(logging.INFO)
 
 SUCCESS = True
 BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
