@@ -1,28 +1,26 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
+from clldutils.path import Path
 from mock import patch, Mock
-from clldutils.testing import WithTempDir
 
-from pytsammalex.tests.util import create_repos
+from pytsammalex.distribution import update
 from pytsammalex.models import CsvData
+from pytsammalex.tests.util import create_repos
 
 
-class Tests(WithTempDir):
-    def test_update(self):
-        from pytsammalex.distribution import update
+def test_update(tmpdir):
+    repos = create_repos(tmpdir)
 
-        repos = create_repos(self.tmp_path())
-        with patch.multiple(
-                'pytsammalex.distribution',
-                shape=Mock(return_value=Mock(return_value=True)),
-                Point=Mock()):
-            update(repos, log=Mock())
+    with patch.multiple('pytsammalex.distribution',
+                        shape=Mock(return_value=Mock(return_value=True)),
+                        Point=Mock()):
+        update(Path(repos), log=Mock())
 
-        data = CsvData('distribution', repos=repos)
-        self.assertEqual(len(data), 1)
-        self.assertEqual(
-            data.items[0].ecoregions__ids,
+    data = CsvData('distribution', repos=Path(repos))
+    assert (len(data) == 1)
+    assert (
+            data.items[0].ecoregions__ids ==
             [
                 'AT0110',
                 'AT0111',

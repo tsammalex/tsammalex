@@ -8,15 +8,14 @@ from clldutils import jsonlib
 from clldutils import dsv
 from clldutils.path import Path
 import requests
-from requests.packages.urllib3.exceptions import (
-    InsecurePlatformWarning, SNIMissingWarning,
-)
+import urllib3
 from bs4 import BeautifulSoup
 
 import pytsammalex
 
-requests.packages.urllib3.disable_warnings(InsecurePlatformWarning)
-requests.packages.urllib3.disable_warnings(SNIMissingWarning)
+
+urllib3.disable_warnings(urllib3.exceptions.InsecurePlatformWarning)
+urllib3.disable_warnings(urllib3.exceptions.SNIMissingWarning)
 
 
 REPOS = Path(pytsammalex.__file__).parent.parent
@@ -34,7 +33,7 @@ def split_ids(s, sep=ID_SEP_PATTERN):
 
 
 def data_file(*comps, **kw):
-    return kw.pop('repos', REPOS).joinpath('tsammalexdata', 'data', *comps)
+    return Path(kw.pop('repos', REPOS).joinpath('tsammalexdata', 'data', *comps))
 
 
 add_rows = dsv.add_rows

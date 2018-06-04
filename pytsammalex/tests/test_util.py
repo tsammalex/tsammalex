@@ -1,43 +1,44 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from clldutils.testing import WithTempDir
 from clldutils.dsv import reader
+from clldutils.path import Path
 
 from pytsammalex.tests.util import create_repos, MOCK_CDSTAR_OBJECT
+from pytsammalex.util import add_rows, filter_rows, JsonData, data_file, \
+    ExternalProviderMixin, MediaCatalog
 
 
-class Tests(WithTempDir):
-    def test_add_delete_rows(self):
-        from pytsammalex.util import add_rows, filter_rows
+def test_add_delete_rows(tmpdir):
+    csv_path = Path(tmpdir.join('test.csv'))
+    add_rows(csv_path, ['a', 'b'], [1, 2], [3, 4])
+    assert (len(list(reader(csv_path, dicts=True))) == 2)
 
-        csv_path = self.tmp_path('test.csv')
-        add_rows(csv_path, ['a', 'b'], [1, 2], [3, 4])
-        self.assertEqual(len(list(reader(csv_path, dicts=True))), 2)
-        filter_rows(csv_path, lambda item: item['a'] == '1')
-        self.assertEqual(len(list(reader(csv_path, dicts=True))), 1)
-        add_rows(csv_path, [1, 2], [3, 4])
-        self.assertEqual(len(list(reader(csv_path, dicts=True))), 3)
+    filter_rows(csv_path, lambda item: item['a'] == '1')
+    assert (len(list(reader(csv_path, dicts=True))) == 1)
 
-    def test_JsonData(self):
-        from pytsammalex.util import JsonData, data_file
+    add_rows(csv_path, [1, 2], [3, 4])
+    assert (len(list(reader(csv_path, dicts=True))) == 3)
 
-        tmpdir = create_repos(self.tmp_path())
-        with JsonData('test.json', repos=tmpdir) as jdat:
-            jdat['a'] = 1
-        self.assertTrue(data_file('test.json', repos=tmpdir).exists())
-        with JsonData('test.json', repos=tmpdir) as jdat:
-            self.assertEqual(len(jdat), 1)
-            self.assertEqual(jdat['a'], 1)
 
-    def test_ExternalProviderMixin(self):
-        from pytsammalex.util import ExternalProviderMixin
+def test_json_data(tmpdir):
+    tmp_ = create_repos(tmpdir)
 
-        prov = ExternalProviderMixin()
-        self.assertEqual(prov.bs('<a href="x">t</a>').find('a').get('href'), 'x')
+    with JsonData('test.json', repos=Path(tmp_)) as jdat:
+        jdat['a'] = 1
 
-    def test_MediaCatalog(self):
-        from pytsammalex.util import MediaCatalog
+    assert (data_file('test.json', repos=Path(tmp_)).exists() is True)
 
-        cat = MediaCatalog('test.json', repos=self.tmp_path())
-        cat.add(MOCK_CDSTAR_OBJECT)
+    with JsonData('test.json', repos=Path(tmp_)) as jdat:
+        assert (len(jdat) == 1)
+        assert (jdat['a'] == 1)
+
+
+def test_external_provider_mixin():
+    prov = ExternalProviderMixin()
+    assert (prov.bs('<a href="x">t</a>').find('a').get('href') == 'x')
+
+
+def test_media_catalog(tmpdir):
+    cat = MediaCatalog('test.json', repos=Path(tmpdir))
+    cat.add(MOCK_CDSTAR_OBJECT)

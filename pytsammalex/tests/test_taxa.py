@@ -1,17 +1,17 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from clldutils.testing import WithTempDir
+from clldutils.path import Path
 
-from pytsammalex.tests.util import create_repos
 from pytsammalex.models import Taxa
+from pytsammalex.taxa import TaxaData
+from pytsammalex.tests.util import create_repos
 
 
-class Tests(WithTempDir):
-    def test_TaxaData(self):
-        from pytsammalex.taxa import TaxaData
+def test_taxa_data(tmpdir):
+    repos = Path(create_repos(tmpdir))
 
-        repos = create_repos(self.tmp_path())
-        with TaxaData(repos) as taxa:
-            taxa.add(0, Taxa.fromdict({'id': 'abc'}))
-        self.assertIn('abc', TaxaData(repos))
+    with TaxaData(repos) as taxa:
+        taxa.add(0, Taxa.fromdict({'id': 'abc'}))
+
+    assert 'abc' in TaxaData(repos)
