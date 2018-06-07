@@ -3,10 +3,13 @@ Functionality to retrieve information from the Catalogue of Life Web Service
 
 .. seealso:: http://webservice.catalogueoflife.org/col/webservice
 """
-from __future__ import print_function, unicode_literals, absolute_import, division
+from __future__ import print_function, unicode_literals, absolute_import, \
+    division
 
-from pytsammalex.util import unique
+import sys
+
 from pytsammalex.data_providers.base import DataProvider
+from pytsammalex.util import unique
 
 
 def text(e, ee):
@@ -46,9 +49,17 @@ class CatalogueOfLife(DataProvider):
                     t.rank.lower(): t.as_dict() for t in
                     [Taxon(e) for e in result.find('classification').findall('taxon')]}
             if result.find('synonyms'):
-                res['synonyms'] = filter(
-                    None,
-                    [text(e, 'name') for e in result.find('synonyms').findall('synonym')])
+                if sys.version_info[0] < 3:
+                    res['synonyms'] = filter(None, [text(e, 'name') for e in
+                                                    result.find(
+                                                        'synonyms').findall(
+                                                        'synonym')])
+                else:
+                    res['synonyms'] = list(filter(None,
+                                                  [text(e, 'name') for e in
+                                                   result.find(
+                                                       'synonyms').findall(
+                                                       'synonym')]))
             return {k: v for k, v in res.items() if v}
 
     def update(self, taxon, data):
