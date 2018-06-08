@@ -11,7 +11,7 @@ Making a release of the data:
 
 1. Make sure the tests pass:
 ```
-    $ nosetests
+    $ pytest
     ----------------------------------------
     Ran ...
 
